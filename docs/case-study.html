@@ -1,0 +1,332 @@
+<title>Reliable but Invalid</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Archivo:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --bg:#F5F6F8; --surface:#FFFFFF; --surface-2:#EDEFF3;
+    --ink:#14171C; --ink-2:#4A5059; --muted:#7C838E;
+    --rule:#D9DDE3; --rule-soft:#E8EBEF;
+    --signal:#A96407; --signal-soft:#F6E9D6;
+    --fail:#8A2F3B; --fail-soft:#F3DFE2;
+    --ok:#1F6B4F;
+    --shadow:0 1px 2px rgba(20,23,28,.05), 0 10px 30px -20px rgba(20,23,28,.35);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0E1013; --surface:#16191E; --surface-2:#1C2026;
+      --ink:#E9EBEE; --ink-2:#AEB4BD; --muted:#7E858F;
+      --rule:#2A2F36; --rule-soft:#22262C;
+      --signal:#E0A44A; --signal-soft:#332612;
+      --fail:#DD8F99; --fail-soft:#352226;
+      --ok:#5FB68F;
+      --shadow:0 1px 2px rgba(0,0,0,.5), 0 12px 32px -20px rgba(0,0,0,.9);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0E1013; --surface:#16191E; --surface-2:#1C2026;
+    --ink:#E9EBEE; --ink-2:#AEB4BD; --muted:#7E858F;
+    --rule:#2A2F36; --rule-soft:#22262C;
+    --signal:#E0A44A; --signal-soft:#332612;
+    --fail:#DD8F99; --fail-soft:#352226;
+    --ok:#5FB68F;
+    --shadow:0 1px 2px rgba(0,0,0,.5), 0 12px 32px -20px rgba(0,0,0,.9);
+  }
+
+  *{box-sizing:border-box}
+  body{background:var(--bg); color:var(--ink);
+       font-family:"Archivo",system-ui,-apple-system,sans-serif;
+       font-size:16.5px; line-height:1.68; -webkit-font-smoothing:antialiased;
+       padding:0 20px 88px}
+  .wrap{max-width:740px; margin:0 auto}
+  ::selection{background:var(--signal-soft); color:var(--ink)}
+  a{color:var(--signal)}
+  :focus-visible{outline:2px solid var(--signal); outline-offset:3px; border-radius:2px}
+
+  h1,h2,h3{font-family:"Newsreader",Georgia,serif; font-weight:600;
+           text-wrap:balance; letter-spacing:-.012em; margin:0}
+  h1{font-size:clamp(2.3rem,6.5vw,3.3rem); line-height:1.08}
+  h2{font-size:1.5rem; line-height:1.25}
+  h3{font-size:1.02rem; line-height:1.35; font-family:"Archivo",sans-serif;
+     font-weight:600; letter-spacing:0}
+  p{margin:0}
+
+  .eyebrow{font-family:"IBM Plex Mono",monospace; font-size:.71rem;
+           letter-spacing:.18em; text-transform:uppercase; color:var(--muted)}
+  .mono{font-family:"IBM Plex Mono",monospace; font-size:.85em;
+        font-variant-numeric:tabular-nums}
+
+  header{padding:76px 0 8px; display:flex; flex-direction:column; gap:20px}
+  .claim{font-family:"Newsreader",Georgia,serif; font-size:1.22rem; line-height:1.52;
+         color:var(--ink-2)}
+  .claim strong{color:var(--ink); font-weight:600}
+  .rule{height:3px; width:52px; background:var(--signal); border-radius:2px}
+
+  section{padding:40px 0; border-top:1px solid var(--rule);
+          display:flex; flex-direction:column; gap:20px}
+  .lead{font-size:1.02rem; color:var(--ink-2)}
+
+  .stats{display:grid; grid-template-columns:repeat(3,1fr); gap:1px;
+         background:var(--rule); border:1px solid var(--rule);
+         border-radius:7px; overflow:hidden; margin-top:6px}
+  .stat{background:var(--surface); padding:17px 18px; display:flex;
+        flex-direction:column; gap:3px}
+  .stat b{font-family:"Newsreader",serif; font-size:2rem; font-weight:600;
+          line-height:1; font-variant-numeric:tabular-nums; color:var(--signal)}
+  .stat span{font-size:.79rem; color:var(--muted); line-height:1.42}
+  @media (max-width:560px){ .stats{grid-template-columns:1fr} }
+
+  .box{background:var(--surface); border:1px solid var(--rule);
+       border-radius:7px; padding:18px 20px; display:flex;
+       flex-direction:column; gap:9px}
+  .box.accent{border-left:3px solid var(--signal); background:var(--signal-soft)}
+  .box p{font-size:.95rem; color:var(--ink-2)}
+
+  figure{margin:0; background:var(--surface); border:1px solid var(--rule);
+         border-radius:7px; padding:20px; box-shadow:var(--shadow)}
+  figcaption{font-size:.83rem; color:var(--muted); margin-top:13px; line-height:1.58}
+  .scrollx{overflow-x:auto}
+  svg{display:block; max-width:100%}
+  .grid-line{stroke:var(--rule-soft); stroke-width:1}
+  .axis{fill:var(--muted); font-family:"IBM Plex Mono",monospace; font-size:10px}
+  .val{fill:var(--ink-2); font-family:"IBM Plex Mono",monospace; font-size:10.5px;
+       font-variant-numeric:tabular-nums}
+
+  table{border-collapse:collapse; width:100%; font-size:.88rem; min-width:440px}
+  th,td{border:1px solid var(--rule); padding:9px 12px; text-align:left;
+        vertical-align:top}
+  thead th{background:var(--surface-2); font-size:.76rem; font-weight:600;
+           font-family:"IBM Plex Mono",monospace; letter-spacing:.04em;
+           text-transform:uppercase; color:var(--ink-2)}
+  tbody th{background:var(--surface-2); font-weight:600; white-space:nowrap;
+           font-size:.85rem}
+  td{background:var(--surface); color:var(--ink-2)}
+  td.n{font-variant-numeric:tabular-nums; text-align:right; white-space:nowrap}
+  td strong{color:var(--ink)}
+
+  .find{display:flex; flex-direction:column; gap:1px; background:var(--rule);
+        border:1px solid var(--rule); border-radius:7px; overflow:hidden}
+  .f{background:var(--surface); padding:17px 20px; display:grid;
+     grid-template-columns:auto 1fr; gap:5px 15px; align-items:baseline}
+  .f .k{font-family:"IBM Plex Mono",monospace; font-size:.72rem;
+        color:var(--signal); padding-top:3px}
+  .f p{grid-column:2; font-size:.93rem; color:var(--ink-2)}
+
+  ul{margin:0; padding-left:1.15em}
+  li{margin:6px 0; font-size:.93rem; color:var(--ink-2)}
+  li::marker{color:var(--muted)}
+  li strong{color:var(--ink)}
+
+  footer{padding:36px 0 0; border-top:1px solid var(--rule);
+         color:var(--muted); font-size:.82rem;
+         display:flex; flex-direction:column; gap:9px}
+  @media (prefers-reduced-motion:reduce){ *{transition:none!important} }
+</style>
+
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">Evaluation methodology · Case study</div>
+  <h1>Reliable but Invalid</h1>
+  <div class="rule"></div>
+  <p class="claim">
+    I built an 840-item benchmark for Chinese web fiction, validated it against real reader
+    behaviour, and found that <strong>the two standard warrants for LLM-as-judge evaluation—
+    test–retest reliability and inter-judge agreement—are structurally incapable of detecting
+    an invalid rubric.</strong>
+  </p>
+  <div class="stats">
+    <div class="stat"><b>840</b><span>held-out published novels<br>across 37 genre × channel cells</span></div>
+    <div class="stat"><b>&lt;2%</b><span>of reader-behaviour variance<br>the rubric could explain</span></div>
+    <div class="stat"><b>3.62</b><span>point spread between four judges<br>scoring identical texts</span></div>
+  </div>
+</header>
+
+<section>
+  <div class="eyebrow">Why this matters</div>
+  <h2>If you run model evals, this is your failure mode too</h2>
+  <p class="lead">
+    Teams justify LLM judges two ways: the judge is consistent with itself, and several judges
+    agree with each other. Both held in my data. Validity did not.
+  </p>
+  <div class="box accent">
+    <h3>The judge scored 0.87 on reliability and 0.14 on validity</h3>
+    <p>Test–retest ICC(1,1) = .874 across 177 texts scored three times each. Four judges from
+      three vendors correlated .45–.49 with one another. None exceeded r = .14 against any
+      measure of what readers actually did. Disattenuation moved the estimate by .002—noise was
+      never the constraint.</p>
+    <p><strong>Consistency measures agreement, not correctness. Consensus only cancels error
+      when errors are independent, and here they were shared.</strong></p>
+  </div>
+  <div class="box">
+    <h3>And agreement statistics hide the disagreement that matters</h3>
+    <p>Inter-rater agreement is normally reported as correlation, which is invariant to level
+      shifts. On the same 21 novels one judge averaged 5.65 and another 8.00. Two judges can
+      correlate at .9 on rankings and still return opposite verdicts on the comparison you
+      actually care about—because that verdict depends on calibration, not rank order.</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Evidence</div>
+  <h2>Four judges, one set of texts, opposite conclusions</h2>
+  <figure>
+    <div class="scrollx"><svg id="chart" viewBox="0 0 680 250" width="680" height="250" role="img"
+      aria-label="Four judges scoring the same ten machine-written chapters against 21-22 published novels. Gaps: qwen3-max +2.30, o3 +1.50, deepseek-v4-pro -0.02, qwen-turbo -1.32."></svg></div>
+    <figcaption>
+      Each judge scored the same ten machine-generated chapter sets and the same 21–22 published
+      novels, under an identical prompt and rubric. Two judges concluded the machine output
+      dominated; one found no difference; one concluded the published novels were clearly better.
+      <strong>The two most extreme judges are different capability tiers from the same vendor</strong>—so
+      sampling across vendors does not mitigate this.
+    </figcaption>
+  </figure>
+</section>
+
+<section>
+  <div class="eyebrow">What I built</div>
+  <h2>The pipeline</h2>
+  <div class="find">
+    <div class="f"><span class="k">DATA</span><h3>A living corpus with an external criterion</h3>
+      <p>1,110 serialized novels with platform reader ratings embedded in each file, refreshed on a
+        daily incremental job. Behavioural metadata for 797 titles pulled through the platform API
+        at 96.6% success, with rate limiting, a circuit breaker, incremental checkpointing and
+        resume. The 5.1% that could not be retrieved were <strong>tested and found non-random</strong>
+        (Cohen's d = −0.98 on rating) and reported as such.</p></div>
+    <div class="f"><span class="k">EVAL</span><h3>Contamination control computed, not assumed</h3>
+      <p>Exclusions were derived per cell as the union of every text the pipeline actually
+        touched—rubric induction, reviewer calibration, and the generator's own prompt. An audit of
+        that contact surface found a leak I had missed in one cell. Correcting it moved the headline
+        estimate from .136 to .138.</p></div>
+    <div class="f"><span class="k">CRITERION</span><h3>Six reader-response measures, not one</h3>
+      <p>Platform ratings are contaminated—length and exposure jointly explain a median 27.9% of
+        their variance. Rather than defend a single clean criterion, I used six with differing
+        contamination profiles. Validity rose monotonically as the criterion got cleaner
+        (.081 for raw rating → .138 for exposure-normalized bookmark rate), which is itself
+        evidence the weak signal is real.</p></div>
+    <div class="f"><span class="k">ANALYSIS</span><h3>Within-cell standardization and stated power</h3>
+      <p>All correlations pooled after within-cell z-scoring. Every estimate is reported against the
+        minimum detectable effect for its n, so a null is labelled <em>precise</em> or
+        <em>underpowered</em> rather than left ambiguous. Range restriction corrected via Thorndike
+        Case II; multiplicity handled by permutation and FDR.</p></div>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Diagnosis</div>
+  <h2>The defect was in composition, not content</h2>
+  <div class="scrollx"><table>
+    <thead><tr><th>Measure</th><th>r vs bookmark rate</th><th></th></tr></thead>
+    <tbody>
+      <tr><th>Imagery (best single dimension)</th><td class="n"><strong>.182</strong></td><td>craft dimension</td></tr>
+      <tr><th>Ten-dimension composite</th><td class="n">.120</td><td><strong>worse than its best part</strong></td></tr>
+      <tr><th>Originality dimensions (mean)</th><td class="n">.071</td><td>near the detection floor</td></tr>
+    </tbody>
+  </table></div>
+  <p class="lead">
+    Craft dimensions carried signal; originality dimensions carried almost none. No dimension was
+    negative—so nothing was actively wrong. Averaging uninformative dimensions into the composite
+    simply diluted it, leaving the total weaker than its strongest component. Principal components
+    showed the ten dimensions collapsing onto two factors (PC1 = 54.5%).
+  </p>
+  <div class="box">
+    <h3>Multidimensional rubrics are not free</h3>
+    <p>A ten-dimension rubric looks more thorough than a one-dimension one. Here it was measurably
+      worse, and it had roughly two dimensions of real content behind ten labels. That is a
+      concrete, testable claim about rubric design, not a stylistic preference.</p>
+  </div>
+</section>
+
+<section>
+  <div class="eyebrow">Skills evidenced</div>
+  <h2>What this demonstrates</h2>
+  <div class="scrollx"><table>
+    <thead><tr><th>Capability</th><th>Concrete evidence</th></tr></thead>
+    <tbody>
+      <tr><th>Data acquisition</th><td>1,110-title corpus with daily incremental refresh; 838-item API harvest at 96.6% with throttling, circuit breaker, resume; missingness tested and reported</td></tr>
+      <tr><th>Failure-mode design</th><td>Classified "service unreachable" separately from "record not found"—an earlier version conflated them and silently reported 648 outages as missing data</td></tr>
+      <tr><th>Evaluation design</th><td>Held-out sets, calibration anchors, per-cell contamination control, convergent validation across six criteria</td></tr>
+      <tr><th>Statistics</th><td>Within-group standardization, ICC and disattenuation, Thorndike range-restriction correction, permutation tests, FDR, explicit power reporting</td></tr>
+      <tr><th>Multi-vendor model ops</th><td>Four models across three vendors; per-call cost ledger against verified published rates; unverified rates report tokens only, never a fabricated figure</td></tr>
+      <tr><th>Judgment under uncertainty</th><td>Four early conclusions retracted when better data arrived; each retraction documented with what was wrong and why</td></tr>
+    </tbody>
+  </table></div>
+</section>
+
+<section>
+  <div class="eyebrow">Limits</div>
+  <h2>What I would tell a reviewer before they ask</h2>
+  <ul>
+    <li><strong>The criterion is behavioural, not aesthetic.</strong> I measure what readers did—
+      bookmarked, kept reading—not what they judged to be good. The construct is scoped to reader
+      response as manifested in platform behaviour, and the word "quality" appears nowhere in the
+      conclusions.</li>
+    <li><strong>One platform, one language, one genre family.</strong> Serialized web fiction is
+      highly formulaic, which makes it a favourable test bed rather than a representative one.</li>
+    <li><strong>Missing data is non-random.</strong> The 5.1% unavailable through platform search
+      skew low-rated, truncating the sample at the bottom. This attenuates correlations, so the
+      reported estimates are likely conservative.</li>
+    <li><strong>The rubric was human-vetted, which strengthens the result.</strong> Dimensions came
+      from researcher-specified seeds, model adaptation per genre, then researcher review. Expert
+      vetting did not rescue validity—a researcher-authored fixed rubric performed equivalently.</li>
+  </ul>
+  <div class="box">
+    <h3>An errata log ships with the repository</h3>
+    <p>Six defects in my own analysis code were found and corrected during the study, three of
+      which changed reported numbers. They are documented rather than quietly fixed, because in
+      work like this the half-life of an intermediate conclusion is short and the errors hide
+      inside figures that already look confirmed.</p>
+  </div>
+</section>
+
+<footer>
+  <p>Corpus and behavioural metadata collected from a major Chinese web-fiction platform for
+    research use. All correlations pooled after within-cell standardization; detection floors
+    computed at α = .05, two-tailed.</p>
+  <p>Full methodology, per-cell results and the errata log are available in the project
+    repository.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  "use strict";
+  var NS="http://www.w3.org/2000/svg";
+  function el(n,a){var e=document.createElementNS(NS,n);
+    for(var k in a) if(a[k]!=null) e.setAttribute(k,a[k]); return e;}
+
+  var svg=document.getElementById("chart");
+  var J=[{n:"qwen3-max",ai:7.95,hu:5.65},
+         {n:"o3",ai:7.22,hu:5.72},
+         {n:"deepseek-v4-pro",ai:5.65,hu:5.67},
+         {n:"qwen-turbo",ai:6.68,hu:8.00}];
+  var W=680,H=250,L=52,R=16,T=26,B=54,yMin=4,yMax=8.8;
+  var yOf=function(v){return T+(H-T-B)-(v-yMin)/(yMax-yMin)*(H-T-B);};
+
+  [4,5,6,7,8].forEach(function(t){
+    svg.appendChild(el("line",{x1:L,x2:W-R,y1:yOf(t),y2:yOf(t),"class":"grid-line"}));
+    var lb=el("text",{x:L-9,y:yOf(t)+3.5,"class":"axis","text-anchor":"end"});
+    lb.textContent=t; svg.appendChild(lb);
+  });
+
+  var lg=el("text",{x:L,y:T-10,"class":"axis",fill:"var(--ink-2)"});
+  lg.textContent="■ machine-written    □ published"; svg.appendChild(lg);
+
+  var gw=(W-L-R)/J.length, bw=28;
+  J.forEach(function(j,i){
+    var cx=L+gw*i+gw/2;
+    [[j.ai,"var(--signal)",-1],[j.hu,"var(--muted)",1]].forEach(function(d){
+      var x=cx+d[2]*1.5+(d[2]<0?-bw:0), y=yOf(d[0]), h=yOf(yMin)-y;
+      svg.appendChild(el("rect",{x:x,y:y,width:bw,height:h,fill:d[1],rx:3,ry:3,
+        opacity:d[1]==="var(--muted)"?0.45:1}));
+      var v=el("text",{x:x+bw/2,y:y-6,"class":"val","text-anchor":"middle"});
+      v.textContent=d[0].toFixed(2); svg.appendChild(v);
+    });
+    var nm=el("text",{x:cx,y:H-32,"class":"axis","text-anchor":"middle",fill:"var(--ink-2)"});
+    nm.textContent=j.n; svg.appendChild(nm);
+    var g=j.ai-j.hu;
+    var gl=el("text",{x:cx,y:H-14,"class":"val","text-anchor":"middle",
+      fill:g>0?"var(--signal)":"var(--fail)"});
+    gl.textContent=(g>=0?"+":"")+g.toFixed(2); svg.appendChild(gl);
+  });
+})();
+</script>
