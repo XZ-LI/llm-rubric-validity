@@ -1,0 +1,2402 @@
+{
+  "run_id": "20260911T023257Z-62e8a6",
+  "run_utc": "2026-09-11T02:32:57+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "女频悬疑",
+  "source_dir": "Nvpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "恶魔逆位.txt",
+    "我一个自闭症会亿点剖尸怎么了.txt",
+    "满级杀手A，刑警队长别追了.txt",
+    "遮云[刑侦].txt",
+    "锦衣之问骨.txt",
+    "黑爷的小王妃.txt",
+    "龙王妻，镇百鬼.txt"
+  ],
+  "results": [
+    {
+      "title": "出马仙，通灵女阴差",
+      "file": "出马仙，通灵女阴差.txt",
+      "real_rating": 9.3,
+      "rubric_score": 4.566666666666666,
+      "rubric_scores": [
+        4.8,
+        4.8,
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设立体": 5,
+        "悬念密度": 5,
+        "反转设计": 6,
+        "节奏把控": 5,
+        "对话张力": 5,
+        "感官沉浸": 4,
+        "逻辑闭环": 3,
+        "情感锚点": 6,
+        "世界观融合": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            43
+          ],
+          "success_chars": 12
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            28
+          ],
+          "success_chars": 48
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            14
+          ],
+          "success_chars": 32
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            26
+          ],
+          "success_chars": 26
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            24
+          ],
+          "success_chars": 35
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            5
+          ],
+          "success_chars": 29
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            18
+          ],
+          "success_chars": 13
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            28
+          ],
+          "success_chars": 28
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            8
+          ],
+          "success_chars": 36
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            13
+          ],
+          "success_chars": 58
+        }
+      }
+    },
+    {
+      "title": "盗墓：不是吧，高三生也盗墓？",
+      "file": "盗墓：不是吧，高三生也盗墓？.txt",
+      "real_rating": 9.4,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立体": 7,
+        "悬念密度": 5,
+        "反转设计": 4,
+        "节奏把控": 5,
+        "对话张力": 6,
+        "感官沉浸": 4,
+        "逻辑闭环": 3,
+        "情感锚点": 5,
+        "世界观融合": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            41
+          ],
+          "success_chars": 66
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            27
+          ],
+          "success_chars": 50
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            41
+          ],
+          "success_chars": 49
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            33
+          ],
+          "success_chars": 30
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            81,
+            34
+          ],
+          "success_chars": 25
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            66,
+            18
+          ],
+          "success_chars": 14
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            17
+          ],
+          "success_chars": 13
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            45
+          ],
+          "success_chars": 38
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            62
+          ],
+          "success_chars": 35
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            18
+          ],
+          "success_chars": 40
+        }
+      }
+    },
+    {
+      "title": "长夜寄",
+      "file": "长夜寄.txt",
+      "real_rating": 9.3,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "人设立体": 6,
+        "悬念密度": 6,
+        "反转设计": 5,
+        "节奏把控": 6,
+        "对话张力": 4,
+        "感官沉浸": 8,
+        "逻辑闭环": 5,
+        "情感锚点": 7,
+        "世界观融合": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            79,
+            61
+          ],
+          "success_chars": 44
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            36
+          ],
+          "success_chars": 61
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            55
+          ],
+          "success_chars": 35
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            51
+          ],
+          "success_chars": 43
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            37
+          ],
+          "success_chars": 42
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            23
+          ],
+          "success_chars": 21
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            34
+          ],
+          "success_chars": 24
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            18
+          ],
+          "success_chars": 45
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            31
+          ],
+          "success_chars": 77
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            33
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "冥帝娶亲，百鬼夜行，万鬼朝拜",
+      "file": "冥帝娶亲，百鬼夜行，万鬼朝拜.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立体": 5,
+        "悬念密度": 7,
+        "反转设计": 5,
+        "节奏把控": 6,
+        "对话张力": 5,
+        "感官沉浸": 6,
+        "逻辑闭环": 4,
+        "情感锚点": 7,
+        "世界观融合": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            41
+          ],
+          "success_chars": 10
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            26
+          ],
+          "success_chars": 22
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            27
+          ],
+          "success_chars": 15
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            45
+          ],
+          "success_chars": 11
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            44
+          ],
+          "success_chars": 22
+        },
+        "对话张力": {
+          "n_failures": 1,
+          "failure_chars": [
+            120
+          ],
+          "success_chars": 20
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            24
+          ],
+          "success_chars": 26
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            33
+          ],
+          "success_chars": 28
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            33
+          ],
+          "success_chars": 10
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            9
+          ],
+          "success_chars": 13
+        }
+      }
+    },
+    {
+      "title": "杀人真相",
+      "file": "杀人真相.txt",
+      "real_rating": 9.4,
+      "rubric_score": 5.9,
+      "rubric_scores": [
+        5.9
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立体": 5,
+        "悬念密度": 7,
+        "反转设计": 6,
+        "节奏把控": 5,
+        "对话张力": 5,
+        "感官沉浸": 4,
+        "逻辑闭环": 5,
+        "情感锚点": 6,
+        "世界观融合": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            35
+          ],
+          "success_chars": 35
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            45
+          ],
+          "success_chars": 45
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            19
+          ],
+          "success_chars": 64
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            39
+          ],
+          "success_chars": 45
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            21
+          ],
+          "success_chars": 24
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            22
+          ],
+          "success_chars": 56
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            14
+          ],
+          "success_chars": 24
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            27
+          ],
+          "success_chars": 22
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            29
+          ],
+          "success_chars": 21
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            16
+          ],
+          "success_chars": 37
+        }
+      }
+    },
+    {
+      "title": "我，修仙大佬强亿点怎么了",
+      "file": "我，修仙大佬强亿点怎么了.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "人设立体": 6,
+        "悬念密度": 6,
+        "反转设计": 5,
+        "节奏把控": 6,
+        "对话张力": 7,
+        "感官沉浸": 5,
+        "逻辑闭环": 4,
+        "情感锚点": 6,
+        "世界观融合": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            35
+          ],
+          "success_chars": 17
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            16
+          ],
+          "success_chars": 22
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            23
+          ],
+          "success_chars": 16
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            17
+          ],
+          "success_chars": 34
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            25
+          ],
+          "success_chars": 29
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            16
+          ],
+          "success_chars": 14
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            10
+          ],
+          "success_chars": 14
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            33
+          ],
+          "success_chars": 16
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            23
+          ],
+          "success_chars": 24
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            16
+          ],
+          "success_chars": 16
+        }
+      }
+    },
+    {
+      "title": "嫁妖夫，算了，凑合过吧",
+      "file": "嫁妖夫，算了，凑合过吧.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立体": 6,
+        "悬念密度": 7,
+        "反转设计": 5,
+        "节奏把控": 6,
+        "对话张力": 5,
+        "感官沉浸": 7,
+        "逻辑闭环": 4,
+        "情感锚点": 6,
+        "世界观融合": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            35
+          ],
+          "success_chars": 10
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            12
+          ],
+          "success_chars": 39
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            57
+          ],
+          "success_chars": 32
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            27
+          ],
+          "success_chars": 49
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            36
+          ],
+          "success_chars": 39
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            33
+          ],
+          "success_chars": 23
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            31
+          ],
+          "success_chars": 30
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            27
+          ],
+          "success_chars": 41
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            14
+          ],
+          "success_chars": 40
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            38
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "破案需要我这样的人才【刑侦】",
+      "file": "破案需要我这样的人才【刑侦】.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "人设立体": 8,
+        "悬念密度": 6,
+        "反转设计": 5,
+        "节奏把控": 7,
+        "对话张力": 8,
+        "感官沉浸": 6,
+        "逻辑闭环": 7,
+        "情感锚点": 6,
+        "世界观融合": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            13
+          ],
+          "success_chars": 16
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            17
+          ],
+          "success_chars": 17
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            14
+          ],
+          "success_chars": 15
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            12
+          ],
+          "success_chars": 14
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            10
+          ],
+          "success_chars": 15
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            10
+          ],
+          "success_chars": 14
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            6
+          ],
+          "success_chars": 15
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            11
+          ],
+          "success_chars": 17
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            8
+          ],
+          "success_chars": 12
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            12
+          ],
+          "success_chars": 14
+        }
+      }
+    },
+    {
+      "title": "我一个精神病，你让我破案？",
+      "file": "我一个精神病，你让我破案？.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "人设立体": 8,
+        "悬念密度": 7,
+        "反转设计": 6,
+        "节奏把控": 7,
+        "对话张力": 6,
+        "感官沉浸": 7,
+        "逻辑闭环": 6,
+        "情感锚点": 7,
+        "世界观融合": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            20
+          ],
+          "success_chars": 42
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            27
+          ],
+          "success_chars": 53
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            43
+          ],
+          "success_chars": 45
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            23
+          ],
+          "success_chars": 38
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            29
+          ],
+          "success_chars": 24
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            35
+          ],
+          "success_chars": 53
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            25
+          ],
+          "success_chars": 35
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            11
+          ],
+          "success_chars": 18
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            30
+          ],
+          "success_chars": 39
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            33
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "阴间来了个神经病",
+      "file": "阴间来了个神经病.txt",
+      "real_rating": 9.1,
+      "rubric_score": 4.166666666666666,
+      "rubric_scores": [
+        4.8,
+        3.9,
+        3.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设立体": 5,
+        "悬念密度": 5,
+        "反转设计": 4,
+        "节奏把控": 5,
+        "对话张力": 3,
+        "感官沉浸": 6,
+        "逻辑闭环": 4,
+        "情感锚点": 5,
+        "世界观融合": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            19
+          ],
+          "success_chars": 26
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            66,
+            26
+          ],
+          "success_chars": 56
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            34
+          ],
+          "success_chars": 38
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            35
+          ],
+          "success_chars": 26
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            40
+          ],
+          "success_chars": 47
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            14
+          ],
+          "success_chars": 5
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            28
+          ],
+          "success_chars": 47
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            59
+          ],
+          "success_chars": 51
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            39
+          ],
+          "success_chars": 22
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            20
+          ],
+          "success_chars": 42
+        }
+      }
+    },
+    {
+      "title": "青龙缠腰",
+      "file": "青龙缠腰.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立体": 7,
+        "悬念密度": 6,
+        "反转设计": 5,
+        "节奏把控": 6,
+        "对话张力": 5,
+        "感官沉浸": 7,
+        "逻辑闭环": 4,
+        "情感锚点": 6,
+        "世界观融合": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            29
+          ],
+          "success_chars": 36
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            24
+          ],
+          "success_chars": 48
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            24
+          ],
+          "success_chars": 10
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            47
+          ],
+          "success_chars": 33
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            26
+          ],
+          "success_chars": 26
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            13
+          ],
+          "success_chars": 57
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            18
+          ],
+          "success_chars": 12
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            19
+          ],
+          "success_chars": 35
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            24
+          ],
+          "success_chars": 39
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            36
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "嫁鬼王，行阴阳",
+      "file": "嫁鬼王，行阴阳.txt",
+      "real_rating": 9.0,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1,
+        7.1,
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立体": 7,
+        "悬念密度": 8,
+        "反转设计": 6,
+        "节奏把控": 7,
+        "对话张力": 6,
+        "感官沉浸": 8,
+        "逻辑闭环": 5,
+        "情感锚点": 7,
+        "世界观融合": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            35
+          ],
+          "success_chars": 20
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            34
+          ],
+          "success_chars": 40
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            39
+          ],
+          "success_chars": 32
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            25
+          ],
+          "success_chars": 29
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            42
+          ],
+          "success_chars": 21
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            9
+          ],
+          "success_chars": 16
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            14
+          ],
+          "success_chars": 27
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            27
+          ],
+          "success_chars": 30
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            19
+          ],
+          "success_chars": 39
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            21
+          ],
+          "success_chars": 18
+        }
+      }
+    },
+    {
+      "title": "地府都叫她姑奶奶",
+      "file": "地府都叫她姑奶奶.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设立体": 6,
+        "悬念密度": 5,
+        "反转设计": 4,
+        "节奏把控": 5,
+        "对话张力": 5,
+        "感官沉浸": 6,
+        "逻辑闭环": 4,
+        "情感锚点": 5,
+        "世界观融合": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            10
+          ],
+          "success_chars": 18
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            18
+          ],
+          "success_chars": 54
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            25
+          ],
+          "success_chars": 16
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            48
+          ],
+          "success_chars": 41
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            7
+          ],
+          "success_chars": 19
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            5
+          ],
+          "success_chars": 22
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            22
+          ],
+          "success_chars": 99
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            29
+          ],
+          "success_chars": 23
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            14
+          ],
+          "success_chars": 29
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            21
+          ],
+          "success_chars": 27
+        }
+      }
+    },
+    {
+      "title": "阴缘劫，凤命妻",
+      "file": "阴缘劫，凤命妻.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立体": 5,
+        "悬念密度": 7,
+        "反转设计": 5,
+        "节奏把控": 6,
+        "对话张力": 5,
+        "感官沉浸": 7,
+        "逻辑闭环": 4,
+        "情感锚点": 6,
+        "世界观融合": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            17
+          ],
+          "success_chars": 75
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            39
+          ],
+          "success_chars": 53
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            33
+          ],
+          "success_chars": 37
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            21
+          ],
+          "success_chars": 74
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            30
+          ],
+          "success_chars": 31
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            30
+          ],
+          "success_chars": 26
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            30
+          ],
+          "success_chars": 18
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            32
+          ],
+          "success_chars": 30
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            43
+          ],
+          "success_chars": 18
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            17
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "厉鬼不讲道理？可夫人她略通拳脚",
+      "file": "厉鬼不讲道理？可夫人她略通拳脚.txt",
+      "real_rating": 8.8,
+      "rubric_score": 5.9,
+      "rubric_scores": [
+        5.9
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立体": 6,
+        "悬念密度": 7,
+        "反转设计": 5,
+        "节奏把控": 6,
+        "对话张力": 5,
+        "感官沉浸": 4,
+        "逻辑闭环": 3,
+        "情感锚点": 4,
+        "世界观融合": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            37
+          ],
+          "success_chars": 49
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            32
+          ],
+          "success_chars": 50
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            26
+          ],
+          "success_chars": 35
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            17
+          ],
+          "success_chars": 34
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            20
+          ],
+          "success_chars": 38
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            18
+          ],
+          "success_chars": 38
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            20
+          ],
+          "success_chars": 33
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            28
+          ],
+          "success_chars": 28
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            9
+          ],
+          "success_chars": 34
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            15
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "穿书后我竟成了玄门鬼见愁",
+      "file": "穿书后我竟成了玄门鬼见愁.txt",
+      "real_rating": 9.0,
+      "rubric_score": 4.3,
+      "rubric_scores": [
+        4.3
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设立体": 6,
+        "悬念密度": 4,
+        "反转设计": 3,
+        "节奏把控": 5,
+        "对话张力": 4,
+        "感官沉浸": 3,
+        "逻辑闭环": 2,
+        "情感锚点": 5,
+        "世界观融合": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            52
+          ],
+          "success_chars": 32
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            30
+          ],
+          "success_chars": 48
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            38
+          ],
+          "success_chars": 51
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            32
+          ],
+          "success_chars": 27
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            24
+          ],
+          "success_chars": 32
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            34
+          ],
+          "success_chars": 26
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            38
+          ],
+          "success_chars": 28
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            68,
+            28
+          ],
+          "success_chars": 24
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            35
+          ],
+          "success_chars": 42
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            27
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "案子难破？问她手下三万只苍蝇",
+      "file": "案子难破？问她手下三万只苍蝇.txt",
+      "real_rating": 8.8,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立体": 7,
+        "悬念密度": 6,
+        "反转设计": 5,
+        "节奏把控": 7,
+        "对话张力": 6,
+        "感官沉浸": 7,
+        "逻辑闭环": 5,
+        "情感锚点": 7,
+        "世界观融合": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            30
+          ],
+          "success_chars": 38
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            17
+          ],
+          "success_chars": 35
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            23
+          ],
+          "success_chars": 33
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            28
+          ],
+          "success_chars": 26
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            35
+          ],
+          "success_chars": 33
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            9
+          ],
+          "success_chars": 27
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            14
+          ],
+          "success_chars": 32
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            31
+          ],
+          "success_chars": 22
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            25
+          ],
+          "success_chars": 25
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            22
+          ],
+          "success_chars": 20
+        }
+      }
+    },
+    {
+      "title": "【盗墓】男友三叔是前任",
+      "file": "【盗墓】男友三叔是前任.txt",
+      "real_rating": 8.7,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        5.1,
+        4.7,
+        4.6
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设立体": 6,
+        "悬念密度": 5,
+        "反转设计": 4,
+        "节奏把控": 5,
+        "对话张力": 4,
+        "感官沉浸": 7,
+        "逻辑闭环": 3,
+        "情感锚点": 5,
+        "世界观融合": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            35
+          ],
+          "success_chars": 37
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            22
+          ],
+          "success_chars": 58
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            37
+          ],
+          "success_chars": 47
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            70
+          ],
+          "success_chars": 40
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            45
+          ],
+          "success_chars": 44
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            10
+          ],
+          "success_chars": 18
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            21
+          ],
+          "success_chars": 45
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            28
+          ],
+          "success_chars": 31
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            22
+          ],
+          "success_chars": 24
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            37
+          ],
+          "success_chars": 20
+        }
+      }
+    },
+    {
+      "title": "欺负漂亮老婆很爽是吗？",
+      "file": "欺负漂亮老婆很爽是吗？.txt",
+      "real_rating": 8.8,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设立体": 4,
+        "悬念密度": 6,
+        "反转设计": 5,
+        "节奏把控": 5,
+        "对话张力": 6,
+        "感官沉浸": 6,
+        "逻辑闭环": 3,
+        "情感锚点": 5,
+        "世界观融合": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            28
+          ],
+          "success_chars": 28
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            31
+          ],
+          "success_chars": 43
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            19
+          ],
+          "success_chars": 35
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            12
+          ],
+          "success_chars": 18
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            27
+          ],
+          "success_chars": 33
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            20
+          ],
+          "success_chars": 48
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            11
+          ],
+          "success_chars": 32
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            14
+          ],
+          "success_chars": 18
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            14
+          ],
+          "success_chars": 31
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            24
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "盗墓：离大谱，男主怎么都喜欢我",
+      "file": "盗墓：离大谱，男主怎么都喜欢我.txt",
+      "real_rating": 8.6,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "人设立体": 6,
+        "悬念密度": 5,
+        "反转设计": 4,
+        "节奏把控": 6,
+        "对话张力": 5,
+        "感官沉浸": 8,
+        "逻辑闭环": 4,
+        "情感锚点": 6,
+        "世界观融合": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            8
+          ],
+          "success_chars": 35
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            16
+          ],
+          "success_chars": 27
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            14
+          ],
+          "success_chars": 23
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            29
+          ],
+          "success_chars": 33
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            13
+          ],
+          "success_chars": 35
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            20
+          ],
+          "success_chars": 27
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            29
+          ],
+          "success_chars": 40
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            27
+          ],
+          "success_chars": 44
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            9
+          ],
+          "success_chars": 20
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            21
+          ],
+          "success_chars": 20
+        }
+      }
+    },
+    {
+      "title": "盗墓：要命！深陷20人修罗场！",
+      "file": "盗墓：要命！深陷20人修罗场！.txt",
+      "real_rating": 8.2,
+      "rubric_score": 4.433333333333334,
+      "rubric_scores": [
+        5.1,
+        3.6,
+        4.6
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设立体": 6,
+        "悬念密度": 5,
+        "反转设计": 4,
+        "节奏把控": 5,
+        "对话张力": 5,
+        "感官沉浸": 6,
+        "逻辑闭环": 4,
+        "情感锚点": 6,
+        "世界观融合": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            39
+          ],
+          "success_chars": 28
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            47
+          ],
+          "success_chars": 33
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            17
+          ],
+          "success_chars": 27
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            37
+          ],
+          "success_chars": 35
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            39
+          ],
+          "success_chars": 40
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            21
+          ],
+          "success_chars": 13
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            29
+          ],
+          "success_chars": 39
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            38
+          ],
+          "success_chars": 27
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            22
+          ],
+          "success_chars": 36
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            25
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "东北出马仙：个个是奇葩",
+      "file": "东北出马仙：个个是奇葩.txt",
+      "real_rating": 8.3,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "人设立体": 8,
+        "悬念密度": 7,
+        "反转设计": 6,
+        "节奏把控": 7,
+        "对话张力": 8,
+        "感官沉浸": 8,
+        "逻辑闭环": 5,
+        "情感锚点": 7,
+        "世界观融合": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            44
+          ],
+          "success_chars": 76
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            19
+          ],
+          "success_chars": 36
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            16
+          ],
+          "success_chars": 47
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            25
+          ],
+          "success_chars": 36
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            30
+          ],
+          "success_chars": 40
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            22
+          ],
+          "success_chars": 51
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            21
+          ],
+          "success_chars": 79
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            49
+          ],
+          "success_chars": 25
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            31
+          ],
+          "success_chars": 40
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            24
+          ],
+          "success_chars": 61
+        }
+      }
+    },
+    {
+      "title": "刑警队长不经撩",
+      "file": "刑警队长不经撩.txt",
+      "real_rating": 8.4,
+      "rubric_score": 4.7,
+      "rubric_scores": [
+        4.7
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立体": 5,
+        "悬念密度": 4,
+        "反转设计": 3,
+        "节奏把控": 5,
+        "对话张力": 4,
+        "感官沉浸": 5,
+        "逻辑闭环": 3,
+        "情感锚点": 5,
+        "世界观融合": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            30
+          ],
+          "success_chars": 44
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            19
+          ],
+          "success_chars": 54
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            14
+          ],
+          "success_chars": 25
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            35
+          ],
+          "success_chars": 37
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            37
+          ],
+          "success_chars": 26
+        },
+        "对话张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            29
+          ],
+          "success_chars": 33
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            25
+          ],
+          "success_chars": 37
+        },
+        "逻辑闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            32
+          ],
+          "success_chars": 36
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            20
+          ],
+          "success_chars": 28
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            23
+          ],
+          "success_chars": 34
+        }
+      }
+    }
+  ]
+}

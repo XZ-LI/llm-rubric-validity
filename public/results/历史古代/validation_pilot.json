@@ -1,0 +1,2403 @@
+{
+  "run_id": "20260911T000954Z-9a2e0d",
+  "run_utc": "2026-09-11T00:09:54+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "历史古代",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "冒姓琅琊.txt",
+    "哈哈哈，大唐.txt",
+    "大明传承.txt",
+    "大明：距离亡国还有七天.txt",
+    "开局洞房长乐：世家嫡女也馋我.txt",
+    "朱标：我二弟天下无敌.txt",
+    "流氓帝师.txt"
+  ],
+  "results": [
+    {
+      "title": "我，大明长生者，历经十六帝",
+      "file": "我，大明长生者，历经十六帝.txt",
+      "real_rating": 9.3,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 5,
+        "节奏": 6,
+        "人物": 6,
+        "矛盾": 7,
+        "对话": 5,
+        "画面": 6,
+        "悬念": 6,
+        "反转": 4,
+        "情感": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            48
+          ],
+          "success_chars": 60
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            17
+          ],
+          "success_chars": 44
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            26
+          ],
+          "success_chars": 44
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            30
+          ],
+          "success_chars": 48
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            32
+          ],
+          "success_chars": 16
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            19
+          ],
+          "success_chars": 27
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            27
+          ],
+          "success_chars": 40
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            56
+          ],
+          "success_chars": 35
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            22
+          ],
+          "success_chars": 36
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            20
+          ],
+          "success_chars": 56
+        }
+      }
+    },
+    {
+      "title": "高武大明：从小太监到九千岁",
+      "file": "高武大明：从小太监到九千岁.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子": 5,
+        "史感": 4,
+        "节奏": 6,
+        "人物": 5,
+        "矛盾": 5,
+        "对话": 4,
+        "画面": 6,
+        "悬念": 6,
+        "反转": 5,
+        "情感": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            46
+          ],
+          "success_chars": 30
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            28
+          ],
+          "success_chars": 28
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            35
+          ],
+          "success_chars": 23
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            35
+          ],
+          "success_chars": 22
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            40
+          ],
+          "success_chars": 22
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            37
+          ],
+          "success_chars": 26
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            26
+          ],
+          "success_chars": 21
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            15
+          ],
+          "success_chars": 28
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            29
+          ],
+          "success_chars": 21
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            14
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "全族扶我青云志，我赠族人朱紫袍",
+      "file": "全族扶我青云志，我赠族人朱紫袍.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 5,
+        "节奏": 7,
+        "人物": 7,
+        "矛盾": 8,
+        "对话": 6,
+        "画面": 7,
+        "悬念": 6,
+        "反转": 5,
+        "情感": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            34
+          ],
+          "success_chars": 51
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            27
+          ],
+          "success_chars": 38
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            48
+          ],
+          "success_chars": 48
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            23
+          ],
+          "success_chars": 59
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            49
+          ],
+          "success_chars": 80
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            27
+          ],
+          "success_chars": 90
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            27
+          ],
+          "success_chars": 30
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            36
+          ],
+          "success_chars": 31
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            29
+          ],
+          "success_chars": 29
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            38
+          ],
+          "success_chars": 52
+        }
+      }
+    },
+    {
+      "title": "穿越大唐：当个闲王这么难",
+      "file": "穿越大唐：当个闲王这么难.txt",
+      "real_rating": 9.2,
+      "rubric_score": 4.7,
+      "rubric_scores": [
+        4.7
+      ],
+      "dimensions": {
+        "钩子": 4,
+        "史感": 5,
+        "节奏": 5,
+        "人物": 5,
+        "矛盾": 4,
+        "对话": 5,
+        "画面": 5,
+        "悬念": 4,
+        "反转": 2,
+        "情感": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            52
+          ],
+          "success_chars": 32
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            71,
+            37
+          ],
+          "success_chars": 22
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            36
+          ],
+          "success_chars": 30
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            32
+          ],
+          "success_chars": 29
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            28
+          ],
+          "success_chars": 36
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            33
+          ],
+          "success_chars": 43
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            38
+          ],
+          "success_chars": 37
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            27
+          ],
+          "success_chars": 26
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            27
+          ],
+          "success_chars": 12
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            26
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "混账，谁说我不是阉党",
+      "file": "混账，谁说我不是阉党.txt",
+      "real_rating": 9.3,
+      "rubric_score": 7.3,
+      "rubric_scores": [
+        7.3
+      ],
+      "dimensions": {
+        "钩子": 8,
+        "史感": 7,
+        "节奏": 7,
+        "人物": 8,
+        "矛盾": 8,
+        "对话": 6,
+        "画面": 7,
+        "悬念": 8,
+        "反转": 6,
+        "情感": 7
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            30
+          ],
+          "success_chars": 48
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            43
+          ],
+          "success_chars": 39
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            39
+          ],
+          "success_chars": 38
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            30
+          ],
+          "success_chars": 44
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            30
+          ],
+          "success_chars": 46
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            28
+          ],
+          "success_chars": 34
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            29
+          ],
+          "success_chars": 41
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            22
+          ],
+          "success_chars": 40
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            47
+          ],
+          "success_chars": 30
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            32
+          ],
+          "success_chars": 40
+        }
+      }
+    },
+    {
+      "title": "大明暴君，我为大明续运三百年",
+      "file": "大明暴君，我为大明续运三百年.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2,
+        5.2,
+        5.2
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 5,
+        "节奏": 5,
+        "人物": 4,
+        "矛盾": 7,
+        "对话": 4,
+        "画面": 5,
+        "悬念": 6,
+        "反转": 3,
+        "情感": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            50
+          ],
+          "success_chars": 40
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            50
+          ],
+          "success_chars": 41
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            44
+          ],
+          "success_chars": 34
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            32
+          ],
+          "success_chars": 27
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            36
+          ],
+          "success_chars": 37
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            25
+          ],
+          "success_chars": 37
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            36
+          ],
+          "success_chars": 29
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            29
+          ],
+          "success_chars": 25
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            30
+          ],
+          "success_chars": 8
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            26
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "天下道德倒退三百年，关我什么事",
+      "file": "天下道德倒退三百年，关我什么事.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 4,
+        "节奏": 5,
+        "人物": 5,
+        "矛盾": 6,
+        "对话": 4,
+        "画面": 5,
+        "悬念": 6,
+        "反转": 7,
+        "情感": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            35
+          ],
+          "success_chars": 35
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            9
+          ],
+          "success_chars": 17
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            28
+          ],
+          "success_chars": 36
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            39
+          ],
+          "success_chars": 43
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            15
+          ],
+          "success_chars": 50
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            7
+          ],
+          "success_chars": 25
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            25
+          ],
+          "success_chars": 33
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            20
+          ],
+          "success_chars": 40
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            19
+          ],
+          "success_chars": 61
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            7
+          ],
+          "success_chars": 37
+        }
+      }
+    },
+    {
+      "title": "你家三代从商？我家做官两千年",
+      "file": "你家三代从商？我家做官两千年.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.433333333333333,
+      "rubric_scores": [
+        5.6,
+        5.1,
+        5.6
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 5,
+        "节奏": 6,
+        "人物": 5,
+        "矛盾": 6,
+        "对话": 4,
+        "画面": 5,
+        "悬念": 7,
+        "反转": 5,
+        "情感": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            67,
+            54
+          ],
+          "success_chars": 33
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            36
+          ],
+          "success_chars": 38
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            39
+          ],
+          "success_chars": 32
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            45
+          ],
+          "success_chars": 23
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            32
+          ],
+          "success_chars": 31
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            14
+          ],
+          "success_chars": 31
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            25
+          ],
+          "success_chars": 32
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            28
+          ],
+          "success_chars": 33
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            24
+          ],
+          "success_chars": 30
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            11
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "科举：杀猪世家，出了个文曲星",
+      "file": "科举：杀猪世家，出了个文曲星.txt",
+      "real_rating": 8.8,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 4,
+        "节奏": 5,
+        "人物": 6,
+        "矛盾": 5,
+        "对话": 5,
+        "画面": 7,
+        "悬念": 5,
+        "反转": 3,
+        "情感": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            40
+          ],
+          "success_chars": 24
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            21
+          ],
+          "success_chars": 46
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            38
+          ],
+          "success_chars": 39
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            35
+          ],
+          "success_chars": 41
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            35
+          ],
+          "success_chars": 39
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            11
+          ],
+          "success_chars": 26
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            29
+          ],
+          "success_chars": 29
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            36
+          ],
+          "success_chars": 20
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            28
+          ],
+          "success_chars": 15
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            36
+          ],
+          "success_chars": 43
+        }
+      }
+    },
+    {
+      "title": "晚唐藩镇，天下第一节度使",
+      "file": "晚唐藩镇，天下第一节度使.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "钩子": 4,
+        "史感": 6,
+        "节奏": 5,
+        "人物": 6,
+        "矛盾": 5,
+        "对话": 6,
+        "画面": 6,
+        "悬念": 4,
+        "反转": 3,
+        "情感": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            74
+          ],
+          "success_chars": 40
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            44
+          ],
+          "success_chars": 34
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            41
+          ],
+          "success_chars": 30
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            36
+          ],
+          "success_chars": 29
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            26
+          ],
+          "success_chars": 32
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            23
+          ],
+          "success_chars": 12
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            17
+          ],
+          "success_chars": 54
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            25
+          ],
+          "success_chars": 45
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            31
+          ],
+          "success_chars": 16
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            21
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "三国：家父袁术，我开局怒砸玉玺",
+      "file": "三国：家父袁术，我开局怒砸玉玺.txt",
+      "real_rating": 8.7,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 5,
+        "节奏": 7,
+        "人物": 6,
+        "矛盾": 8,
+        "对话": 5,
+        "画面": 6,
+        "悬念": 7,
+        "反转": 8,
+        "情感": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            26
+          ],
+          "success_chars": 31
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            7
+          ],
+          "success_chars": 31
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            22
+          ],
+          "success_chars": 32
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            13
+          ],
+          "success_chars": 30
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            36
+          ],
+          "success_chars": 31
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            5
+          ],
+          "success_chars": 27
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            14
+          ],
+          "success_chars": 26
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            35
+          ],
+          "success_chars": 24
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            21
+          ],
+          "success_chars": 31
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            26
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "始皇！你再不死，我就打到澳洲了",
+      "file": "始皇！你再不死，我就打到澳洲了.txt",
+      "real_rating": 9.0,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 4,
+        "节奏": 5,
+        "人物": 5,
+        "矛盾": 6,
+        "对话": 3,
+        "画面": 4,
+        "悬念": 7,
+        "反转": 2,
+        "情感": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            74,
+            62
+          ],
+          "success_chars": 48
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            68
+          ],
+          "success_chars": 41
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            42
+          ],
+          "success_chars": 42
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            61,
+            43
+          ],
+          "success_chars": 47
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            44
+          ],
+          "success_chars": 43
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            46
+          ],
+          "success_chars": 41
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            36
+          ],
+          "success_chars": 36
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            44
+          ],
+          "success_chars": 50
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            40
+          ],
+          "success_chars": 38
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            35
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "冒名入仕，我熬成了大明权臣",
+      "file": "冒名入仕，我熬成了大明权臣.txt",
+      "real_rating": 8.6,
+      "rubric_score": 6.6,
+      "rubric_scores": [
+        6.9,
+        6.8,
+        6.1
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 7,
+        "节奏": 7,
+        "人物": 6,
+        "矛盾": 8,
+        "对话": 5,
+        "画面": 7,
+        "悬念": 8,
+        "反转": 7,
+        "情感": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            46
+          ],
+          "success_chars": 61
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            63,
+            21
+          ],
+          "success_chars": 40
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            47
+          ],
+          "success_chars": 39
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            34
+          ],
+          "success_chars": 45
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            21
+          ],
+          "success_chars": 37
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            13
+          ],
+          "success_chars": 21
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            11
+          ],
+          "success_chars": 37
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            23
+          ],
+          "success_chars": 20
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            7
+          ],
+          "success_chars": 43
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            11
+          ],
+          "success_chars": 42
+        }
+      }
+    },
+    {
+      "title": "大唐：这个皇室没我得散",
+      "file": "大唐：这个皇室没我得散.txt",
+      "real_rating": 8.6,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 5,
+        "节奏": 7,
+        "人物": 6,
+        "矛盾": 5,
+        "对话": 5,
+        "画面": 6,
+        "悬念": 6,
+        "反转": 4,
+        "情感": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            44
+          ],
+          "success_chars": 28
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            13
+          ],
+          "success_chars": 39
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            65,
+            22
+          ],
+          "success_chars": 57
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            34
+          ],
+          "success_chars": 54
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            45
+          ],
+          "success_chars": 38
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            24
+          ],
+          "success_chars": 34
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            44
+          ],
+          "success_chars": 31
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            40
+          ],
+          "success_chars": 29
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            51
+          ],
+          "success_chars": 28
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            14
+          ],
+          "success_chars": 11
+        }
+      }
+    },
+    {
+      "title": "我在晚唐当流民，平推五代十国",
+      "file": "我在晚唐当流民，平推五代十国.txt",
+      "real_rating": 8.4,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子": 8,
+        "史感": 7,
+        "节奏": 7,
+        "人物": 7,
+        "矛盾": 6,
+        "对话": 6,
+        "画面": 8,
+        "悬念": 6,
+        "反转": 5,
+        "情感": 7
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            32
+          ],
+          "success_chars": 36
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            12
+          ],
+          "success_chars": 32
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            44
+          ],
+          "success_chars": 32
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            34
+          ],
+          "success_chars": 34
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            36
+          ],
+          "success_chars": 32
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            41
+          ],
+          "success_chars": 16
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            20
+          ],
+          "success_chars": 33
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            40
+          ],
+          "success_chars": 26
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            26
+          ],
+          "success_chars": 31
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            24
+          ],
+          "success_chars": 49
+        }
+      }
+    },
+    {
+      "title": "寒门五凤：爹，这次我带全家翻身",
+      "file": "寒门五凤：爹，这次我带全家翻身.txt",
+      "real_rating": 8.4,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 5,
+        "节奏": 6,
+        "人物": 7,
+        "矛盾": 7,
+        "对话": 5,
+        "画面": 7,
+        "悬念": 6,
+        "反转": 4,
+        "情感": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            46
+          ],
+          "success_chars": 24
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            34
+          ],
+          "success_chars": 26
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            42
+          ],
+          "success_chars": 27
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            30
+          ],
+          "success_chars": 34
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            30
+          ],
+          "success_chars": 32
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            16
+          ],
+          "success_chars": 40
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            21
+          ],
+          "success_chars": 31
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            23
+          ],
+          "success_chars": 23
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            34
+          ],
+          "success_chars": 22
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            21
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "暴君崇祯：再续大明三百年！",
+      "file": "暴君崇祯：再续大明三百年！.txt",
+      "real_rating": 8.4,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 5,
+        "节奏": 4,
+        "人物": 5,
+        "矛盾": 7,
+        "对话": 4,
+        "画面": 3,
+        "悬念": 6,
+        "反转": 5,
+        "情感": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            25
+          ],
+          "success_chars": 53
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            13
+          ],
+          "success_chars": 40
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            25
+          ],
+          "success_chars": 49
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            28
+          ],
+          "success_chars": 29
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            37
+          ],
+          "success_chars": 27
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            18
+          ],
+          "success_chars": 35
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            27
+          ],
+          "success_chars": 41
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            29
+          ],
+          "success_chars": 35
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            37
+          ],
+          "success_chars": 32
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            14
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "大乾第一纨绔",
+      "file": "大乾第一纨绔.txt",
+      "real_rating": 8.3,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 5,
+        "节奏": 7,
+        "人物": 6,
+        "矛盾": 7,
+        "对话": 5,
+        "画面": 6,
+        "悬念": 7,
+        "反转": 5,
+        "情感": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            79,
+            56
+          ],
+          "success_chars": 53
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            52
+          ],
+          "success_chars": 46
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            36
+          ],
+          "success_chars": 34
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            30
+          ],
+          "success_chars": 33
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            39
+          ],
+          "success_chars": 38
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            29
+          ],
+          "success_chars": 32
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            32
+          ],
+          "success_chars": 27
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            25
+          ],
+          "success_chars": 29
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            23
+          ],
+          "success_chars": 27
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            27
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "大明：从壮丁到第一国公！",
+      "file": "大明：从壮丁到第一国公！.txt",
+      "real_rating": 8.0,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 5,
+        "节奏": 6,
+        "人物": 7,
+        "矛盾": 6,
+        "对话": 5,
+        "画面": 7,
+        "悬念": 5,
+        "反转": 4,
+        "情感": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            17
+          ],
+          "success_chars": 16
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            28
+          ],
+          "success_chars": 17
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            22
+          ],
+          "success_chars": 33
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            50
+          ],
+          "success_chars": 19
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            27
+          ],
+          "success_chars": 27
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            10
+          ],
+          "success_chars": 10
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            21
+          ],
+          "success_chars": 26
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            27
+          ],
+          "success_chars": 28
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            10
+          ],
+          "success_chars": 26
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            32
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "赐婚当日，公主连夜上门退婚",
+      "file": "赐婚当日，公主连夜上门退婚.txt",
+      "real_rating": 8.3,
+      "rubric_score": 5.833333333333333,
+      "rubric_scores": [
+        6.1,
+        5.6,
+        5.8
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 5,
+        "节奏": 7,
+        "人物": 6,
+        "矛盾": 7,
+        "对话": 5,
+        "画面": 6,
+        "悬念": 7,
+        "反转": 6,
+        "情感": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            38
+          ],
+          "success_chars": 44
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            15
+          ],
+          "success_chars": 30
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            35
+          ],
+          "success_chars": 33
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            39
+          ],
+          "success_chars": 28
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            42
+          ],
+          "success_chars": 33
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            5
+          ],
+          "success_chars": 40
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            39
+          ],
+          "success_chars": 35
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            30
+          ],
+          "success_chars": 24
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            22
+          ],
+          "success_chars": 26
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            35
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "边军：从领取罪女开始，一统天下",
+      "file": "边军：从领取罪女开始，一统天下.txt",
+      "real_rating": 8.3,
+      "rubric_score": 6.7,
+      "rubric_scores": [
+        6.7
+      ],
+      "dimensions": {
+        "钩子": 8,
+        "史感": 6,
+        "节奏": 7,
+        "人物": 7,
+        "矛盾": 7,
+        "对话": 6,
+        "画面": 8,
+        "悬念": 7,
+        "反转": 5,
+        "情感": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            28
+          ],
+          "success_chars": 40
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            39
+          ],
+          "success_chars": 48
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            38
+          ],
+          "success_chars": 43
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            11
+          ],
+          "success_chars": 50
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            30
+          ],
+          "success_chars": 37
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            27
+          ],
+          "success_chars": 17
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            24
+          ],
+          "success_chars": 50
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            43
+          ],
+          "success_chars": 23
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            19
+          ],
+          "success_chars": 30
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            24
+          ],
+          "success_chars": 58
+        }
+      }
+    },
+    {
+      "title": "北大硕士科举：震惊满朝文武",
+      "file": "北大硕士科举：震惊满朝文武.txt",
+      "real_rating": 8.2,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子": 4,
+        "史感": 5,
+        "节奏": 5,
+        "人物": 6,
+        "矛盾": 6,
+        "对话": 5,
+        "画面": 5,
+        "悬念": 5,
+        "反转": 4,
+        "情感": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            35
+          ],
+          "success_chars": 27
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            35
+          ],
+          "success_chars": 25
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            46
+          ],
+          "success_chars": 37
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            11
+          ],
+          "success_chars": 44
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            16
+          ],
+          "success_chars": 32
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            16
+          ],
+          "success_chars": 47
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            19
+          ],
+          "success_chars": 39
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            14
+          ],
+          "success_chars": 36
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            29
+          ],
+          "success_chars": 31
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            33
+          ],
+          "success_chars": 14
+        }
+      }
+    },
+    {
+      "title": "我男频读者，还能在你女频受气？",
+      "file": "我男频读者，还能在你女频受气？.txt",
+      "real_rating": 7.9,
+      "rubric_score": 5.033333333333333,
+      "rubric_scores": [
+        4.9,
+        5.1,
+        5.1
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "史感": 4,
+        "节奏": 5,
+        "人物": 3,
+        "矛盾": 5,
+        "对话": 3,
+        "画面": 6,
+        "悬念": 5,
+        "反转": 7,
+        "情感": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            32
+          ],
+          "success_chars": 26
+        },
+        "史感": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            52
+          ],
+          "success_chars": 25
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            37
+          ],
+          "success_chars": 23
+        },
+        "人物": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            27
+          ],
+          "success_chars": 19
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            37
+          ],
+          "success_chars": 24
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            31
+          ],
+          "success_chars": 27
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            38
+          ],
+          "success_chars": 18
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            20
+          ],
+          "success_chars": 22
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            8
+          ],
+          "success_chars": 22
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            24
+          ],
+          "success_chars": 21
+        }
+      }
+    }
+  ]
+}

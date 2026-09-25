@@ -1,0 +1,2403 @@
+{
+  "run_id": "20260911T022328Z-1dff1c",
+  "run_utc": "2026-09-11T02:23:28+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "都市脑洞",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "主人别怕，只是永远在一起.txt",
+    "别刷了哥！这主播根本不是卖艺的.txt",
+    "别看这本书我怕你逆天改命.txt",
+    "氪金没用？我用命带他们走完长征.txt",
+    "解约去旅游，竟然遇到各个综艺.txt",
+    "财政屠夫：一笔砍掉百亿！.txt",
+    "赶海：退学回家，赶海让我暴富.txt"
+  ],
+  "results": [
+    {
+      "title": "中医：我能看见疾病词条",
+      "file": "中医：我能看见疾病词条.txt",
+      "real_rating": 8.8,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3,
+        6.3,
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "节奏密度": 7,
+        "人设反差": 8,
+        "爽感逻辑": 6,
+        "悬念嵌套": 7,
+        "对话锋芒": 7,
+        "感官沉浸": 8,
+        "代价显性": 6,
+        "品类自觉": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            31
+          ],
+          "success_chars": 36
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            36
+          ],
+          "success_chars": 17
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            40
+          ],
+          "success_chars": 47
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            31
+          ],
+          "success_chars": 43
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            14
+          ],
+          "success_chars": 37
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            16
+          ],
+          "success_chars": 18
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            5
+          ],
+          "success_chars": 38
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 30
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            34
+          ],
+          "success_chars": 11
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            26
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "我是反派演技一流，哎你别报警啊",
+      "file": "我是反派演技一流，哎你别报警啊.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.7,
+      "rubric_scores": [
+        6.7
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "脑洞新颖": 6,
+        "节奏密度": 7,
+        "人设反差": 8,
+        "爽感逻辑": 5,
+        "悬念嵌套": 6,
+        "对话锋芒": 7,
+        "感官沉浸": 6,
+        "代价显性": 7,
+        "品类自觉": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            45
+          ],
+          "success_chars": 10
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            38
+          ],
+          "success_chars": 30
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            34
+          ],
+          "success_chars": 29
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            35
+          ],
+          "success_chars": 43
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            36
+          ],
+          "success_chars": 41
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            39
+          ],
+          "success_chars": 31
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            14
+          ],
+          "success_chars": 57
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            29
+          ],
+          "success_chars": 25
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            21
+          ],
+          "success_chars": 45
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            22
+          ],
+          "success_chars": 60
+        }
+      }
+    },
+    {
+      "title": "做个吃瓜群众，居然还要洗眼睛",
+      "file": "做个吃瓜群众，居然还要洗眼睛.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "节奏密度": 7,
+        "人设反差": 6,
+        "爽感逻辑": 5,
+        "悬念嵌套": 5,
+        "对话锋芒": 7,
+        "感官沉浸": 6,
+        "代价显性": 4,
+        "品类自觉": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            16
+          ],
+          "success_chars": 36
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            23
+          ],
+          "success_chars": 25
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            14
+          ],
+          "success_chars": 26
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            15
+          ],
+          "success_chars": 22
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            18
+          ],
+          "success_chars": 26
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            13
+          ],
+          "success_chars": 18
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            19
+          ],
+          "success_chars": 30
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            14
+          ],
+          "success_chars": 28
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            31
+          ],
+          "success_chars": 24
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            23
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "恋综：悬溺一响，遗憾登场！",
+      "file": "恋综：悬溺一响，遗憾登场！.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "节奏密度": 6,
+        "人设反差": 7,
+        "爽感逻辑": 5,
+        "悬念嵌套": 5,
+        "对话锋芒": 6,
+        "感官沉浸": 6,
+        "代价显性": 4,
+        "品类自觉": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            46
+          ],
+          "success_chars": 44
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            29
+          ],
+          "success_chars": 25
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            40
+          ],
+          "success_chars": 27
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            41
+          ],
+          "success_chars": 32
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            38
+          ],
+          "success_chars": 21
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            30
+          ],
+          "success_chars": 22
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            9
+          ],
+          "success_chars": 31
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            18
+          ],
+          "success_chars": 24
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            20
+          ],
+          "success_chars": 24
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            18
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "觉醒当天，强吻校花的我一剑斩神",
+      "file": "觉醒当天，强吻校花的我一剑斩神.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "节奏密度": 6,
+        "人设反差": 5,
+        "爽感逻辑": 4,
+        "悬念嵌套": 7,
+        "对话锋芒": 5,
+        "感官沉浸": 5,
+        "代价显性": 4,
+        "品类自觉": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            32
+          ],
+          "success_chars": 27
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            49
+          ],
+          "success_chars": 27
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            31
+          ],
+          "success_chars": 25
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            42
+          ],
+          "success_chars": 29
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            19
+          ],
+          "success_chars": 26
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            26
+          ],
+          "success_chars": 23
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            43
+          ],
+          "success_chars": 33
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            26
+          ],
+          "success_chars": 29
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            34
+          ],
+          "success_chars": 19
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            22
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "乾坤袋让我走上人生巅峰",
+      "file": "乾坤袋让我走上人生巅峰.txt",
+      "real_rating": 8.5,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "脑洞新颖": 3,
+        "节奏密度": 5,
+        "人设反差": 6,
+        "爽感逻辑": 4,
+        "悬念嵌套": 5,
+        "对话锋芒": 3,
+        "感官沉浸": 6,
+        "代价显性": 5,
+        "品类自觉": 2
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            35
+          ],
+          "success_chars": 57
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            41
+          ],
+          "success_chars": 52
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            38
+          ],
+          "success_chars": 37
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            28
+          ],
+          "success_chars": 41
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            38
+          ],
+          "success_chars": 40
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            30
+          ],
+          "success_chars": 32
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            33
+          ],
+          "success_chars": 30
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 12
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            31
+          ],
+          "success_chars": 27
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            18
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "国安最佳编外，五十万！五十万！",
+      "file": "国安最佳编外，五十万！五十万！.txt",
+      "real_rating": 8.7,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "脑洞新颖": 6,
+        "节奏密度": 7,
+        "人设反差": 7,
+        "爽感逻辑": 6,
+        "悬念嵌套": 7,
+        "对话锋芒": 6,
+        "感官沉浸": 6,
+        "代价显性": 5,
+        "品类自觉": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            37
+          ],
+          "success_chars": 36
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            30
+          ],
+          "success_chars": 11
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            64,
+            25
+          ],
+          "success_chars": 56
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            44
+          ],
+          "success_chars": 16
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            20
+          ],
+          "success_chars": 35
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            65
+          ],
+          "success_chars": 40
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            32
+          ],
+          "success_chars": 41
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            19
+          ],
+          "success_chars": 38
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            25
+          ],
+          "success_chars": 27
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            30
+          ],
+          "success_chars": 11
+        }
+      }
+    },
+    {
+      "title": "青梅憨憨体柔易白给，我亲亲亲亲",
+      "file": "青梅憨憨体柔易白给，我亲亲亲亲.txt",
+      "real_rating": 8.3,
+      "rubric_score": 6.666666666666667,
+      "rubric_scores": [
+        6.8,
+        6.4,
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "脑洞新颖": 6,
+        "节奏密度": 7,
+        "人设反差": 8,
+        "爽感逻辑": 6,
+        "悬念嵌套": 7,
+        "对话锋芒": 6,
+        "感官沉浸": 7,
+        "代价显性": 5,
+        "品类自觉": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            39
+          ],
+          "success_chars": 38
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            47
+          ],
+          "success_chars": 28
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            29
+          ],
+          "success_chars": 35
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            45
+          ],
+          "success_chars": 41
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            24
+          ],
+          "success_chars": 29
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            28
+          ],
+          "success_chars": 32
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            28
+          ],
+          "success_chars": 37
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            16
+          ],
+          "success_chars": 37
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            20
+          ],
+          "success_chars": 30
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            24
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "病娇妈妈们找上门，儿女都吓哭了",
+      "file": "病娇妈妈们找上门，儿女都吓哭了.txt",
+      "real_rating": 8.4,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "节奏密度": 7,
+        "人设反差": 6,
+        "爽感逻辑": 6,
+        "悬念嵌套": 5,
+        "对话锋芒": 6,
+        "感官沉浸": 5,
+        "代价显性": 4,
+        "品类自觉": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            28
+          ],
+          "success_chars": 41
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            55
+          ],
+          "success_chars": 38
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 43
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            22
+          ],
+          "success_chars": 39
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            45
+          ],
+          "success_chars": 34
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            37
+          ],
+          "success_chars": 32
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            23
+          ],
+          "success_chars": 36
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            23
+          ],
+          "success_chars": 27
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            24
+          ],
+          "success_chars": 37
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            38
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "急诊医生：我能看见死亡倒计时",
+      "file": "急诊医生：我能看见死亡倒计时.txt",
+      "real_rating": 8.2,
+      "rubric_score": 7.6,
+      "rubric_scores": [
+        7.6
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "脑洞新颖": 8,
+        "节奏密度": 7,
+        "人设反差": 8,
+        "爽感逻辑": 7,
+        "悬念嵌套": 8,
+        "对话锋芒": 7,
+        "感官沉浸": 9,
+        "代价显性": 6,
+        "品类自觉": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            22
+          ],
+          "success_chars": 69
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            13
+          ],
+          "success_chars": 52
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            39
+          ],
+          "success_chars": 73
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            31
+          ],
+          "success_chars": 49
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            22
+          ],
+          "success_chars": 9
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            8
+          ],
+          "success_chars": 33
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            8
+          ],
+          "success_chars": 31
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            9
+          ],
+          "success_chars": 38
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            19
+          ],
+          "success_chars": 18
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            8
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "高二听劝变帅，校花日记写满我",
+      "file": "高二听劝变帅，校花日记写满我.txt",
+      "real_rating": 8.3,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "节奏密度": 6,
+        "人设反差": 7,
+        "爽感逻辑": 6,
+        "悬念嵌套": 5,
+        "对话锋芒": 6,
+        "感官沉浸": 7,
+        "代价显性": 6,
+        "品类自觉": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            48
+          ],
+          "success_chars": 50
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            33
+          ],
+          "success_chars": 30
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            21
+          ],
+          "success_chars": 44
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            43
+          ],
+          "success_chars": 21
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            43
+          ],
+          "success_chars": 31
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            57
+          ],
+          "success_chars": 28
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            20
+          ],
+          "success_chars": 42
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            28
+          ],
+          "success_chars": 36
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            33
+          ],
+          "success_chars": 30
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            15
+          ],
+          "success_chars": 71
+        }
+      }
+    },
+    {
+      "title": "刚上高中，我的数值太超模了",
+      "file": "刚上高中，我的数值太超模了.txt",
+      "real_rating": 8.1,
+      "rubric_score": 5.766666666666667,
+      "rubric_scores": [
+        5.8,
+        6.1,
+        5.4
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "节奏密度": 7,
+        "人设反差": 6,
+        "爽感逻辑": 5,
+        "悬念嵌套": 5,
+        "对话锋芒": 7,
+        "感官沉浸": 6,
+        "代价显性": 4,
+        "品类自觉": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            68
+          ],
+          "success_chars": 51
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            36
+          ],
+          "success_chars": 28
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            27
+          ],
+          "success_chars": 38
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            36
+          ],
+          "success_chars": 33
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            40
+          ],
+          "success_chars": 34
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            28
+          ],
+          "success_chars": 30
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            28
+          ],
+          "success_chars": 46
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            18
+          ],
+          "success_chars": 41
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            18
+          ],
+          "success_chars": 34
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            21
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "娱乐：人设崩塌后，我起飞了",
+      "file": "娱乐：人设崩塌后，我起飞了.txt",
+      "real_rating": 8.1,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "脑洞新颖": 6,
+        "节奏密度": 8,
+        "人设反差": 8,
+        "爽感逻辑": 7,
+        "悬念嵌套": 6,
+        "对话锋芒": 9,
+        "感官沉浸": 5,
+        "代价显性": 5,
+        "品类自觉": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            18
+          ],
+          "success_chars": 40
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            31
+          ],
+          "success_chars": 30
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            38
+          ],
+          "success_chars": 41
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            36
+          ],
+          "success_chars": 44
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            18
+          ],
+          "success_chars": 37
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            23
+          ],
+          "success_chars": 34
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            14
+          ],
+          "success_chars": 50
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            24
+          ],
+          "success_chars": 25
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            21
+          ],
+          "success_chars": 40
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            25
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "带着一亿现金重生贫困的高中时代",
+      "file": "带着一亿现金重生贫困的高中时代.txt",
+      "real_rating": 7.8,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "节奏密度": 6,
+        "人设反差": 7,
+        "爽感逻辑": 5,
+        "悬念嵌套": 5,
+        "对话锋芒": 6,
+        "感官沉浸": 6,
+        "代价显性": 4,
+        "品类自觉": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            47
+          ],
+          "success_chars": 36
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            48
+          ],
+          "success_chars": 21
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            73,
+            60
+          ],
+          "success_chars": 26
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            33
+          ],
+          "success_chars": 57
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            25
+          ],
+          "success_chars": 32
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            19
+          ],
+          "success_chars": 28
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            30
+          ],
+          "success_chars": 34
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            26
+          ],
+          "success_chars": 46
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            25
+          ],
+          "success_chars": 39
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            34
+          ],
+          "success_chars": 44
+        }
+      }
+    },
+    {
+      "title": "我只想混到退休",
+      "file": "我只想混到退休.txt",
+      "real_rating": 7.7,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 4,
+        "节奏密度": 5,
+        "人设反差": 6,
+        "爽感逻辑": 5,
+        "悬念嵌套": 6,
+        "对话锋芒": 5,
+        "感官沉浸": 6,
+        "代价显性": 5,
+        "品类自觉": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            19
+          ],
+          "success_chars": 42
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            38
+          ],
+          "success_chars": 63
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            19
+          ],
+          "success_chars": 31
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            26
+          ],
+          "success_chars": 53
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            22
+          ],
+          "success_chars": 21
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            32
+          ],
+          "success_chars": 45
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            19
+          ],
+          "success_chars": 32
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            16
+          ],
+          "success_chars": 29
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            36
+          ],
+          "success_chars": 42
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            37
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "过年回家，与三个精神小妹挤大巴",
+      "file": "过年回家，与三个精神小妹挤大巴.txt",
+      "real_rating": 8.1,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "脑洞新颖": 6,
+        "节奏密度": 8,
+        "人设反差": 7,
+        "爽感逻辑": 7,
+        "悬念嵌套": 6,
+        "对话锋芒": 8,
+        "感官沉浸": 7,
+        "代价显性": 5,
+        "品类自觉": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            54
+          ],
+          "success_chars": 73
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            69
+          ],
+          "success_chars": 78
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            38
+          ],
+          "success_chars": 70
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            65
+          ],
+          "success_chars": 14
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            24
+          ],
+          "success_chars": 39
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            23
+          ],
+          "success_chars": 12
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            14
+          ],
+          "success_chars": 29
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            32
+          ],
+          "success_chars": 74
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            60
+          ],
+          "success_chars": 24
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            65
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "小鸟说早早早你为什么背上炸药包",
+      "file": "小鸟说早早早你为什么背上炸药包.txt",
+      "real_rating": 7.9,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "节奏密度": 7,
+        "人设反差": 6,
+        "爽感逻辑": 4,
+        "悬念嵌套": 7,
+        "对话锋芒": 6,
+        "感官沉浸": 7,
+        "代价显性": 3,
+        "品类自觉": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            62
+          ],
+          "success_chars": 49
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            45
+          ],
+          "success_chars": 45
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            43
+          ],
+          "success_chars": 35
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            38
+          ],
+          "success_chars": 29
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            29
+          ],
+          "success_chars": 32
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            24
+          ],
+          "success_chars": 33
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            33
+          ],
+          "success_chars": 36
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            24
+          ],
+          "success_chars": 29
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            28
+          ],
+          "success_chars": 37
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            33
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "我就开直播，咋开启三战了",
+      "file": "我就开直播，咋开启三战了.txt",
+      "real_rating": 7.4,
+      "rubric_score": 6.266666666666667,
+      "rubric_scores": [
+        6.1,
+        6.4,
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "脑洞新颖": 6,
+        "节奏密度": 6,
+        "人设反差": 8,
+        "爽感逻辑": 5,
+        "悬念嵌套": 7,
+        "对话锋芒": 6,
+        "感官沉浸": 5,
+        "代价显性": 4,
+        "品类自觉": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            28
+          ],
+          "success_chars": 54
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            35
+          ],
+          "success_chars": 52
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            50
+          ],
+          "success_chars": 45
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            17
+          ],
+          "success_chars": 53
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            20
+          ],
+          "success_chars": 52
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            28
+          ],
+          "success_chars": 43
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            25
+          ],
+          "success_chars": 57
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            29
+          ],
+          "success_chars": 41
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            29
+          ],
+          "success_chars": 50
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            27
+          ],
+          "success_chars": 53
+        }
+      }
+    },
+    {
+      "title": "万界通告，哨兵阵亡",
+      "file": "万界通告，哨兵阵亡.txt",
+      "real_rating": 7.4,
+      "rubric_score": 7.4,
+      "rubric_scores": [
+        7.4
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "脑洞新颖": 8,
+        "节奏密度": 7,
+        "人设反差": 8,
+        "爽感逻辑": 6,
+        "悬念嵌套": 7,
+        "对话锋芒": 8,
+        "感官沉浸": 6,
+        "代价显性": 5,
+        "品类自觉": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            17
+          ],
+          "success_chars": 74
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            45
+          ],
+          "success_chars": 56
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            32
+          ],
+          "success_chars": 44
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            22
+          ],
+          "success_chars": 58
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            29
+          ],
+          "success_chars": 59
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            15
+          ],
+          "success_chars": 50
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            5
+          ],
+          "success_chars": 62
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            23
+          ],
+          "success_chars": 43
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            30
+          ],
+          "success_chars": 54
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            24
+          ],
+          "success_chars": 59
+        }
+      }
+    },
+    {
+      "title": "瘫痪后，靠数学改变世界",
+      "file": "瘫痪后，靠数学改变世界.txt",
+      "real_rating": 7.1,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "节奏密度": 6,
+        "人设反差": 7,
+        "爽感逻辑": 5,
+        "悬念嵌套": 5,
+        "对话锋芒": 6,
+        "感官沉浸": 6,
+        "代价显性": 4,
+        "品类自觉": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            23
+          ],
+          "success_chars": 32
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            17
+          ],
+          "success_chars": 34
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            55
+          ],
+          "success_chars": 32
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            23
+          ],
+          "success_chars": 52
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            39
+          ],
+          "success_chars": 58
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            29
+          ],
+          "success_chars": 14
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            18
+          ],
+          "success_chars": 22
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            27
+          ],
+          "success_chars": 52
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            17
+          ],
+          "success_chars": 54
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            22
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "打卡全球，我的技能越来越多",
+      "file": "打卡全球，我的技能越来越多.txt",
+      "real_rating": 7.4,
+      "rubric_score": 5.7,
+      "rubric_scores": [
+        5.7
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "脑洞新颖": 6,
+        "节奏密度": 5,
+        "人设反差": 6,
+        "爽感逻辑": 6,
+        "悬念嵌套": 5,
+        "对话锋芒": 6,
+        "感官沉浸": 5,
+        "代价显性": 4,
+        "品类自觉": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            32
+          ],
+          "success_chars": 41
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            50
+          ],
+          "success_chars": 50
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            40
+          ],
+          "success_chars": 22
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            42
+          ],
+          "success_chars": 56
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            45
+          ],
+          "success_chars": 39
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            52
+          ],
+          "success_chars": 38
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            46
+          ],
+          "success_chars": 43
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            22
+          ],
+          "success_chars": 35
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            39
+          ],
+          "success_chars": 46
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            50
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "主角团天塌了，这个反派正得发邪",
+      "file": "主角团天塌了，这个反派正得发邪.txt",
+      "real_rating": 7.3,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "节奏密度": 7,
+        "人设反差": 6,
+        "爽感逻辑": 6,
+        "悬念嵌套": 5,
+        "对话锋芒": 7,
+        "感官沉浸": 5,
+        "代价显性": 4,
+        "品类自觉": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            42
+          ],
+          "success_chars": 26
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            25
+          ],
+          "success_chars": 52
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            39
+          ],
+          "success_chars": 60
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            41
+          ],
+          "success_chars": 22
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            46
+          ],
+          "success_chars": 49
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            56
+          ],
+          "success_chars": 35
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            36
+          ],
+          "success_chars": 22
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            12
+          ],
+          "success_chars": 17
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            40
+          ],
+          "success_chars": 47
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            11
+          ],
+          "success_chars": 40
+        }
+      }
+    },
+    {
+      "title": "系统：每日一亿，学姐请自重",
+      "file": "系统：每日一亿，学姐请自重.txt",
+      "real_rating": 7.0,
+      "rubric_score": 4.3999999999999995,
+      "rubric_scores": [
+        4.3,
+        4.3,
+        4.6
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "脑洞新颖": 4,
+        "节奏密度": 6,
+        "人设反差": 5,
+        "爽感逻辑": 3,
+        "悬念嵌套": 4,
+        "对话锋芒": 5,
+        "感官沉浸": 5,
+        "代价显性": 2,
+        "品类自觉": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            43
+          ],
+          "success_chars": 27
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            32
+          ],
+          "success_chars": 21
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            60
+          ],
+          "success_chars": 28
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            31
+          ],
+          "success_chars": 28
+        },
+        "爽感逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            38
+          ],
+          "success_chars": 24
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            31
+          ],
+          "success_chars": 20
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            43
+          ],
+          "success_chars": 28
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            28
+          ],
+          "success_chars": 21
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            32
+          ],
+          "success_chars": 20
+        },
+        "品类自觉": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            30
+          ],
+          "success_chars": 24
+        }
+      }
+    }
+  ]
+}

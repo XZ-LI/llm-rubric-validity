@@ -1,0 +1,2308 @@
+{
+  "run_id": "20260911T020032Z-f372ca",
+  "run_utc": "2026-09-11T02:00:32+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "抗战谍战",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 22,
+  "excluded_contaminated": [
+    "军阀：老爹听劝，从旅长杀成大帅.txt",
+    "南华崛起：从桂省搬空到南洋霸主.txt",
+    "少帅不好当，那就当大帅.txt",
+    "民国大宅院里的那些肮脏事.txt",
+    "让你选个身份潜伏，你选推拿大夫.txt",
+    "谍战代号我是废物铁丝网.txt",
+    "谍战：开刀即知，病人全是情报源.txt"
+  ],
+  "results": [
+    {
+      "title": "谍战：从军统特工到关东军新星",
+      "file": "谍战：从军统特工到关东军新星.txt",
+      "real_rating": 8.6,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "身份张力": 6,
+        "时代质感": 5,
+        "机缘代价": 4,
+        "节奏密度": 6,
+        "敌我博弈": 5,
+        "人物弧光": 6,
+        "悬念闭环": 7,
+        "组织生态": 5,
+        "危机嵌套": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            15
+          ],
+          "success_chars": 36
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            20
+          ],
+          "success_chars": 38
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            6
+          ],
+          "success_chars": 41
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            21
+          ],
+          "success_chars": 20
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            18
+          ],
+          "success_chars": 38
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            8
+          ],
+          "success_chars": 34
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            24
+          ],
+          "success_chars": 26
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            24
+          ],
+          "success_chars": 24
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            14
+          ],
+          "success_chars": 31
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            31
+          ],
+          "success_chars": 17
+        }
+      }
+    },
+    {
+      "title": "黄埔：我才是土木系",
+      "file": "黄埔：我才是土木系.txt",
+      "real_rating": 8.6,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "身份张力": 5,
+        "时代质感": 6,
+        "机缘代价": 3,
+        "节奏密度": 5,
+        "敌我博弈": 4,
+        "人物弧光": 5,
+        "悬念闭环": 5,
+        "组织生态": 6,
+        "危机嵌套": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            65,
+            68
+          ],
+          "success_chars": 32
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            57
+          ],
+          "success_chars": 45
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            11
+          ],
+          "success_chars": 38
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            57
+          ],
+          "success_chars": 46
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            13
+          ],
+          "success_chars": 50
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            22
+          ],
+          "success_chars": 45
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            68,
+            28
+          ],
+          "success_chars": 21
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            25
+          ],
+          "success_chars": 13
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            30
+          ],
+          "success_chars": 39
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            14
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "淞沪：鬼子懵了这么强是保安团？",
+      "file": "淞沪：鬼子懵了这么强是保安团？.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "身份张力": 6,
+        "时代质感": 7,
+        "机缘代价": 4,
+        "节奏密度": 6,
+        "敌我博弈": 5,
+        "人物弧光": 6,
+        "悬念闭环": 5,
+        "组织生态": 5,
+        "危机嵌套": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            45
+          ],
+          "success_chars": 28
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            36
+          ],
+          "success_chars": 12
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            16
+          ],
+          "success_chars": 35
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            23
+          ],
+          "success_chars": 12
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            34
+          ],
+          "success_chars": 25
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            27
+          ],
+          "success_chars": 27
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            10
+          ],
+          "success_chars": 11
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            5
+          ],
+          "success_chars": 33
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            23
+          ],
+          "success_chars": 36
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            31
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "开局兵变，桂军南下东南亚",
+      "file": "开局兵变，桂军南下东南亚.txt",
+      "real_rating": 8.2,
+      "rubric_score": 4.3,
+      "rubric_scores": [
+        4.3
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "身份张力": 5,
+        "时代质感": 3,
+        "机缘代价": 2,
+        "节奏密度": 6,
+        "敌我博弈": 4,
+        "人物弧光": 5,
+        "悬念闭环": 5,
+        "组织生态": 4,
+        "危机嵌套": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            27
+          ],
+          "success_chars": 30
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            16
+          ],
+          "success_chars": 15
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            47
+          ],
+          "success_chars": 50
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            18
+          ],
+          "success_chars": 72
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            47
+          ],
+          "success_chars": 36
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            23
+          ],
+          "success_chars": 41
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            45
+          ],
+          "success_chars": 34
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            15
+          ],
+          "success_chars": 33
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            33
+          ],
+          "success_chars": 29
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            10
+          ],
+          "success_chars": 42
+        }
+      }
+    },
+    {
+      "title": "亮剑到人民的名义，我来当靠山",
+      "file": "亮剑到人民的名义，我来当靠山.txt",
+      "real_rating": 8.4,
+      "rubric_score": 5.333333333333334,
+      "rubric_scores": [
+        5.2,
+        5.4,
+        5.4
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "身份张力": 4,
+        "时代质感": 6,
+        "机缘代价": 3,
+        "节奏密度": 7,
+        "敌我博弈": 5,
+        "人物弧光": 6,
+        "悬念闭环": 4,
+        "组织生态": 6,
+        "危机嵌套": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            11
+          ],
+          "success_chars": 35
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            67,
+            18
+          ],
+          "success_chars": 33
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            5
+          ],
+          "success_chars": 31
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            24
+          ],
+          "success_chars": 33
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            27
+          ],
+          "success_chars": 31
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            19
+          ],
+          "success_chars": 24
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            34
+          ],
+          "success_chars": 33
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            23
+          ],
+          "success_chars": 29
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            12
+          ],
+          "success_chars": 24
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            8
+          ],
+          "success_chars": 37
+        }
+      }
+    },
+    {
+      "title": "抗战：禁止投降！国家队接管战场",
+      "file": "抗战：禁止投降！国家队接管战场.txt",
+      "real_rating": 8.5,
+      "rubric_score": 4.7,
+      "rubric_scores": [
+        4.7
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "身份张力": 4,
+        "时代质感": 3,
+        "机缘代价": 5,
+        "节奏密度": 5,
+        "敌我博弈": 3,
+        "人物弧光": 4,
+        "悬念闭环": 5,
+        "组织生态": 4,
+        "危机嵌套": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            8
+          ],
+          "success_chars": 9
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            10
+          ],
+          "success_chars": 8
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            9
+          ],
+          "success_chars": 7
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            8
+          ],
+          "success_chars": 8
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            8
+          ],
+          "success_chars": 9
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            7
+          ],
+          "success_chars": 8
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            10
+          ],
+          "success_chars": 9
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            9
+          ],
+          "success_chars": 8
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            9
+          ],
+          "success_chars": 8
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            7
+          ],
+          "success_chars": 9
+        }
+      }
+    },
+    {
+      "title": "军阀圈传来噩耗，此人毫无下限",
+      "file": "军阀圈传来噩耗，此人毫无下限.txt",
+      "real_rating": 8.1,
+      "rubric_score": 4.3,
+      "rubric_scores": [
+        4.3
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "身份张力": 3,
+        "时代质感": 5,
+        "机缘代价": 2,
+        "节奏密度": 4,
+        "敌我博弈": 5,
+        "人物弧光": 6,
+        "悬念闭环": 3,
+        "组织生态": 5,
+        "危机嵌套": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            33
+          ],
+          "success_chars": 37
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            38
+          ],
+          "success_chars": 20
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            5
+          ],
+          "success_chars": 31
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            23
+          ],
+          "success_chars": 14
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            16
+          ],
+          "success_chars": 35
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            27
+          ],
+          "success_chars": 33
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            17
+          ],
+          "success_chars": 50
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            15
+          ],
+          "success_chars": 31
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            27
+          ],
+          "success_chars": 30
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            11
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "大兵团作战，李云龙你注意一下！",
+      "file": "大兵团作战，李云龙你注意一下！.txt",
+      "real_rating": 8.1,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "身份张力": 3,
+        "时代质感": 5,
+        "机缘代价": 2,
+        "节奏密度": 5,
+        "敌我博弈": 4,
+        "人物弧光": 3,
+        "悬念闭环": 4,
+        "组织生态": 6,
+        "危机嵌套": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            23
+          ],
+          "success_chars": 17
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            33
+          ],
+          "success_chars": 33
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            21
+          ],
+          "success_chars": 27
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            24
+          ],
+          "success_chars": 41
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            34
+          ],
+          "success_chars": 39
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            30
+          ],
+          "success_chars": 40
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            23
+          ],
+          "success_chars": 36
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            7
+          ],
+          "success_chars": 13
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            21
+          ],
+          "success_chars": 35
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            18
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "让你考黄埔，你成军阀横推列强？",
+      "file": "让你考黄埔，你成军阀横推列强？.txt",
+      "real_rating": 7.9,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "身份张力": 4,
+        "时代质感": 6,
+        "机缘代价": 3,
+        "节奏密度": 5,
+        "敌我博弈": 2,
+        "人物弧光": 6,
+        "悬念闭环": 4,
+        "组织生态": 3,
+        "危机嵌套": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            39
+          ],
+          "success_chars": 33
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            33
+          ],
+          "success_chars": 41
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            17
+          ],
+          "success_chars": 39
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            15
+          ],
+          "success_chars": 14
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            21
+          ],
+          "success_chars": 23
+        },
+        "敌我博弈": {
+          "n_failures": 3,
+          "failure_chars": [
+            11,
+            38,
+            17
+          ],
+          "success_chars": 34
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            15
+          ],
+          "success_chars": 18
+        },
+        "悬念闭环": {
+          "n_failures": 3,
+          "failure_chars": [
+            11,
+            14,
+            15
+          ],
+          "success_chars": 22
+        },
+        "组织生态": {
+          "n_failures": 3,
+          "failure_chars": [
+            13,
+            11,
+            12
+          ],
+          "success_chars": 17
+        },
+        "危机嵌套": {
+          "n_failures": 3,
+          "failure_chars": [
+            33,
+            23,
+            12
+          ],
+          "success_chars": 46
+        }
+      }
+    },
+    {
+      "title": "鬼子投降！我签完投降书签受降书",
+      "file": "鬼子投降！我签完投降书签受降书.txt",
+      "real_rating": 7.9,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "身份张力": 5,
+        "时代质感": 6,
+        "机缘代价": 3,
+        "节奏密度": 7,
+        "敌我博弈": 5,
+        "人物弧光": 4,
+        "悬念闭环": 6,
+        "组织生态": 5,
+        "危机嵌套": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            39
+          ],
+          "success_chars": 26
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            59
+          ],
+          "success_chars": 46
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            14
+          ],
+          "success_chars": 22
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            43
+          ],
+          "success_chars": 25
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            14
+          ],
+          "success_chars": 29
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            31
+          ],
+          "success_chars": 41
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            31
+          ],
+          "success_chars": 49
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            16
+          ],
+          "success_chars": 51
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            13
+          ],
+          "success_chars": 30
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            27
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "上交系统，以举国之力护长征先辈",
+      "file": "上交系统，以举国之力护长征先辈.txt",
+      "real_rating": 8.0,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "身份张力": 5,
+        "时代质感": 7,
+        "机缘代价": 6,
+        "节奏密度": 5,
+        "敌我博弈": 4,
+        "人物弧光": 6,
+        "悬念闭环": 7,
+        "组织生态": 5,
+        "危机嵌套": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            41
+          ],
+          "success_chars": 19
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            24
+          ],
+          "success_chars": 24
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            9
+          ],
+          "success_chars": 48
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            37
+          ],
+          "success_chars": 27
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            43
+          ],
+          "success_chars": 39
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            35
+          ],
+          "success_chars": 25
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            20
+          ],
+          "success_chars": 25
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            30
+          ],
+          "success_chars": 40
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            27
+          ],
+          "success_chars": 25
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            23
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "抗战：上万人？你管这叫一个营？",
+      "file": "抗战：上万人？你管这叫一个营？.txt",
+      "real_rating": 7.8,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8,
+        4.8,
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "身份张力": 4,
+        "时代质感": 5,
+        "机缘代价": 3,
+        "节奏密度": 6,
+        "敌我博弈": 4,
+        "人物弧光": 5,
+        "悬念闭环": 5,
+        "组织生态": 4,
+        "危机嵌套": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            34
+          ],
+          "success_chars": 44
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            33
+          ],
+          "success_chars": 54
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            7
+          ],
+          "success_chars": 23
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            27
+          ],
+          "success_chars": 83
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            17
+          ],
+          "success_chars": 38
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            15
+          ],
+          "success_chars": 40
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            30
+          ],
+          "success_chars": 80
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            8
+          ],
+          "success_chars": 22
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            25
+          ],
+          "success_chars": 36
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            31
+          ],
+          "success_chars": 47
+        }
+      }
+    },
+    {
+      "title": "抗战：我一个黄埔生投共很合理吧",
+      "file": "抗战：我一个黄埔生投共很合理吧.txt",
+      "real_rating": 8.0,
+      "rubric_score": 7.133333333333333,
+      "rubric_scores": [
+        7.2,
+        7.1,
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "身份张力": 7,
+        "时代质感": 6,
+        "机缘代价": 5,
+        "节奏密度": 8,
+        "敌我博弈": 7,
+        "人物弧光": 6,
+        "悬念闭环": 8,
+        "组织生态": 7,
+        "危机嵌套": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            53
+          ],
+          "success_chars": 73
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            52
+          ],
+          "success_chars": 90
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            58
+          ],
+          "success_chars": 59
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            62
+          ],
+          "success_chars": 60
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            58
+          ],
+          "success_chars": 46
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            66,
+            56
+          ],
+          "success_chars": 52
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            61,
+            37
+          ],
+          "success_chars": 64
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            52
+          ],
+          "success_chars": 71
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            60
+          ],
+          "success_chars": 85
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            41
+          ],
+          "success_chars": 44
+        }
+      }
+    },
+    {
+      "title": "风流二狗：我在乱世开了挂",
+      "file": "风流二狗：我在乱世开了挂.txt",
+      "real_rating": 7.9,
+      "rubric_score": 2.6,
+      "rubric_scores": [
+        2.6
+      ],
+      "dimensions": {
+        "钩子强度": 3,
+        "身份张力": 2,
+        "时代质感": 4,
+        "机缘代价": 1,
+        "节奏密度": 3,
+        "敌我博弈": 2,
+        "人物弧光": 3,
+        "悬念闭环": 2,
+        "组织生态": 2,
+        "危机嵌套": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            23
+          ],
+          "success_chars": 31
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            19
+          ],
+          "success_chars": 34
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            16
+          ],
+          "success_chars": 47
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            21
+          ],
+          "success_chars": 13
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            20
+          ],
+          "success_chars": 29
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            27
+          ],
+          "success_chars": 17
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            22
+          ],
+          "success_chars": 25
+        },
+        "悬念闭环": {
+          "n_failures": 3,
+          "failure_chars": [
+            5,
+            11,
+            13
+          ],
+          "success_chars": 26
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            26
+          ],
+          "success_chars": 29
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            23
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "黄埔最强毕业生，打造第一强军",
+      "file": "黄埔最强毕业生，打造第一强军.txt",
+      "real_rating": 7.6,
+      "rubric_score": 4.7,
+      "rubric_scores": [
+        4.7
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "身份张力": 5,
+        "时代质感": 6,
+        "机缘代价": 3,
+        "节奏密度": 5,
+        "敌我博弈": 2,
+        "人物弧光": 5,
+        "悬念闭环": 3,
+        "组织生态": 6,
+        "危机嵌套": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            26
+          ],
+          "success_chars": 38
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            26
+          ],
+          "success_chars": 35
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            27
+          ],
+          "success_chars": 27
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            14
+          ],
+          "success_chars": 30
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            27
+          ],
+          "success_chars": 19
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            42
+          ],
+          "success_chars": 34
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            17
+          ],
+          "success_chars": 31
+        },
+        "悬念闭环": {
+          "n_failures": 3,
+          "failure_chars": [
+            7,
+            35,
+            13
+          ],
+          "success_chars": 34
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            22
+          ],
+          "success_chars": 27
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            20
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "抗战：燕大毕业生，手握原始股！",
+      "file": "抗战：燕大毕业生，手握原始股！.txt",
+      "real_rating": 7.6,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "身份张力": 5,
+        "时代质感": 6,
+        "机缘代价": 3,
+        "节奏密度": 5,
+        "敌我博弈": 4,
+        "人物弧光": 5,
+        "悬念闭环": 4,
+        "组织生态": 6,
+        "危机嵌套": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            14
+          ],
+          "success_chars": 59
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            17
+          ],
+          "success_chars": 68
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            13
+          ],
+          "success_chars": 38
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            8
+          ],
+          "success_chars": 10
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            11
+          ],
+          "success_chars": 59
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            18
+          ],
+          "success_chars": 27
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            31
+          ],
+          "success_chars": 41
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            19
+          ],
+          "success_chars": 32
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            21
+          ],
+          "success_chars": 50
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            10
+          ],
+          "success_chars": 61
+        }
+      }
+    },
+    {
+      "title": "抗战：接个电话，连升九级！",
+      "file": "抗战：接个电话，连升九级！.txt",
+      "real_rating": 7.7,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "身份张力": 3,
+        "时代质感": 5,
+        "机缘代价": 2,
+        "节奏密度": 5,
+        "敌我博弈": 3,
+        "人物弧光": 4,
+        "悬念闭环": 3,
+        "组织生态": 4,
+        "危机嵌套": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            26
+          ],
+          "success_chars": 23
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            27
+          ],
+          "success_chars": 15
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            24
+          ],
+          "success_chars": 15
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            42
+          ],
+          "success_chars": 24
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            43
+          ],
+          "success_chars": 12
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            18
+          ],
+          "success_chars": 47
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            13
+          ],
+          "success_chars": 10
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            11
+          ],
+          "success_chars": 41
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            21
+          ],
+          "success_chars": 40
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            10
+          ],
+          "success_chars": 42
+        }
+      }
+    },
+    {
+      "title": "民国内战，你在西北搞工业？",
+      "file": "民国内战，你在西北搞工业？.txt",
+      "real_rating": 7.4,
+      "rubric_score": 7.2,
+      "rubric_scores": [
+        6.8,
+        7.6,
+        7.2
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "身份张力": 5,
+        "时代质感": 9,
+        "机缘代价": 6,
+        "节奏密度": 8,
+        "敌我博弈": 6,
+        "人物弧光": 7,
+        "悬念闭环": 5,
+        "组织生态": 7,
+        "危机嵌套": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            36
+          ],
+          "success_chars": 43
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            14
+          ],
+          "success_chars": 40
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            5
+          ],
+          "success_chars": 53
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            26
+          ],
+          "success_chars": 27
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            38
+          ],
+          "success_chars": 31
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            27
+          ],
+          "success_chars": 48
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            20
+          ],
+          "success_chars": 35
+        },
+        "悬念闭环": {
+          "n_failures": 3,
+          "failure_chars": [
+            8,
+            24,
+            19
+          ],
+          "success_chars": 34
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            25
+          ],
+          "success_chars": 39
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            13
+          ],
+          "success_chars": 9
+        }
+      }
+    },
+    {
+      "title": "吊打韩复榘，开局拿下山东王",
+      "file": "吊打韩复榘，开局拿下山东王.txt",
+      "real_rating": 7.2,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "身份张力": 5,
+        "时代质感": 7,
+        "机缘代价": 4,
+        "节奏密度": 6,
+        "敌我博弈": 6,
+        "人物弧光": 5,
+        "悬念闭环": 5,
+        "组织生态": 7,
+        "危机嵌套": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            40
+          ],
+          "success_chars": 20
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            22
+          ],
+          "success_chars": 29
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            5
+          ],
+          "success_chars": 47
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            29
+          ],
+          "success_chars": 20
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            35
+          ],
+          "success_chars": 23
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            13
+          ],
+          "success_chars": 55
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            24
+          ],
+          "success_chars": 5
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            4,
+            19
+          ],
+          "success_chars": 20
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            17
+          ],
+          "success_chars": 40
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            23
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "家兄陈辞修，土木系来了个大狠人",
+      "file": "家兄陈辞修，土木系来了个大狠人.txt",
+      "real_rating": 6.7,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.4,
+        4.6,
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "身份张力": 6,
+        "时代质感": 7,
+        "机缘代价": 4,
+        "节奏密度": 5,
+        "敌我博弈": 3,
+        "人物弧光": 6,
+        "悬念闭环": 4,
+        "组织生态": 7,
+        "危机嵌套": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            30
+          ],
+          "success_chars": 35
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            24
+          ],
+          "success_chars": 38
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            28
+          ],
+          "success_chars": 22
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            27
+          ],
+          "success_chars": 27
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            33
+          ],
+          "success_chars": 51
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            24
+          ],
+          "success_chars": 26
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            9
+          ],
+          "success_chars": 34
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            2,
+            7
+          ],
+          "success_chars": 47
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            24
+          ],
+          "success_chars": 20
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            27
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "抗日：同为黄埔人，你怎有百万人",
+      "file": "抗日：同为黄埔人，你怎有百万人.txt",
+      "real_rating": 7.3,
+      "rubric_score": 4.3,
+      "rubric_scores": [
+        4.3
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "身份张力": 3,
+        "时代质感": 5,
+        "机缘代价": 2,
+        "节奏密度": 5,
+        "敌我博弈": 4,
+        "人物弧光": 3,
+        "悬念闭环": 4,
+        "组织生态": 6,
+        "危机嵌套": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            40
+          ],
+          "success_chars": 52
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            20
+          ],
+          "success_chars": 46
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            27
+          ],
+          "success_chars": 26
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            42
+          ],
+          "success_chars": 46
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            23
+          ],
+          "success_chars": 46
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            15
+          ],
+          "success_chars": 54
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            33
+          ],
+          "success_chars": 49
+        },
+        "悬念闭环": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            24
+          ],
+          "success_chars": 21
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            35
+          ],
+          "success_chars": 54
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            39
+          ],
+          "success_chars": 45
+        }
+      }
+    },
+    {
+      "title": "淞沪：说好单兵支援，国家都来了",
+      "file": "淞沪：说好单兵支援，国家都来了.txt",
+      "real_rating": 7.1,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "身份张力": 3,
+        "时代质感": 2,
+        "机缘代价": 3,
+        "节奏密度": 5,
+        "敌我博弈": 6,
+        "人物弧光": 4,
+        "悬念闭环": 3,
+        "组织生态": 3,
+        "危机嵌套": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            29
+          ],
+          "success_chars": 15
+        },
+        "身份张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            18
+          ],
+          "success_chars": 12
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            18
+          ],
+          "success_chars": 16
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            12
+          ],
+          "success_chars": 15
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            19
+          ],
+          "success_chars": 22
+        },
+        "敌我博弈": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            15
+          ],
+          "success_chars": 13
+        },
+        "人物弧光": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            7
+          ],
+          "success_chars": 6
+        },
+        "悬念闭环": {
+          "n_failures": 3,
+          "failure_chars": [
+            13,
+            11,
+            9
+          ],
+          "success_chars": 9
+        },
+        "组织生态": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            14
+          ],
+          "success_chars": 12
+        },
+        "危机嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            14
+          ],
+          "success_chars": 14
+        }
+      }
+    }
+  ]
+}

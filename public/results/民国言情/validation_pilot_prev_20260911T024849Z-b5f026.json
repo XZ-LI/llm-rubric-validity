@@ -1,0 +1,1818 @@
+{
+  "category": "民国言情",
+  "source_dir": "Nvpin",
+  "reviewer_model": "o3",
+  "output_spec": "lean",
+  "n": 18,
+  "excluded_contaminated": [
+    "我在1949年资本大小姐的生活.txt",
+    "我的妹妹，只能我来管.txt",
+    "春魁血.txt",
+    "染指枭雄.txt",
+    "烽火佳人.txt",
+    "相思入骨犹不知.txt",
+    "绮靡.txt"
+  ],
+  "results": [
+    {
+      "title": "谍战不严谨？不，其实我就是外挂",
+      "file": "谍战不严谨？不，其实我就是外挂.txt",
+      "real_rating": 9.3,
+      "rubric_score": 5.6,
+      "dimensions": {
+        "钩子": 4,
+        "矛盾": 5,
+        "节奏": 5,
+        "人设": 6,
+        "场景": 7,
+        "对话": 6,
+        "悬念": 6,
+        "情感": 6,
+        "民味": 7,
+        "翻转": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            23
+          ],
+          "success_chars": 31
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            29
+          ],
+          "success_chars": 31
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            33
+          ],
+          "success_chars": 41
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            25
+          ],
+          "success_chars": 33
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            23
+          ],
+          "success_chars": 48
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            63,
+            48
+          ],
+          "success_chars": 25
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            44
+          ],
+          "success_chars": 34
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            26
+          ],
+          "success_chars": 35
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            37
+          ],
+          "success_chars": 28
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            26
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "穿书四零：开局就剩妹妹带娃逃命",
+      "file": "穿书四零：开局就剩妹妹带娃逃命.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.2,
+      "dimensions": {
+        "钩子": 7,
+        "矛盾": 6,
+        "节奏": 5,
+        "人设": 5,
+        "场景": 5,
+        "对话": 4,
+        "悬念": 4,
+        "情感": 6,
+        "民味": 5,
+        "翻转": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            56
+          ],
+          "success_chars": 72
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            51
+          ],
+          "success_chars": 48
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            55
+          ],
+          "success_chars": 44
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            45
+          ],
+          "success_chars": 52
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            36
+          ],
+          "success_chars": 34
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            48
+          ],
+          "success_chars": 35
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            32
+          ],
+          "success_chars": 41
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            44
+          ],
+          "success_chars": 48
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            43
+          ],
+          "success_chars": 37
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            31
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "穿越民国：开局一张饼",
+      "file": "穿越民国：开局一张饼.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.1,
+      "dimensions": {
+        "钩子": 4,
+        "矛盾": 5,
+        "节奏": 4,
+        "人设": 5,
+        "场景": 6,
+        "对话": 5,
+        "悬念": 6,
+        "情感": 5,
+        "民味": 6,
+        "翻转": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            25
+          ],
+          "success_chars": 31
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            26
+          ],
+          "success_chars": 25
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            29
+          ],
+          "success_chars": 31
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            31
+          ],
+          "success_chars": 25
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            24
+          ],
+          "success_chars": 39
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            12
+          ],
+          "success_chars": 34
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            12
+          ],
+          "success_chars": 40
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            20
+          ],
+          "success_chars": 28
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            26
+          ],
+          "success_chars": 44
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            13
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "孤身赴国难",
+      "file": "孤身赴国难.txt",
+      "real_rating": 9.1,
+      "rubric_score": 4.3,
+      "dimensions": {
+        "钩子": 4,
+        "矛盾": 4,
+        "节奏": 3,
+        "人设": 5,
+        "场景": 4,
+        "对话": 4,
+        "悬念": 5,
+        "情感": 6,
+        "民味": 5,
+        "翻转": 2
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            44
+          ],
+          "success_chars": 51
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            48
+          ],
+          "success_chars": 53
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            48
+          ],
+          "success_chars": 29
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            43
+          ],
+          "success_chars": 57
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            21
+          ],
+          "success_chars": 28
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            47
+          ],
+          "success_chars": 40
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            31
+          ],
+          "success_chars": 26
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            31
+          ],
+          "success_chars": 33
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            52
+          ],
+          "success_chars": 40
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            24
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "夫人要离婚？暴戾少帅夜夜来堵门",
+      "file": "夫人要离婚？暴戾少帅夜夜来堵门.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.3,
+      "dimensions": {
+        "钩子": 7,
+        "矛盾": 7,
+        "节奏": 6,
+        "人设": 7,
+        "场景": 6,
+        "对话": 6,
+        "悬念": 6,
+        "情感": 6,
+        "民味": 6,
+        "翻转": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            45
+          ],
+          "success_chars": 63
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            34
+          ],
+          "success_chars": 55
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            40
+          ],
+          "success_chars": 41
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            28
+          ],
+          "success_chars": 31
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            25
+          ],
+          "success_chars": 44
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            29
+          ],
+          "success_chars": 35
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            28
+          ],
+          "success_chars": 29
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            29
+          ],
+          "success_chars": 32
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            23
+          ],
+          "success_chars": 36
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            32
+          ],
+          "success_chars": 43
+        }
+      }
+    },
+    {
+      "title": "小奶团萌化啦，督军全家抢着吸崽",
+      "file": "小奶团萌化啦，督军全家抢着吸崽.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.2,
+      "dimensions": {
+        "钩子": 6,
+        "矛盾": 6,
+        "节奏": 7,
+        "人设": 7,
+        "场景": 6,
+        "对话": 6,
+        "悬念": 6,
+        "情感": 7,
+        "民味": 6,
+        "翻转": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            51
+          ],
+          "success_chars": 50
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            38
+          ],
+          "success_chars": 36
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            19
+          ],
+          "success_chars": 32
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            25
+          ],
+          "success_chars": 36
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            36
+          ],
+          "success_chars": 26
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            29
+          ],
+          "success_chars": 29
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            28
+          ],
+          "success_chars": 27
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            27
+          ],
+          "success_chars": 30
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            32
+          ],
+          "success_chars": 31
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            23
+          ],
+          "success_chars": 27
+        }
+      }
+    },
+    {
+      "title": "惊！怂包把暴戾督军强制爱了",
+      "file": "惊！怂包把暴戾督军强制爱了.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.6,
+      "dimensions": {
+        "钩子": 8,
+        "矛盾": 7,
+        "节奏": 6,
+        "人设": 7,
+        "场景": 6,
+        "对话": 6,
+        "悬念": 8,
+        "情感": 6,
+        "民味": 5,
+        "翻转": 7
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            26
+          ],
+          "success_chars": 20
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            27
+          ],
+          "success_chars": 33
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            64,
+            16
+          ],
+          "success_chars": 28
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            38
+          ],
+          "success_chars": 28
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            23
+          ],
+          "success_chars": 35
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            14
+          ],
+          "success_chars": 23
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            23
+          ],
+          "success_chars": 21
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            33
+          ],
+          "success_chars": 26
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            29
+          ],
+          "success_chars": 31
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            21
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "抗战：我是全军后勤大主任",
+      "file": "抗战：我是全军后勤大主任.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.0,
+      "dimensions": {
+        "钩子": 6,
+        "矛盾": 5,
+        "节奏": 4,
+        "人设": 5,
+        "场景": 4,
+        "对话": 5,
+        "悬念": 6,
+        "情感": 5,
+        "民味": 4,
+        "翻转": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            19
+          ],
+          "success_chars": 34
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            31
+          ],
+          "success_chars": 44
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            31
+          ],
+          "success_chars": 45
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            25
+          ],
+          "success_chars": 45
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            20
+          ],
+          "success_chars": 39
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            19
+          ],
+          "success_chars": 39
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            24
+          ],
+          "success_chars": 41
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            21
+          ],
+          "success_chars": 35
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            20
+          ],
+          "success_chars": 34
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            19
+          ],
+          "success_chars": 45
+        }
+      }
+    },
+    {
+      "title": "人在民国，疯狂吸取气运",
+      "file": "人在民国，疯狂吸取气运.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.8,
+      "dimensions": {
+        "钩子": 7,
+        "矛盾": 7,
+        "节奏": 5,
+        "人设": 6,
+        "场景": 6,
+        "对话": 5,
+        "悬念": 6,
+        "情感": 5,
+        "民味": 5,
+        "翻转": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            36
+          ],
+          "success_chars": 31
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            73,
+            39
+          ],
+          "success_chars": 52
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            39
+          ],
+          "success_chars": 39
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            36
+          ],
+          "success_chars": 30
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            35
+          ],
+          "success_chars": 35
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            39
+          ],
+          "success_chars": 34
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            36
+          ],
+          "success_chars": 35
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            31
+          ],
+          "success_chars": 31
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            44
+          ],
+          "success_chars": 33
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            33
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "阮家有女，裴心独钟",
+      "file": "阮家有女，裴心独钟.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.1,
+      "dimensions": {
+        "钩子": 3,
+        "矛盾": 4,
+        "节奏": 5,
+        "人设": 6,
+        "场景": 8,
+        "对话": 5,
+        "悬念": 4,
+        "情感": 6,
+        "民味": 7,
+        "翻转": 3
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            57
+          ],
+          "success_chars": 56
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            33
+          ],
+          "success_chars": 45
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            44
+          ],
+          "success_chars": 34
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            31
+          ],
+          "success_chars": 40
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            32
+          ],
+          "success_chars": 41
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            29
+          ],
+          "success_chars": 41
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            27
+          ],
+          "success_chars": 26
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            30
+          ],
+          "success_chars": 31
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            37
+          ],
+          "success_chars": 41
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            28
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "功勋系统：三面女谍卧底嘎嘎乱杀",
+      "file": "功勋系统：三面女谍卧底嘎嘎乱杀.txt",
+      "real_rating": 8.2,
+      "rubric_score": 5.2,
+      "dimensions": {
+        "钩子": 6,
+        "矛盾": 7,
+        "节奏": 5,
+        "人设": 5,
+        "场景": 5,
+        "对话": 4,
+        "悬念": 6,
+        "情感": 4,
+        "民味": 4,
+        "翻转": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            65
+          ],
+          "success_chars": 67
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            62
+          ],
+          "success_chars": 41
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            43
+          ],
+          "success_chars": 30
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            63,
+            40
+          ],
+          "success_chars": 31
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            63,
+            31
+          ],
+          "success_chars": 29
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            42
+          ],
+          "success_chars": 31
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            27
+          ],
+          "success_chars": 34
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            25
+          ],
+          "success_chars": 32
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            24
+          ],
+          "success_chars": 32
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            29
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "柔弱小护士？屁！她是战场活阎王",
+      "file": "柔弱小护士？屁！她是战场活阎王.txt",
+      "real_rating": 8.2,
+      "rubric_score": 7.1,
+      "dimensions": {
+        "钩子": 8,
+        "矛盾": 8,
+        "节奏": 7,
+        "人设": 7,
+        "场景": 7,
+        "对话": 6,
+        "悬念": 7,
+        "情感": 6,
+        "民味": 8,
+        "翻转": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            12
+          ],
+          "success_chars": 13
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            38
+          ],
+          "success_chars": 34
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            20
+          ],
+          "success_chars": 33
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            33
+          ],
+          "success_chars": 44
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            23
+          ],
+          "success_chars": 28
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            18
+          ],
+          "success_chars": 15
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            7
+          ],
+          "success_chars": 26
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            4
+          ],
+          "success_chars": 25
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            10
+          ],
+          "success_chars": 37
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            36
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "碎瓷金缮",
+      "file": "碎瓷金缮.txt",
+      "real_rating": 7.9,
+      "rubric_score": 7.5,
+      "dimensions": {
+        "钩子": 7,
+        "矛盾": 8,
+        "节奏": 7,
+        "人设": 8,
+        "场景": 8,
+        "对话": 7,
+        "悬念": 8,
+        "情感": 7,
+        "民味": 8,
+        "翻转": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            26
+          ],
+          "success_chars": 34
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            39
+          ],
+          "success_chars": 33
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            41
+          ],
+          "success_chars": 37
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            35
+          ],
+          "success_chars": 32
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            29
+          ],
+          "success_chars": 48
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            12
+          ],
+          "success_chars": 13
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            19
+          ],
+          "success_chars": 23
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            28
+          ],
+          "success_chars": 32
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            38
+          ],
+          "success_chars": 25
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            12
+          ],
+          "success_chars": 44
+        }
+      }
+    },
+    {
+      "title": "上海滩1937，阳光下的死神",
+      "file": "上海滩1937，阳光下的死神.txt",
+      "real_rating": 7.6,
+      "rubric_score": 6.0,
+      "dimensions": {
+        "钩子": 7,
+        "矛盾": 7,
+        "节奏": 6,
+        "人设": 6,
+        "场景": 6,
+        "对话": 5,
+        "悬念": 7,
+        "情感": 5,
+        "民味": 5,
+        "翻转": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            44
+          ],
+          "success_chars": 24
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            19
+          ],
+          "success_chars": 40
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            31
+          ],
+          "success_chars": 42
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            45
+          ],
+          "success_chars": 23
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            24
+          ],
+          "success_chars": 32
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            28
+          ],
+          "success_chars": 29
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            27
+          ],
+          "success_chars": 40
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            51
+          ],
+          "success_chars": 39
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            24
+          ],
+          "success_chars": 27
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            40
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "抗战萌娃，全网投喂有意志的钢铁",
+      "file": "抗战萌娃，全网投喂有意志的钢铁.txt",
+      "real_rating": 7.5,
+      "rubric_score": 7.3,
+      "dimensions": {
+        "钩子": 8,
+        "矛盾": 8,
+        "节奏": 7,
+        "人设": 6,
+        "场景": 7,
+        "对话": 7,
+        "悬念": 8,
+        "情感": 8,
+        "民味": 7,
+        "翻转": 7
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            34
+          ],
+          "success_chars": 29
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            34
+          ],
+          "success_chars": 32
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            2
+          ],
+          "success_chars": 26
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            28
+          ],
+          "success_chars": 22
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            23
+          ],
+          "success_chars": 21
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            13
+          ],
+          "success_chars": 23
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            19
+          ],
+          "success_chars": 31
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            13
+          ],
+          "success_chars": 31
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            9
+          ],
+          "success_chars": 34
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            16
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "从风雨飘零到山河锦绣",
+      "file": "从风雨飘零到山河锦绣.txt",
+      "real_rating": 7.4,
+      "rubric_score": 5.0,
+      "dimensions": {
+        "钩子": 6,
+        "矛盾": 4,
+        "节奏": 5,
+        "人设": 5,
+        "场景": 6,
+        "对话": 5,
+        "悬念": 5,
+        "情感": 6,
+        "民味": 4,
+        "翻转": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            51
+          ],
+          "success_chars": 47
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            49
+          ],
+          "success_chars": 50
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            37
+          ],
+          "success_chars": 54
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            41
+          ],
+          "success_chars": 33
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            40
+          ],
+          "success_chars": 44
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            33
+          ],
+          "success_chars": 40
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            36
+          ],
+          "success_chars": 48
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            35
+          ],
+          "success_chars": 48
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            39
+          ],
+          "success_chars": 40
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            35
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "苦娘",
+      "file": "苦娘.txt",
+      "real_rating": 7.4,
+      "rubric_score": 4.3,
+      "dimensions": {
+        "钩子": 4,
+        "矛盾": 3,
+        "节奏": 5,
+        "人设": 5,
+        "场景": 5,
+        "对话": 4,
+        "悬念": 4,
+        "情感": 6,
+        "民味": 4,
+        "翻转": 3
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            53
+          ],
+          "success_chars": 66
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            63
+          ],
+          "success_chars": 32
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            24
+          ],
+          "success_chars": 35
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            33
+          ],
+          "success_chars": 35
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            29
+          ],
+          "success_chars": 33
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            32
+          ],
+          "success_chars": 38
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            28
+          ],
+          "success_chars": 36
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            29
+          ],
+          "success_chars": 38
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            35
+          ],
+          "success_chars": 30
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            26
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "藏起孕肚死遁，少帅满城发疯找",
+      "file": "藏起孕肚死遁，少帅满城发疯找.txt",
+      "real_rating": 6.6,
+      "rubric_score": 6.5,
+      "dimensions": {
+        "钩子": 8,
+        "矛盾": 7,
+        "节奏": 6,
+        "人设": 6,
+        "场景": 7,
+        "对话": 5,
+        "悬念": 7,
+        "情感": 6,
+        "民味": 6,
+        "翻转": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            49
+          ],
+          "success_chars": 34
+        },
+        "矛盾": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            19
+          ],
+          "success_chars": 47
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            46
+          ],
+          "success_chars": 39
+        },
+        "人设": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            25
+          ],
+          "success_chars": 46
+        },
+        "场景": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            51
+          ],
+          "success_chars": 47
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            26
+          ],
+          "success_chars": 30
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            31
+          ],
+          "success_chars": 28
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            22
+          ],
+          "success_chars": 40
+        },
+        "民味": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            33
+          ],
+          "success_chars": 32
+        },
+        "翻转": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            24
+          ],
+          "success_chars": 32
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,2417 @@
+{
+  "run_id": "20260911T015300Z-fb38b0",
+  "run_utc": "2026-09-11T01:53:00+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "悬疑灵异",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "地府叫我小先生.txt",
+    "执法剑荡阴阳，我为世间唯一天师.txt",
+    "让你契约鬼，你契约钟馗？.txt",
+    "请叫我鬼差大人.txt",
+    "身具万千厉鬼，我归来即人间最强.txt",
+    "这个出马仙有点强！.txt",
+    "重生刑警，我开网吧炒房躺平了.txt"
+  ],
+  "results": [
+    {
+      "title": "凶手：你不要过来呀！",
+      "file": "凶手：你不要过来呀！.txt",
+      "real_rating": 9.4,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "灵异真实感": 4,
+        "节奏张力": 5,
+        "人物动机": 7,
+        "悬念设计": 6,
+        "代价呈现": 3,
+        "画面冲击": 5,
+        "世界观融合": 6,
+        "对话功能": 5,
+        "反转合理性": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            34
+          ],
+          "success_chars": 43
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            17
+          ],
+          "success_chars": 34
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            23
+          ],
+          "success_chars": 26
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            19
+          ],
+          "success_chars": 42
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            13
+          ],
+          "success_chars": 24
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            13
+          ],
+          "success_chars": 26
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            14
+          ],
+          "success_chars": 45
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            14
+          ],
+          "success_chars": 52
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            21
+          ],
+          "success_chars": 37
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            12
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "只杀不渡，这个道士正到发邪！",
+      "file": "只杀不渡，这个道士正到发邪！.txt",
+      "real_rating": 9.3,
+      "rubric_score": 7.3,
+      "rubric_scores": [
+        6.9,
+        8.1,
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "灵异真实感": 7,
+        "节奏张力": 6,
+        "人物动机": 8,
+        "悬念设计": 7,
+        "代价呈现": 5,
+        "画面冲击": 6,
+        "世界观融合": 8,
+        "对话功能": 7,
+        "反转合理性": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            54
+          ],
+          "success_chars": 19
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            39
+          ],
+          "success_chars": 54
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            29
+          ],
+          "success_chars": 15
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            22
+          ],
+          "success_chars": 38
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            31
+          ],
+          "success_chars": 50
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            19
+          ],
+          "success_chars": 17
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            17
+          ],
+          "success_chars": 34
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            28
+          ],
+          "success_chars": 22
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            20
+          ],
+          "success_chars": 34
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            22
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "午夜当铺，活人回避",
+      "file": "午夜当铺，活人回避.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "灵异真实感": 6,
+        "节奏张力": 6,
+        "人物动机": 7,
+        "悬念设计": 8,
+        "代价呈现": 5,
+        "画面冲击": 7,
+        "世界观融合": 6,
+        "对话功能": 7,
+        "反转合理性": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            29
+          ],
+          "success_chars": 19
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            30
+          ],
+          "success_chars": 28
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            15
+          ],
+          "success_chars": 42
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            31
+          ],
+          "success_chars": 34
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            23
+          ],
+          "success_chars": 43
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            17
+          ],
+          "success_chars": 22
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            15
+          ],
+          "success_chars": 40
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            18
+          ],
+          "success_chars": 18
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            21
+          ],
+          "success_chars": 38
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            17
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "写个童话，铸成诸神黄昏",
+      "file": "写个童话，铸成诸神黄昏.txt",
+      "real_rating": 9.4,
+      "rubric_score": 3.9,
+      "rubric_scores": [
+        3.9
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "灵异真实感": 2,
+        "节奏张力": 5,
+        "人物动机": 6,
+        "悬念设计": 3,
+        "代价呈现": 2,
+        "画面冲击": 3,
+        "世界观融合": 5,
+        "对话功能": 6,
+        "反转合理性": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            38
+          ],
+          "success_chars": 7
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            28
+          ],
+          "success_chars": 58
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            40
+          ],
+          "success_chars": 41
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            44
+          ],
+          "success_chars": 34
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            45
+          ],
+          "success_chars": 18
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            20
+          ],
+          "success_chars": 26
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            30
+          ],
+          "success_chars": 51
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            39
+          ],
+          "success_chars": 45
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            45
+          ],
+          "success_chars": 24
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            39
+          ],
+          "success_chars": 11
+        }
+      }
+    },
+    {
+      "title": "风水之王",
+      "file": "风水之王.txt",
+      "real_rating": 9.4,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "灵异真实感": 7,
+        "节奏张力": 6,
+        "人物动机": 8,
+        "悬念设计": 8,
+        "代价呈现": 6,
+        "画面冲击": 7,
+        "世界观融合": 7,
+        "对话功能": 5,
+        "反转合理性": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            31
+          ],
+          "success_chars": 30
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            36
+          ],
+          "success_chars": 47
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            28
+          ],
+          "success_chars": 56
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            32
+          ],
+          "success_chars": 28
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            23
+          ],
+          "success_chars": 42
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            30
+          ],
+          "success_chars": 41
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            29
+          ],
+          "success_chars": 29
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            28
+          ],
+          "success_chars": 28
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            35
+          ],
+          "success_chars": 15
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            35
+          ],
+          "success_chars": 56
+        }
+      }
+    },
+    {
+      "title": "大哥，你是警察啊，不是道士！",
+      "file": "大哥，你是警察啊，不是道士！.txt",
+      "real_rating": 9.3,
+      "rubric_score": 6.7,
+      "rubric_scores": [
+        6.7
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "灵异真实感": 7,
+        "节奏张力": 6,
+        "人物动机": 7,
+        "悬念设计": 6,
+        "代价呈现": 5,
+        "画面冲击": 6,
+        "世界观融合": 7,
+        "对话功能": 6,
+        "反转合理性": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            16
+          ],
+          "success_chars": 40
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            41
+          ],
+          "success_chars": 22
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            24
+          ],
+          "success_chars": 57
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            19
+          ],
+          "success_chars": 24
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            33
+          ],
+          "success_chars": 49
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            25
+          ],
+          "success_chars": 24
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            12
+          ],
+          "success_chars": 71
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            24
+          ],
+          "success_chars": 50
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            31
+          ],
+          "success_chars": 45
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            25
+          ],
+          "success_chars": 56
+        }
+      }
+    },
+    {
+      "title": "道门逆子",
+      "file": "道门逆子.txt",
+      "real_rating": 9.3,
+      "rubric_score": 5.333333333333333,
+      "rubric_scores": [
+        5.6,
+        5.1,
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "灵异真实感": 6,
+        "节奏张力": 5,
+        "人物动机": 7,
+        "悬念设计": 6,
+        "代价呈现": 5,
+        "画面冲击": 5,
+        "世界观融合": 6,
+        "对话功能": 6,
+        "反转合理性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            24
+          ],
+          "success_chars": 20
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            38
+          ],
+          "success_chars": 46
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            49
+          ],
+          "success_chars": 32
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            34
+          ],
+          "success_chars": 27
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            32
+          ],
+          "success_chars": 13
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            39
+          ],
+          "success_chars": 28
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            8
+          ],
+          "success_chars": 28
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            28
+          ],
+          "success_chars": 43
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            7
+          ],
+          "success_chars": 9
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            33
+          ],
+          "success_chars": 20
+        }
+      }
+    },
+    {
+      "title": "我，吃鬼就变强",
+      "file": "我，吃鬼就变强.txt",
+      "real_rating": 9.3,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "灵异真实感": 4,
+        "节奏张力": 6,
+        "人物动机": 5,
+        "悬念设计": 5,
+        "代价呈现": 3,
+        "画面冲击": 7,
+        "世界观融合": 4,
+        "对话功能": 6,
+        "反转合理性": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            25
+          ],
+          "success_chars": 16
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            44
+          ],
+          "success_chars": 16
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            42
+          ],
+          "success_chars": 42
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            27
+          ],
+          "success_chars": 36
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            23
+          ],
+          "success_chars": 40
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            14
+          ],
+          "success_chars": 34
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            24
+          ],
+          "success_chars": 57
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            13
+          ],
+          "success_chars": 38
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            23
+          ],
+          "success_chars": 34
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            48
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "刑侦：我能看见犯罪记录",
+      "file": "刑侦：我能看见犯罪记录.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "灵异真实感": 3,
+        "节奏张力": 5,
+        "人物动机": 7,
+        "悬念设计": 6,
+        "代价呈现": 2,
+        "画面冲击": 4,
+        "世界观融合": 7,
+        "对话功能": 6,
+        "反转合理性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            21
+          ],
+          "success_chars": 42
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            20
+          ],
+          "success_chars": 1
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            39
+          ],
+          "success_chars": 29
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            52
+          ],
+          "success_chars": 18
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            18
+          ],
+          "success_chars": 31
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            36
+          ],
+          "success_chars": 24
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            24
+          ],
+          "success_chars": 15
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            28
+          ],
+          "success_chars": 36
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            11
+          ],
+          "success_chars": 45
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            38
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "道友，你这人皇幡怎么冒黑烟啊？",
+      "file": "道友，你这人皇幡怎么冒黑烟啊？.txt",
+      "real_rating": 9.3,
+      "rubric_score": 7.3,
+      "rubric_scores": [
+        7.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "灵异真实感": 7,
+        "节奏张力": 6,
+        "人物动机": 9,
+        "悬念设计": 7,
+        "代价呈现": 6,
+        "画面冲击": 8,
+        "世界观融合": 7,
+        "对话功能": 8,
+        "反转合理性": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            26
+          ],
+          "success_chars": 97
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            65,
+            24
+          ],
+          "success_chars": 70
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            61
+          ],
+          "success_chars": 48
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            33
+          ],
+          "success_chars": 59
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            49
+          ],
+          "success_chars": 49
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            58
+          ],
+          "success_chars": 18
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            20
+          ],
+          "success_chars": 72
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            21
+          ],
+          "success_chars": 55
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            26
+          ],
+          "success_chars": 62
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            30
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "民间风水师笔记",
+      "file": "民间风水师笔记.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "灵异真实感": 7,
+        "节奏张力": 5,
+        "人物动机": 6,
+        "悬念设计": 5,
+        "代价呈现": 8,
+        "画面冲击": 6,
+        "世界观融合": 7,
+        "对话功能": 5,
+        "反转合理性": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            46
+          ],
+          "success_chars": 53
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            69,
+            40
+          ],
+          "success_chars": 43
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            63,
+            32
+          ],
+          "success_chars": 30
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            37
+          ],
+          "success_chars": 43
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            18
+          ],
+          "success_chars": 39
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            48
+          ],
+          "success_chars": 34
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            60
+          ],
+          "success_chars": 50
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            37
+          ],
+          "success_chars": 46
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            19
+          ],
+          "success_chars": 36
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            54
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "民间第一禁忌",
+      "file": "民间第一禁忌.txt",
+      "real_rating": 9.3,
+      "rubric_score": 7.6,
+      "rubric_scores": [
+        7.6
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "灵异真实感": 8,
+        "节奏张力": 7,
+        "人物动机": 8,
+        "悬念设计": 8,
+        "代价呈现": 7,
+        "画面冲击": 8,
+        "世界观融合": 7,
+        "对话功能": 6,
+        "反转合理性": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            43
+          ],
+          "success_chars": 28
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            39
+          ],
+          "success_chars": 63
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            49
+          ],
+          "success_chars": 37
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            44
+          ],
+          "success_chars": 23
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            20
+          ],
+          "success_chars": 43
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            12
+          ],
+          "success_chars": 44
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            27
+          ],
+          "success_chars": 40
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            19
+          ],
+          "success_chars": 17
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            26
+          ],
+          "success_chars": 23
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            21
+          ],
+          "success_chars": 53
+        }
+      }
+    },
+    {
+      "title": "你一摆摊算命的，养起龙了？",
+      "file": "你一摆摊算命的，养起龙了？.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "灵异真实感": 4,
+        "节奏张力": 5,
+        "人物动机": 6,
+        "悬念设计": 5,
+        "代价呈现": 3,
+        "画面冲击": 5,
+        "世界观融合": 6,
+        "对话功能": 6,
+        "反转合理性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            34
+          ],
+          "success_chars": 39
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            24
+          ],
+          "success_chars": 10
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            40
+          ],
+          "success_chars": 25
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            28
+          ],
+          "success_chars": 31
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            40
+          ],
+          "success_chars": 6
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            18
+          ],
+          "success_chars": 36
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            19
+          ],
+          "success_chars": 31
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            19
+          ],
+          "success_chars": 47
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            17
+          ],
+          "success_chars": 35
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            22
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "我在娱乐圈当风水顾问的那些年",
+      "file": "我在娱乐圈当风水顾问的那些年.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.066666666666666,
+      "rubric_scores": [
+        6.3,
+        6.3,
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "灵异真实感": 8,
+        "节奏张力": 5,
+        "人物动机": 7,
+        "悬念设计": 6,
+        "代价呈现": 5,
+        "画面冲击": 5,
+        "世界观融合": 8,
+        "对话功能": 6,
+        "反转合理性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            44
+          ],
+          "success_chars": 48
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            10
+          ],
+          "success_chars": 59
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            27
+          ],
+          "success_chars": 44
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            41
+          ],
+          "success_chars": 17
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            32
+          ],
+          "success_chars": 44
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            12
+          ],
+          "success_chars": 33
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            15
+          ],
+          "success_chars": 44
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            24
+          ],
+          "success_chars": 21
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            11
+          ],
+          "success_chars": 27
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            10
+          ],
+          "success_chars": 48
+        }
+      }
+    },
+    {
+      "title": "女鬼怀孕上门你说你是正经道士？",
+      "file": "女鬼怀孕上门你说你是正经道士？.txt",
+      "real_rating": 9.0,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "灵异真实感": 5,
+        "节奏张力": 5,
+        "人物动机": 4,
+        "悬念设计": 5,
+        "代价呈现": 3,
+        "画面冲击": 6,
+        "世界观融合": 4,
+        "对话功能": 5,
+        "反转合理性": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            28
+          ],
+          "success_chars": 33
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            15
+          ],
+          "success_chars": 27
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            34
+          ],
+          "success_chars": 40
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            28
+          ],
+          "success_chars": 42
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            9
+          ],
+          "success_chars": 32
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            24
+          ],
+          "success_chars": 39
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            18
+          ],
+          "success_chars": 39
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            28
+          ],
+          "success_chars": 24
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            44
+          ],
+          "success_chars": 24
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            18
+          ],
+          "success_chars": 40
+        }
+      }
+    },
+    {
+      "title": "犯罪天赋拉满，你转头加入刑侦队",
+      "file": "犯罪天赋拉满，你转头加入刑侦队.txt",
+      "real_rating": 9.1,
+      "rubric_score": 3.8,
+      "rubric_scores": [
+        3.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "灵异真实感": 0,
+        "节奏张力": 6,
+        "人物动机": 5,
+        "悬念设计": 3,
+        "代价呈现": 2,
+        "画面冲击": 3,
+        "世界观融合": 4,
+        "对话功能": 6,
+        "反转合理性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            64,
+            38
+          ],
+          "success_chars": 56
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            29
+          ],
+          "success_chars": 1
+        },
+        "节奏张力": {
+          "n_failures": 3,
+          "failure_chars": [
+            71,
+            35,
+            23
+          ],
+          "success_chars": 72
+        },
+        "人物动机": {
+          "n_failures": 4,
+          "failure_chars": [
+            78,
+            40,
+            43,
+            22
+          ],
+          "success_chars": 28
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            47
+          ],
+          "success_chars": 17
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            38
+          ],
+          "success_chars": 28
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            36
+          ],
+          "success_chars": 9
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            42
+          ],
+          "success_chars": 22
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            33
+          ],
+          "success_chars": 32
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            30
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "地府出了个太子爷",
+      "file": "地府出了个太子爷.txt",
+      "real_rating": 8.9,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1,
+        4.1,
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "灵异真实感": 3,
+        "节奏张力": 5,
+        "人物动机": 6,
+        "悬念设计": 3,
+        "代价呈现": 2,
+        "画面冲击": 4,
+        "世界观融合": 5,
+        "对话功能": 5,
+        "反转合理性": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            68,
+            60
+          ],
+          "success_chars": 34
+        },
+        "灵异真实感": {
+          "n_failures": 3,
+          "failure_chars": [
+            17,
+            8,
+            25
+          ],
+          "success_chars": 29
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            41
+          ],
+          "success_chars": 23
+        },
+        "人物动机": {
+          "n_failures": 3,
+          "failure_chars": [
+            4,
+            6,
+            5
+          ],
+          "success_chars": 22
+        },
+        "悬念设计": {
+          "n_failures": 3,
+          "failure_chars": [
+            15,
+            17,
+            10
+          ],
+          "success_chars": 20
+        },
+        "代价呈现": {
+          "n_failures": 3,
+          "failure_chars": [
+            26,
+            35,
+            31
+          ],
+          "success_chars": 20
+        },
+        "画面冲击": {
+          "n_failures": 3,
+          "failure_chars": [
+            31,
+            15,
+            8
+          ],
+          "success_chars": 30
+        },
+        "世界观融合": {
+          "n_failures": 3,
+          "failure_chars": [
+            7,
+            11,
+            25
+          ],
+          "success_chars": 21
+        },
+        "对话功能": {
+          "n_failures": 3,
+          "failure_chars": [
+            20,
+            6,
+            9
+          ],
+          "success_chars": 22
+        },
+        "反转合理性": {
+          "n_failures": 3,
+          "failure_chars": [
+            24,
+            5,
+            5
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "赴汤蹈火啊，道爷！",
+      "file": "赴汤蹈火啊，道爷！.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "灵异真实感": 5,
+        "节奏张力": 5,
+        "人物动机": 7,
+        "悬念设计": 6,
+        "代价呈现": 4,
+        "画面冲击": 5,
+        "世界观融合": 6,
+        "对话功能": 5,
+        "反转合理性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            25
+          ],
+          "success_chars": 19
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            36
+          ],
+          "success_chars": 29
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            29
+          ],
+          "success_chars": 22
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            27
+          ],
+          "success_chars": 21
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            14
+          ],
+          "success_chars": 25
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            23
+          ],
+          "success_chars": 30
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            21
+          ],
+          "success_chars": 23
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            18
+          ],
+          "success_chars": 29
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            24
+          ],
+          "success_chars": 30
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            8
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "小法医破大案，大佬排队给我撑腰",
+      "file": "小法医破大案，大佬排队给我撑腰.txt",
+      "real_rating": 8.9,
+      "rubric_score": 3.8,
+      "rubric_scores": [
+        3.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "灵异真实感": 2,
+        "节奏张力": 5,
+        "人物动机": 6,
+        "悬念设计": 5,
+        "代价呈现": 1,
+        "画面冲击": 4,
+        "世界观融合": 3,
+        "对话功能": 5,
+        "反转合理性": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            51
+          ],
+          "success_chars": 17
+        },
+        "灵异真实感": {
+          "n_failures": 3,
+          "failure_chars": [
+            30,
+            36,
+            32
+          ],
+          "success_chars": 0
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            75,
+            47
+          ],
+          "success_chars": 36
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            72,
+            23
+          ],
+          "success_chars": 53
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            8
+          ],
+          "success_chars": 53
+        },
+        "代价呈现": {
+          "n_failures": 3,
+          "failure_chars": [
+            13,
+            17,
+            25
+          ],
+          "success_chars": 0
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            22
+          ],
+          "success_chars": 20
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            17
+          ],
+          "success_chars": 21
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            31
+          ],
+          "success_chars": 50
+        },
+        "反转合理性": {
+          "n_failures": 3,
+          "failure_chars": [
+            31,
+            20,
+            23
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "重案警事，从一号大案开始",
+      "file": "重案警事，从一号大案开始.txt",
+      "real_rating": 8.8,
+      "rubric_score": 3.8,
+      "rubric_scores": [
+        3.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "灵异真实感": 2,
+        "节奏张力": 5,
+        "人物动机": 6,
+        "悬念设计": 5,
+        "代价呈现": 1,
+        "画面冲击": 4,
+        "世界观融合": 7,
+        "对话功能": 5,
+        "反转合理性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            27
+          ],
+          "success_chars": 23
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            19
+          ],
+          "success_chars": 1
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            44
+          ],
+          "success_chars": 24
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            20
+          ],
+          "success_chars": 64
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            46
+          ],
+          "success_chars": 24
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            23
+          ],
+          "success_chars": 1
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            27
+          ],
+          "success_chars": 15
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            22
+          ],
+          "success_chars": 55
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            21
+          ],
+          "success_chars": 35
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            27
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "九代缝尸人：我缝的都是世间大凶",
+      "file": "九代缝尸人：我缝的都是世间大凶.txt",
+      "real_rating": 8.7,
+      "rubric_score": 7.8,
+      "rubric_scores": [
+        7.8
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "灵异真实感": 8,
+        "节奏张力": 7,
+        "人物动机": 9,
+        "悬念设计": 8,
+        "代价呈现": 6,
+        "画面冲击": 8,
+        "世界观融合": 8,
+        "对话功能": 7,
+        "反转合理性": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            34
+          ],
+          "success_chars": 60
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            32
+          ],
+          "success_chars": 25
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            35
+          ],
+          "success_chars": 19
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            31
+          ],
+          "success_chars": 40
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            43
+          ],
+          "success_chars": 21
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            28
+          ],
+          "success_chars": 48
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            50
+          ],
+          "success_chars": 52
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            30
+          ],
+          "success_chars": 23
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            10
+          ],
+          "success_chars": 31
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            44
+          ],
+          "success_chars": 20
+        }
+      }
+    },
+    {
+      "title": "我是一具会复仇的尸体",
+      "file": "我是一具会复仇的尸体.txt",
+      "real_rating": 8.7,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "灵异真实感": 5,
+        "节奏张力": 6,
+        "人物动机": 7,
+        "悬念设计": 6,
+        "代价呈现": 7,
+        "画面冲击": 6,
+        "世界观融合": 5,
+        "对话功能": 6,
+        "反转合理性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            17
+          ],
+          "success_chars": 25
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            16
+          ],
+          "success_chars": 33
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            25
+          ],
+          "success_chars": 25
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            24
+          ],
+          "success_chars": 25
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            20
+          ],
+          "success_chars": 12
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            24
+          ],
+          "success_chars": 33
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            14
+          ],
+          "success_chars": 33
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            24
+          ],
+          "success_chars": 17
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            16
+          ],
+          "success_chars": 24
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            28
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "九叔：从被石坚救下开始",
+      "file": "九叔：从被石坚救下开始.txt",
+      "real_rating": 8.2,
+      "rubric_score": 5.966666666666667,
+      "rubric_scores": [
+        6.1,
+        5.9,
+        5.9
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "灵异真实感": 6,
+        "节奏张力": 5,
+        "人物动机": 7,
+        "悬念设计": 5,
+        "代价呈现": 4,
+        "画面冲击": 7,
+        "世界观融合": 6,
+        "对话功能": 6,
+        "反转合理性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            32
+          ],
+          "success_chars": 68
+        },
+        "灵异真实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            22
+          ],
+          "success_chars": 49
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            45
+          ],
+          "success_chars": 42
+        },
+        "人物动机": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            27
+          ],
+          "success_chars": 35
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            28
+          ],
+          "success_chars": 22
+        },
+        "代价呈现": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            18
+          ],
+          "success_chars": 43
+        },
+        "画面冲击": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            19
+          ],
+          "success_chars": 49
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            31
+          ],
+          "success_chars": 49
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            9
+          ],
+          "success_chars": 48
+        },
+        "反转合理性": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            27
+          ],
+          "success_chars": 27
+        }
+      }
+    }
+  ]
+}

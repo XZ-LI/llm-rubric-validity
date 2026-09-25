@@ -1,0 +1,2404 @@
+{
+  "run_id": "20260911T021601Z-c08d40",
+  "run_utc": "2026-09-11T02:16:01+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "都市修真",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "上交修仙界后，我被枪决了.txt",
+    "孽乱.txt",
+    "我百位无敌师父，你怎么跟我斗？.txt",
+    "明星背后的隐秘.txt",
+    "道医苏子阳.txt",
+    "道门真君，我从唐朝活到现代.txt",
+    "高手下山，我有九个无敌师父！.txt"
+  ],
+  "results": [
+    {
+      "title": "乡村神医好快活",
+      "file": "乡村神医好快活.txt",
+      "real_rating": 8.8,
+      "rubric_score": 3.9,
+      "rubric_scores": [
+        3.9
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "矛盾锐度": 3,
+        "机缘合理": 2,
+        "节奏张力": 5,
+        "人设辨识": 3,
+        "世设融合": 2,
+        "反转密度": 6,
+        "代价显性": 5,
+        "对话锋芒": 3,
+        "情绪锚点": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            36
+          ],
+          "success_chars": 15
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            10
+          ],
+          "success_chars": 34
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            37
+          ],
+          "success_chars": 52
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            14
+          ],
+          "success_chars": 37
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            19
+          ],
+          "success_chars": 35
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            41
+          ],
+          "success_chars": 24
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            33
+          ],
+          "success_chars": 41
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            14
+          ],
+          "success_chars": 14
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            9
+          ],
+          "success_chars": 13
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            15
+          ],
+          "success_chars": 11
+        }
+      }
+    },
+    {
+      "title": "和双胞姐妹花同居的日子",
+      "file": "和双胞姐妹花同居的日子.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.166666666666667,
+      "rubric_scores": [
+        4.9,
+        5.4,
+        5.2
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "矛盾锐度": 5,
+        "机缘合理": 4,
+        "节奏张力": 5,
+        "人设辨识": 4,
+        "世设融合": 5,
+        "反转密度": 5,
+        "代价显性": 3,
+        "对话锋芒": 5,
+        "情绪锚点": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            44
+          ],
+          "success_chars": 7
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            26
+          ],
+          "success_chars": 25
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            26
+          ],
+          "success_chars": 30
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            17
+          ],
+          "success_chars": 25
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            16
+          ],
+          "success_chars": 32
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            16
+          ],
+          "success_chars": 24
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            27
+          ],
+          "success_chars": 31
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            13
+          ],
+          "success_chars": 9
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            17
+          ],
+          "success_chars": 26
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            20
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "都市：修仙十年，下山即无敌",
+      "file": "都市：修仙十年，下山即无敌.txt",
+      "real_rating": 9.1,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "矛盾锐度": 5,
+        "机缘合理": 4,
+        "节奏张力": 5,
+        "人设辨识": 5,
+        "世设融合": 4,
+        "反转密度": 5,
+        "代价显性": 3,
+        "对话锋芒": 4,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            7
+          ],
+          "success_chars": 59
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            19
+          ],
+          "success_chars": 59
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            20
+          ],
+          "success_chars": 43
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            44
+          ],
+          "success_chars": 49
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            11
+          ],
+          "success_chars": 28
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            29
+          ],
+          "success_chars": 42
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            16
+          ],
+          "success_chars": 26
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            12
+          ],
+          "success_chars": 35
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            13
+          ],
+          "success_chars": 13
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            24
+          ],
+          "success_chars": 27
+        }
+      }
+    },
+    {
+      "title": "高手下山：我不当赘婿",
+      "file": "高手下山：我不当赘婿.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "矛盾锐度": 6,
+        "机缘合理": 5,
+        "节奏张力": 6,
+        "人设辨识": 7,
+        "世设融合": 6,
+        "反转密度": 5,
+        "代价显性": 4,
+        "对话锋芒": 6,
+        "情绪锚点": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            9
+          ],
+          "success_chars": 17
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            56
+          ],
+          "success_chars": 28
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            37
+          ],
+          "success_chars": 55
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            48
+          ],
+          "success_chars": 45
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            30
+          ],
+          "success_chars": 44
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            18
+          ],
+          "success_chars": 17
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            43
+          ],
+          "success_chars": 28
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            18
+          ],
+          "success_chars": 28
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            44
+          ],
+          "success_chars": 47
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            12
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "山村，入夜，躁！",
+      "file": "山村，入夜，躁！.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "矛盾锐度": 5,
+        "机缘合理": 4,
+        "节奏张力": 7,
+        "人设辨识": 5,
+        "世设融合": 4,
+        "反转密度": 6,
+        "代价显性": 3,
+        "对话锋芒": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            28
+          ],
+          "success_chars": 30
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            42
+          ],
+          "success_chars": 30
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            26
+          ],
+          "success_chars": 26
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            37
+          ],
+          "success_chars": 41
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            29
+          ],
+          "success_chars": 55
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            34
+          ],
+          "success_chars": 19
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            52
+          ],
+          "success_chars": 52
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            39
+          ],
+          "success_chars": 29
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            7
+          ],
+          "success_chars": 24
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            31
+          ],
+          "success_chars": 17
+        }
+      }
+    },
+    {
+      "title": "震惊，傻子老公这么强！",
+      "file": "震惊，傻子老公这么强！.txt",
+      "real_rating": 8.7,
+      "rubric_score": 6.7,
+      "rubric_scores": [
+        6.7
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "矛盾锐度": 7,
+        "机缘合理": 5,
+        "节奏张力": 8,
+        "人设辨识": 6,
+        "世设融合": 6,
+        "反转密度": 7,
+        "代价显性": 4,
+        "对话锋芒": 6,
+        "情绪锚点": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            36
+          ],
+          "success_chars": 44
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            54
+          ],
+          "success_chars": 45
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            24
+          ],
+          "success_chars": 41
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            36
+          ],
+          "success_chars": 53
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            17
+          ],
+          "success_chars": 38
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            21
+          ],
+          "success_chars": 44
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            25
+          ],
+          "success_chars": 45
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            25
+          ],
+          "success_chars": 27
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            6
+          ],
+          "success_chars": 37
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            20
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "都市：从筑基下山开始无敌",
+      "file": "都市：从筑基下山开始无敌.txt",
+      "real_rating": 8.8,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "矛盾锐度": 7,
+        "机缘合理": 6,
+        "节奏张力": 8,
+        "人设辨识": 6,
+        "世设融合": 5,
+        "反转密度": 7,
+        "代价显性": 4,
+        "对话锋芒": 6,
+        "情绪锚点": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            50
+          ],
+          "success_chars": 33
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            26
+          ],
+          "success_chars": 33
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            35
+          ],
+          "success_chars": 68
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            30
+          ],
+          "success_chars": 21
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            25
+          ],
+          "success_chars": 19
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            37
+          ],
+          "success_chars": 9
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            28
+          ],
+          "success_chars": 30
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            16
+          ],
+          "success_chars": 20
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 26
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            25
+          ],
+          "success_chars": 13
+        }
+      }
+    },
+    {
+      "title": "得到道家传承，我终于发达了",
+      "file": "得到道家传承，我终于发达了.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "矛盾锐度": 5,
+        "机缘合理": 4,
+        "节奏张力": 7,
+        "人设辨识": 5,
+        "世设融合": 6,
+        "反转密度": 7,
+        "代价显性": 3,
+        "对话锋芒": 5,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            11
+          ],
+          "success_chars": 13
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            10
+          ],
+          "success_chars": 12
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            9
+          ],
+          "success_chars": 10
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            8
+          ],
+          "success_chars": 14
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            13
+          ],
+          "success_chars": 11
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            9
+          ],
+          "success_chars": 9
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            5
+          ],
+          "success_chars": 8
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            8
+          ],
+          "success_chars": 7
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            11
+          ],
+          "success_chars": 10
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            9
+          ],
+          "success_chars": 12
+        }
+      }
+    },
+    {
+      "title": "重生高中，开始悠哉修仙日常",
+      "file": "重生高中，开始悠哉修仙日常.txt",
+      "real_rating": 8.2,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8,
+        6.8,
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "矛盾锐度": 3,
+        "机缘合理": 5,
+        "节奏张力": 4,
+        "人设辨识": 5,
+        "世设融合": 4,
+        "反转密度": 2,
+        "代价显性": 3,
+        "对话锋芒": 3,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            35
+          ],
+          "success_chars": 37
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            38
+          ],
+          "success_chars": 8
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            20
+          ],
+          "success_chars": 23
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            42
+          ],
+          "success_chars": 34
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            38
+          ],
+          "success_chars": 46
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            18
+          ],
+          "success_chars": 52
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            20
+          ],
+          "success_chars": 34
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            23
+          ],
+          "success_chars": 9
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            29
+          ],
+          "success_chars": 26
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            19
+          ],
+          "success_chars": 13
+        }
+      }
+    },
+    {
+      "title": "高考后，我的仙人身份瞒不住了",
+      "file": "高考后，我的仙人身份瞒不住了.txt",
+      "real_rating": 8.3,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "矛盾锐度": 5,
+        "机缘合理": 4,
+        "节奏张力": 7,
+        "人设辨识": 5,
+        "世设融合": 6,
+        "反转密度": 6,
+        "代价显性": 3,
+        "对话锋芒": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            16
+          ],
+          "success_chars": 34
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            31
+          ],
+          "success_chars": 26
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            25
+          ],
+          "success_chars": 21
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            26
+          ],
+          "success_chars": 33
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            22
+          ],
+          "success_chars": 27
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            35
+          ],
+          "success_chars": 21
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            29
+          ],
+          "success_chars": 18
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            25
+          ],
+          "success_chars": 26
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            24
+          ],
+          "success_chars": 32
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            20
+          ],
+          "success_chars": 21
+        }
+      }
+    },
+    {
+      "title": "福运小神医",
+      "file": "福运小神医.txt",
+      "real_rating": 8.1,
+      "rubric_score": 3.9,
+      "rubric_scores": [
+        3.9
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "矛盾锐度": 3,
+        "机缘合理": 2,
+        "节奏张力": 5,
+        "人设辨识": 3,
+        "世设融合": 2,
+        "反转密度": 4,
+        "代价显性": 6,
+        "对话锋芒": 3,
+        "情绪锚点": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            23
+          ],
+          "success_chars": 24
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            30
+          ],
+          "success_chars": 27
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            33
+          ],
+          "success_chars": 22
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            23
+          ],
+          "success_chars": 27
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            29
+          ],
+          "success_chars": 19
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            23
+          ],
+          "success_chars": 20
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            19
+          ],
+          "success_chars": 26
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            23
+          ],
+          "success_chars": 26
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            35
+          ],
+          "success_chars": 16
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            24
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "乡村神医，开局继承无敌传承",
+      "file": "乡村神医，开局继承无敌传承.txt",
+      "real_rating": 8.0,
+      "rubric_score": 6.6,
+      "rubric_scores": [
+        6.2,
+        6.8,
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "矛盾锐度": 3,
+        "机缘合理": 2,
+        "节奏张力": 3,
+        "人设辨识": 2,
+        "世设融合": 3,
+        "反转密度": 4,
+        "代价显性": 1,
+        "对话锋芒": 3,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            29
+          ],
+          "success_chars": 19
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            34
+          ],
+          "success_chars": 13
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            29
+          ],
+          "success_chars": 23
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            26
+          ],
+          "success_chars": 16
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            22
+          ],
+          "success_chars": 34
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            25
+          ],
+          "success_chars": 24
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            29
+          ],
+          "success_chars": 25
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            17
+          ],
+          "success_chars": 15
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            32
+          ],
+          "success_chars": 33
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            18
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "徒儿你太无敌了，下山去吧",
+      "file": "徒儿你太无敌了，下山去吧.txt",
+      "real_rating": 7.9,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 6,
+        "机缘合理": 4,
+        "节奏张力": 6,
+        "人设辨识": 5,
+        "世设融合": 6,
+        "反转密度": 5,
+        "代价显性": 3,
+        "对话锋芒": 5,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            31
+          ],
+          "success_chars": 42
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            20
+          ],
+          "success_chars": 41
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            20
+          ],
+          "success_chars": 18
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            34
+          ],
+          "success_chars": 14
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            27
+          ],
+          "success_chars": 14
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            19
+          ],
+          "success_chars": 27
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            22
+          ],
+          "success_chars": 8
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            23
+          ],
+          "success_chars": 25
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            39
+          ],
+          "success_chars": 18
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            11
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "我的山村女人",
+      "file": "我的山村女人.txt",
+      "real_rating": 8.0,
+      "rubric_score": 5.9,
+      "rubric_scores": [
+        5.9
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "矛盾锐度": 6,
+        "机缘合理": 5,
+        "节奏张力": 7,
+        "人设辨识": 5,
+        "世设融合": 4,
+        "反转密度": 6,
+        "代价显性": 3,
+        "对话锋芒": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            37
+          ],
+          "success_chars": 36
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            36
+          ],
+          "success_chars": 25
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            36
+          ],
+          "success_chars": 56
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            33
+          ],
+          "success_chars": 42
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            31
+          ],
+          "success_chars": 42
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            25
+          ],
+          "success_chars": 42
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            14
+          ],
+          "success_chars": 31
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            23
+          ],
+          "success_chars": 22
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            24
+          ],
+          "success_chars": 36
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            24
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "医武至尊在都市",
+      "file": "医武至尊在都市.txt",
+      "real_rating": 8.0,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "矛盾锐度": 5,
+        "机缘合理": 3,
+        "节奏张力": 5,
+        "人设辨识": 4,
+        "世设融合": 3,
+        "反转密度": 4,
+        "代价显性": 2,
+        "对话锋芒": 4,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            30
+          ],
+          "success_chars": 64
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            43
+          ],
+          "success_chars": 111
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            65,
+            55
+          ],
+          "success_chars": 34
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            70,
+            35
+          ],
+          "success_chars": 50
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            36
+          ],
+          "success_chars": 39
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            58
+          ],
+          "success_chars": 41
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            58
+          ],
+          "success_chars": 65
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            24
+          ],
+          "success_chars": 14
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            32
+          ],
+          "success_chars": 42
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            35
+          ],
+          "success_chars": 54
+        }
+      }
+    },
+    {
+      "title": "获得医仙传承我继续在村里装傻",
+      "file": "获得医仙传承我继续在村里装傻.txt",
+      "real_rating": 7.9,
+      "rubric_score": 4.3,
+      "rubric_scores": [
+        4.3
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "矛盾锐度": 5,
+        "机缘合理": 3,
+        "节奏张力": 6,
+        "人设辨识": 4,
+        "世设融合": 2,
+        "反转密度": 5,
+        "代价显性": 1,
+        "对话锋芒": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            12
+          ],
+          "success_chars": 23
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            18
+          ],
+          "success_chars": 21
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            43
+          ],
+          "success_chars": 19
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            31
+          ],
+          "success_chars": 29
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            23
+          ],
+          "success_chars": 18
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            29
+          ],
+          "success_chars": 6
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            23
+          ],
+          "success_chars": 29
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            24
+          ],
+          "success_chars": 2
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            23
+          ],
+          "success_chars": 35
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            25
+          ],
+          "success_chars": 20
+        }
+      }
+    },
+    {
+      "title": "桃花深处情悠悠",
+      "file": "桃花深处情悠悠.txt",
+      "real_rating": 7.8,
+      "rubric_score": 3.7,
+      "rubric_scores": [
+        3.9,
+        3.6,
+        3.6
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "矛盾锐度": 3,
+        "机缘合理": 2,
+        "节奏张力": 5,
+        "人设辨识": 3,
+        "世设融合": 2,
+        "反转密度": 6,
+        "代价显性": 4,
+        "对话锋芒": 3,
+        "情绪锚点": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            32
+          ],
+          "success_chars": 25
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            18
+          ],
+          "success_chars": 26
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            10
+          ],
+          "success_chars": 25
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            22
+          ],
+          "success_chars": 26
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            22
+          ],
+          "success_chars": 27
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            21
+          ],
+          "success_chars": 23
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            10
+          ],
+          "success_chars": 21
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            21
+          ],
+          "success_chars": 23
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            5
+          ],
+          "success_chars": 27
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            19
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "龙凤培元功",
+      "file": "龙凤培元功.txt",
+      "real_rating": 7.8,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "矛盾锐度": 5,
+        "机缘合理": 4,
+        "节奏张力": 5,
+        "人设辨识": 4,
+        "世设融合": 5,
+        "反转密度": 5,
+        "代价显性": 6,
+        "对话锋芒": 4,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            29
+          ],
+          "success_chars": 30
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            10
+          ],
+          "success_chars": 38
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            18
+          ],
+          "success_chars": 38
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            15
+          ],
+          "success_chars": 26
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            16
+          ],
+          "success_chars": 34
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            26
+          ],
+          "success_chars": 32
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            31
+          ],
+          "success_chars": 34
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            21
+          ],
+          "success_chars": 22
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            12
+          ],
+          "success_chars": 26
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            22
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "桃源深处，邻姐助我修炼",
+      "file": "桃源深处，邻姐助我修炼.txt",
+      "real_rating": 7.6,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "矛盾锐度": 5,
+        "机缘合理": 4,
+        "节奏张力": 7,
+        "人设辨识": 5,
+        "世设融合": 4,
+        "反转密度": 6,
+        "代价显性": 3,
+        "对话锋芒": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            25
+          ],
+          "success_chars": 28
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            19
+          ],
+          "success_chars": 25
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            28
+          ],
+          "success_chars": 32
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            28
+          ],
+          "success_chars": 29
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            11
+          ],
+          "success_chars": 32
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            22
+          ],
+          "success_chars": 22
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            24
+          ],
+          "success_chars": 22
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            31
+          ],
+          "success_chars": 32
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            9
+          ],
+          "success_chars": 11
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            18
+          ],
+          "success_chars": 20
+        }
+      }
+    },
+    {
+      "title": "要命！这个村子女人她吃人",
+      "file": "要命！这个村子女人她吃人.txt",
+      "real_rating": 7.9,
+      "rubric_score": 3.8,
+      "rubric_scores": [
+        3.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "矛盾锐度": 3,
+        "机缘合理": 0,
+        "节奏张力": 5,
+        "人设辨识": 2,
+        "世设融合": 0,
+        "反转密度": 6,
+        "代价显性": 0,
+        "对话锋芒": 4,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            11
+          ],
+          "success_chars": 10
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            10
+          ],
+          "success_chars": 11
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            9
+          ],
+          "success_chars": 1
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            7
+          ],
+          "success_chars": 9
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            9
+          ],
+          "success_chars": 10
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            7
+          ],
+          "success_chars": 1
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            6
+          ],
+          "success_chars": 10
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            7
+          ],
+          "success_chars": 1
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            10
+          ],
+          "success_chars": 11
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            13
+          ],
+          "success_chars": 9
+        }
+      }
+    },
+    {
+      "title": "乡村女人逼我修仙",
+      "file": "乡村女人逼我修仙.txt",
+      "real_rating": 7.7,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "矛盾锐度": 3,
+        "机缘合理": 5,
+        "节奏张力": 6,
+        "人设辨识": 2,
+        "世设融合": 3,
+        "反转密度": 5,
+        "代价显性": 1,
+        "对话锋芒": 3,
+        "情绪锚点": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            36
+          ],
+          "success_chars": 28
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            17
+          ],
+          "success_chars": 33
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            28
+          ],
+          "success_chars": 28
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            22
+          ],
+          "success_chars": 31
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            32
+          ],
+          "success_chars": 29
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            15
+          ],
+          "success_chars": 28
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            18
+          ],
+          "success_chars": 28
+        },
+        "代价显性": {
+          "n_failures": 3,
+          "failure_chars": [
+            33,
+            8,
+            12
+          ],
+          "success_chars": 27
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            26
+          ],
+          "success_chars": 38
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            18
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "桃花村夜深人不静",
+      "file": "桃花村夜深人不静.txt",
+      "real_rating": 7.6,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "矛盾锐度": 5,
+        "机缘合理": 3,
+        "节奏张力": 6,
+        "人设辨识": 4,
+        "世设融合": 5,
+        "反转密度": 6,
+        "代价显性": 7,
+        "对话锋芒": 5,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            71
+          ],
+          "success_chars": 36
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            60
+          ],
+          "success_chars": 41
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            35
+          ],
+          "success_chars": 23
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            31
+          ],
+          "success_chars": 51
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            47
+          ],
+          "success_chars": 67
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            56
+          ],
+          "success_chars": 36
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            34
+          ],
+          "success_chars": 22
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            50
+          ],
+          "success_chars": 23
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            21
+          ],
+          "success_chars": 36
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            20
+          ],
+          "success_chars": 43
+        }
+      }
+    },
+    {
+      "title": "回到地球，我带回了化神修为",
+      "file": "回到地球，我带回了化神修为.txt",
+      "real_rating": 7.4,
+      "rubric_score": 7.6,
+      "rubric_scores": [
+        7.6,
+        7.6,
+        7.6
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "矛盾锐度": 8,
+        "机缘合理": 6,
+        "节奏张力": 8,
+        "人设辨识": 7,
+        "世设融合": 7,
+        "反转密度": 8,
+        "代价显性": 4,
+        "对话锋芒": 6,
+        "情绪锚点": 9
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            21
+          ],
+          "success_chars": 37
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            15
+          ],
+          "success_chars": 56
+        },
+        "机缘合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            38
+          ],
+          "success_chars": 49
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            24
+          ],
+          "success_chars": 35
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            33
+          ],
+          "success_chars": 57
+        },
+        "世设融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            25
+          ],
+          "success_chars": 37
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            29
+          ],
+          "success_chars": 39
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            29
+          ],
+          "success_chars": 22
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            8
+          ],
+          "success_chars": 18
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            16
+          ],
+          "success_chars": 30
+        }
+      }
+    }
+  ]
+}

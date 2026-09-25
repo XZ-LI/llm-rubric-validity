@@ -1,0 +1,2403 @@
+{
+  "run_id": "20260911T021316Z-7c332e",
+  "run_utc": "2026-09-11T02:13:16+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "西方奇幻",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "7611829070308838425.txt",
+    "不是邪神吗？见我怎么降SAN值.txt",
+    "刚破壳，七百多米的巨龙盯着我.txt",
+    "地狱级修罗场，精灵女现实追杀我.txt",
+    "灰雾：余火重燃.txt",
+    "西幻：从荒野领主到万族之王.txt",
+    "西幻：女皇陛下，朕是帝国忠臣啊.txt"
+  ],
+  "results": [
+    {
+      "title": "转生幼龙，雌龙天天盼着我长大",
+      "file": "转生幼龙，雌龙天天盼着我长大.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "节奏变化": 5,
+        "人物鲜活度": 7,
+        "画面感": 6,
+        "对话自然度": 5,
+        "悬念设计": 5,
+        "情感张力": 4,
+        "世界观融合": 6,
+        "章节差异度": 5,
+        "外形描写": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            29
+          ],
+          "success_chars": 32
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            46
+          ],
+          "success_chars": 32
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            39
+          ],
+          "success_chars": 20
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            34
+          ],
+          "success_chars": 45
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            22
+          ],
+          "success_chars": 28
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            34
+          ],
+          "success_chars": 26
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            20
+          ],
+          "success_chars": 21
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            31
+          ],
+          "success_chars": 26
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            26
+          ],
+          "success_chars": 21
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            12
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "转生大贵族，异世界放纵日记",
+      "file": "转生大贵族，异世界放纵日记.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "节奏变化": 6,
+        "人物鲜活度": 6,
+        "画面感": 5,
+        "对话自然度": 6,
+        "悬念设计": 5,
+        "情感张力": 5,
+        "世界观融合": 6,
+        "章节差异度": 5,
+        "外形描写": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            38
+          ],
+          "success_chars": 68
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            36
+          ],
+          "success_chars": 29
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            36
+          ],
+          "success_chars": 71
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            30
+          ],
+          "success_chars": 52
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            40
+          ],
+          "success_chars": 42
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            20
+          ],
+          "success_chars": 37
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            41
+          ],
+          "success_chars": 29
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            30
+          ],
+          "success_chars": 60
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            13
+          ],
+          "success_chars": 53
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            24
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "领主：开局收获两名天才少年",
+      "file": "领主：开局收获两名天才少年.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3,
+        5.3,
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "节奏变化": 6,
+        "人物鲜活度": 5,
+        "画面感": 5,
+        "对话自然度": 6,
+        "悬念设计": 5,
+        "情感张力": 5,
+        "世界观融合": 6,
+        "章节差异度": 5,
+        "外形描写": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            32
+          ],
+          "success_chars": 36
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            96,
+            43
+          ],
+          "success_chars": 58
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            10
+          ],
+          "success_chars": 67
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            80,
+            37
+          ],
+          "success_chars": 54
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            14
+          ],
+          "success_chars": 24
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            32
+          ],
+          "success_chars": 23
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            61,
+            25
+          ],
+          "success_chars": 55
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            42
+          ],
+          "success_chars": 84
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            64
+          ],
+          "success_chars": 40
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            24
+          ],
+          "success_chars": 16
+        }
+      }
+    },
+    {
+      "title": "哥布林与异世界，争霸枪炮与刀剑",
+      "file": "哥布林与异世界，争霸枪炮与刀剑.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "节奏变化": 7,
+        "人物鲜活度": 5,
+        "画面感": 6,
+        "对话自然度": 4,
+        "悬念设计": 6,
+        "情感张力": 5,
+        "世界观融合": 7,
+        "章节差异度": 6,
+        "外形描写": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            32
+          ],
+          "success_chars": 75
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            40
+          ],
+          "success_chars": 33
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            63
+          ],
+          "success_chars": 38
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            29
+          ],
+          "success_chars": 30
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            50
+          ],
+          "success_chars": 20
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            33
+          ],
+          "success_chars": 38
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            42
+          ],
+          "success_chars": 35
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            40
+          ],
+          "success_chars": 66
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            28
+          ],
+          "success_chars": 37
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            22
+          ],
+          "success_chars": 57
+        }
+      }
+    },
+    {
+      "title": "千年后复活，妻子有点炫压抑",
+      "file": "千年后复活，妻子有点炫压抑.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "节奏变化": 5,
+        "人物鲜活度": 6,
+        "画面感": 7,
+        "对话自然度": 5,
+        "悬念设计": 6,
+        "情感张力": 5,
+        "世界观融合": 5,
+        "章节差异度": 4,
+        "外形描写": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            21
+          ],
+          "success_chars": 30
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            27
+          ],
+          "success_chars": 23
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            30
+          ],
+          "success_chars": 20
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            27
+          ],
+          "success_chars": 22
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            43
+          ],
+          "success_chars": 30
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            32
+          ],
+          "success_chars": 27
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            22
+          ],
+          "success_chars": 22
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            32
+          ],
+          "success_chars": 21
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            22
+          ],
+          "success_chars": 20
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            34
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "我只是个路过的游侠骑士",
+      "file": "我只是个路过的游侠骑士.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "节奏变化": 5,
+        "人物鲜活度": 7,
+        "画面感": 6,
+        "对话自然度": 5,
+        "悬念设计": 8,
+        "情感张力": 5,
+        "世界观融合": 6,
+        "章节差异度": 7,
+        "外形描写": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            24
+          ],
+          "success_chars": 28
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            39
+          ],
+          "success_chars": 23
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            48
+          ],
+          "success_chars": 40
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            33
+          ],
+          "success_chars": 39
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            30
+          ],
+          "success_chars": 43
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            22
+          ],
+          "success_chars": 38
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            21
+          ],
+          "success_chars": 32
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            60
+          ],
+          "success_chars": 37
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            17
+          ],
+          "success_chars": 34
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            50
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "圣白冠冕",
+      "file": "圣白冠冕.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.333333333333333,
+      "rubric_scores": [
+        5.3,
+        5.3,
+        5.4
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "节奏变化": 5,
+        "人物鲜活度": 5,
+        "画面感": 6,
+        "对话自然度": 5,
+        "悬念设计": 5,
+        "情感张力": 5,
+        "世界观融合": 6,
+        "章节差异度": 4,
+        "外形描写": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            13
+          ],
+          "success_chars": 44
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            45
+          ],
+          "success_chars": 42
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            28
+          ],
+          "success_chars": 54
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            27
+          ],
+          "success_chars": 54
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            70,
+            20
+          ],
+          "success_chars": 44
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            16
+          ],
+          "success_chars": 27
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            19
+          ],
+          "success_chars": 37
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            21
+          ],
+          "success_chars": 46
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            34
+          ],
+          "success_chars": 44
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            43
+          ],
+          "success_chars": 40
+        }
+      }
+    },
+    {
+      "title": "我最强法师，开局捡到落魄圣女",
+      "file": "我最强法师，开局捡到落魄圣女.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "节奏变化": 6,
+        "人物鲜活度": 7,
+        "画面感": 6,
+        "对话自然度": 6,
+        "悬念设计": 5,
+        "情感张力": 5,
+        "世界观融合": 6,
+        "章节差异度": 6,
+        "外形描写": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            48
+          ],
+          "success_chars": 31
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            43
+          ],
+          "success_chars": 53
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            32
+          ],
+          "success_chars": 28
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            51
+          ],
+          "success_chars": 53
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            38
+          ],
+          "success_chars": 40
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            5
+          ],
+          "success_chars": 17
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            35
+          ],
+          "success_chars": 33
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            26
+          ],
+          "success_chars": 44
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            6
+          ],
+          "success_chars": 45
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            23
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "黑暗童话里的猎人",
+      "file": "黑暗童话里的猎人.txt",
+      "real_rating": 9.0,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "节奏变化": 7,
+        "人物鲜活度": 6,
+        "画面感": 8,
+        "对话自然度": 6,
+        "悬念设计": 8,
+        "情感张力": 6,
+        "世界观融合": 7,
+        "章节差异度": 7,
+        "外形描写": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            19
+          ],
+          "success_chars": 45
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            34
+          ],
+          "success_chars": 34
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            39
+          ],
+          "success_chars": 40
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            23
+          ],
+          "success_chars": 35
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            54
+          ],
+          "success_chars": 56
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            21
+          ],
+          "success_chars": 44
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            35
+          ],
+          "success_chars": 49
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            48
+          ],
+          "success_chars": 63
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            28
+          ],
+          "success_chars": 35
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            38
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "在异世界肝熟练度的魔女",
+      "file": "在异世界肝熟练度的魔女.txt",
+      "real_rating": 8.6,
+      "rubric_score": 6.7,
+      "rubric_scores": [
+        6.7
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "节奏变化": 7,
+        "人物鲜活度": 7,
+        "画面感": 6,
+        "对话自然度": 6,
+        "悬念设计": 8,
+        "情感张力": 6,
+        "世界观融合": 7,
+        "章节差异度": 6,
+        "外形描写": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            15
+          ],
+          "success_chars": 39
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            29
+          ],
+          "success_chars": 26
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            33
+          ],
+          "success_chars": 51
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            42
+          ],
+          "success_chars": 24
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            20
+          ],
+          "success_chars": 23
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            36
+          ],
+          "success_chars": 30
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            35
+          ],
+          "success_chars": 36
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            38
+          ],
+          "success_chars": 41
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            7
+          ],
+          "success_chars": 12
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            16
+          ],
+          "success_chars": 18
+        }
+      }
+    },
+    {
+      "title": "地下城冒险日志",
+      "file": "地下城冒险日志.txt",
+      "real_rating": 8.8,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "节奏变化": 7,
+        "人物鲜活度": 7,
+        "画面感": 6,
+        "对话自然度": 7,
+        "悬念设计": 6,
+        "情感张力": 5,
+        "世界观融合": 8,
+        "章节差异度": 6,
+        "外形描写": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            30
+          ],
+          "success_chars": 66
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            72,
+            50
+          ],
+          "success_chars": 48
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            46
+          ],
+          "success_chars": 77
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            34
+          ],
+          "success_chars": 23
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            27
+          ],
+          "success_chars": 32
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            12
+          ],
+          "success_chars": 55
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            17
+          ],
+          "success_chars": 50
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            41
+          ],
+          "success_chars": 68
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            24
+          ],
+          "success_chars": 28
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            37
+          ],
+          "success_chars": 53
+        }
+      }
+    },
+    {
+      "title": "我有一本冒险者指南",
+      "file": "我有一本冒险者指南.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "节奏变化": 7,
+        "人物鲜活度": 6,
+        "画面感": 7,
+        "对话自然度": 6,
+        "悬念设计": 5,
+        "情感张力": 5,
+        "世界观融合": 6,
+        "章节差异度": 6,
+        "外形描写": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            25
+          ],
+          "success_chars": 62
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            63,
+            29
+          ],
+          "success_chars": 35
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            55
+          ],
+          "success_chars": 34
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            54
+          ],
+          "success_chars": 48
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            38
+          ],
+          "success_chars": 57
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            67,
+            50
+          ],
+          "success_chars": 58
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            39
+          ],
+          "success_chars": 34
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            23
+          ],
+          "success_chars": 37
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            31
+          ],
+          "success_chars": 30
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            45
+          ],
+          "success_chars": 69
+        }
+      }
+    },
+    {
+      "title": "从边境落魄地下城开始升级进化",
+      "file": "从边境落魄地下城开始升级进化.txt",
+      "real_rating": 8.5,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1,
+        6.1,
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "节奏变化": 6,
+        "人物鲜活度": 5,
+        "画面感": 6,
+        "对话自然度": 5,
+        "悬念设计": 7,
+        "情感张力": 5,
+        "世界观融合": 7,
+        "章节差异度": 6,
+        "外形描写": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            10
+          ],
+          "success_chars": 30
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            41
+          ],
+          "success_chars": 40
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            10
+          ],
+          "success_chars": 33
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            19
+          ],
+          "success_chars": 32
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            47
+          ],
+          "success_chars": 7
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            13
+          ],
+          "success_chars": 33
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            10
+          ],
+          "success_chars": 34
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            17
+          ],
+          "success_chars": 41
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            27
+          ],
+          "success_chars": 47
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            24
+          ],
+          "success_chars": 14
+        }
+      }
+    },
+    {
+      "title": "末日迁徙异界，国家钢铁洪流开路",
+      "file": "末日迁徙异界，国家钢铁洪流开路.txt",
+      "real_rating": 8.4,
+      "rubric_score": 6.5,
+      "rubric_scores": [
+        6.5
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "节奏变化": 6,
+        "人物鲜活度": 6,
+        "画面感": 7,
+        "对话自然度": 6,
+        "悬念设计": 7,
+        "情感张力": 6,
+        "世界观融合": 7,
+        "章节差异度": 6,
+        "外形描写": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            54
+          ],
+          "success_chars": 72
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            12
+          ],
+          "success_chars": 26
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            9
+          ],
+          "success_chars": 24
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            13
+          ],
+          "success_chars": 60
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            7
+          ],
+          "success_chars": 15
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            15
+          ],
+          "success_chars": 12
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            6
+          ],
+          "success_chars": 27
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            46
+          ],
+          "success_chars": 35
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            14
+          ],
+          "success_chars": 23
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            19
+          ],
+          "success_chars": 57
+        }
+      }
+    },
+    {
+      "title": "退队，然后捡到白发圣女",
+      "file": "退队，然后捡到白发圣女.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.9,
+      "rubric_scores": [
+        5.9
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "节奏变化": 6,
+        "人物鲜活度": 7,
+        "画面感": 7,
+        "对话自然度": 6,
+        "悬念设计": 5,
+        "情感张力": 6,
+        "世界观融合": 7,
+        "章节差异度": 4,
+        "外形描写": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            41
+          ],
+          "success_chars": 51
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            52
+          ],
+          "success_chars": 48
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            46
+          ],
+          "success_chars": 63
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            33
+          ],
+          "success_chars": 30
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            42
+          ],
+          "success_chars": 57
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            67
+          ],
+          "success_chars": 31
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            22
+          ],
+          "success_chars": 29
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            28
+          ],
+          "success_chars": 39
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            17
+          ],
+          "success_chars": 31
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            14
+          ],
+          "success_chars": 51
+        }
+      }
+    },
+    {
+      "title": "无限模拟：这魅魔我非当不可吗？",
+      "file": "无限模拟：这魅魔我非当不可吗？.txt",
+      "real_rating": 8.3,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "节奏变化": 6,
+        "人物鲜活度": 4,
+        "画面感": 5,
+        "对话自然度": 3,
+        "悬念设计": 6,
+        "情感张力": 4,
+        "世界观融合": 5,
+        "章节差异度": 7,
+        "外形描写": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            46
+          ],
+          "success_chars": 28
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            30
+          ],
+          "success_chars": 26
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            44
+          ],
+          "success_chars": 26
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            23
+          ],
+          "success_chars": 30
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            9
+          ],
+          "success_chars": 21
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            12
+          ],
+          "success_chars": 27
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            32
+          ],
+          "success_chars": 26
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            40
+          ],
+          "success_chars": 29
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            23
+          ],
+          "success_chars": 25
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            33
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "西幻：我的妻子是帝国最强骑士",
+      "file": "西幻：我的妻子是帝国最强骑士.txt",
+      "real_rating": 8.3,
+      "rubric_score": 7.8,
+      "rubric_scores": [
+        7.8
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "节奏变化": 7,
+        "人物鲜活度": 8,
+        "画面感": 9,
+        "对话自然度": 6,
+        "悬念设计": 8,
+        "情感张力": 7,
+        "世界观融合": 8,
+        "章节差异度": 6,
+        "外形描写": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            8
+          ],
+          "success_chars": 30
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            30
+          ],
+          "success_chars": 42
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            17
+          ],
+          "success_chars": 52
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            33
+          ],
+          "success_chars": 65
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            11
+          ],
+          "success_chars": 20
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            22
+          ],
+          "success_chars": 38
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            17
+          ],
+          "success_chars": 44
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            15
+          ],
+          "success_chars": 69
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            19
+          ],
+          "success_chars": 37
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            21
+          ],
+          "success_chars": 43
+        }
+      }
+    },
+    {
+      "title": "什么叫我一千多年前就穿越了？",
+      "file": "什么叫我一千多年前就穿越了？.txt",
+      "real_rating": 8.0,
+      "rubric_score": 6.066666666666666,
+      "rubric_scores": [
+        5.8,
+        6.3,
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "节奏变化": 5,
+        "人物鲜活度": 6,
+        "画面感": 7,
+        "对话自然度": 5,
+        "悬念设计": 6,
+        "情感张力": 6,
+        "世界观融合": 5,
+        "章节差异度": 4,
+        "外形描写": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            27
+          ],
+          "success_chars": 38
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            66,
+            47
+          ],
+          "success_chars": 45
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            35
+          ],
+          "success_chars": 39
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            37
+          ],
+          "success_chars": 44
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            18
+          ],
+          "success_chars": 42
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            36
+          ],
+          "success_chars": 43
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            29
+          ],
+          "success_chars": 22
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            39
+          ],
+          "success_chars": 51
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            31
+          ],
+          "success_chars": 34
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            37
+          ],
+          "success_chars": 55
+        }
+      }
+    },
+    {
+      "title": "序列：禁忌学者",
+      "file": "序列：禁忌学者.txt",
+      "real_rating": 8.1,
+      "rubric_score": 7.6,
+      "rubric_scores": [
+        7.6
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "节奏变化": 7,
+        "人物鲜活度": 7,
+        "画面感": 8,
+        "对话自然度": 6,
+        "悬念设计": 8,
+        "情感张力": 7,
+        "世界观融合": 8,
+        "章节差异度": 7,
+        "外形描写": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            23
+          ],
+          "success_chars": 35
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            28
+          ],
+          "success_chars": 22
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            36
+          ],
+          "success_chars": 34
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            42
+          ],
+          "success_chars": 41
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            7
+          ],
+          "success_chars": 39
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            65,
+            57
+          ],
+          "success_chars": 54
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            25
+          ],
+          "success_chars": 48
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            21
+          ],
+          "success_chars": 61
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            30
+          ],
+          "success_chars": 37
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            22
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "被召唤成勇者？开局屠杀教堂",
+      "file": "被召唤成勇者？开局屠杀教堂.txt",
+      "real_rating": 7.4,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "节奏变化": 7,
+        "人物鲜活度": 7,
+        "画面感": 6,
+        "对话自然度": 5,
+        "悬念设计": 8,
+        "情感张力": 7,
+        "世界观融合": 6,
+        "章节差异度": 7,
+        "外形描写": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            20
+          ],
+          "success_chars": 38
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            38
+          ],
+          "success_chars": 40
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            36
+          ],
+          "success_chars": 43
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            23
+          ],
+          "success_chars": 40
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            43
+          ],
+          "success_chars": 33
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            38
+          ],
+          "success_chars": 43
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            21
+          ],
+          "success_chars": 26
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            19
+          ],
+          "success_chars": 56
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            30
+          ],
+          "success_chars": 33
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            25
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "镜头为王",
+      "file": "镜头为王.txt",
+      "real_rating": 7.7,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "节奏变化": 5,
+        "人物鲜活度": 5,
+        "画面感": 6,
+        "对话自然度": 5,
+        "悬念设计": 6,
+        "情感张力": 4,
+        "世界观融合": 7,
+        "章节差异度": 5,
+        "外形描写": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            40
+          ],
+          "success_chars": 18
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            37
+          ],
+          "success_chars": 37
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            14
+          ],
+          "success_chars": 26
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            3
+          ],
+          "success_chars": 21
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            49
+          ],
+          "success_chars": 28
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            17
+          ],
+          "success_chars": 19
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            14
+          ],
+          "success_chars": 11
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            18
+          ],
+          "success_chars": 42
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            6
+          ],
+          "success_chars": 7
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            35
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "开局上交异世界，国家教我搓禁咒",
+      "file": "开局上交异世界，国家教我搓禁咒.txt",
+      "real_rating": 7.8,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "节奏变化": 6,
+        "人物鲜活度": 6,
+        "画面感": 7,
+        "对话自然度": 5,
+        "悬念设计": 8,
+        "情感张力": 7,
+        "世界观融合": 6,
+        "章节差异度": 5,
+        "外形描写": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            46
+          ],
+          "success_chars": 44
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            23
+          ],
+          "success_chars": 20
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            29
+          ],
+          "success_chars": 26
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            49
+          ],
+          "success_chars": 58
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            19
+          ],
+          "success_chars": 25
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            61
+          ],
+          "success_chars": 61
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            23
+          ],
+          "success_chars": 37
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            13
+          ],
+          "success_chars": 13
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            72,
+            33
+          ],
+          "success_chars": 33
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            43
+          ],
+          "success_chars": 58
+        }
+      }
+    },
+    {
+      "title": "转生反派贵族，夫人请自重啊",
+      "file": "转生反派贵族，夫人请自重啊.txt",
+      "real_rating": 7.2,
+      "rubric_score": 6.166666666666666,
+      "rubric_scores": [
+        6.1,
+        6.1,
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "节奏变化": 7,
+        "人物鲜活度": 6,
+        "画面感": 7,
+        "对话自然度": 5,
+        "悬念设计": 6,
+        "情感张力": 6,
+        "世界观融合": 5,
+        "章节差异度": 6,
+        "外形描写": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            23
+          ],
+          "success_chars": 32
+        },
+        "节奏变化": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            19
+          ],
+          "success_chars": 49
+        },
+        "人物鲜活度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            11
+          ],
+          "success_chars": 36
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            21
+          ],
+          "success_chars": 22
+        },
+        "对话自然度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            26
+          ],
+          "success_chars": 39
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            48
+          ],
+          "success_chars": 19
+        },
+        "情感张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            38
+          ],
+          "success_chars": 44
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            43
+          ],
+          "success_chars": 38
+        },
+        "章节差异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            12
+          ],
+          "success_chars": 28
+        },
+        "外形描写": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            26
+          ],
+          "success_chars": 49
+        }
+      }
+    }
+  ]
+}

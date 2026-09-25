@@ -1,0 +1,2304 @@
+{
+  "run_id": "20260911T030207Z-94259a",
+  "run_utc": "2026-09-11T03:02:07+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "职场婚恋",
+  "source_dir": "Nvpin",
+  "output_spec": "lean",
+  "n": 22,
+  "excluded_contaminated": [
+    "不舍朝夕.txt",
+    "升温诱吻.txt",
+    "娇娇小姐回农村，痴汉手段太惊人.txt",
+    "明知，不可为.txt",
+    "玫瑰撩不自知，年上糙汉遭不住.txt",
+    "私吻春日.txt",
+    "遇见周书记.txt"
+  ],
+  "results": [
+    {
+      "title": "周教授，我们结婚吧",
+      "file": "周教授，我们结婚吧.txt",
+      "real_rating": 9.2,
+      "rubric_score": 4.6,
+      "rubric_scores": [
+        4.6
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设立体": 5,
+        "职场融合": 3,
+        "情感节奏": 4,
+        "对话质感": 5,
+        "悬念设计": 6,
+        "细节真实": 5,
+        "反转合理": 4,
+        "情绪感染": 5,
+        "节奏控制": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            17
+          ],
+          "success_chars": 22
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            27
+          ],
+          "success_chars": 25
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            25
+          ],
+          "success_chars": 22
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            14
+          ],
+          "success_chars": 19
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            10
+          ],
+          "success_chars": 20
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            21
+          ],
+          "success_chars": 10
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            15
+          ],
+          "success_chars": 38
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            21
+          ],
+          "success_chars": 14
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            9
+          ],
+          "success_chars": 15
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            19
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "她在军中当祖宗！",
+      "file": "她在军中当祖宗！.txt",
+      "real_rating": 9.2,
+      "rubric_score": 2.8,
+      "rubric_scores": [
+        2.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设立体": 3,
+        "职场融合": 1,
+        "情感节奏": 2,
+        "对话质感": 3,
+        "悬念设计": 3,
+        "细节真实": 2,
+        "反转合理": 3,
+        "情绪感染": 4,
+        "节奏控制": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            19
+          ],
+          "success_chars": 43
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            27
+          ],
+          "success_chars": 20
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            22
+          ],
+          "success_chars": 0
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            10
+          ],
+          "success_chars": 33
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            18
+          ],
+          "success_chars": 35
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            34
+          ],
+          "success_chars": 27
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            23
+          ],
+          "success_chars": 18
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            18
+          ],
+          "success_chars": 22
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            22
+          ],
+          "success_chars": 26
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            9
+          ],
+          "success_chars": 46
+        }
+      }
+    },
+    {
+      "title": "雾潮燃欲",
+      "file": "雾潮燃欲.txt",
+      "real_rating": 9.3,
+      "rubric_score": 8.3,
+      "rubric_scores": [
+        8.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立体": 9,
+        "职场融合": 9,
+        "情感节奏": 7,
+        "对话质感": 8,
+        "悬念设计": 8,
+        "细节真实": 9,
+        "反转合理": 8,
+        "情绪感染": 8,
+        "节奏控制": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            15
+          ],
+          "success_chars": 57
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            59
+          ],
+          "success_chars": 34
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            44
+          ],
+          "success_chars": 69
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            22
+          ],
+          "success_chars": 56
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            30
+          ],
+          "success_chars": 56
+        },
+        "悬念设计": {
+          "n_failures": 3,
+          "failure_chars": [
+            8,
+            16,
+            12
+          ],
+          "success_chars": 35
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            11
+          ],
+          "success_chars": 54
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            27
+          ],
+          "success_chars": 43
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            14
+          ],
+          "success_chars": 40
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            25
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "京霜不渡",
+      "file": "京霜不渡.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立体": 7,
+        "职场融合": 5,
+        "情感节奏": 6,
+        "对话质感": 6,
+        "悬念设计": 7,
+        "细节真实": 8,
+        "反转合理": 6,
+        "情绪感染": 8,
+        "节奏控制": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            17
+          ],
+          "success_chars": 32
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            35
+          ],
+          "success_chars": 38
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            46
+          ],
+          "success_chars": 36
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            12
+          ],
+          "success_chars": 33
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            15
+          ],
+          "success_chars": 61
+        },
+        "悬念设计": {
+          "n_failures": 3,
+          "failure_chars": [
+            5,
+            9,
+            8
+          ],
+          "success_chars": 26
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            10
+          ],
+          "success_chars": 26
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            25
+          ],
+          "success_chars": 39
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            6
+          ],
+          "success_chars": 19
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            11
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "规则裂纹",
+      "file": "规则裂纹.txt",
+      "real_rating": 9.2,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设立体": 5,
+        "职场融合": 3,
+        "情感节奏": 2,
+        "对话质感": 3,
+        "悬念设计": 4,
+        "细节真实": 6,
+        "反转合理": 3,
+        "情绪感染": 5,
+        "节奏控制": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            48
+          ],
+          "success_chars": 63
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            39
+          ],
+          "success_chars": 83
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            19
+          ],
+          "success_chars": 41
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            32
+          ],
+          "success_chars": 0
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            35
+          ],
+          "success_chars": 31
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            15
+          ],
+          "success_chars": 65
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            35
+          ],
+          "success_chars": 34
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            25
+          ],
+          "success_chars": 35
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            25
+          ],
+          "success_chars": 48
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            18
+          ],
+          "success_chars": 20
+        }
+      }
+    },
+    {
+      "title": "中奖一千万，社畜成为万人迷",
+      "file": "中奖一千万，社畜成为万人迷.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.133333333333333,
+      "rubric_scores": [
+        5.1,
+        5.1,
+        5.2
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设立体": 6,
+        "职场融合": 4,
+        "情感节奏": 3,
+        "对话质感": 5,
+        "悬念设计": 6,
+        "细节真实": 7,
+        "反转合理": 5,
+        "情绪感染": 6,
+        "节奏控制": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            19
+          ],
+          "success_chars": 28
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            45
+          ],
+          "success_chars": 37
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            42
+          ],
+          "success_chars": 28
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            44
+          ],
+          "success_chars": 38
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            40
+          ],
+          "success_chars": 22
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            53
+          ],
+          "success_chars": 34
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            63
+          ],
+          "success_chars": 29
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            40
+          ],
+          "success_chars": 25
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            13
+          ],
+          "success_chars": 50
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            43
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "女作家去做保姆",
+      "file": "女作家去做保姆.txt",
+      "real_rating": 9.1,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设立体": 5,
+        "职场融合": 3,
+        "情感节奏": 2,
+        "对话质感": 5,
+        "悬念设计": 4,
+        "细节真实": 6,
+        "反转合理": 3,
+        "情绪感染": 5,
+        "节奏控制": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            10
+          ],
+          "success_chars": 11
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            14
+          ],
+          "success_chars": 33
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            23
+          ],
+          "success_chars": 28
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            20
+          ],
+          "success_chars": 26
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            8
+          ],
+          "success_chars": 24
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            29
+          ],
+          "success_chars": 25
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            13
+          ],
+          "success_chars": 32
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            16
+          ],
+          "success_chars": 33
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            8
+          ],
+          "success_chars": 37
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            20
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "高干婚恋：女大当婚",
+      "file": "高干婚恋：女大当婚.txt",
+      "real_rating": 9.1,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设立体": 5,
+        "职场融合": 3,
+        "情感节奏": 4,
+        "对话质感": 5,
+        "悬念设计": 3,
+        "细节真实": 4,
+        "反转合理": 3,
+        "情绪感染": 4,
+        "节奏控制": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            30
+          ],
+          "success_chars": 57
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            6
+          ],
+          "success_chars": 38
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            14
+          ],
+          "success_chars": 26
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            26
+          ],
+          "success_chars": 17
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            8
+          ],
+          "success_chars": 17
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            32
+          ],
+          "success_chars": 9
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            20
+          ],
+          "success_chars": 26
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            8
+          ],
+          "success_chars": 33
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            9
+          ],
+          "success_chars": 29
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            14
+          ],
+          "success_chars": 17
+        }
+      }
+    },
+    {
+      "title": "江队，别太野",
+      "file": "江队，别太野.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立体": 7,
+        "职场融合": 5,
+        "情感节奏": 4,
+        "对话质感": 5,
+        "悬念设计": 6,
+        "细节真实": 5,
+        "反转合理": 5,
+        "情绪感染": 6,
+        "节奏控制": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            35
+          ],
+          "success_chars": 75
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            21
+          ],
+          "success_chars": 76
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            42
+          ],
+          "success_chars": 50
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            40
+          ],
+          "success_chars": 34
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            55
+          ],
+          "success_chars": 30
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            31
+          ],
+          "success_chars": 46
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            8
+          ],
+          "success_chars": 26
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            47
+          ],
+          "success_chars": 43
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            22
+          ],
+          "success_chars": 42
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            19
+          ],
+          "success_chars": 53
+        }
+      }
+    },
+    {
+      "title": "大佬太宠，甜度超标了",
+      "file": "大佬太宠，甜度超标了.txt",
+      "real_rating": 8.8,
+      "rubric_score": 4.3,
+      "rubric_scores": [
+        4.3
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设立体": 5,
+        "职场融合": 3,
+        "情感节奏": 4,
+        "对话质感": 5,
+        "悬念设计": 4,
+        "细节真实": 6,
+        "反转合理": 3,
+        "情绪感染": 5,
+        "节奏控制": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            30
+          ],
+          "success_chars": 20
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            21
+          ],
+          "success_chars": 36
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            26
+          ],
+          "success_chars": 14
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            19
+          ],
+          "success_chars": 27
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            22
+          ],
+          "success_chars": 8
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            19
+          ],
+          "success_chars": 27
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            17
+          ],
+          "success_chars": 18
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            31
+          ],
+          "success_chars": 21
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            18
+          ],
+          "success_chars": 35
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            17
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "一个留守妇女的觉醒",
+      "file": "一个留守妇女的觉醒.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立体": 5,
+        "职场融合": 3,
+        "情感节奏": 5,
+        "对话质感": 4,
+        "悬念设计": 6,
+        "细节真实": 7,
+        "反转合理": 5,
+        "情绪感染": 7,
+        "节奏控制": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            34
+          ],
+          "success_chars": 40
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            23
+          ],
+          "success_chars": 50
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            14
+          ],
+          "success_chars": 31
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            9
+          ],
+          "success_chars": 33
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            32
+          ],
+          "success_chars": 40
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            20
+          ],
+          "success_chars": 29
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            45
+          ],
+          "success_chars": 39
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            17
+          ],
+          "success_chars": 31
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            28
+          ],
+          "success_chars": 36
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            25
+          ],
+          "success_chars": 21
+        }
+      }
+    },
+    {
+      "title": "缅北女人纪事：逃出园区",
+      "file": "缅北女人纪事：逃出园区.txt",
+      "real_rating": 9.0,
+      "rubric_score": 4.566666666666666,
+      "rubric_scores": [
+        4.7,
+        4.7,
+        4.3
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设立体": 5,
+        "职场融合": 2,
+        "情感节奏": 3,
+        "对话质感": 4,
+        "悬念设计": 6,
+        "细节真实": 5,
+        "反转合理": 5,
+        "情绪感染": 6,
+        "节奏控制": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            63,
+            27
+          ],
+          "success_chars": 63
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            22
+          ],
+          "success_chars": 45
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            26
+          ],
+          "success_chars": 37
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            28
+          ],
+          "success_chars": 44
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            47
+          ],
+          "success_chars": 48
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            31
+          ],
+          "success_chars": 54
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            16
+          ],
+          "success_chars": 42
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            28
+          ],
+          "success_chars": 45
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            45
+          ],
+          "success_chars": 42
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            39
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "机关女人2",
+      "file": "机关女人2.txt",
+      "real_rating": 8.8,
+      "rubric_score": 3.6,
+      "rubric_scores": [
+        3.6
+      ],
+      "dimensions": {
+        "钩子强度": 3,
+        "人设立体": 4,
+        "职场融合": 2,
+        "情感节奏": 5,
+        "对话质感": 4,
+        "悬念设计": 2,
+        "细节真实": 5,
+        "反转合理": 3,
+        "情绪感染": 4,
+        "节奏控制": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            49
+          ],
+          "success_chars": 17
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            35
+          ],
+          "success_chars": 27
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            22
+          ],
+          "success_chars": 33
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            33
+          ],
+          "success_chars": 41
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            28
+          ],
+          "success_chars": 26
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            44
+          ],
+          "success_chars": 30
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            39
+          ],
+          "success_chars": 15
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            20
+          ],
+          "success_chars": 15
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            23
+          ],
+          "success_chars": 38
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            6
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "机关女人",
+      "file": "机关女人.txt",
+      "real_rating": 8.7,
+      "rubric_score": 4.433333333333334,
+      "rubric_scores": [
+        4.3,
+        4.5,
+        4.5
+      ],
+      "dimensions": {
+        "钩子强度": 3,
+        "人设立体": 4,
+        "职场融合": 5,
+        "情感节奏": 3,
+        "对话质感": 4,
+        "悬念设计": 5,
+        "细节真实": 6,
+        "反转合理": 4,
+        "情绪感染": 5,
+        "节奏控制": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            32
+          ],
+          "success_chars": 64
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            67,
+            41
+          ],
+          "success_chars": 39
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            63,
+            43
+          ],
+          "success_chars": 41
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            29
+          ],
+          "success_chars": 34
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            33
+          ],
+          "success_chars": 25
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            26
+          ],
+          "success_chars": 35
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            44
+          ],
+          "success_chars": 31
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            28
+          ],
+          "success_chars": 21
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            33
+          ],
+          "success_chars": 28
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            26
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "二婚熟夜",
+      "file": "二婚熟夜.txt",
+      "real_rating": 8.1,
+      "rubric_score": 3.533333333333333,
+      "rubric_scores": [
+        3.4,
+        3.6,
+        3.6
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设立体": 3,
+        "职场融合": 2,
+        "情感节奏": 3,
+        "对话质感": 3,
+        "悬念设计": 4,
+        "细节真实": 3,
+        "反转合理": 3,
+        "情绪感染": 5,
+        "节奏控制": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            20
+          ],
+          "success_chars": 14
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            29
+          ],
+          "success_chars": 18
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            39
+          ],
+          "success_chars": 25
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            47
+          ],
+          "success_chars": 39
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            9
+          ],
+          "success_chars": 18
+        },
+        "悬念设计": {
+          "n_failures": 3,
+          "failure_chars": [
+            9,
+            1,
+            4
+          ],
+          "success_chars": 44
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            11
+          ],
+          "success_chars": 31
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            15
+          ],
+          "success_chars": 12
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            13
+          ],
+          "success_chars": 25
+        },
+        "节奏控制": {
+          "n_failures": 3,
+          "failure_chars": [
+            9,
+            10,
+            8
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "红墙内外，春风入局",
+      "file": "红墙内外，春风入局.txt",
+      "real_rating": 8.5,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立体": 7,
+        "职场融合": 6,
+        "情感节奏": 5,
+        "对话质感": 6,
+        "悬念设计": 5,
+        "细节真实": 8,
+        "反转合理": 6,
+        "情绪感染": 7,
+        "节奏控制": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            35
+          ],
+          "success_chars": 49
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            20
+          ],
+          "success_chars": 40
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            45
+          ],
+          "success_chars": 31
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            25
+          ],
+          "success_chars": 36
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            27
+          ],
+          "success_chars": 41
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            12
+          ],
+          "success_chars": 18
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            18
+          ],
+          "success_chars": 40
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            38
+          ],
+          "success_chars": 27
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            22
+          ],
+          "success_chars": 49
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            31
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "年上的他，非要恋上失恋的我！",
+      "file": "年上的他，非要恋上失恋的我！.txt",
+      "real_rating": 8.2,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立体": 5,
+        "职场融合": 3,
+        "情感节奏": 4,
+        "对话质感": 5,
+        "悬念设计": 5,
+        "细节真实": 4,
+        "反转合理": 5,
+        "情绪感染": 6,
+        "节奏控制": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            61,
+            62
+          ],
+          "success_chars": 26
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            29
+          ],
+          "success_chars": 58
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            28
+          ],
+          "success_chars": 18
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            23
+          ],
+          "success_chars": 16
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            15
+          ],
+          "success_chars": 44
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            51
+          ],
+          "success_chars": 33
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            16
+          ],
+          "success_chars": 25
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            33
+          ],
+          "success_chars": 25
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            12
+          ],
+          "success_chars": 30
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            39
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "远嫁八年，我掀翻了恶婆婆的家！",
+      "file": "远嫁八年，我掀翻了恶婆婆的家！.txt",
+      "real_rating": 8.2,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立体": 5,
+        "职场融合": 2,
+        "情感节奏": 4,
+        "对话质感": 5,
+        "悬念设计": 6,
+        "细节真实": 5,
+        "反转合理": 4,
+        "情绪感染": 7,
+        "节奏控制": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            76,
+            44
+          ],
+          "success_chars": 66
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            26
+          ],
+          "success_chars": 87
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            20
+          ],
+          "success_chars": 10
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            46
+          ],
+          "success_chars": 46
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            74,
+            49
+          ],
+          "success_chars": 87
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            29
+          ],
+          "success_chars": 47
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            43
+          ],
+          "success_chars": 24
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            29
+          ],
+          "success_chars": 22
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            22
+          ],
+          "success_chars": 92
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            47
+          ],
+          "success_chars": 47
+        }
+      }
+    },
+    {
+      "title": "我和新来的刑警队长奉子闪婚了",
+      "file": "我和新来的刑警队长奉子闪婚了.txt",
+      "real_rating": 8.1,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立体": 7,
+        "职场融合": 8,
+        "情感节奏": 5,
+        "对话质感": 6,
+        "悬念设计": 7,
+        "细节真实": 8,
+        "反转合理": 5,
+        "情绪感染": 6,
+        "节奏控制": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            29
+          ],
+          "success_chars": 34
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            26
+          ],
+          "success_chars": 27
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            23
+          ],
+          "success_chars": 52
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            27
+          ],
+          "success_chars": 28
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            17
+          ],
+          "success_chars": 47
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            16
+          ],
+          "success_chars": 21
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            26
+          ],
+          "success_chars": 22
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            32
+          ],
+          "success_chars": 35
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            15
+          ],
+          "success_chars": 27
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            28
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "恶毒婆婆不要脸，我教她做人！",
+      "file": "恶毒婆婆不要脸，我教她做人！.txt",
+      "real_rating": 8.1,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设立体": 5,
+        "职场融合": 3,
+        "情感节奏": 4,
+        "对话质感": 5,
+        "悬念设计": 4,
+        "细节真实": 6,
+        "反转合理": 5,
+        "情绪感染": 6,
+        "节奏控制": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            41
+          ],
+          "success_chars": 43
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            30
+          ],
+          "success_chars": 35
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            22
+          ],
+          "success_chars": 37
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            23
+          ],
+          "success_chars": 37
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            5
+          ],
+          "success_chars": 50
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            17
+          ],
+          "success_chars": 32
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            36
+          ],
+          "success_chars": 11
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            31
+          ],
+          "success_chars": 33
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            23
+          ],
+          "success_chars": 19
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            11
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "耻欲",
+      "file": "耻欲.txt",
+      "real_rating": 8.1,
+      "rubric_score": 3.9999999999999996,
+      "rubric_scores": [
+        4.1,
+        4.1,
+        3.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设立体": 3,
+        "职场融合": 2,
+        "情感节奏": 5,
+        "对话质感": 4,
+        "悬念设计": 6,
+        "细节真实": 3,
+        "反转合理": 5,
+        "情绪感染": 5,
+        "节奏控制": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            27
+          ],
+          "success_chars": 21
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            18
+          ],
+          "success_chars": 28
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            22
+          ],
+          "success_chars": 17
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            30
+          ],
+          "success_chars": 19
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            18
+          ],
+          "success_chars": 23
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            16
+          ],
+          "success_chars": 21
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            36
+          ],
+          "success_chars": 24
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            33
+          ],
+          "success_chars": 18
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            32
+          ],
+          "success_chars": 23
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            33
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "更年期女人的自我救赎",
+      "file": "更年期女人的自我救赎.txt",
+      "real_rating": 8.1,
+      "rubric_score": 4.7,
+      "rubric_scores": [
+        4.7
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立体": 5,
+        "职场融合": 4,
+        "情感节奏": 3,
+        "对话质感": 4,
+        "悬念设计": 5,
+        "细节真实": 5,
+        "反转合理": 3,
+        "情绪感染": 6,
+        "节奏控制": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            63
+          ],
+          "success_chars": 89
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            28
+          ],
+          "success_chars": 72
+        },
+        "职场融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            65,
+            33
+          ],
+          "success_chars": 69
+        },
+        "情感节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            54
+          ],
+          "success_chars": 63
+        },
+        "对话质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            28
+          ],
+          "success_chars": 62
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            41
+          ],
+          "success_chars": 64
+        },
+        "细节真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            53
+          ],
+          "success_chars": 62
+        },
+        "反转合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            30
+          ],
+          "success_chars": 34
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            25
+          ],
+          "success_chars": 34
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            69
+          ],
+          "success_chars": 46
+        }
+      }
+    }
+  ]
+}

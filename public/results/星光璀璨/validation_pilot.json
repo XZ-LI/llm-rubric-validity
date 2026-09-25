@@ -1,0 +1,2303 @@
+{
+  "run_id": "20260911T024732Z-4244e2",
+  "run_utc": "2026-09-11T02:47:32+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "星光璀璨",
+  "source_dir": "Nvpin",
+  "output_spec": "lean",
+  "n": 22,
+  "excluded_contaminated": [
+    "丑小鸭！路人甲！大佬们抱她回家.txt",
+    "好心动！好上头！嗑的cp杀疯了.txt",
+    "就算是假千金也要勇敢摆烂.txt",
+    "惊！顶流男主爱上了恶毒女配.txt",
+    "我凭神颜摆烂成顶流.txt",
+    "癫，都癫，癫点好啊.txt",
+    "长矛老师.txt"
+  ],
+  "results": [
+    {
+      "title": "磕爆！神颜夫妇今天也在恋综撒糖",
+      "file": "磕爆！神颜夫妇今天也在恋综撒糖.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.0,
+      "rubric_scores": [
+        6.1,
+        6.1,
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "节奏爆点": 6,
+        "玩梗密度": 5,
+        "打脸爽感": 6,
+        "世界观融合": 7,
+        "对话锋芒": 6,
+        "悬念钩链": 5,
+        "情绪浓度": 6,
+        "品类创新": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            12
+          ],
+          "success_chars": 11
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            13
+          ],
+          "success_chars": 18
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            36
+          ],
+          "success_chars": 13
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            10
+          ],
+          "success_chars": 12
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            13
+          ],
+          "success_chars": 10
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            15
+          ],
+          "success_chars": 15
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            5
+          ],
+          "success_chars": 21
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            2,
+            15
+          ],
+          "success_chars": 20
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            20
+          ],
+          "success_chars": 7
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            27
+          ],
+          "success_chars": 11
+        }
+      }
+    },
+    {
+      "title": "醉钓！她一撒娇，京圈楼爷心狂跳",
+      "file": "醉钓！她一撒娇，京圈楼爷心狂跳.txt",
+      "real_rating": 9.5,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设反差": 5,
+        "节奏爆点": 5,
+        "玩梗密度": 3,
+        "打脸爽感": 4,
+        "世界观融合": 6,
+        "对话锋芒": 5,
+        "悬念钩链": 5,
+        "情绪浓度": 5,
+        "品类创新": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            13
+          ],
+          "success_chars": 27
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            16
+          ],
+          "success_chars": 27
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            27
+          ],
+          "success_chars": 29
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            16
+          ],
+          "success_chars": 12
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            27
+          ],
+          "success_chars": 32
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            15
+          ],
+          "success_chars": 20
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            19
+          ],
+          "success_chars": 15
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            16
+          ],
+          "success_chars": 29
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            16
+          ],
+          "success_chars": 18
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            10
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "她发疯，他兜底，恋综谁都惹不起",
+      "file": "她发疯，他兜底，恋综谁都惹不起.txt",
+      "real_rating": 9.5,
+      "rubric_score": 7.6,
+      "rubric_scores": [
+        7.6
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设反差": 9,
+        "节奏爆点": 8,
+        "玩梗密度": 7,
+        "打脸爽感": 9,
+        "世界观融合": 7,
+        "对话锋芒": 6,
+        "悬念钩链": 8,
+        "情绪浓度": 7,
+        "品类创新": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            13
+          ],
+          "success_chars": 21
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            21
+          ],
+          "success_chars": 36
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            18
+          ],
+          "success_chars": 34
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            13
+          ],
+          "success_chars": 22
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            7
+          ],
+          "success_chars": 32
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            43
+          ],
+          "success_chars": 36
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            26
+          ],
+          "success_chars": 5
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            15
+          ],
+          "success_chars": 10
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            18
+          ],
+          "success_chars": 19
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            26
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "发疯整顿娱乐圈，颠颠的，很安心",
+      "file": "发疯整顿娱乐圈，颠颠的，很安心.txt",
+      "real_rating": 9.5,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "节奏爆点": 5,
+        "玩梗密度": 6,
+        "打脸爽感": 4,
+        "世界观融合": 6,
+        "对话锋芒": 5,
+        "悬念钩链": 5,
+        "情绪浓度": 6,
+        "品类创新": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            43
+          ],
+          "success_chars": 53
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            30
+          ],
+          "success_chars": 60
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            39
+          ],
+          "success_chars": 53
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            5
+          ],
+          "success_chars": 49
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            17
+          ],
+          "success_chars": 29
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            34
+          ],
+          "success_chars": 61
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            23
+          ],
+          "success_chars": 19
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            15
+          ],
+          "success_chars": 31
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            15
+          ],
+          "success_chars": 7
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            16
+          ],
+          "success_chars": 20
+        }
+      }
+    },
+    {
+      "title": "假千金靠沙雕带偏了所有人",
+      "file": "假千金靠沙雕带偏了所有人.txt",
+      "real_rating": 9.4,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "节奏爆点": 5,
+        "玩梗密度": 7,
+        "打脸爽感": 4,
+        "世界观融合": 6,
+        "对话锋芒": 6,
+        "悬念钩链": 5,
+        "情绪浓度": 5,
+        "品类创新": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            18
+          ],
+          "success_chars": 45
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            33
+          ],
+          "success_chars": 49
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            34
+          ],
+          "success_chars": 36
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            29
+          ],
+          "success_chars": 67
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            38
+          ],
+          "success_chars": 24
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            33
+          ],
+          "success_chars": 27
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            15
+          ],
+          "success_chars": 24
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            4,
+            20
+          ],
+          "success_chars": 54
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            33
+          ],
+          "success_chars": 55
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            48
+          ],
+          "success_chars": 42
+        }
+      }
+    },
+    {
+      "title": "婚戒送狗！她转头上恨综肘击全网",
+      "file": "婚戒送狗！她转头上恨综肘击全网.txt",
+      "real_rating": 9.3,
+      "rubric_score": 8.1,
+      "rubric_scores": [
+        8.1,
+        8.1,
+        8.1
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "人设反差": 8,
+        "节奏爆点": 8,
+        "玩梗密度": 7,
+        "打脸爽感": 9,
+        "世界观融合": 7,
+        "对话锋芒": 8,
+        "悬念钩链": 8,
+        "情绪浓度": 8,
+        "品类创新": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            24
+          ],
+          "success_chars": 18
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            50
+          ],
+          "success_chars": 11
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            40
+          ],
+          "success_chars": 32
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            10
+          ],
+          "success_chars": 7
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            37
+          ],
+          "success_chars": 25
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            30
+          ],
+          "success_chars": 42
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            19
+          ],
+          "success_chars": 19
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            19
+          ],
+          "success_chars": 16
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            14
+          ],
+          "success_chars": 31
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            29
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "不要过来啊！这恶毒女配我不干了",
+      "file": "不要过来啊！这恶毒女配我不干了.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "节奏爆点": 5,
+        "玩梗密度": 3,
+        "打脸爽感": 4,
+        "世界观融合": 5,
+        "对话锋芒": 5,
+        "悬念钩链": 4,
+        "情绪浓度": 5,
+        "品类创新": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            24
+          ],
+          "success_chars": 44
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            31
+          ],
+          "success_chars": 35
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            14
+          ],
+          "success_chars": 36
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            15
+          ],
+          "success_chars": 22
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            24
+          ],
+          "success_chars": 36
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            26
+          ],
+          "success_chars": 49
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            24
+          ],
+          "success_chars": 26
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            2
+          ],
+          "success_chars": 42
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            12
+          ],
+          "success_chars": 31
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            16
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "病态占有：偏执陆总嗜她如命",
+      "file": "病态占有：偏执陆总嗜她如命.txt",
+      "real_rating": 9.3,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 5,
+        "节奏爆点": 7,
+        "玩梗密度": 3,
+        "打脸爽感": 5,
+        "世界观融合": 6,
+        "对话锋芒": 4,
+        "悬念钩链": 7,
+        "情绪浓度": 6,
+        "品类创新": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            25
+          ],
+          "success_chars": 21
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            35
+          ],
+          "success_chars": 35
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            73,
+            58
+          ],
+          "success_chars": 42
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            22
+          ],
+          "success_chars": 53
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            17
+          ],
+          "success_chars": 25
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            32
+          ],
+          "success_chars": 48
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            31
+          ],
+          "success_chars": 36
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            17
+          ],
+          "success_chars": 16
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            37
+          ],
+          "success_chars": 50
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            37
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "顶级溺宠！娇软小漂亮被病态圈占",
+      "file": "顶级溺宠！娇软小漂亮被病态圈占.txt",
+      "real_rating": 9.3,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 5,
+        "节奏爆点": 5,
+        "玩梗密度": 3,
+        "打脸爽感": 4,
+        "世界观融合": 6,
+        "对话锋芒": 5,
+        "悬念钩链": 5,
+        "情绪浓度": 5,
+        "品类创新": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            49
+          ],
+          "success_chars": 29
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            33
+          ],
+          "success_chars": 34
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            45
+          ],
+          "success_chars": 34
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            18
+          ],
+          "success_chars": 23
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            32
+          ],
+          "success_chars": 39
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            49
+          ],
+          "success_chars": 13
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            30
+          ],
+          "success_chars": 18
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            34
+          ],
+          "success_chars": 44
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            38
+          ],
+          "success_chars": 64
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            26
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "封杀？嘿嘿，我怎么爆红全球啦",
+      "file": "封杀？嘿嘿，我怎么爆红全球啦.txt",
+      "real_rating": 9.1,
+      "rubric_score": 7.4,
+      "rubric_scores": [
+        7.4
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设反差": 7,
+        "节奏爆点": 8,
+        "玩梗密度": 9,
+        "打脸爽感": 8,
+        "世界观融合": 6,
+        "对话锋芒": 8,
+        "悬念钩链": 7,
+        "情绪浓度": 8,
+        "品类创新": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            20
+          ],
+          "success_chars": 34
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            23
+          ],
+          "success_chars": 19
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            27
+          ],
+          "success_chars": 26
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            5
+          ],
+          "success_chars": 13
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            32
+          ],
+          "success_chars": 18
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            21
+          ],
+          "success_chars": 19
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            11
+          ],
+          "success_chars": 15
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            16
+          ],
+          "success_chars": 25
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            32
+          ],
+          "success_chars": 22
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            36
+          ],
+          "success_chars": 6
+        }
+      }
+    },
+    {
+      "title": "超野！小疯批六个舅舅护着谁敢惹",
+      "file": "超野！小疯批六个舅舅护着谁敢惹.txt",
+      "real_rating": 9.6,
+      "rubric_score": 9.2,
+      "rubric_scores": [
+        9.2
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "人设反差": 10,
+        "节奏爆点": 9,
+        "玩梗密度": 9,
+        "打脸爽感": 10,
+        "世界观融合": 8,
+        "对话锋芒": 9,
+        "悬念钩链": 8,
+        "情绪浓度": 9,
+        "品类创新": 9
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            17
+          ],
+          "success_chars": 49
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            35
+          ],
+          "success_chars": 63
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            21
+          ],
+          "success_chars": 56
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            39
+          ],
+          "success_chars": 33
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            27
+          ],
+          "success_chars": 34
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            36
+          ],
+          "success_chars": 46
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            26
+          ],
+          "success_chars": 27
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            18
+          ],
+          "success_chars": 46
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            16
+          ],
+          "success_chars": 32
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            19
+          ],
+          "success_chars": 42
+        }
+      }
+    },
+    {
+      "title": "重启直播号：满级神豪团申请出战",
+      "file": "重启直播号：满级神豪团申请出战.txt",
+      "real_rating": 9.1,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设反差": 5,
+        "节奏爆点": 5,
+        "玩梗密度": 3,
+        "打脸爽感": 4,
+        "世界观融合": 6,
+        "对话锋芒": 5,
+        "悬念钩链": 5,
+        "情绪浓度": 5,
+        "品类创新": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            22
+          ],
+          "success_chars": 43
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            28
+          ],
+          "success_chars": 40
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            17
+          ],
+          "success_chars": 18
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            19
+          ],
+          "success_chars": 26
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            18
+          ],
+          "success_chars": 12
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            37
+          ],
+          "success_chars": 31
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            23
+          ],
+          "success_chars": 16
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            36
+          ],
+          "success_chars": 33
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            19
+          ],
+          "success_chars": 26
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            28
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "律师退圈当顶流，我拿法律来屠榜",
+      "file": "律师退圈当顶流，我拿法律来屠榜.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 5,
+        "节奏爆点": 4,
+        "玩梗密度": 2,
+        "打脸爽感": 5,
+        "世界观融合": 6,
+        "对话锋芒": 5,
+        "悬念钩链": 4,
+        "情绪浓度": 5,
+        "品类创新": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            22
+          ],
+          "success_chars": 33
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            19
+          ],
+          "success_chars": 34
+        },
+        "节奏爆点": {
+          "n_failures": 3,
+          "failure_chars": [
+            10,
+            25,
+            26
+          ],
+          "success_chars": 43
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            18
+          ],
+          "success_chars": 15
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            24
+          ],
+          "success_chars": 37
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            15
+          ],
+          "success_chars": 21
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            20
+          ],
+          "success_chars": 24
+        },
+        "悬念钩链": {
+          "n_failures": 3,
+          "failure_chars": [
+            11,
+            4,
+            21
+          ],
+          "success_chars": 9
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            13
+          ],
+          "success_chars": 23
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            9
+          ],
+          "success_chars": 45
+        }
+      }
+    },
+    {
+      "title": "钓疯榜一，谁教你这么当主播的？",
+      "file": "钓疯榜一，谁教你这么当主播的？.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8,
+        5.8,
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "节奏爆点": 5,
+        "玩梗密度": 7,
+        "打脸爽感": 4,
+        "世界观融合": 6,
+        "对话锋芒": 7,
+        "悬念钩链": 5,
+        "情绪浓度": 6,
+        "品类创新": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            21
+          ],
+          "success_chars": 26
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            45
+          ],
+          "success_chars": 26
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            18
+          ],
+          "success_chars": 28
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            6
+          ],
+          "success_chars": 19
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            25
+          ],
+          "success_chars": 14
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            14
+          ],
+          "success_chars": 25
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            19
+          ],
+          "success_chars": 43
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            46
+          ],
+          "success_chars": 10
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            18
+          ],
+          "success_chars": 26
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            40
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "一年跑了208个龙套后她",
+      "file": "一年跑了208个龙套后她.txt",
+      "real_rating": 8.7,
+      "rubric_score": 5.133333333333334,
+      "rubric_scores": [
+        4.9,
+        5.8,
+        4.7
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "节奏爆点": 4,
+        "玩梗密度": 2,
+        "打脸爽感": 3,
+        "世界观融合": 5,
+        "对话锋芒": 4,
+        "悬念钩链": 5,
+        "情绪浓度": 5,
+        "品类创新": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            48
+          ],
+          "success_chars": 39
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            16
+          ],
+          "success_chars": 17
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            18
+          ],
+          "success_chars": 21
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            16
+          ],
+          "success_chars": 22
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            13
+          ],
+          "success_chars": 35
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            23
+          ],
+          "success_chars": 24
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            18
+          ],
+          "success_chars": 24
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            22
+          ],
+          "success_chars": 32
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            11
+          ],
+          "success_chars": 35
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            27
+          ],
+          "success_chars": 40
+        }
+      }
+    },
+    {
+      "title": "网络皇帝驾到，不要给我哇哇叫",
+      "file": "网络皇帝驾到，不要给我哇哇叫.txt",
+      "real_rating": 8.9,
+      "rubric_score": 8.2,
+      "rubric_scores": [
+        8.2
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设反差": 9,
+        "节奏爆点": 8,
+        "玩梗密度": 9,
+        "打脸爽感": 9,
+        "世界观融合": 7,
+        "对话锋芒": 9,
+        "悬念钩链": 8,
+        "情绪浓度": 8,
+        "品类创新": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            8
+          ],
+          "success_chars": 14
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            6
+          ],
+          "success_chars": 14
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            10
+          ],
+          "success_chars": 15
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            7
+          ],
+          "success_chars": 18
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            7
+          ],
+          "success_chars": 13
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            8
+          ],
+          "success_chars": 12
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            8
+          ],
+          "success_chars": 15
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            8
+          ],
+          "success_chars": 9
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            9
+          ],
+          "success_chars": 10
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            6
+          ],
+          "success_chars": 10
+        }
+      }
+    },
+    {
+      "title": "死后百年我还是大佬们的白月光",
+      "file": "死后百年我还是大佬们的白月光.txt",
+      "real_rating": 8.7,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "人设反差": 6,
+        "节奏爆点": 6,
+        "玩梗密度": 4,
+        "打脸爽感": 7,
+        "世界观融合": 5,
+        "对话锋芒": 6,
+        "悬念钩链": 6,
+        "情绪浓度": 6,
+        "品类创新": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            41
+          ],
+          "success_chars": 21
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            22
+          ],
+          "success_chars": 27
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            21
+          ],
+          "success_chars": 26
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            22
+          ],
+          "success_chars": 28
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            26
+          ],
+          "success_chars": 39
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            13
+          ],
+          "success_chars": 31
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            23
+          ],
+          "success_chars": 18
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            27
+          ],
+          "success_chars": 24
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            17
+          ],
+          "success_chars": 34
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            29
+          ],
+          "success_chars": 18
+        }
+      }
+    },
+    {
+      "title": "让你当主播，没让你血洗乐坛啊",
+      "file": "让你当主播，没让你血洗乐坛啊.txt",
+      "real_rating": 8.7,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "节奏爆点": 5,
+        "玩梗密度": 4,
+        "打脸爽感": 5,
+        "世界观融合": 7,
+        "对话锋芒": 5,
+        "悬念钩链": 6,
+        "情绪浓度": 5,
+        "品类创新": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            35
+          ],
+          "success_chars": 15
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            20
+          ],
+          "success_chars": 28
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            31
+          ],
+          "success_chars": 60
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            2,
+            8
+          ],
+          "success_chars": 13
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            29
+          ],
+          "success_chars": 34
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            26
+          ],
+          "success_chars": 15
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            14
+          ],
+          "success_chars": 39
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            26
+          ],
+          "success_chars": 31
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            26
+          ],
+          "success_chars": 13
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            10
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "兄妹综艺对抗路，你惹她干什么",
+      "file": "兄妹综艺对抗路，你惹她干什么.txt",
+      "real_rating": 8.6,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "节奏爆点": 6,
+        "玩梗密度": 5,
+        "打脸爽感": 7,
+        "世界观融合": 6,
+        "对话锋芒": 7,
+        "悬念钩链": 5,
+        "情绪浓度": 6,
+        "品类创新": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            32
+          ],
+          "success_chars": 41
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            25
+          ],
+          "success_chars": 24
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            9
+          ],
+          "success_chars": 42
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            20
+          ],
+          "success_chars": 14
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            35
+          ],
+          "success_chars": 41
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            21
+          ],
+          "success_chars": 22
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            23
+          ],
+          "success_chars": 36
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            9
+          ],
+          "success_chars": 17
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            41
+          ],
+          "success_chars": 23
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            37
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "和家人断绝关系后，她飒爆了",
+      "file": "和家人断绝关系后，她飒爆了.txt",
+      "real_rating": 8.6,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "节奏爆点": 5,
+        "玩梗密度": 3,
+        "打脸爽感": 4,
+        "世界观融合": 5,
+        "对话锋芒": 4,
+        "悬念钩链": 6,
+        "情绪浓度": 5,
+        "品类创新": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            47
+          ],
+          "success_chars": 16
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            38
+          ],
+          "success_chars": 22
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            48
+          ],
+          "success_chars": 13
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            31
+          ],
+          "success_chars": 20
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            27
+          ],
+          "success_chars": 35
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            40
+          ],
+          "success_chars": 38
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            28
+          ],
+          "success_chars": 50
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            36
+          ],
+          "success_chars": 25
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            29
+          ],
+          "success_chars": 26
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            42
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "神颜太火怎么办？神豪排队等翻牌",
+      "file": "神颜太火怎么办？神豪排队等翻牌.txt",
+      "real_rating": 8.5,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设反差": 5,
+        "节奏爆点": 5,
+        "玩梗密度": 3,
+        "打脸爽感": 4,
+        "世界观融合": 6,
+        "对话锋芒": 5,
+        "悬念钩链": 5,
+        "情绪浓度": 5,
+        "品类创新": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            27
+          ],
+          "success_chars": 28
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            47
+          ],
+          "success_chars": 23
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            33
+          ],
+          "success_chars": 43
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            11
+          ],
+          "success_chars": 5
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            31
+          ],
+          "success_chars": 29
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            36
+          ],
+          "success_chars": 42
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            23
+          ],
+          "success_chars": 29
+        },
+        "悬念钩链": {
+          "n_failures": 3,
+          "failure_chars": [
+            1,
+            13,
+            23
+          ],
+          "success_chars": 30
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            26
+          ],
+          "success_chars": 35
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            22
+          ],
+          "success_chars": 9
+        }
+      }
+    },
+    {
+      "title": "平台合并后，我手握无数神豪大哥",
+      "file": "平台合并后，我手握无数神豪大哥.txt",
+      "real_rating": 8.4,
+      "rubric_score": 4.966666666666667,
+      "rubric_scores": [
+        5.2,
+        5.1,
+        4.6
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设反差": 5,
+        "节奏爆点": 5,
+        "玩梗密度": 6,
+        "打脸爽感": 3,
+        "世界观融合": 7,
+        "对话锋芒": 5,
+        "悬念钩链": 4,
+        "情绪浓度": 5,
+        "品类创新": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            8
+          ],
+          "success_chars": 35
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            20
+          ],
+          "success_chars": 17
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            30
+          ],
+          "success_chars": 18
+        },
+        "玩梗密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            10
+          ],
+          "success_chars": 17
+        },
+        "打脸爽感": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            34
+          ],
+          "success_chars": 41
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            28
+          ],
+          "success_chars": 37
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            25
+          ],
+          "success_chars": 10
+        },
+        "悬念钩链": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            15
+          ],
+          "success_chars": 18
+        },
+        "情绪浓度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            7
+          ],
+          "success_chars": 17
+        },
+        "品类创新": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            27
+          ],
+          "success_chars": 6
+        }
+      }
+    }
+  ]
+}

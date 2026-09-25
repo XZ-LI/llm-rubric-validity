@@ -1,0 +1,2404 @@
+{
+  "run_id": "20260911T030536Z-3ea752",
+  "run_utc": "2026-09-11T03:05:36+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "豪门总裁",
+  "source_dir": "Nvpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "乖一点！刚回国就被太子爷撩红温.txt",
+    "京枝难攀.txt",
+    "又乖又欲！太子爷醉酒夜抱她轻哄.txt",
+    "年下帅弟弟豪门姐姐的专属甜心！.txt",
+    "揉碎温柔.txt",
+    "温柔野骨.txt",
+    "闪婚后，穷老公竟然给了我一个亿.txt"
+  ],
+  "results": [
+    {
+      "title": "青山似玉",
+      "file": "青山似玉.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "阶级张力": 7,
+        "情感烈度": 5,
+        "节奏密度": 6,
+        "台词锋芒": 6,
+        "悬念嵌套": 7,
+        "感官沉浸": 7,
+        "关系颠覆": 6,
+        "代价真实": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            18
+          ],
+          "success_chars": 37
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            37
+          ],
+          "success_chars": 36
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            29
+          ],
+          "success_chars": 35
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            26
+          ],
+          "success_chars": 10
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            38
+          ],
+          "success_chars": 14
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            31
+          ],
+          "success_chars": 11
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            13
+          ],
+          "success_chars": 33
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            28
+          ],
+          "success_chars": 34
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            31
+          ],
+          "success_chars": 14
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            20
+          ],
+          "success_chars": 45
+        }
+      }
+    },
+    {
+      "title": "女配一睁眼，失忆男主冷脸洗床单",
+      "file": "女配一睁眼，失忆男主冷脸洗床单.txt",
+      "real_rating": 9.3,
+      "rubric_score": 5.833333333333333,
+      "rubric_scores": [
+        5.3,
+        6.1,
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "阶级张力": 4,
+        "情感烈度": 5,
+        "节奏密度": 7,
+        "台词锋芒": 6,
+        "悬念嵌套": 6,
+        "感官沉浸": 5,
+        "关系颠覆": 5,
+        "代价真实": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            56
+          ],
+          "success_chars": 40
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            51
+          ],
+          "success_chars": 14
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            43
+          ],
+          "success_chars": 23
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            28
+          ],
+          "success_chars": 22
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            31
+          ],
+          "success_chars": 20
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            23
+          ],
+          "success_chars": 14
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            26
+          ],
+          "success_chars": 37
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            9
+          ],
+          "success_chars": 55
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            28
+          ],
+          "success_chars": 33
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            27
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "陷落京霓",
+      "file": "陷落京霓.txt",
+      "real_rating": 9.3,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 5,
+        "阶级张力": 7,
+        "情感烈度": 6,
+        "节奏密度": 5,
+        "台词锋芒": 6,
+        "悬念嵌套": 7,
+        "感官沉浸": 6,
+        "关系颠覆": 8,
+        "代价真实": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            31
+          ],
+          "success_chars": 40
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            16
+          ],
+          "success_chars": 36
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            25
+          ],
+          "success_chars": 56
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            8
+          ],
+          "success_chars": 37
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            32
+          ],
+          "success_chars": 43
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            30
+          ],
+          "success_chars": 15
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            18
+          ],
+          "success_chars": 38
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            14
+          ],
+          "success_chars": 30
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            15
+          ],
+          "success_chars": 43
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            33
+          ],
+          "success_chars": 40
+        }
+      }
+    },
+    {
+      "title": "婚夜，燃尽",
+      "file": "婚夜，燃尽.txt",
+      "real_rating": 9.3,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 5,
+        "阶级张力": 7,
+        "情感烈度": 6,
+        "节奏密度": 5,
+        "台词锋芒": 5,
+        "悬念嵌套": 6,
+        "感官沉浸": 7,
+        "关系颠覆": 6,
+        "代价真实": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            36
+          ],
+          "success_chars": 60
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            43
+          ],
+          "success_chars": 44
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            24
+          ],
+          "success_chars": 76
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            22
+          ],
+          "success_chars": 29
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            39
+          ],
+          "success_chars": 41
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            31
+          ],
+          "success_chars": 17
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            32
+          ],
+          "success_chars": 32
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            22
+          ],
+          "success_chars": 26
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            22
+          ],
+          "success_chars": 39
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            20
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "京婚厚爱",
+      "file": "京婚厚爱.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 5,
+        "阶级张力": 7,
+        "情感烈度": 5,
+        "节奏密度": 6,
+        "台词锋芒": 5,
+        "悬念嵌套": 6,
+        "感官沉浸": 5,
+        "关系颠覆": 6,
+        "代价真实": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            37
+          ],
+          "success_chars": 18
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            39
+          ],
+          "success_chars": 27
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            25
+          ],
+          "success_chars": 43
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            41
+          ],
+          "success_chars": 34
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            37
+          ],
+          "success_chars": 23
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            40
+          ],
+          "success_chars": 44
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            33
+          ],
+          "success_chars": 46
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            41
+          ],
+          "success_chars": 40
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            42
+          ],
+          "success_chars": 35
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            20
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "玩，脱",
+      "file": "玩，脱.txt",
+      "real_rating": 9.3,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "阶级张力": 7,
+        "情感烈度": 4,
+        "节奏密度": 5,
+        "台词锋芒": 6,
+        "悬念嵌套": 5,
+        "感官沉浸": 6,
+        "关系颠覆": 4,
+        "代价真实": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            79,
+            66
+          ],
+          "success_chars": 52
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            44
+          ],
+          "success_chars": 19
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            34
+          ],
+          "success_chars": 45
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            48
+          ],
+          "success_chars": 41
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            43
+          ],
+          "success_chars": 60
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            27
+          ],
+          "success_chars": 20
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            30
+          ],
+          "success_chars": 36
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            32
+          ],
+          "success_chars": 44
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            31
+          ],
+          "success_chars": 54
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            20
+          ],
+          "success_chars": 44
+        }
+      }
+    },
+    {
+      "title": "女配觉醒后，伪善人夫彻底沦陷",
+      "file": "女配觉醒后，伪善人夫彻底沦陷.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.966666666666667,
+      "rubric_scores": [
+        6.9,
+        6.9,
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设锐度": 7,
+        "阶级张力": 6,
+        "情感烈度": 5,
+        "节奏密度": 7,
+        "台词锋芒": 6,
+        "悬念嵌套": 8,
+        "感官沉浸": 7,
+        "关系颠覆": 8,
+        "代价真实": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            14
+          ],
+          "success_chars": 25
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            13
+          ],
+          "success_chars": 47
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            23
+          ],
+          "success_chars": 18
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            29
+          ],
+          "success_chars": 35
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            17
+          ],
+          "success_chars": 31
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            9
+          ],
+          "success_chars": 4
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            22
+          ],
+          "success_chars": 19
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            25
+          ],
+          "success_chars": 30
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            13
+          ],
+          "success_chars": 16
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            32
+          ],
+          "success_chars": 54
+        }
+      }
+    },
+    {
+      "title": "十诫锁心",
+      "file": "十诫锁心.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设锐度": 6,
+        "阶级张力": 7,
+        "情感烈度": 5,
+        "节奏密度": 6,
+        "台词锋芒": 5,
+        "悬念嵌套": 7,
+        "感官沉浸": 8,
+        "关系颠覆": 4,
+        "代价真实": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            32
+          ],
+          "success_chars": 33
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            26
+          ],
+          "success_chars": 35
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            49
+          ],
+          "success_chars": 43
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            20
+          ],
+          "success_chars": 38
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            42
+          ],
+          "success_chars": 24
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            9
+          ],
+          "success_chars": 8
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            17
+          ],
+          "success_chars": 39
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            21
+          ],
+          "success_chars": 39
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            19
+          ],
+          "success_chars": 27
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            9
+          ],
+          "success_chars": 50
+        }
+      }
+    },
+    {
+      "title": "说好玩玩，我相亲你破防什么",
+      "file": "说好玩玩，我相亲你破防什么.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "人设锐度": 6,
+        "阶级张力": 8,
+        "情感烈度": 7,
+        "节奏密度": 6,
+        "台词锋芒": 7,
+        "悬念嵌套": 6,
+        "感官沉浸": 5,
+        "关系颠覆": 7,
+        "代价真实": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            26
+          ],
+          "success_chars": 27
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            35
+          ],
+          "success_chars": 47
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            14
+          ],
+          "success_chars": 18
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            39
+          ],
+          "success_chars": 43
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            35
+          ],
+          "success_chars": 21
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            18
+          ],
+          "success_chars": 53
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            9
+          ],
+          "success_chars": 20
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            20
+          ],
+          "success_chars": 22
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            15
+          ],
+          "success_chars": 30
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            30
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "炙热贪欢",
+      "file": "炙热贪欢.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "人设锐度": 6,
+        "阶级张力": 8,
+        "情感烈度": 7,
+        "节奏密度": 6,
+        "台词锋芒": 5,
+        "悬念嵌套": 8,
+        "感官沉浸": 7,
+        "关系颠覆": 9,
+        "代价真实": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            31
+          ],
+          "success_chars": 39
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            41
+          ],
+          "success_chars": 39
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            24
+          ],
+          "success_chars": 46
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            13
+          ],
+          "success_chars": 35
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            29
+          ],
+          "success_chars": 34
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            15
+          ],
+          "success_chars": 64
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            22
+          ],
+          "success_chars": 40
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            18
+          ],
+          "success_chars": 34
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            39
+          ],
+          "success_chars": 52
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            36
+          ],
+          "success_chars": 40
+        }
+      }
+    },
+    {
+      "title": "热恋从新婚开始",
+      "file": "热恋从新婚开始.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 7,
+        "阶级张力": 8,
+        "情感烈度": 7,
+        "节奏密度": 6,
+        "台词锋芒": 7,
+        "悬念嵌套": 6,
+        "感官沉浸": 5,
+        "关系颠覆": 8,
+        "代价真实": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            9
+          ],
+          "success_chars": 49
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            21
+          ],
+          "success_chars": 40
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            19
+          ],
+          "success_chars": 47
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            26
+          ],
+          "success_chars": 39
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            14
+          ],
+          "success_chars": 39
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            6
+          ],
+          "success_chars": 22
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            18
+          ],
+          "success_chars": 39
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            18
+          ],
+          "success_chars": 33
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            22
+          ],
+          "success_chars": 52
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            7
+          ],
+          "success_chars": 44
+        }
+      }
+    },
+    {
+      "title": "婚前禁欲！婚后上瘾！他日日厮宠",
+      "file": "婚前禁欲！婚后上瘾！他日日厮宠.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 5,
+        "阶级张力": 7,
+        "情感烈度": 6,
+        "节奏密度": 5,
+        "台词锋芒": 6,
+        "悬念嵌套": 7,
+        "感官沉浸": 8,
+        "关系颠覆": 8,
+        "代价真实": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            21
+          ],
+          "success_chars": 33
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            32
+          ],
+          "success_chars": 31
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            38
+          ],
+          "success_chars": 60
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            8
+          ],
+          "success_chars": 37
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            55
+          ],
+          "success_chars": 33
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            32
+          ],
+          "success_chars": 35
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            30
+          ],
+          "success_chars": 43
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            29
+          ],
+          "success_chars": 29
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            11
+          ],
+          "success_chars": 44
+        },
+        "代价真实": {
+          "n_failures": 3,
+          "failure_chars": [
+            23,
+            34,
+            20
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "欲染京曦",
+      "file": "欲染京曦.txt",
+      "real_rating": 8.9,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 7,
+        "阶级张力": 8,
+        "情感烈度": 5,
+        "节奏密度": 7,
+        "台词锋芒": 6,
+        "悬念嵌套": 7,
+        "感官沉浸": 5,
+        "关系颠覆": 6,
+        "代价真实": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            49
+          ],
+          "success_chars": 13
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            20
+          ],
+          "success_chars": 17
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            10
+          ],
+          "success_chars": 47
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            42
+          ],
+          "success_chars": 33
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            20
+          ],
+          "success_chars": 19
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            16
+          ],
+          "success_chars": 14
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            11
+          ],
+          "success_chars": 38
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            19
+          ],
+          "success_chars": 17
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            41
+          ],
+          "success_chars": 15
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            21
+          ],
+          "success_chars": 13
+        }
+      }
+    },
+    {
+      "title": "犟，继续犟，这次她不哄了",
+      "file": "犟，继续犟，这次她不哄了.txt",
+      "real_rating": 9.1,
+      "rubric_score": 7.3,
+      "rubric_scores": [
+        7.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设锐度": 7,
+        "阶级张力": 6,
+        "情感烈度": 8,
+        "节奏密度": 7,
+        "台词锋芒": 8,
+        "悬念嵌套": 7,
+        "感官沉浸": 6,
+        "关系颠覆": 8,
+        "代价真实": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            13
+          ],
+          "success_chars": 46
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            25
+          ],
+          "success_chars": 42
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            21
+          ],
+          "success_chars": 43
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            12
+          ],
+          "success_chars": 35
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            30
+          ],
+          "success_chars": 17
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            25
+          ],
+          "success_chars": 9
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            10
+          ],
+          "success_chars": 7
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            22
+          ],
+          "success_chars": 46
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            19
+          ],
+          "success_chars": 52
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            11
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "醉酒错吻死对头，他哥失控发疯了",
+      "file": "醉酒错吻死对头，他哥失控发疯了.txt",
+      "real_rating": 9.1,
+      "rubric_score": 7.133333333333333,
+      "rubric_scores": [
+        7.1,
+        7.2,
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设锐度": 7,
+        "阶级张力": 6,
+        "情感烈度": 8,
+        "节奏密度": 7,
+        "台词锋芒": 8,
+        "悬念嵌套": 7,
+        "感官沉浸": 6,
+        "关系颠覆": 8,
+        "代价真实": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            10
+          ],
+          "success_chars": 31
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            36
+          ],
+          "success_chars": 25
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            27
+          ],
+          "success_chars": 18
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            17
+          ],
+          "success_chars": 33
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            31
+          ],
+          "success_chars": 67
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            22
+          ],
+          "success_chars": 34
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            18
+          ],
+          "success_chars": 26
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            33
+          ],
+          "success_chars": 26
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            27
+          ],
+          "success_chars": 25
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            17
+          ],
+          "success_chars": 16
+        }
+      }
+    },
+    {
+      "title": "老公！低声些，难道光彩吗？",
+      "file": "老公！低声些，难道光彩吗？.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 5,
+        "阶级张力": 4,
+        "情感烈度": 5,
+        "节奏密度": 7,
+        "台词锋芒": 5,
+        "悬念嵌套": 6,
+        "感官沉浸": 6,
+        "关系颠覆": 5,
+        "代价真实": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            28
+          ],
+          "success_chars": 41
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            41
+          ],
+          "success_chars": 39
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            65,
+            43
+          ],
+          "success_chars": 50
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            30
+          ],
+          "success_chars": 24
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            37
+          ],
+          "success_chars": 28
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            12
+          ],
+          "success_chars": 21
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            1,
+            8
+          ],
+          "success_chars": 19
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            27
+          ],
+          "success_chars": 43
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            33
+          ],
+          "success_chars": 23
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            32
+          ],
+          "success_chars": 37
+        }
+      }
+    },
+    {
+      "title": "穿书反派，我比格属性爆发",
+      "file": "穿书反派，我比格属性爆发.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 7,
+        "阶级张力": 5,
+        "情感烈度": 4,
+        "节奏密度": 6,
+        "台词锋芒": 7,
+        "悬念嵌套": 5,
+        "感官沉浸": 4,
+        "关系颠覆": 5,
+        "代价真实": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            56
+          ],
+          "success_chars": 53
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            38
+          ],
+          "success_chars": 34
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            32
+          ],
+          "success_chars": 49
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            26
+          ],
+          "success_chars": 44
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            45
+          ],
+          "success_chars": 41
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            14
+          ],
+          "success_chars": 33
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            20
+          ],
+          "success_chars": 43
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            21
+          ],
+          "success_chars": 18
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            31
+          ],
+          "success_chars": 40
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            21
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "军婚有瘾",
+      "file": "军婚有瘾.txt",
+      "real_rating": 8.6,
+      "rubric_score": 6.933333333333334,
+      "rubric_scores": [
+        7.1,
+        6.8,
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "人设锐度": 6,
+        "阶级张力": 8,
+        "情感烈度": 5,
+        "节奏密度": 7,
+        "台词锋芒": 6,
+        "悬念嵌套": 8,
+        "感官沉浸": 5,
+        "关系颠覆": 9,
+        "代价真实": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            33
+          ],
+          "success_chars": 36
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            27
+          ],
+          "success_chars": 57
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            12
+          ],
+          "success_chars": 64
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            30
+          ],
+          "success_chars": 47
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            20
+          ],
+          "success_chars": 46
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            29
+          ],
+          "success_chars": 37
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            29
+          ],
+          "success_chars": 24
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            21
+          ],
+          "success_chars": 44
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            9
+          ],
+          "success_chars": 40
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            16
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "小小奶团子，全身反骨子",
+      "file": "小小奶团子，全身反骨子.txt",
+      "real_rating": 8.6,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 4,
+        "阶级张力": 5,
+        "情感烈度": 3,
+        "节奏密度": 4,
+        "台词锋芒": 4,
+        "悬念嵌套": 6,
+        "感官沉浸": 5,
+        "关系颠覆": 7,
+        "代价真实": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            41
+          ],
+          "success_chars": 19
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            18
+          ],
+          "success_chars": 30
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            12
+          ],
+          "success_chars": 14
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            16
+          ],
+          "success_chars": 18
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            32
+          ],
+          "success_chars": 34
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            19
+          ],
+          "success_chars": 32
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            17
+          ],
+          "success_chars": 18
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            12
+          ],
+          "success_chars": 34
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            38
+          ],
+          "success_chars": 26
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            38
+          ],
+          "success_chars": 18
+        }
+      }
+    },
+    {
+      "title": "初次尝鲜",
+      "file": "初次尝鲜.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 5,
+        "阶级张力": 4,
+        "情感烈度": 5,
+        "节奏密度": 5,
+        "台词锋芒": 4,
+        "悬念嵌套": 6,
+        "感官沉浸": 7,
+        "关系颠覆": 8,
+        "代价真实": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            28
+          ],
+          "success_chars": 27
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            49
+          ],
+          "success_chars": 43
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            24
+          ],
+          "success_chars": 43
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            16
+          ],
+          "success_chars": 37
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            21
+          ],
+          "success_chars": 24
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            14
+          ],
+          "success_chars": 10
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            19
+          ],
+          "success_chars": 40
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            17
+          ],
+          "success_chars": 47
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            8
+          ],
+          "success_chars": 40
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            20
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "分手四年后，被哥哥按在墙后吻",
+      "file": "分手四年后，被哥哥按在墙后吻.txt",
+      "real_rating": 8.2,
+      "rubric_score": 4.966666666666667,
+      "rubric_scores": [
+        5.2,
+        5.1,
+        4.6
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设锐度": 5,
+        "阶级张力": 6,
+        "情感烈度": 5,
+        "节奏密度": 5,
+        "台词锋芒": 6,
+        "悬念嵌套": 5,
+        "感官沉浸": 6,
+        "关系颠覆": 5,
+        "代价真实": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            21
+          ],
+          "success_chars": 41
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            19
+          ],
+          "success_chars": 26
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            50
+          ],
+          "success_chars": 40
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            28
+          ],
+          "success_chars": 19
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            26
+          ],
+          "success_chars": 30
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            8
+          ],
+          "success_chars": 23
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            11
+          ],
+          "success_chars": 20
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            25
+          ],
+          "success_chars": 35
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            12
+          ],
+          "success_chars": 3
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            13
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "说好会哄会停，怎么会哄不停！",
+      "file": "说好会哄会停，怎么会哄不停！.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "人设锐度": 6,
+        "阶级张力": 5,
+        "情感烈度": 4,
+        "节奏密度": 6,
+        "台词锋芒": 5,
+        "悬念嵌套": 6,
+        "感官沉浸": 5,
+        "关系颠覆": 7,
+        "代价真实": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            30
+          ],
+          "success_chars": 18
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            36
+          ],
+          "success_chars": 21
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            47
+          ],
+          "success_chars": 46
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            24
+          ],
+          "success_chars": 25
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            39
+          ],
+          "success_chars": 42
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            21
+          ],
+          "success_chars": 23
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            38
+          ],
+          "success_chars": 26
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            28
+          ],
+          "success_chars": 47
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 33
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            30
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "爷爷硬塞的老婆好软，陆总爱死了",
+      "file": "爷爷硬塞的老婆好软，陆总爱死了.txt",
+      "real_rating": 8.4,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 5,
+        "阶级张力": 6,
+        "情感烈度": 7,
+        "节奏密度": 5,
+        "台词锋芒": 6,
+        "悬念嵌套": 4,
+        "感官沉浸": 5,
+        "关系颠覆": 5,
+        "代价真实": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            19
+          ],
+          "success_chars": 49
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            10
+          ],
+          "success_chars": 27
+        },
+        "阶级张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            12
+          ],
+          "success_chars": 31
+        },
+        "情感烈度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            11
+          ],
+          "success_chars": 27
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            17
+          ],
+          "success_chars": 40
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            11
+          ],
+          "success_chars": 4
+        },
+        "悬念嵌套": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            23
+          ],
+          "success_chars": 38
+        },
+        "感官沉浸": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            33
+          ],
+          "success_chars": 26
+        },
+        "关系颠覆": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            18
+          ],
+          "success_chars": 27
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            18
+          ],
+          "success_chars": 42
+        }
+      }
+    }
+  ]
+}

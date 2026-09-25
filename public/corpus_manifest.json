@@ -1,0 +1,6726 @@
+{
+  "n": 840,
+  "note": "书目清单，供复现者自行获取语料；本仓库不分发作品正文。",
+  "books": [
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7081155189415087143",
+      "title": "凡人策",
+      "rating": 9.0
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7382148713285684286",
+      "title": "灵葫芦修仙记",
+      "rating": 9.0
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7114567432542358542",
+      "title": "道心参天",
+      "rating": 9.2
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7419924358912543769",
+      "title": "天不应",
+      "rating": 9.2
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7239954742909078565",
+      "title": "诸天：从迎娶邀月宫主开始",
+      "rating": 9.1
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7599089442711686169",
+      "title": "西游：这是谁把金丹放我府上的？",
+      "rating": 9.1
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7377931562463005720",
+      "title": "开局长生，苟在下界吃土飞升",
+      "rating": 9.0
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7234021426796170273",
+      "title": "凡人修仙，万尸铸仙骨",
+      "rating": 8.9
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7332840880971189272",
+      "title": "帝域",
+      "rating": 8.8
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7364671902251502616",
+      "title": "凡人修仙之符祖",
+      "rating": 8.6
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7041367966071393315",
+      "title": "凡人修仙，开局看守废丹房",
+      "rating": 8.9
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7591511434899508248",
+      "title": "不择手段，可成仙否？",
+      "rating": 8.5
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7581319454013787198",
+      "title": "修仙：旁门左道就是这样的",
+      "rating": 8.5
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7553557344634801177",
+      "title": "说好修仙，你的本体怎么是恒星？",
+      "rating": 8.3
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "",
+      "title": "开局成帝，我来给诸天上强度",
+      "rating": 8.2
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7584363461639949374",
+      "title": "道炁长存",
+      "rating": 8.2
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7445188900496083992",
+      "title": "仙界闭关小能手",
+      "rating": 8.5
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7560509095371885593",
+      "title": "合欢宗第一炉鼎！",
+      "rating": 8.0
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7540122908304100414",
+      "title": "百岁仙尊",
+      "rating": 8.1
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7521195918469647385",
+      "title": "破戒后，一天一个新境界",
+      "rating": 8.0
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7548105218152483864",
+      "title": "被贬废丹房，我偷偷无敌了",
+      "rating": 8.2
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "7495965493036059710",
+      "title": "灵药空间：五灵根才是完美道基",
+      "rating": 7.9
+    },
+    {
+      "cell": "东方仙侠",
+      "category": "东方仙侠",
+      "channel": "Nanpin",
+      "book_id": "",
+      "title": "他一躺平杂役，你惹他干嘛",
+      "rating": 7.8
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7158752613117201419",
+      "title": "瞎子背剑，无眼窥天",
+      "rating": 9.2
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7221090838208580623",
+      "title": "蛇天帝",
+      "rating": 9.2
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7202777894500699188",
+      "title": "练阴阳，合欢喜，成大道",
+      "rating": 9.2
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7436631809556761624",
+      "title": "剑饮不知醉",
+      "rating": 9.1
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7064405896540982309",
+      "title": "葬神刀",
+      "rating": 9.1
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7077546460056652803",
+      "title": "踏天境",
+      "rating": 9.2
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7243455282007772217",
+      "title": "师弟，别这么修仙",
+      "rating": 9.0
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7143134984532921382",
+      "title": "葬天境",
+      "rating": 9.0
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7480438517189839897",
+      "title": "蝼蚁？下一世你应该称呼我什么？",
+      "rating": 9.0
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7263344278955363385",
+      "title": "长生万年，多亿点熟人怎么了？",
+      "rating": 9.0
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "6964287029689453604",
+      "title": "凡人修仙记",
+      "rating": 8.9
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7372021637236935742",
+      "title": "他的修仙，让整个修仙界破防了！",
+      "rating": 8.8
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7474582323657182232",
+      "title": "道友，你在和谁说话？",
+      "rating": 8.9
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7185083041159580730",
+      "title": "大荒悍匪",
+      "rating": 8.9
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7433743025282485272",
+      "title": "我反派家世通天，梨花飘落你窗前",
+      "rating": 8.7
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7309742129457138738",
+      "title": "我在天牢，长生不死",
+      "rating": 8.6
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7218833393251781666",
+      "title": "师尊重伤，苟活的我被迫出山",
+      "rating": 8.3
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7432231920076852249",
+      "title": "开局侮辱圣女，我是幽冥魔尊",
+      "rating": 8.1
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7436082761670085656",
+      "title": "大道天阙",
+      "rating": 8.6
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7584837466654247998",
+      "title": "贫道略开金口，怎么举世皆惊？",
+      "rating": 8.2
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7459800653439716414",
+      "title": "贴地武夫，谁教他炼剑起飞的？",
+      "rating": 8.5
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7372053721695407166",
+      "title": "自缚禁地五百年，我弃宗门当散修",
+      "rating": 7.9
+    },
+    {
+      "cell": "传统玄幻",
+      "category": "传统玄幻",
+      "channel": "Nanpin",
+      "book_id": "7568073273414519832",
+      "title": "我，纨绔世子，开局征服太子妃！",
+      "rating": 7.5
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7589918797650218009",
+      "title": "战锤百倍正反馈，四神洗成人类神",
+      "rating": 8.9
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7570013889018989592",
+      "title": "我，祖国人，漫威唯一人间之神",
+      "rating": 8.8
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7466720973903891518",
+      "title": "海贼：十五岁的旧时代霸主",
+      "rating": 9.1
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7579769326991854654",
+      "title": "冲徒逆师得手后，反手让我出师",
+      "rating": 8.9
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7600710461780134974",
+      "title": "一心求死的我竟是最强人间体",
+      "rating": 8.8
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7607689045631568920",
+      "title": "崩铁：什么叫你给纳努克发了车票",
+      "rating": 8.9
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7569224382342499352",
+      "title": "超级蜘蛛侠：全新之日！",
+      "rating": 8.1
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7602563957806615577",
+      "title": "天幕：开局锐评三代，忍界全傻了",
+      "rating": 8.3
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7602214488955178046",
+      "title": "谁教你用魂系打法玩魔法少女的？",
+      "rating": 8.4
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7602842297138433049",
+      "title": "崩铁：我都P40了，系统才来",
+      "rating": 8.0
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7567368636650753049",
+      "title": "海贼：疯了，他才是洛克斯话事人",
+      "rating": 8.5
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7594661573939956760",
+      "title": "开服之前，我执掌潮汐监狱",
+      "rating": 8.0
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "",
+      "title": "咒回模拟：扭曲且傲慢的救世主",
+      "rating": 7.9
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7572232391142427710",
+      "title": "海贼：没人比我更懂霸王色",
+      "rating": 8.0
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7592594171492305944",
+      "title": "一人：开局在东北杀鬼子",
+      "rating": 7.7
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7603269004299357208",
+      "title": "一人：照着无限修炼成仙！",
+      "rating": 7.4
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7615858448055421976",
+      "title": "坏了！这艾斯把暗暗果实给吃了",
+      "rating": 7.7
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7579148776015662142",
+      "title": "海贼：混在洛克斯团，每天变强",
+      "rating": 7.4
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7602553112439557182",
+      "title": "漫威丧尸，从推倒寡姐开始",
+      "rating": 7.3
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7594788447454235672",
+      "title": "一人：满级老祖，出关吓呆十佬",
+      "rating": 7.2
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "",
+      "title": "长生火影：你才玩忍界多少年？",
+      "rating": 7.0
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7582589263061994520",
+      "title": "都有符咒了，谁还跟你玩嘎啦给木",
+      "rating": 6.6
+    },
+    {
+      "cell": "动漫衍生",
+      "category": "动漫衍生",
+      "channel": "Nanpin",
+      "book_id": "7524384895003544600",
+      "title": "冠军了，系统还当我是萌新",
+      "rating": 6.1
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7171455391044209677",
+      "title": "我，大明长生者，历经十六帝",
+      "rating": 9.3
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "",
+      "title": "高武大明：从小太监到九千岁",
+      "rating": 9.2
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7482703685139565593",
+      "title": "全族扶我青云志，我赠族人朱紫袍",
+      "rating": 9.2
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7241012597783268363",
+      "title": "穿越大唐：当个闲王这么难",
+      "rating": 9.2
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7477576232578599998",
+      "title": "混账，谁说我不是阉党",
+      "rating": 9.3
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7124312414895475724",
+      "title": "大明暴君，我为大明续运三百年",
+      "rating": 9.2
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7363901972950305854",
+      "title": "天下道德倒退三百年，关我什么事",
+      "rating": 9.1
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7500896904809565209",
+      "title": "你家三代从商？我家做官两千年",
+      "rating": 8.9
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7532403250494966808",
+      "title": "科举：杀猪世家，出了个文曲星",
+      "rating": 8.8
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7478301860315548696",
+      "title": "晚唐藩镇，天下第一节度使",
+      "rating": 8.9
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7377039601392684094",
+      "title": "三国：家父袁术，我开局怒砸玉玺",
+      "rating": 8.7
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7433332360923319321",
+      "title": "始皇！你再不死，我就打到澳洲了",
+      "rating": 9.0
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7594856468881361944",
+      "title": "冒名入仕，我熬成了大明权臣",
+      "rating": 8.6
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7257094626333428797",
+      "title": "大唐：这个皇室没我得散",
+      "rating": 8.6
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7485955773382528025",
+      "title": "我在晚唐当流民，平推五代十国",
+      "rating": 8.4
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7584000844345904153",
+      "title": "寒门五凤：爹，这次我带全家翻身",
+      "rating": 8.4
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7526466331047119896",
+      "title": "暴君崇祯：再续大明三百年！",
+      "rating": 8.4
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7509497994727672857",
+      "title": "大乾第一纨绔",
+      "rating": 8.3
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7543183889557113880",
+      "title": "大明：从壮丁到第一国公！",
+      "rating": 8.0
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7488745178589563929",
+      "title": "赐婚当日，公主连夜上门退婚",
+      "rating": 8.3
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7595240954823461912",
+      "title": "边军：从领取罪女开始，一统天下",
+      "rating": 8.3
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7528383961316199449",
+      "title": "北大硕士科举：震惊满朝文武",
+      "rating": 8.2
+    },
+    {
+      "cell": "历史古代",
+      "category": "历史古代",
+      "channel": "Nanpin",
+      "book_id": "7577401053021211673",
+      "title": "我男频读者，还能在你女频受气？",
+      "rating": 7.9
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7481502794919185433",
+      "title": "天幕：刷龙纛前压，这是大宋？",
+      "rating": 8.4
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7596253294612188185",
+      "title": "满门忠烈，带八个嫂嫂杀穿朝堂！",
+      "rating": 8.2
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7530301461050166296",
+      "title": "说好荒年，怎么你家顿顿满桌肉",
+      "rating": 8.2
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7579495106869201945",
+      "title": "满门忠烈皆是我：死谏气哭老朱",
+      "rating": 8.3
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7566867875705654297",
+      "title": "大明长生者，我的义母是马皇后",
+      "rating": 8.4
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7576288532298222617",
+      "title": "君权神授：我是世间唯一仙",
+      "rating": 8.1
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7587418906717867032",
+      "title": "豆包：科举？我来助你！",
+      "rating": 8.1
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7593725878836677656",
+      "title": "大明全是玩家，这让满清怎么玩？",
+      "rating": 7.9
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7546133435534806040",
+      "title": "开局押送六美：从此走上无敌路",
+      "rating": 8.0
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7583976604414528536",
+      "title": "七位嫂嫂请冷静，我是老八啊！",
+      "rating": 8.0
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7611500094038215742",
+      "title": "开局强娶皇嫂，你说是为了社稷？",
+      "rating": 7.9
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7582409268603653145",
+      "title": "一心求死，却成九州第一战神",
+      "rating": 7.9
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7583632114579409945",
+      "title": "红楼：升官拿奖励，开局一战封侯",
+      "rating": 7.9
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7606301945430559769",
+      "title": "明末皇帝不上朝？那国家队帮你上",
+      "rating": 7.8
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7568833732036021310",
+      "title": "大明：让你监国你带大明全球抢劫",
+      "rating": 7.7
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7561683401594375192",
+      "title": "大隋异姓王，我一戟镇压世间反王",
+      "rating": 7.7
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7610340451278654488",
+      "title": "开局得长生，我见朝堂如尘埃",
+      "rating": 7.7
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7510091796857244697",
+      "title": "重生即无敌的我被系统锁了十八年",
+      "rating": 7.7
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7508997619381718078",
+      "title": "隋唐第一纨绔，开局天罡三十六斧",
+      "rating": 7.7
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7600004519992249406",
+      "title": "皇帝南逃！不是，你妃嫔不带走？",
+      "rating": 7.7
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7502308891598801944",
+      "title": "大唐被高阳长乐缠上，我真的好难",
+      "rating": 7.6
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7600722692051848254",
+      "title": "贪官？狂臣？我自雪中拉棺死谏！",
+      "rating": 7.2
+    },
+    {
+      "cell": "历史脑洞",
+      "category": "历史脑洞",
+      "channel": "Nanpin",
+      "book_id": "7522488236942298174",
+      "title": "我，废太子，开局大宗师签到罗网",
+      "rating": 7.4
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7291180913747037195",
+      "title": "捏鬼！画符！将军嫡长女地府来的",
+      "rating": 9.3
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7475535217109781566",
+      "title": "出去打听打听，谁家杀手去和亲？",
+      "rating": 9.4
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7367580979906497560",
+      "title": "不许偷听朕说话",
+      "rating": 9.4
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7244363820808801315",
+      "title": "始皇偷听我心声，不统六国统全球",
+      "rating": 9.4
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7565826198656273432",
+      "title": "都成亲了才发现夫君有狐狸尾巴",
+      "rating": 9.4
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7515457905320004632",
+      "title": "都亲了才告诉我他是大反派！？",
+      "rating": 9.4
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7539824381321546777",
+      "title": "黑莲花略施心机，各路大佬全沦陷",
+      "rating": 9.2
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7545144499408751678",
+      "title": "太子崽崽今天登基了吗？",
+      "rating": 9.2
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7562441843531582526",
+      "title": "大秦：谁惹寡人体弱多病的爱卿了",
+      "rating": 9.1
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7464511881131084824",
+      "title": "说好的灭门呢，怎么变宠妻了？",
+      "rating": 9.1
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7436411102231022616",
+      "title": "死在亲儿子手里，恶毒太后重生了",
+      "rating": 9.0
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7554209550094584894",
+      "title": "这苗疆反派怎么用嘴下蛊？",
+      "rating": 9.3
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7598540474529352729",
+      "title": "穿书奸臣之女，没人比我更懂贪",
+      "rating": 9.0
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7582208638912056345",
+      "title": "我养大的年下，后来成了年上",
+      "rating": 8.7
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7586999440603368510",
+      "title": "穿成死对头生的女儿，我只想登基",
+      "rating": 9.0
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7508374537164033086",
+      "title": "嫡母要我命？气呼呼！系统快爆瓜",
+      "rating": 8.8
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7579615885753584702",
+      "title": "佛珠镇百鬼，煞星渡余生",
+      "rating": 8.6
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7491544756820905022",
+      "title": "太子妃爱吃瓜满朝文武偷听笑哈哈",
+      "rating": 8.6
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7592502894293683224",
+      "title": "吃瓜的我，遇上读心的她",
+      "rating": 8.5
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7548341653237402686",
+      "title": "假皇子爱吃瓜，身份暴露成团宠",
+      "rating": 7.8
+    },
+    {
+      "cell": "古言脑洞",
+      "category": "古言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7582228312039099416",
+      "title": "我带警犬穿越成弃妃",
+      "rating": 8.2
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7447693778720132120",
+      "title": "青梅小山匪",
+      "rating": 9.5
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7292067056164277311",
+      "title": "被贬后我靠玄学一路升官",
+      "rating": 9.5
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7200738711116450877",
+      "title": "娇骨",
+      "rating": 9.5
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7423691438321323070",
+      "title": "末世女帝养成指南",
+      "rating": 9.5
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7354047027010882584",
+      "title": "小道姑一身反骨",
+      "rating": 9.5
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7208043091318541346",
+      "title": "病娇男主顶替双生弟弟夺我入洞房",
+      "rating": 9.4
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7501543539474435097",
+      "title": "逢灯纪",
+      "rating": 9.3
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7362817253110205502",
+      "title": "惊！重生回满门抄斩前夜，造反吧",
+      "rating": 9.3
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7410772920567352345",
+      "title": "钱串子，账本子，姑爷是个醋坛子",
+      "rating": 9.3
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7511746738332388414",
+      "title": "乱世争霸：给三国亿点大女主震撼",
+      "rating": 9.3
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7485232984434412569",
+      "title": "纨绔哪家强，镇北郡主她最狂",
+      "rating": 9.4
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7377694754135362622",
+      "title": "寒夜尽处是卿心",
+      "rating": 9.2
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7136038337327926304",
+      "title": "皇帝暴露女儿身，禁欲摄政王鼻血",
+      "rating": 9.2
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7454583406228163646",
+      "title": "长安尸渡",
+      "rating": 9.0
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7461815080997375000",
+      "title": "山河不驯",
+      "rating": 8.9
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7444808507016105022",
+      "title": "独占春：他山之石",
+      "rating": 9.0
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7624104555516529689",
+      "title": "11处特工皇妃【楚乔传】",
+      "rating": 8.7
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7604644320238373912",
+      "title": "赐婚后，锦衣卫沦陷了",
+      "rating": 8.8
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7520089982824877080",
+      "title": "惊上春",
+      "rating": 8.6
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7530820554996059160",
+      "title": "宗族想吃绝户？嫡女单开百年族谱",
+      "rating": 8.4
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7555329856624397336",
+      "title": "公府儿媳",
+      "rating": 8.6
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7573973877580106814",
+      "title": "大婚夜：庶子夫君是穿越的",
+      "rating": 8.3
+    },
+    {
+      "cell": "古风世情",
+      "category": "古风世情",
+      "channel": "Nvpin",
+      "book_id": "7596177744468118590",
+      "title": "流放太子和他的怪力丫头",
+      "rating": 7.6
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7257431659568434233",
+      "title": "出马仙，通灵女阴差",
+      "rating": 9.3
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7398557933547572248",
+      "title": "盗墓：不是吧，高三生也盗墓？",
+      "rating": 9.4
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7535484800606424126",
+      "title": "长夜寄",
+      "rating": 9.3
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7307876936531856446",
+      "title": "冥帝娶亲，百鬼夜行，万鬼朝拜",
+      "rating": 9.2
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7094837436492024866",
+      "title": "杀人真相",
+      "rating": 9.4
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7375572126402612286",
+      "title": "我，修仙大佬强亿点怎么了",
+      "rating": 9.2
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7228518636510514208",
+      "title": "嫁妖夫，算了，凑合过吧",
+      "rating": 9.2
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7189536565176044581",
+      "title": "破案需要我这样的人才【刑侦】",
+      "rating": 9.4
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7412616178163534873",
+      "title": "我一个精神病，你让我破案？",
+      "rating": 9.1
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7167294690956413983",
+      "title": "阴间来了个神经病",
+      "rating": 9.1
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7311522873380703294",
+      "title": "青龙缠腰",
+      "rating": 9.2
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7588095605168163865",
+      "title": "嫁鬼王，行阴阳",
+      "rating": 9.0
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7483682988459314201",
+      "title": "地府都叫她姑奶奶",
+      "rating": 9.0
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7460446834918427710",
+      "title": "阴缘劫，凤命妻",
+      "rating": 9.0
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7468317647302560793",
+      "title": "厉鬼不讲道理？可夫人她略通拳脚",
+      "rating": 8.8
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7447180778661760024",
+      "title": "穿书后我竟成了玄门鬼见愁",
+      "rating": 9.0
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7586232553372126232",
+      "title": "案子难破？问她手下三万只苍蝇",
+      "rating": 8.8
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7598936266519891006",
+      "title": "【盗墓】男友三叔是前任",
+      "rating": 8.7
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7561841470609574937",
+      "title": "欺负漂亮老婆很爽是吗？",
+      "rating": 8.8
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7577002253043649598",
+      "title": "盗墓：离大谱，男主怎么都喜欢我",
+      "rating": 8.6
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7577844559065910296",
+      "title": "盗墓：要命！深陷20人修罗场！",
+      "rating": 8.2
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7609536085252639769",
+      "title": "东北出马仙：个个是奇葩",
+      "rating": 8.3
+    },
+    {
+      "cell": "女频悬疑",
+      "category": "女频悬疑",
+      "channel": "Nvpin",
+      "book_id": "7587364940483136537",
+      "title": "刑警队长不经撩",
+      "rating": 8.4
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7582566153357118488",
+      "title": "路明非性转：我在龙族当魅魔",
+      "rating": 8.7
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7491273932788468761",
+      "title": "从小白开始，在影视剧当金手指",
+      "rating": 8.7
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7599307364776283160",
+      "title": "红楼：予玉行",
+      "rating": 9.0
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7582542245677501502",
+      "title": "改嫁后，紫薇晴儿都是我嫂嫂",
+      "rating": 8.9
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7600033474120010777",
+      "title": "综影视：卿梦要去找人双修",
+      "rating": 8.8
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7225165631987911719",
+      "title": "妖精女主！她在影视剧恃美而娇",
+      "rating": 8.7
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7562945883738754072",
+      "title": "综影视：风月入怀",
+      "rating": 8.7
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7420366500336258072",
+      "title": "综影视：玉女媚骨",
+      "rating": 8.5
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7561672539047463960",
+      "title": "姐，穿成了安陵容她爹！",
+      "rating": 8.9
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7444067334609718296",
+      "title": "综影视：开局抽到风后奇门技能",
+      "rating": 8.5
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7560982599926041662",
+      "title": "罗子君重生！手撕渣男绿茶女",
+      "rating": 8.4
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7590966996691340312",
+      "title": "19世纪玛丽如何发家致富",
+      "rating": 7.9
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7599592746201926680",
+      "title": "西游：大圣他又被撩炸毛了",
+      "rating": 8.0
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7341621019850853438",
+      "title": "综影视之春坞桃花发",
+      "rating": 7.9
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7605272900219702297",
+      "title": "综影视：末世身死，入影视轮回",
+      "rating": 7.8
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7595429997846727742",
+      "title": "综影视之女配的舒心日常",
+      "rating": 7.6
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7519715439916616766",
+      "title": "综影视之炮灰只想搞事业",
+      "rating": 7.6
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7476326435242642494",
+      "title": "综影视之开局绑定热播剧",
+      "rating": 7.5
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7540260268421434392",
+      "title": "亲生的继承人哪里比得上亲自生的",
+      "rating": 7.3
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7610042487943482430",
+      "title": "红楼：侯府世子娇养小黛玉",
+      "rating": 7.2
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7531218812050344985",
+      "title": "综影视之女配巧勾魂",
+      "rating": 7.4
+    },
+    {
+      "cell": "女频衍生",
+      "category": "女频衍生",
+      "channel": "Nvpin",
+      "book_id": "7589262290482908184",
+      "title": "晴儿重生做公主，拒绝再当老好人",
+      "rating": 7.0
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7560164208327805976",
+      "title": "当土著贵女学会了穿越女的新用法",
+      "rating": 9.1
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7581752337237036056",
+      "title": "椒殿承宠",
+      "rating": 9.1
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7557376556138515518",
+      "title": "人在古代，权贵步步强夺",
+      "rating": 9.0
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7513501209395743806",
+      "title": "巴山楚水施茶计，小鼻嘎又作又癫",
+      "rating": 9.0
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7590347602730699800",
+      "title": "作精美人当继室，古板权臣宠上天",
+      "rating": 8.9
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7207738551784442937",
+      "title": "新婚夜，她带着药房武器库去流放",
+      "rating": 9.2
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7591171192220814361",
+      "title": "殿下别忍了，您的佛珠都捏碎了",
+      "rating": 8.9
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7561246984208649278",
+      "title": "前夫悔断肠？抱歉，我已位列朝班",
+      "rating": 8.8
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7487452400802876478",
+      "title": "将门六姝",
+      "rating": 8.9
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7487969155233090584",
+      "title": "卖入王府，我被世子隐秘偏爱",
+      "rating": 8.7
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7432530171590085656",
+      "title": "妾本闲凉",
+      "rating": 8.7
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7563282810547473433",
+      "title": "穿成侯夫人，让当外室的女主绝望",
+      "rating": 8.8
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7568353427571346456",
+      "title": "惊！被她害死的摄政王也重生了",
+      "rating": 8.7
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7545304657187310617",
+      "title": "竹马哪有养兄香！半夜敲门扑入怀",
+      "rating": 8.7
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7512369957674437656",
+      "title": "凤冠血，掌心娇",
+      "rating": 8.6
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7550793954933885976",
+      "title": "惊华庭",
+      "rating": 8.7
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7502302119014173758",
+      "title": "嫡女归京，马甲一个比一个惊人！",
+      "rating": 8.6
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7560687162455231550",
+      "title": "窝才一岁半，有点儿脾气肿么啦？",
+      "rating": 8.6
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7577614260398722073",
+      "title": "通房低贱？三年五子全府宠上天！",
+      "rating": 8.4
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7545054934442445886",
+      "title": "夫人十年不孕，改嫁后一胎三宝",
+      "rating": 8.3
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7591753914391743550",
+      "title": "和嫡姐进错婚房，清冷权臣变忠犬",
+      "rating": 7.9
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7569949020647328793",
+      "title": "穿成权臣表哥的美貌炮灰表妹",
+      "rating": 8.3
+    },
+    {
+      "cell": "宫斗宅斗",
+      "category": "宫斗宅斗",
+      "channel": "Nvpin",
+      "book_id": "7578747185097886745",
+      "title": "育儿嫂入公府成白月光之莺鸣柳",
+      "rating": 8.6
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7599194670630964286",
+      "title": "村女翠菊：华山村十里酒香",
+      "rating": 8.8
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7285628417238633527",
+      "title": "重生八零军婚，你有白月光我改嫁",
+      "rating": 9.0
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7507265688227023897",
+      "title": "重生在四岁半，她杀回来了",
+      "rating": 8.9
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7510627752886668312",
+      "title": "黑道大小姐觉醒，下乡打遍全军区",
+      "rating": 8.8
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7447088941833915416",
+      "title": "军婚十年不圆房，重生改嫁他首长",
+      "rating": 8.8
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7447551503377648702",
+      "title": "穿成早死首长的妻子！被全家团宠",
+      "rating": 9.0
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7489102469776034840",
+      "title": "七零睁眼肚子揣了个崽崽",
+      "rating": 8.5
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7590077436495137854",
+      "title": "七零炮灰小姑子，纺织厂里当秘书",
+      "rating": 8.6
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7564029122012253209",
+      "title": "穿越医毒双绝女",
+      "rating": 8.5
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "",
+      "title": "小媳妇软又娇，霸道糙汉宠不够",
+      "rating": 8.5
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7503764915430099992",
+      "title": "重生六零，千金囤货随军兵王",
+      "rating": 8.4
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7511351573482589209",
+      "title": "揣双胎，带灵泉！资本小姐去随军",
+      "rating": 8.3
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7585134468277488702",
+      "title": "许南的故事：改嫁杀猪匠成万元户",
+      "rating": 8.3
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7581036383314119742",
+      "title": "军区大院来了个南方乖乖女",
+      "rating": 8.2
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7553599516985789465",
+      "title": "前往部队离婚，被禁欲军官亲哭了",
+      "rating": 8.2
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7544626706804378648",
+      "title": "首长你的村姑原配带龙凤胎随军了",
+      "rating": 8.3
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7581105201566714904",
+      "title": "离婚后，她成了隔壁糙汉的心头宝",
+      "rating": 8.2
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7572170271801478206",
+      "title": "洞错房，黑脸军官死活不换回来",
+      "rating": 8.2
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7589192451370257433",
+      "title": "七零湘西姑娘靠医术在大院杀疯了",
+      "rating": 8.1
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7590719395740011544",
+      "title": "绝色美人住隔壁",
+      "rating": 8.2
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7508276902512053310",
+      "title": "重回生产日护崽分家绝不后悔",
+      "rating": 8.1
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7588932211139677209",
+      "title": "妹宝投亲认错哥，高岭之花沦陷了",
+      "rating": 8.1
+    },
+    {
+      "cell": "年代",
+      "category": "年代",
+      "channel": "Nvpin",
+      "book_id": "7545803994040388632",
+      "title": "大队长闺女重生后，糙军官幸福了",
+      "rating": 8.0
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7570522964437781528",
+      "title": "快穿：女主的心上人怎么喜欢我",
+      "rating": 9.0
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7600175322473958425",
+      "title": "男主怎么都爱上了绿茶小主播",
+      "rating": 9.1
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7595142520401579032",
+      "title": "快穿：你男主？我勾勾手就过来了",
+      "rating": 9.1
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7454159193528880190",
+      "title": "快穿：做自己人生的主角",
+      "rating": 9.0
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7491237614951877656",
+      "title": "抱歉女主，你的男主，只爱我呢",
+      "rating": 9.0
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7314990411372579902",
+      "title": "快穿之万人迷路人甲摆烂攻略指南",
+      "rating": 9.0
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7542151904818629694",
+      "title": "请问你女朋友有对象吗",
+      "rating": 9.0
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7601856209561324606",
+      "title": "人族无圣？我以功德震碎三千界",
+      "rating": 8.8
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7546535104823184409",
+      "title": "快穿：优秀男性太凶猛",
+      "rating": 8.7
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7509903976070925337",
+      "title": "抱歉女主，男主变成我的狗了",
+      "rating": 8.9
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7517569641875524670",
+      "title": "快穿狐狸精女配，疯批主神强制爱",
+      "rating": 8.8
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7547604081796189208",
+      "title": "快穿：主角身边被剧情杀的炮灰",
+      "rating": 8.9
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7524610414726876222",
+      "title": "女配想要女配得到",
+      "rating": 8.5
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7272902212269902848",
+      "title": "快穿：炮灰男配不走剧情",
+      "rating": 8.5
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7545834572206836760",
+      "title": "快穿：我靠装可怜扮柔弱攻略男主",
+      "rating": 8.5
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7549447455289396286",
+      "title": "快穿：男主，你未婚妻被人抢走了",
+      "rating": 8.5
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7593660619228711998",
+      "title": "快穿：又被一见钟情了",
+      "rating": 8.3
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7522658387922799640",
+      "title": "快穿：炮灰活得久，熬死所有人",
+      "rating": 8.3
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7549526280836762686",
+      "title": "快穿之矜贵男主他又沦陷了",
+      "rating": 8.1
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7594455908264987710",
+      "title": "快穿：宝宝，选我好不好",
+      "rating": 8.3
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7507254024987495448",
+      "title": "天道一见钟情，偏宠恶毒女配",
+      "rating": 7.8
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7434423752856718361",
+      "title": "反杀！心机白月光满级撩人法则",
+      "rating": 7.4
+    },
+    {
+      "cell": "快穿",
+      "category": "快穿",
+      "channel": "Nvpin",
+      "book_id": "7574315771778567230",
+      "title": "勾引深情男配",
+      "rating": 8.1
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7427437091522350142",
+      "title": "凶手：你不要过来呀！",
+      "rating": 9.4
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7403577865482030142",
+      "title": "只杀不渡，这个道士正到发邪！",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7379164201303952409",
+      "title": "午夜当铺，活人回避",
+      "rating": 9.4
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7294249490536467518",
+      "title": "写个童话，铸成诸神黄昏",
+      "rating": 9.4
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7087872099557051400",
+      "title": "风水之王",
+      "rating": 9.4
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7177657326709509153",
+      "title": "大哥，你是警察啊，不是道士！",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7238141448254655523",
+      "title": "道门逆子",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7287479909398613032",
+      "title": "我，吃鬼就变强",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7320271087042825278",
+      "title": "刑侦：我能看见犯罪记录",
+      "rating": 9.2
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7359545185606306841",
+      "title": "道友，你这人皇幡怎么冒黑烟啊？",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7166580408522378292",
+      "title": "民间风水师笔记",
+      "rating": 9.1
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7287726057069743138",
+      "title": "民间第一禁忌",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7300518925157010458",
+      "title": "你一摆摊算命的，养起龙了？",
+      "rating": 9.0
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7236273166312541221",
+      "title": "我在娱乐圈当风水顾问的那些年",
+      "rating": 9.0
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7428990775863561241",
+      "title": "女鬼怀孕上门你说你是正经道士？",
+      "rating": 9.0
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7254152548817308731",
+      "title": "犯罪天赋拉满，你转头加入刑侦队",
+      "rating": 9.1
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7373165433928567832",
+      "title": "地府出了个太子爷",
+      "rating": 8.9
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7373660003258862617",
+      "title": "赴汤蹈火啊，道爷！",
+      "rating": 8.9
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7589493688540089368",
+      "title": "小法医破大案，大佬排队给我撑腰",
+      "rating": 8.9
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7311510229965868051",
+      "title": "重案警事，从一号大案开始",
+      "rating": 8.8
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7577766511666809880",
+      "title": "九代缝尸人：我缝的都是世间大凶",
+      "rating": 8.7
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7590091630070221849",
+      "title": "我是一具会复仇的尸体",
+      "rating": 8.7
+    },
+    {
+      "cell": "悬疑灵异",
+      "category": "悬疑灵异",
+      "channel": "Nanpin",
+      "book_id": "7609607882551610392",
+      "title": "九叔：从被石坚救下开始",
+      "rating": 8.2
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7094544464168881156",
+      "title": "灵异：我有一本西游记",
+      "rating": 9.5
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7253908182769077252",
+      "title": "灵异复苏，永夜降临",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7357975803398720537",
+      "title": "欺神演出！",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7255630822240160803",
+      "title": "诡异末世：重生开局拥有万亿冥币",
+      "rating": 9.4
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7510885086120643608",
+      "title": "无限回档：所有人都以为我是大佬",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7050311566700317730",
+      "title": "惊悚：因为担心不优雅而过度变态",
+      "rating": 9.5
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "6999592647790693413",
+      "title": "我靠焚尸超凡入圣",
+      "rating": 9.2
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7204689389098634278",
+      "title": "生日那天，发现自己被圈养十八年",
+      "rating": 9.0
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7341600629162249240",
+      "title": "诡异复苏：和过去双排，嘎嘎乱杀",
+      "rating": 9.2
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7552067105378536473",
+      "title": "慈航市",
+      "rating": 9.1
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7581902917842521150",
+      "title": "动漫规则怪谈：从扮演光头强开始",
+      "rating": 8.9
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7288133369802525737",
+      "title": "宿舍求生，我被拉进了管理群",
+      "rating": 8.9
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7471788218946423832",
+      "title": "求生？你一个监管者求什么生？",
+      "rating": 8.8
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7201113723660930063",
+      "title": "开局S级怪谈，但给我C级天赋？",
+      "rating": 8.9
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7488955435421010968",
+      "title": "序列公路：不要掉队！",
+      "rating": 8.5
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7432571531076570136",
+      "title": "阴职序列：从守墓人到阴天子",
+      "rating": 8.9
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7586281659591298073",
+      "title": "人是诡的幼年体毕业即被开除人籍",
+      "rating": 8.7
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7560282004445465662",
+      "title": "鬼是人的天敌，人是鬼的猎物",
+      "rating": 8.5
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7589109986731494425",
+      "title": "探灵直播，奖励怎么全是邪修技能",
+      "rating": 8.3
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7550712496995191832",
+      "title": "规则怪谈：我开局捏脸S级诡空姐",
+      "rating": 8.2
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7489692771863776281",
+      "title": "宿舍求生，我家成了美女窝",
+      "rating": 8.1
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7574935397508058174",
+      "title": "我地府鬼差，你拉我进诡异副本？",
+      "rating": 8.2
+    },
+    {
+      "cell": "悬疑脑洞__Nanpin",
+      "category": "悬疑脑洞",
+      "channel": "Nanpin",
+      "book_id": "7578850214895684633",
+      "title": "序列：系统硬说老婆是诡异头子",
+      "rating": 8.1
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7400699192022158361",
+      "title": "无限：在暗黑童话里艰难求生",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7441543479412395032",
+      "title": "抱歉，我有疯病，诡异勿扰",
+      "rating": 9.4
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7357369541518691390",
+      "title": "惊悚：何枝可依",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7342757972377865240",
+      "title": "你给姐掏心窝子，姐跟你藏心眼子",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7365424975622179902",
+      "title": "我是小哥？怎么可能，我是女的呀",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7364601716051807257",
+      "title": "穿越异世：我被马甲们捧成万人迷",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7579288281993464894",
+      "title": "玩剧本杀意外攻略了人外DM",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7052168593143761950",
+      "title": "今天你成功入住生存旅店了吗？",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7415436476072086590",
+      "title": "进副本当晚，阴郁诡异哄我喊老公",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7479652263523273753",
+      "title": "无限：心动悖论",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7389963114571107390",
+      "title": "靠我存活？我是NPC不是玩家哦",
+      "rating": 9.3
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7429187832708598846",
+      "title": "一进副本，全体诡异跪地喊嫂子",
+      "rating": 9.2
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7501489140878298137",
+      "title": "我娇滴滴的，怎么都说我灭诡之神",
+      "rating": 9.1
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7197271483859602447",
+      "title": "明明是个菜鸟，总被当成隐藏大佬",
+      "rating": 9.2
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7476721263583448088",
+      "title": "无限：恶女",
+      "rating": 9.1
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7542165189974576190",
+      "title": "弑神【无限流】",
+      "rating": 9.2
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7581888469618658366",
+      "title": "在座各位诡异，都是垃圾",
+      "rating": 9.1
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7466117635466333209",
+      "title": "盗笔：实力在开挂面前不值一提",
+      "rating": 9.1
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7476116026195708990",
+      "title": "对不起，恐综第一名只能是我",
+      "rating": 9.0
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7572596438383725593",
+      "title": "无限游戏：我靠扮猪吃老虎杀疯了",
+      "rating": 8.9
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7560332930845789209",
+      "title": "小漂亮在无限，又被玩家强制爱了",
+      "rating": 8.9
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7618467995697810456",
+      "title": "盗墓：穿书后，当渣女不好吗",
+      "rating": 8.4
+    },
+    {
+      "cell": "悬疑脑洞__Nvpin",
+      "category": "悬疑脑洞",
+      "channel": "Nvpin",
+      "book_id": "7566446660948069401",
+      "title": "恐游降临：老六夫妇越苟越强",
+      "rating": 8.8
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7208007482176703491",
+      "title": "师娘赐我麒麟肾，举世无敌！",
+      "rating": 9.2
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7070809633236978702",
+      "title": "战场直播，开局单压M249",
+      "rating": 9.2
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7152782001253125160",
+      "title": "通知全国，那个男人出狱了",
+      "rating": 9.2
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "6795361988357655565",
+      "title": "战神出狱",
+      "rating": 9.2
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7189201032553958440",
+      "title": "虎子犬父？可我爸是军区大佬啊",
+      "rating": 9.2
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7111555647203707917",
+      "title": "SSSSS级战龙",
+      "rating": 9.1
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7380223334908185662",
+      "title": "人在军校，还没毕业就被全军疯抢",
+      "rating": 9.1
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7189544077984009277",
+      "title": "军神出狱",
+      "rating": 9.1
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "6956045706146614309",
+      "title": "天才丐婿",
+      "rating": 9.1
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7220683366142577716",
+      "title": "都市风流纨绔",
+      "rating": 9.1
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "6802565914353994759",
+      "title": "丁二狗的赘婿生涯",
+      "rating": 9.0
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7301941546557901865",
+      "title": "师娘太黏人，我顶不住",
+      "rating": 9.0
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "6780188818659085315",
+      "title": "女婿，求求你，饶了我吧",
+      "rating": 8.9
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7388799709122415641",
+      "title": "别又缘",
+      "rating": 8.8
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7189111663637826621",
+      "title": "狂龙出狱，江家赘婿是天渊殿主",
+      "rating": 9.1
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7496725333891107902",
+      "title": "致命的权力诱惑",
+      "rating": 8.8
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "6796531601942514691",
+      "title": "都市之流氓修仙",
+      "rating": 8.8
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7278845717039287296",
+      "title": "和十八岁校花同居是什么体验",
+      "rating": 8.7
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7520747795091819545",
+      "title": "影子部队之龙魂兵王",
+      "rating": 8.1
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7601009161215691801",
+      "title": "刚退役！七个战友竟是千金美女！",
+      "rating": 8.5
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7380258546882989118",
+      "title": "杀手之王归隐后，血洗都市",
+      "rating": 8.7
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7591492894649748542",
+      "title": "女子监狱出真龙，出狱后全球轰动",
+      "rating": 8.0
+    },
+    {
+      "cell": "战神赘婿",
+      "category": "战神赘婿",
+      "channel": "Nanpin",
+      "book_id": "7499468072923696153",
+      "title": "兵王归来：七个美女大佬赖上我",
+      "rating": 8.2
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7551055172533767192",
+      "title": "谍战：从军统特工到关东军新星",
+      "rating": 8.6
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7547153819621149720",
+      "title": "黄埔：我才是土木系",
+      "rating": 8.6
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7582881610492562457",
+      "title": "淞沪：鬼子懵了这么强是保安团？",
+      "rating": 8.5
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7499408106602892313",
+      "title": "开局兵变，桂军南下东南亚",
+      "rating": 8.2
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7558237080086662168",
+      "title": "亮剑到人民的名义，我来当靠山",
+      "rating": 8.4
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7571861395919096894",
+      "title": "抗战：禁止投降！国家队接管战场",
+      "rating": 8.5
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7555484819409341502",
+      "title": "军阀圈传来噩耗，此人毫无下限",
+      "rating": 8.1
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7490913467965131838",
+      "title": "大兵团作战，李云龙你注意一下！",
+      "rating": 8.1
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7568470037896367128",
+      "title": "让你考黄埔，你成军阀横推列强？",
+      "rating": 7.9
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7546993439779327038",
+      "title": "鬼子投降！我签完投降书签受降书",
+      "rating": 7.9
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7602889864215809049",
+      "title": "上交系统，以举国之力护长征先辈",
+      "rating": 8.0
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7578692080562621465",
+      "title": "抗战：上万人？你管这叫一个营？",
+      "rating": 7.8
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7576257588908543001",
+      "title": "抗战：我一个黄埔生投共很合理吧",
+      "rating": 8.0
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7552747788203723838",
+      "title": "风流二狗：我在乱世开了挂",
+      "rating": 7.9
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7532411697802267710",
+      "title": "黄埔最强毕业生，打造第一强军",
+      "rating": 7.6
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7522317295398423577",
+      "title": "抗战：燕大毕业生，手握原始股！",
+      "rating": 7.6
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7583427658621406233",
+      "title": "抗战：接个电话，连升九级！",
+      "rating": 7.7
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7577796778284551230",
+      "title": "民国内战，你在西北搞工业？",
+      "rating": 7.4
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7607691265374702654",
+      "title": "吊打韩复榘，开局拿下山东王",
+      "rating": 7.2
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7536232716669307966",
+      "title": "家兄陈辞修，土木系来了个大狠人",
+      "rating": 6.7
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "7592843666142530622",
+      "title": "抗日：同为黄埔人，你怎有百万人",
+      "rating": 7.3
+    },
+    {
+      "cell": "抗战谍战",
+      "category": "抗战谍战",
+      "channel": "Nanpin",
+      "book_id": "",
+      "title": "淞沪：说好单兵支援，国家都来了",
+      "rating": 7.1
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7181785723157089337",
+      "title": "磕爆！神颜夫妇今天也在恋综撒糖",
+      "rating": 9.4
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7381642774535212094",
+      "title": "醉钓！她一撒娇，京圈楼爷心狂跳",
+      "rating": 9.5
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7159403145775287310",
+      "title": "她发疯，他兜底，恋综谁都惹不起",
+      "rating": 9.5
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7121305376426822695",
+      "title": "发疯整顿娱乐圈，颠颠的，很安心",
+      "rating": 9.5
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7259740121660918836",
+      "title": "假千金靠沙雕带偏了所有人",
+      "rating": 9.4
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7542082066926554136",
+      "title": "婚戒送狗！她转头上恨综肘击全网",
+      "rating": 9.3
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7234149299678874639",
+      "title": "不要过来啊！这恶毒女配我不干了",
+      "rating": 9.2
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7075238909369650187",
+      "title": "病态占有：偏执陆总嗜她如命",
+      "rating": 9.3
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7199968411785366561",
+      "title": "顶级溺宠！娇软小漂亮被病态圈占",
+      "rating": 9.3
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7386592926668688446",
+      "title": "封杀？嘿嘿，我怎么爆红全球啦",
+      "rating": 9.1
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7261244679218285630",
+      "title": "超野！小疯批六个舅舅护着谁敢惹",
+      "rating": 9.6
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7475229714093722686",
+      "title": "重启直播号：满级神豪团申请出战",
+      "rating": 9.1
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7560524867305475097",
+      "title": "律师退圈当顶流，我拿法律来屠榜",
+      "rating": 9.1
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7518999246180207640",
+      "title": "钓疯榜一，谁教你这么当主播的？",
+      "rating": 9.0
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7287533695370529831",
+      "title": "一年跑了208个龙套后她",
+      "rating": 8.7
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7413935997991275582",
+      "title": "网络皇帝驾到，不要给我哇哇叫",
+      "rating": 8.9
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7514540768703286297",
+      "title": "死后百年我还是大佬们的白月光",
+      "rating": 8.7
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7583147683959819289",
+      "title": "让你当主播，没让你血洗乐坛啊",
+      "rating": 8.7
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7588132825363139608",
+      "title": "兄妹综艺对抗路，你惹她干什么",
+      "rating": 8.6
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7387636201840200766",
+      "title": "和家人断绝关系后，她飒爆了",
+      "rating": 8.6
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7581492299469704217",
+      "title": "神颜太火怎么办？神豪排队等翻牌",
+      "rating": 8.5
+    },
+    {
+      "cell": "星光璀璨",
+      "category": "星光璀璨",
+      "channel": "Nvpin",
+      "book_id": "7538091980203510846",
+      "title": "平台合并后，我手握无数神豪大哥",
+      "rating": 8.4
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7355343441527573529",
+      "title": "穿书四零：开局就剩妹妹带娃逃命",
+      "rating": 9.2
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7438493454365101080",
+      "title": "夫人要离婚？暴戾少帅夜夜来堵门",
+      "rating": 9.0
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7438247996975762456",
+      "title": "孤身赴国难",
+      "rating": 9.1
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7324513086621109310",
+      "title": "谍战不严谨？不，其实我就是外挂",
+      "rating": 9.3
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7389635512367074366",
+      "title": "穿越民国：开局一张饼",
+      "rating": 9.2
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7577212119280520254",
+      "title": "惊！怂包把暴戾督军强制爱了",
+      "rating": 9.0
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7526821769949236249",
+      "title": "抗战：我是全军后勤大主任",
+      "rating": 9.0
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7486788802925579288",
+      "title": "小奶团萌化啦，督军全家抢着吸崽",
+      "rating": 9.0
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7501165250415184920",
+      "title": "人在民国，疯狂吸取气运",
+      "rating": 8.9
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7513885691076414489",
+      "title": "功勋系统：三面女谍卧底嘎嘎乱杀",
+      "rating": 8.2
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7605660312355736638",
+      "title": "阮家有女，裴心独钟",
+      "rating": 8.5
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7588174469189864510",
+      "title": "柔弱小护士？屁！她是战场活阎王",
+      "rating": 8.2
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7595165044405455897",
+      "title": "碎瓷金缮",
+      "rating": 7.9
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7571298090968157209",
+      "title": "上海滩1937，阳光下的死神",
+      "rating": 7.6
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7542906101423950872",
+      "title": "从风雨飘零到山河锦绣",
+      "rating": 7.4
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7574723775518755865",
+      "title": "苦娘",
+      "rating": 7.4
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7590051116922965016",
+      "title": "抗战萌娃，全网投喂有意志的钢铁",
+      "rating": 7.5
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7586632754779917337",
+      "title": "1940，我的时空商城",
+      "rating": 7.2
+    },
+    {
+      "cell": "民国言情",
+      "category": "民国言情",
+      "channel": "Nvpin",
+      "book_id": "7604645435713539096",
+      "title": "藏起孕肚死遁，少帅满城发疯找",
+      "rating": 6.6
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7425282497757334552",
+      "title": "亡灵法师弱？关我死亡主宰什么事",
+      "rating": 8.8
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7539818151354059838",
+      "title": "网游之死亡武侠",
+      "rating": 8.9
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7504337817170889753",
+      "title": "别惹那个开叉车的，他是榜一",
+      "rating": 9.1
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7255936586997566505",
+      "title": "普攻永久加生命，阁下如何应对？",
+      "rating": 9.0
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7404826300126333977",
+      "title": "穿越巨鱼海洋，我能听到巨鱼心声",
+      "rating": 8.9
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7306416697148197950",
+      "title": "网游：神级刺客，我即是暗影！",
+      "rating": 9.1
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7544056509261433918",
+      "title": "求生大舞台，挂小你别来",
+      "rating": 8.5
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7572870932583173144",
+      "title": "三角洲：挂说我的参数比他高",
+      "rating": 8.4
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7576318832952740889",
+      "title": "班级公交求生：我是车内唯一男生",
+      "rating": 8.5
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7345813021874195481",
+      "title": "百分比伤害，不玩肉盾玩什么",
+      "rating": 8.5
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7229602235896826932",
+      "title": "求生：从小木屋开始抵御寒流",
+      "rating": 8.3
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7436753329314597912",
+      "title": "应召而来，我在绝望世界当bug",
+      "rating": 8.8
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "",
+      "title": "洲：女友视频，你说核心区没信号",
+      "rating": 8.2
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7539842661939694654",
+      "title": "网游：金色无敌？对不起我黑色",
+      "rating": 8.1
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7577210392514939929",
+      "title": "全民公路求生：我的房车无限进化",
+      "rating": 8.1
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7486697608677690392",
+      "title": "序列：升华",
+      "rating": 8.1
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7539369814842690584",
+      "title": "游戏降临：开局F级弓箭手",
+      "rating": 7.8
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7574251459701640217",
+      "title": "班级求生：开局光环开枝散叶",
+      "rating": 7.7
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7521673013880704024",
+      "title": "全民求生：我开着机械龙象横着走",
+      "rating": 7.5
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7594659805956951065",
+      "title": "开局满级速度，梅西C罗求我入籍",
+      "rating": 7.3
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7591863989156465689",
+      "title": "全班列车求生，我的列车无限升级",
+      "rating": 7.1
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7546902193203317822",
+      "title": "你一王者萌新，账号咋全英雄国服",
+      "rating": 7.2
+    },
+    {
+      "cell": "游戏体育__Nanpin",
+      "category": "游戏体育",
+      "channel": "Nanpin",
+      "book_id": "7603177756993522712",
+      "title": "全世界只有我能设计王者英雄",
+      "rating": 6.8
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7523091212388027454",
+      "title": "还木筏求生呢？我幽灵船上吃烤肉",
+      "rating": 9.0
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7495465162506243097",
+      "title": "电竞女喷子成了我家软萌中单？",
+      "rating": 8.9
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7490236917678607422",
+      "title": "游戏入侵：开局随机抽取一个系统",
+      "rating": 9.1
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7596696359999114264",
+      "title": "把BOSS剁陷，我家包子铺火了",
+      "rating": 9.0
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "",
+      "title": "开局囤货三小时，大佬她满仓落地",
+      "rating": 8.9
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7564213791483759640",
+      "title": "带娃公路求生，开局一辆婴儿车",
+      "rating": 8.9
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7535760310561426456",
+      "title": "全球游戏入侵：我的马甲是神明",
+      "rating": 9.1
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7410747415893920792",
+      "title": "开局一个茅草屋？天赋抽奖来翻盘",
+      "rating": 8.7
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7519421148094811198",
+      "title": "游戏降临：她一心升级",
+      "rating": 8.6
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7330682486692777022",
+      "title": "海岛求生：榜一等级高亿点怎么了",
+      "rating": 8.6
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7454525590473804824",
+      "title": "公路求生：我水群获得先机",
+      "rating": 8.8
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7567708843052911640",
+      "title": "恋爱脑男友重生，跪求我公路求生",
+      "rating": 8.6
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7594447185765223448",
+      "title": "内测玩家强亿点怎么了",
+      "rating": 8.6
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "",
+      "title": "先公路，后海洋，末世求生她最忙",
+      "rating": 8.4
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7529706950339087384",
+      "title": "什么？全古代只有我在公路求生",
+      "rating": 8.4
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7558004105860369432",
+      "title": "卡牌？我用黄金裔卡组炸鱼",
+      "rating": 8.4
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7559057503170858009",
+      "title": "限量大巴车？顶级天赋？拿来吧你",
+      "rating": 8.3
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7596634110328572953",
+      "title": "不许偷菜！这是榜一魔女后花园",
+      "rating": 8.2
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7402194221332974617",
+      "title": "游戏降临：原女主选择当场掀桌",
+      "rating": 8.3
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7504580377176968216",
+      "title": "游戏结束，现在是魔女的时间",
+      "rating": 7.7
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7588490703068466201",
+      "title": "游戏降临：她在男频爽文里杀疯了",
+      "rating": 7.7
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7594413164188404798",
+      "title": "别惹狠辣大小姐，她是战力榜第一",
+      "rating": 7.4
+    },
+    {
+      "cell": "游戏体育__Nvpin",
+      "category": "游戏体育",
+      "channel": "Nvpin",
+      "book_id": "7371762257388112958",
+      "title": "游戏降临，首杀公告刷屏全网！",
+      "rating": 8.0
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7356202144518655038",
+      "title": "全宗上下，拼不出一个好人？",
+      "rating": 9.2
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7442050065109109822",
+      "title": "让你氪金修仙，没让你包养女剑仙",
+      "rating": 9.3
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7228940788351110182",
+      "title": "不死帝师",
+      "rating": 9.4
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7400612880258714648",
+      "title": "世界游戏化，却忘了生成玩家",
+      "rating": 9.3
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7444482186822044734",
+      "title": "游戏入侵：我称帝了玩家才穿越",
+      "rating": 9.2
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7097114126693960704",
+      "title": "这个反派有点良心，但是不多！",
+      "rating": 9.5
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7549040798294101054",
+      "title": "代号：登仙！",
+      "rating": 9.2
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7387773539379579929",
+      "title": "从野神开始，以香火证道真神",
+      "rating": 9.1
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7544766518324644889",
+      "title": "那妖魔是姜大人！",
+      "rating": 9.1
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7448915856500739134",
+      "title": "三十亿野神，唯有我百倍供品？",
+      "rating": 9.0
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7590221243043826712",
+      "title": "神域囚徒！",
+      "rating": 9.0
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7324667767649471550",
+      "title": "我来给修仙界上点强度",
+      "rating": 9.1
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7348370753328253977",
+      "title": "我教孤儿读书，他们却屠尽武林！",
+      "rating": 8.9
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7489443409631923225",
+      "title": "灵源仙路",
+      "rating": 8.8
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7413617965112773657",
+      "title": "这个道子正的发邪",
+      "rating": 8.7
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7462474370036812824",
+      "title": "你惹他干嘛？他宗门最弱都是大帝",
+      "rating": 8.4
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7583949514948496409",
+      "title": "说好一年一词条，万词王什么鬼",
+      "rating": 8.7
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7545033107519327256",
+      "title": "造个鬼城，咋还封神了呢？",
+      "rating": 8.8
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7591707115157212222",
+      "title": "你都拜师菩提了，还开风影灵月？",
+      "rating": 8.4
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7596284035614133310",
+      "title": "风流宗师，从五禽拳开始镇压帝女",
+      "rating": 7.5
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7595968114089544728",
+      "title": "穿成杂灵根？复制词条后我无敌了",
+      "rating": 7.9
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7571694485361413145",
+      "title": "替弟联姻，我登临巅峰你悔什么",
+      "rating": 8.0
+    },
+    {
+      "cell": "玄幻脑洞",
+      "category": "玄幻脑洞",
+      "channel": "Nanpin",
+      "book_id": "7446970377579809817",
+      "title": "爹妈双帝尊，姐姐超护短，怎么输",
+      "rating": 8.3
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7091545438385343522",
+      "title": "我在修仙界搞内卷",
+      "rating": 9.5
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7549992159940709400",
+      "title": "全洲第一疯，我的箫也未尝不利",
+      "rating": 9.5
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7313853144142728254",
+      "title": "我在魔法世界开荒种田",
+      "rating": 9.5
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "6911937135796816909",
+      "title": "被抛尸后，她成了反派军团家团宠",
+      "rating": 9.6
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7251115758850149436",
+      "title": "你管这叫奶妈？她把人头都锤爆了",
+      "rating": 9.5
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7117541469996452867",
+      "title": "小师叔真不卷，她只想杀女主而已",
+      "rating": 9.5
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7383825464940317720",
+      "title": "病树枝头又逢春",
+      "rating": 9.5
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7454634097487383577",
+      "title": "什么仙道天道？呵！我修的是杀道",
+      "rating": 9.4
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7364327533921176638",
+      "title": "女配不语，只一味抢夺机缘",
+      "rating": 9.4
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7312048784836398143",
+      "title": "说好第一剑修，怎么是犯贱的贱",
+      "rating": 9.5
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7352686976455150617",
+      "title": "强的令人发指，懒的人神共愤",
+      "rating": 9.4
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7303382192099429416",
+      "title": "你惹她干嘛？天道老东西最护崽",
+      "rating": 9.4
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7377736380736097342",
+      "title": "邪门！全修真界都在抢我当亲传",
+      "rating": 9.4
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7170587290228493364",
+      "title": "穿书之没人能比我更懂嚣张",
+      "rating": 9.3
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7482706423281896473",
+      "title": "什么剑灵，那是我老婆！",
+      "rating": 9.2
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7563121419853253656",
+      "title": "与男频爽文男主成亲的第二年",
+      "rating": 9.2
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7557923208050002969",
+      "title": "什么上吊绳？那是我小师妹！",
+      "rating": 9.1
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7241037441446972456",
+      "title": "天道都不敢惹她，你居然夺她神骨",
+      "rating": 9.1
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7539038716816280600",
+      "title": "师妹你无敌了，准备准备飞升吧",
+      "rating": 9.1
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7345861133988809753",
+      "title": "师门全是大妖？好巧我也是",
+      "rating": 9.1
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7578229922217331774",
+      "title": "修仙后我成了天道最头疼的存在",
+      "rating": 9.0
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7590736068664642584",
+      "title": "合欢妖女媚骨天成，师兄被亲懵了",
+      "rating": 8.9
+    },
+    {
+      "cell": "玄幻言情",
+      "category": "玄幻言情",
+      "channel": "Nvpin",
+      "book_id": "7596978863419182105",
+      "title": "只是呼吸，你们却奉我为神女",
+      "rating": 8.6
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7446265307150175256",
+      "title": "不知道，他们自己就舔我手心了",
+      "rating": 9.4
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7367259250789190681",
+      "title": "黑月光冠冕",
+      "rating": 9.5
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7570591020673420313",
+      "title": "人在星际，召唤的是千古华夏",
+      "rating": 9.3
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7326832528889760830",
+      "title": "玄学少女说你三更死，打钱改命",
+      "rating": 9.4
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7601501470046833726",
+      "title": "哄男主同居后，前女友夜夜被诱吻",
+      "rating": 9.3
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7581758193252977689",
+      "title": "恶毒女配，驯疯男主",
+      "rating": 9.2
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7589654180378201150",
+      "title": "穿越兽世：你有兽人老公吗",
+      "rating": 9.2
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7594860060791016510",
+      "title": "快穿之老实人女配不老实",
+      "rating": 9.1
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7258106560721718328",
+      "title": "直播算命轰动全网，官方坐不住了",
+      "rating": 9.2
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7555064898590346302",
+      "title": "玄学大佬断亲后，和酆都大帝锁了",
+      "rating": 9.2
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7460026188665195544",
+      "title": "满门忠烈被逼当填房，弹幕杀疯了",
+      "rating": 9.1
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7572936064914951230",
+      "title": "漂亮女配又被男主亲哭了",
+      "rating": 9.2
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7594076652947131417",
+      "title": "装瞎回豪门，假千金的鱼塘全炸了",
+      "rating": 9.0
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7444950635620863000",
+      "title": "退圈后，我在山沟沟种田养娃",
+      "rating": 9.1
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7547660999843662910",
+      "title": "红糖白盐几块钱，古人员工买疯了",
+      "rating": 9.0
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7519790891372907545",
+      "title": "兽语破案！国家和小动物抢着宠我",
+      "rating": 8.9
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7572216848263941144",
+      "title": "恶女靠捞金，撬了万人迷的男主",
+      "rating": 8.8
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7165749685703937039",
+      "title": "笑死！整顿内娱这事根本难不倒她",
+      "rating": 8.7
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7582126175162469401",
+      "title": "团灭前一秒，我带魔教回现代了",
+      "rating": 8.8
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7511618659693906968",
+      "title": "失业后，我回村直播爆火全网",
+      "rating": 8.7
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7571434428216380440",
+      "title": "踹掉渣男后，全星际雄性疯抢我",
+      "rating": 8.7
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7589524799605459993",
+      "title": "回村摆烂！京市太子爷求我嫁！",
+      "rating": 8.6
+    },
+    {
+      "cell": "现言脑洞",
+      "category": "现言脑洞",
+      "channel": "Nvpin",
+      "book_id": "7546894630785125438",
+      "title": "重生在星际我炼制的药剂千奇百怪",
+      "rating": 8.6
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7440455000653827096",
+      "title": "四合院一大爷有养老人贾家怎么办",
+      "rating": 8.0
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7595901221085383742",
+      "title": "硬核求生：从行尸走肉到生化危机",
+      "rating": 8.1
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7278791977582201890",
+      "title": "四合院：做一个有素养的流氓",
+      "rating": 8.4
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7573996472505486361",
+      "title": "名义：这汉东有毒吧！",
+      "rating": 8.6
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7596651037071510552",
+      "title": "名义，我叫刘长生，只手镇汉东！",
+      "rating": 8.6
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7585110379982752793",
+      "title": "名义，都是同志哪来的山头",
+      "rating": 8.2
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7391869924202794008",
+      "title": "四合院：快来人，把他嘴缝上",
+      "rating": 8.0
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7442158625126108222",
+      "title": "穿越尹志平，唯爱李莫愁",
+      "rating": 7.9
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7593988664409984025",
+      "title": "名义：团团伙伙？不，是汉东王！",
+      "rating": 7.8
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7541684450585742398",
+      "title": "四合院：从1948到2029",
+      "rating": 7.8
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7597469352450870297",
+      "title": "做个糕点怎么还给一等功？",
+      "rating": 7.5
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7581868170139405337",
+      "title": "四合院：从副师长转业开始",
+      "rating": 7.6
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7569838615983819801",
+      "title": "特种兵，我带B组来踢场子",
+      "rating": 7.6
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7614035365241818137",
+      "title": "行尸世界：我重建保护伞蜂巢",
+      "rating": 7.5
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7525042155505585176",
+      "title": "四合院：进来一个最阴的",
+      "rating": 7.4
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7612906967966698520",
+      "title": "一人：火力不足，加特林不过分吧",
+      "rating": 7.2
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7592270828100668478",
+      "title": "人在天龙，开局神照经",
+      "rating": 7.3
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7538016486955158553",
+      "title": "穿越港岛，我成了熟妇杀手",
+      "rating": 7.0
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7609346377486699545",
+      "title": "龙族：退休老龙被迫营业录",
+      "rating": 7.5
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7596886502248827928",
+      "title": "综武天下第一蹦出来个毛脸和尚",
+      "rating": 6.9
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7474573477190569022",
+      "title": "四合院：独苗烈属，屡立奇功！",
+      "rating": 6.8
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7610050364431141912",
+      "title": "7610050364431141912",
+      "rating": 6.4
+    },
+    {
+      "cell": "男频衍生",
+      "category": "男频衍生",
+      "channel": "Nanpin",
+      "book_id": "7592639342128925720",
+      "title": "我爹空降汉东，我成全球首富了？",
+      "rating": 6.3
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7381113315570748441",
+      "title": "穿越兽世：兽夫太凶猛",
+      "rating": 9.2
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7379539954994515006",
+      "title": "不就休夫虐个渣，怎就混成了女帝",
+      "rating": 8.8
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7492689651606506558",
+      "title": "邻村粮荒啃树皮，我带全村吃涮肉",
+      "rating": 8.9
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7359910116738485273",
+      "title": "深山开荒避乱世，我家顿顿有肉吃",
+      "rating": 9.0
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7574739331256945726",
+      "title": "清水人家，乡土生活",
+      "rating": 8.9
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7595102903841344537",
+      "title": "芽芽的荷包：荒村到世外桃源",
+      "rating": 9.2
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "",
+      "title": "揣双胎改嫁猎户，带夫家暴富吃肉",
+      "rating": 8.5
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7510520714810641432",
+      "title": "屠户家的小胖妞被退婚后福运太旺",
+      "rating": 8.5
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7262794154923527226",
+      "title": "傻小丫穿越记",
+      "rating": 8.8
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7583672566569520190",
+      "title": "流放西北：手撕渣男后，携崽南下",
+      "rating": 8.5
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7453455826318003225",
+      "title": "被净身出户，末世大佬种田养全家",
+      "rating": 8.7
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7518940160524831806",
+      "title": "长姐难当，兽语赶山赚钱养弟妹",
+      "rating": 8.5
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7342412387070250009",
+      "title": "换亲抄家，我扫空半个京城去流放",
+      "rating": 8.4
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7571517372201192473",
+      "title": "被分家不怕，带上爹娘弟弟进深山",
+      "rating": 8.4
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7545324289256328216",
+      "title": "背叛开局？我有空间搬空恶婆家！",
+      "rating": 8.4
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7506507753850948633",
+      "title": "身怀武力和医术，长姐带娃杀疯了",
+      "rating": 8.4
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7527475798761032729",
+      "title": "小胖妞逃荒路上被外公舅舅宠上天",
+      "rating": 8.1
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7575361291506682942",
+      "title": "我们在流放地捅破天",
+      "rating": 8.3
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7467515067026656281",
+      "title": "穿成大力农女，咸鱼躺赢爽翻天",
+      "rating": 8.2
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7528228375299623960",
+      "title": "流放前夜，我为反派夫君留种了",
+      "rating": 8.0
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7579151080366296089",
+      "title": "绝户女养四娃，日子过得风生水起",
+      "rating": 8.0
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7542924808292404286",
+      "title": "断亲住进绝户屋后，老虔婆傻眼了",
+      "rating": 8.1
+    },
+    {
+      "cell": "种田",
+      "category": "种田",
+      "channel": "Nvpin",
+      "book_id": "7548738856166624281",
+      "title": "穿越兽世，被雄性们抢疯了",
+      "rating": 8.0
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7460027275388390462",
+      "title": "全民求生，我可以抽取每日卡牌",
+      "rating": 8.9
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7595770286956350489",
+      "title": "黑雨2027",
+      "rating": 9.0
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7394785891752889369",
+      "title": "弃星生存：相同垃圾合成全新装备",
+      "rating": 9.1
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7481454748869069886",
+      "title": "全民迷雾求生，我用邪神血肉建家",
+      "rating": 9.0
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7496026299845053465",
+      "title": "末日降临？我先降临！",
+      "rating": 9.2
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7276821229892275240",
+      "title": "集最强异能于一身横扫末世",
+      "rating": 9.1
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7180279419959774247",
+      "title": "全球冰封：我打造了末日安全屋",
+      "rating": 8.7
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "",
+      "title": "全民求生：在饥荒养蜂进化开始",
+      "rating": 8.5
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7593266092747787289",
+      "title": "开局传送废土，我选择上交国家",
+      "rating": 8.3
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7596684750467648574",
+      "title": "开局宇宙深渊，我召唤第四天灾！",
+      "rating": 8.6
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7560587644313275454",
+      "title": "末世求生：你这序列他正经吗？",
+      "rating": 8.2
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7303515817755298878",
+      "title": "末世：全民恶魔果实，我截获青龙",
+      "rating": 7.9
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7591750086967708696",
+      "title": "公路求生：绑定全班女生万倍返还",
+      "rating": 7.7
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7436790348812143640",
+      "title": "末日重生：从囤货建堡垒开始",
+      "rating": 7.6
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7303456596342869054",
+      "title": "末世：开局我夺取了SSS级异能",
+      "rating": 8.2
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7537250888088292376",
+      "title": "吞噬，吞噬，我靠吞噬就能变强",
+      "rating": 7.2
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7591129449987329049",
+      "title": "十八载缄默如渊，一言既出万神惊",
+      "rating": 7.3
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7579267507681233944",
+      "title": "我上交废土，全龙国玩家杀疯了",
+      "rating": 7.2
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7550289679283653657",
+      "title": "被雷劈后，我的脑域开发度百分百",
+      "rating": 7.2
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7581577534639197246",
+      "title": "序列：漫天血雨，正合我意",
+      "rating": 6.9
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7583976137076788248",
+      "title": "末日拿下母体校花，还好我有抗体",
+      "rating": 7.0
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7605617129152318489",
+      "title": "全球暴雨：我有一辆SSS级房车",
+      "rating": 7.1
+    },
+    {
+      "cell": "科幻末世__Nanpin",
+      "category": "科幻末世",
+      "channel": "Nanpin",
+      "book_id": "7562589351201229849",
+      "title": "每日结算：从小区开始统领宇宙！",
+      "rating": 6.8
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7123103859110579213",
+      "title": "末世降临：18楼全员恶人",
+      "rating": 9.3
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7539902022334565438",
+      "title": "你们别不信！我真的是丧尸！！！",
+      "rating": 9.4
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7148707593811135526",
+      "title": "重生囤货：都末世了，谁惯着你",
+      "rating": 9.4
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7468327768753720344",
+      "title": "末日灾祸：谁让这群癫子去救世的",
+      "rating": 9.4
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7506170801893149758",
+      "title": "末世：今天我又被迫复活",
+      "rating": 9.3
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7519389279345200152",
+      "title": "在异世界末世经营中华餐厅爆火",
+      "rating": 9.4
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7251068940355374114",
+      "title": "末世重生，道德清零，露头就秒！",
+      "rating": 9.2
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7567215449079811097",
+      "title": "榜二摊牌了，实力这一块她不装了",
+      "rating": 9.2
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7584707882835250238",
+      "title": "疯域末日求生录",
+      "rating": 9.1
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7549979218772249625",
+      "title": "末日凶险，前男友他是又拐又哄！",
+      "rating": 9.0
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7478769464138288153",
+      "title": "末世女配，开局把女主推进丧尸堆",
+      "rating": 9.0
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7568111602356997182",
+      "title": "糟糕，失手救赎了阴湿反派",
+      "rating": 9.1
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7485991648128666648",
+      "title": "末世，炮灰带着主角团杀疯了",
+      "rating": 8.9
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7518047838836624446",
+      "title": "星际卡牌师：开局F级输出全靠肝",
+      "rating": 8.7
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7343521552446540824",
+      "title": "末世：你惹她干嘛，她开挂了",
+      "rating": 8.9
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7558092047169637401",
+      "title": "末世：我捡捡捡捡捡捡捡捡捡捡捡",
+      "rating": 8.8
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7553920617351760920",
+      "title": "在末世太漂亮，会被阴湿疯批亲哭",
+      "rating": 8.6
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7569956253888171032",
+      "title": "不对劲！特殊天赋死感有这么浓吗",
+      "rating": 8.8
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7583381302984854590",
+      "title": "游戏入侵：从篝火开始构建王座",
+      "rating": 8.5
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7590885420477451289",
+      "title": "从冰封开始：开局截胡男主金手指",
+      "rating": 8.4
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7601868684897815614",
+      "title": "末世柔弱我装的，长得漂亮是真的",
+      "rating": 8.3
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7549109392579234841",
+      "title": "我靠采集技能在废土捡宝",
+      "rating": 8.2
+    },
+    {
+      "cell": "科幻末世__Nvpin",
+      "category": "科幻末世",
+      "channel": "Nvpin",
+      "book_id": "7565903615844437017",
+      "title": "别人是丧尸王，我是王中王",
+      "rating": 8.0
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7455941085789965337",
+      "title": "周教授，我们结婚吧",
+      "rating": 9.2
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7441439867029949502",
+      "title": "她在军中当祖宗！",
+      "rating": 9.2
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7524517490395712536",
+      "title": "雾潮燃欲",
+      "rating": 9.3
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7549845419849698366",
+      "title": "京霜不渡",
+      "rating": 9.1
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7545505025976454206",
+      "title": "规则裂纹",
+      "rating": 9.2
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7526198430054485017",
+      "title": "中奖一千万，社畜成为万人迷",
+      "rating": 9.2
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7472978402698333209",
+      "title": "女作家去做保姆",
+      "rating": 9.1
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7507503643680066585",
+      "title": "高干婚恋：女大当婚",
+      "rating": 9.1
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7576923720816544793",
+      "title": "江队，别太野",
+      "rating": 9.0
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7509439947632282686",
+      "title": "大佬太宠，甜度超标了",
+      "rating": 8.8
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7426273253708024894",
+      "title": "一个留守妇女的觉醒",
+      "rating": 8.9
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7566096846053985304",
+      "title": "缅北女人纪事：逃出园区",
+      "rating": 9.0
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7584661403710016537",
+      "title": "机关女人2",
+      "rating": 8.8
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7539124126061972505",
+      "title": "机关女人",
+      "rating": 8.7
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7576878853646208062",
+      "title": "二婚熟夜",
+      "rating": 8.1
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7554401586898816025",
+      "title": "红墙内外，春风入局",
+      "rating": 8.5
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "",
+      "title": "年上的他，非要恋上失恋的我！",
+      "rating": 8.2
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7567928097673055256",
+      "title": "远嫁八年，我掀翻了恶婆婆的家！",
+      "rating": 8.2
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7510767748738190398",
+      "title": "我和新来的刑警队长奉子闪婚了",
+      "rating": 8.1
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7475213907036998681",
+      "title": "恶毒婆婆不要脸，我教她做人！",
+      "rating": 8.1
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7586483614892690457",
+      "title": "耻欲",
+      "rating": 8.1
+    },
+    {
+      "cell": "职场婚恋",
+      "category": "职场婚恋",
+      "channel": "Nvpin",
+      "book_id": "7559976877083872280",
+      "title": "更年期女人的自我救赎",
+      "rating": 8.1
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7420701218474839065",
+      "title": "转生幼龙，雌龙天天盼着我长大",
+      "rating": 9.2
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7230072764088978487",
+      "title": "转生大贵族，异世界放纵日记",
+      "rating": 9.2
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7230674074467306557",
+      "title": "领主：开局收获两名天才少年",
+      "rating": 9.1
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7455863093835336729",
+      "title": "哥布林与异世界，争霸枪炮与刀剑",
+      "rating": 9.1
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7475591764049398809",
+      "title": "千年后复活，妻子有点炫压抑",
+      "rating": 9.2
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7536257706693233689",
+      "title": "我只是个路过的游侠骑士",
+      "rating": 9.2
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7362544544950275134",
+      "title": "圣白冠冕",
+      "rating": 9.0
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7393386798581287961",
+      "title": "我最强法师，开局捡到落魄圣女",
+      "rating": 9.0
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7552185445111565337",
+      "title": "黑暗童话里的猎人",
+      "rating": 9.0
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7582902438680611865",
+      "title": "在异世界肝熟练度的魔女",
+      "rating": 8.6
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7572208200489896985",
+      "title": "地下城冒险日志",
+      "rating": 8.8
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7581768205408930841",
+      "title": "我有一本冒险者指南",
+      "rating": 9.0
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7599888775879085118",
+      "title": "从边境落魄地下城开始升级进化",
+      "rating": 8.5
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7533154088880458814",
+      "title": "末日迁徙异界，国家钢铁洪流开路",
+      "rating": 8.4
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7575767599942749209",
+      "title": "退队，然后捡到白发圣女",
+      "rating": 8.5
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7531676690381016088",
+      "title": "无限模拟：这魅魔我非当不可吗？",
+      "rating": 8.3
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7589939075172273176",
+      "title": "西幻：我的妻子是帝国最强骑士",
+      "rating": 8.3
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7560536855758785598",
+      "title": "什么叫我一千多年前就穿越了？",
+      "rating": 8.0
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7578123553401228350",
+      "title": "序列：禁忌学者",
+      "rating": 8.1
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7586207086678133785",
+      "title": "被召唤成勇者？开局屠杀教堂",
+      "rating": 7.4
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "",
+      "title": "镜头为王",
+      "rating": 7.7
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7571286736332917822",
+      "title": "开局上交异世界，国家教我搓禁咒",
+      "rating": 7.8
+    },
+    {
+      "cell": "西方奇幻",
+      "category": "西方奇幻",
+      "channel": "Nanpin",
+      "book_id": "7604113461399800894",
+      "title": "转生反派贵族，夫人请自重啊",
+      "rating": 7.2
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7215232423028591648",
+      "title": "青山似玉",
+      "rating": 9.4
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7574112426858122264",
+      "title": "女配一睁眼，失忆男主冷脸洗床单",
+      "rating": 9.3
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7557949235618925593",
+      "title": "陷落京霓",
+      "rating": 9.3
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7557023909992729625",
+      "title": "婚夜，燃尽",
+      "rating": 9.3
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7547329129285159961",
+      "title": "京婚厚爱",
+      "rating": 9.2
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7554816467376557081",
+      "title": "玩，脱",
+      "rating": 9.3
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7572842170399345689",
+      "title": "女配觉醒后，伪善人夫彻底沦陷",
+      "rating": 9.1
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7584818220356357144",
+      "title": "十诫锁心",
+      "rating": 9.2
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7568111765251181592",
+      "title": "说好玩玩，我相亲你破防什么",
+      "rating": 9.2
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7578318373449124926",
+      "title": "炙热贪欢",
+      "rating": 9.2
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7560337342888692761",
+      "title": "热恋从新婚开始",
+      "rating": 9.1
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7595562847300504600",
+      "title": "婚前禁欲！婚后上瘾！他日日厮宠",
+      "rating": 9.1
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7545378067598806078",
+      "title": "欲染京曦",
+      "rating": 8.9
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7595448463265893401",
+      "title": "犟，继续犟，这次她不哄了",
+      "rating": 9.1
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7566552035307293758",
+      "title": "醉酒错吻死对头，他哥失控发疯了",
+      "rating": 9.1
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7597604097813924926",
+      "title": "老公！低声些，难道光彩吗？",
+      "rating": 9.0
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7535337389883935768",
+      "title": "穿书反派，我比格属性爆发",
+      "rating": 8.9
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7521538070076722238",
+      "title": "军婚有瘾",
+      "rating": 8.6
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7586951696408923160",
+      "title": "小小奶团子，全身反骨子",
+      "rating": 8.6
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7508934595518139454",
+      "title": "初次尝鲜",
+      "rating": 8.5
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7558660534942305305",
+      "title": "分手四年后，被哥哥按在墙后吻",
+      "rating": 8.2
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7588744461950143513",
+      "title": "说好会哄会停，怎么会哄不停！",
+      "rating": 8.5
+    },
+    {
+      "cell": "豪门总裁",
+      "category": "豪门总裁",
+      "channel": "Nvpin",
+      "book_id": "7587283727395343384",
+      "title": "爷爷硬塞的老婆好软，陆总爱死了",
+      "rating": 8.4
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7444825780967722008",
+      "title": "乡村神医好快活",
+      "rating": 8.8
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7320552597494975550",
+      "title": "和双胞姐妹花同居的日子",
+      "rating": 8.9
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7087519624329169951",
+      "title": "都市：修仙十年，下山即无敌",
+      "rating": 9.1
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7120120741126736933",
+      "title": "高手下山：我不当赘婿",
+      "rating": 9.0
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7240433832506166283",
+      "title": "山村，入夜，躁！",
+      "rating": 9.0
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7295654473764965411",
+      "title": "震惊，傻子老公这么强！",
+      "rating": 8.7
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7342073921300089880",
+      "title": "都市：从筑基下山开始无敌",
+      "rating": 8.8
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7324876104668302398",
+      "title": "得到道家传承，我终于发达了",
+      "rating": 9.1
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7512851759941831705",
+      "title": "重生高中，开始悠哉修仙日常",
+      "rating": 8.2
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7290773226383215631",
+      "title": "高考后，我的仙人身份瞒不住了",
+      "rating": 8.3
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7550294248004799512",
+      "title": "福运小神医",
+      "rating": 8.1
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7519859018571992088",
+      "title": "乡村神医，开局继承无敌传承",
+      "rating": 8.0
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7232596473383226402",
+      "title": "徒儿你太无敌了，下山去吧",
+      "rating": 7.9
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7584477306635177022",
+      "title": "我的山村女人",
+      "rating": 8.0
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7480140965362011161",
+      "title": "医武至尊在都市",
+      "rating": 8.0
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7347569064258047000",
+      "title": "获得医仙传承我继续在村里装傻",
+      "rating": 7.9
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7573923550285810713",
+      "title": "桃花深处情悠悠",
+      "rating": 7.8
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7541274373735320600",
+      "title": "龙凤培元功",
+      "rating": 7.8
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7589147365974494233",
+      "title": "桃源深处，邻姐助我修炼",
+      "rating": 7.6
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7478102633446640664",
+      "title": "要命！这个村子女人她吃人",
+      "rating": 7.9
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7540465880199613465",
+      "title": "乡村女人逼我修仙",
+      "rating": 7.7
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7577199958781070360",
+      "title": "桃花村夜深人不静",
+      "rating": 7.6
+    },
+    {
+      "cell": "都市修真",
+      "category": "都市修真",
+      "channel": "Nanpin",
+      "book_id": "7594302297895603224",
+      "title": "回到地球，我带回了化神修为",
+      "rating": 7.4
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7166160525913492488",
+      "title": "火线提拔",
+      "rating": 9.3
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7259957689197792297",
+      "title": "开局停职？我转投纪委调查组",
+      "rating": 9.3
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7212512693792541734",
+      "title": "官场之绝对权力",
+      "rating": 9.4
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7490373272979115070",
+      "title": "我真没想恋爱，可她们非要",
+      "rating": 9.4
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7444109074804788249",
+      "title": "趁我青涩，校花姐姐想要玩养成？",
+      "rating": 9.5
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7213728821562838049",
+      "title": "官人官色",
+      "rating": 9.3
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7605079869315107864",
+      "title": "睡了姐姐闺蜜，她竟是我大学教授",
+      "rating": 9.2
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7341408148781026366",
+      "title": "官场从秘书开始",
+      "rating": 9.2
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7309751717405395978",
+      "title": "黑社会：雄霸天下",
+      "rating": 9.1
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7187027693219613730",
+      "title": "缅北，魔窟里的生与死",
+      "rating": 9.1
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7354955950169541656",
+      "title": "重回2014，这波优势在我！",
+      "rating": 9.1
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7501902210347830334",
+      "title": "她上岸提分手，我转身成领导秘书",
+      "rating": 9.0
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7567540210427251736",
+      "title": "恋综女友是京圈大小姐！",
+      "rating": 8.7
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7576861317248601150",
+      "title": "卧底，替死去的黑老大照顾大嫂",
+      "rating": 8.4
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7499292273901833278",
+      "title": "反腐第一剑，先斩丈母娘",
+      "rating": 8.2
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7485614297129700377",
+      "title": "打工情缘",
+      "rating": 8.2
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7535007158216182808",
+      "title": "退役后找不到工作，只能当雇佣兵",
+      "rating": 8.2
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "",
+      "title": "温柔的堂嫂",
+      "rating": 8.1
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7563901333967735870",
+      "title": "江湖：红颜争香斗艳",
+      "rating": 8.1
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "",
+      "title": "那年我十八表嫂助我人生开挂",
+      "rating": 8.1
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7486680724188171289",
+      "title": "红颜扶我踏青云",
+      "rating": 8.0
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7579899123986353214",
+      "title": "官中局",
+      "rating": 7.9
+    },
+    {
+      "cell": "都市日常",
+      "category": "都市日常",
+      "channel": "Nanpin",
+      "book_id": "7524704103662881817",
+      "title": "东莞潇洒人生",
+      "rating": 7.8
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7267739106057145406",
+      "title": "真敢让我重生啊",
+      "rating": 8.5
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7200791448915020838",
+      "title": "当了神豪后她们都喜欢叫我爸爸",
+      "rating": 8.7
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7338084676994599961",
+      "title": "重回高三：从高考满分重启人生",
+      "rating": 8.8
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7571864974377634841",
+      "title": "搬运2026，喂饱1988",
+      "rating": 9.1
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7570418676646562841",
+      "title": "我在逼乎吹牛，国家怎么当真了",
+      "rating": 8.5
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7584506872988716094",
+      "title": "冒充京圈子弟，操纵全球资本",
+      "rating": 8.5
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7457434341585456190",
+      "title": "穿越60从打猎开始养活九个姐姐",
+      "rating": 8.5
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7527151307614850072",
+      "title": "七零，我的老婆是资本家大小姐",
+      "rating": 8.4
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7558397007656668185",
+      "title": "重生08，豆包成了我的外挂",
+      "rating": 8.3
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7597745757453569048",
+      "title": "大学没毕业，你怎么登上福布斯了",
+      "rating": 8.1
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7452239304098597950",
+      "title": "上辈子苦够了，重生再也不当舔狗",
+      "rating": 8.0
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7575742220167285785",
+      "title": "狩猎北大荒：从投奔亲姑姑开始",
+      "rating": 8.1
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7361349306634210328",
+      "title": "重返大学，花心一点怎么了",
+      "rating": 8.0
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7560237886004530200",
+      "title": "40岁岳母发话，六女儿都听你的",
+      "rating": 7.9
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7439538646258027544",
+      "title": "不愚孝后，我在京都买四合院上瘾",
+      "rating": 7.8
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7497836580632005656",
+      "title": "刚离婚，和前妻死对头在一起了",
+      "rating": 7.8
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7537178605592251416",
+      "title": "空间藏娇，1977暴富日常！",
+      "rating": 7.7
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7574074784556796952",
+      "title": "左牵黄，右擎苍，俺在村里很风光",
+      "rating": 7.8
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7526821987927215128",
+      "title": "荒岛求生，我的跟班又强又萌",
+      "rating": 7.7
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7590302308798319641",
+      "title": "美利坚：邻居太太实在太热情了",
+      "rating": 7.7
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7574292707699346494",
+      "title": "年代：小姨子一模一样，分不清",
+      "rating": 7.6
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7594706337674562622",
+      "title": "掀桌分家！带妻女进山顿顿吃肉",
+      "rating": 7.5
+    },
+    {
+      "cell": "都市种田",
+      "category": "都市种田",
+      "channel": "Nanpin",
+      "book_id": "7584014174808706110",
+      "title": "三个前妻：重生的我怎么选",
+      "rating": 7.6
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7593576525232884761",
+      "title": "中医：我能看见疾病词条",
+      "rating": 8.8
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7491203514484395032",
+      "title": "我是反派演技一流，哎你别报警啊",
+      "rating": 9.2
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7586337821384772632",
+      "title": "做个吃瓜群众，居然还要洗眼睛",
+      "rating": 8.9
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7277178526233529406",
+      "title": "恋综：悬溺一响，遗憾登场！",
+      "rating": 9.1
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7234429994628287491",
+      "title": "觉醒当天，强吻校花的我一剑斩神",
+      "rating": 9.1
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7493801418462088217",
+      "title": "乾坤袋让我走上人生巅峰",
+      "rating": 8.5
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7576648932168584254",
+      "title": "国安最佳编外，五十万！五十万！",
+      "rating": 8.7
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7582394198939159614",
+      "title": "青梅憨憨体柔易白给，我亲亲亲亲",
+      "rating": 8.3
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7589553138307173400",
+      "title": "病娇妈妈们找上门，儿女都吓哭了",
+      "rating": 8.4
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7600021947820280856",
+      "title": "急诊医生：我能看见死亡倒计时",
+      "rating": 8.2
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7599631943377882136",
+      "title": "高二听劝变帅，校花日记写满我",
+      "rating": 8.3
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7480219587938634776",
+      "title": "刚上高中，我的数值太超模了",
+      "rating": 8.1
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7600056555853073470",
+      "title": "娱乐：人设崩塌后，我起飞了",
+      "rating": 8.1
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7564779844639149118",
+      "title": "带着一亿现金重生贫困的高中时代",
+      "rating": 7.8
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7598772013611633689",
+      "title": "我只想混到退休",
+      "rating": 7.7
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7593597311880531006",
+      "title": "过年回家，与三个精神小妹挤大巴",
+      "rating": 8.1
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7555426750713318425",
+      "title": "小鸟说早早早你为什么背上炸药包",
+      "rating": 7.9
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "",
+      "title": "我就开直播，咋开启三战了",
+      "rating": 7.4
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "",
+      "title": "万界通告，哨兵阵亡",
+      "rating": 7.4
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7588778895722155032",
+      "title": "瘫痪后，靠数学改变世界",
+      "rating": 7.1
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7594428532806126617",
+      "title": "打卡全球，我的技能越来越多",
+      "rating": 7.4
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7573960104676969496",
+      "title": "主角团天塌了，这个反派正得发邪",
+      "rating": 7.3
+    },
+    {
+      "cell": "都市脑洞",
+      "category": "都市脑洞",
+      "channel": "Nanpin",
+      "book_id": "7608208183655402521",
+      "title": "系统：每日一亿，学姐请自重",
+      "rating": 7.0
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7421167583522458648",
+      "title": "大一实习，你跑去749收容怪物",
+      "rating": 9.5
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7263425104074247187",
+      "title": "这个魔子不对劲",
+      "rating": 9.4
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7290454049931922444",
+      "title": "犯上者",
+      "rating": 9.4
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7197237867460955196",
+      "title": "我无限回档，洞悉所有底牌",
+      "rating": 9.5
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7504849932138859545",
+      "title": "时停时停时停时停时停时停时停！",
+      "rating": 9.4
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7499553647647263806",
+      "title": "让你改装机娘，你让机娘上墙",
+      "rating": 9.5
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7380211153592388632",
+      "title": "不太冷的魔术师",
+      "rating": 9.5
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7370221167111572542",
+      "title": "一起堕落吗神明",
+      "rating": 9.4
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7496166356807584792",
+      "title": "高武：天才就是1天赋加99药水",
+      "rating": 9.4
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7415383954984815641",
+      "title": "天骄？妖孽？不好，是肝帝",
+      "rating": 9.3
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7346057588347259929",
+      "title": "序列：吃神者",
+      "rating": 9.3
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7510110767501282366",
+      "title": "两百年后，我独自镇压末世",
+      "rating": 9.2
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7582060941001378841",
+      "title": "我的五脏六腑，皆为魔神",
+      "rating": 9.0
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7462405945180572697",
+      "title": "神序001，参见！",
+      "rating": 9.1
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7512691116362189849",
+      "title": "游走神话，开局偷耶稣尸体",
+      "rating": 8.4
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7533149785092541502",
+      "title": "别装了，你也不是正经觉醒者吧？",
+      "rating": 8.1
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7589673170848713752",
+      "title": "全球僵尸降临，你说道士序列没用",
+      "rating": 8.6
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7609194638129237017",
+      "title": "鉴定网络热门伪人",
+      "rating": 8.5
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7576270107479919640",
+      "title": "恒月长存，万物终成怪异",
+      "rating": 9.0
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7585448189356936216",
+      "title": "十八岁全系法神，一人镇压全世界",
+      "rating": 7.7
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7584808519187041342",
+      "title": "高武：被退学后，我在前线杀疯了",
+      "rating": 7.4
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7599931873157975065",
+      "title": "高武：我永远比儿子高四个境界",
+      "rating": 7.1
+    },
+    {
+      "cell": "都市高武",
+      "category": "都市高武",
+      "channel": "Nanpin",
+      "book_id": "7613961307649215512",
+      "title": "高武：一块钱买一年修为",
+      "rating": 7.0
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7568341885492661310",
+      "title": "坏兄妹",
+      "rating": 9.4
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7333199542482914328",
+      "title": "槐风",
+      "rating": 9.4
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7582240771588230206",
+      "title": "酸涩湿吻",
+      "rating": 9.5
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7429537438936075289",
+      "title": "离婚前重回高中，这次我不心动了",
+      "rating": 9.4
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7470142203893926936",
+      "title": "睁眼！重生阴湿亡夫少年时",
+      "rating": 9.4
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7490227290643647550",
+      "title": "认亲后，大家的画风一起跑偏了",
+      "rating": 9.4
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7582998260931890201",
+      "title": "上位阶梯：顶级心机女的资本时代",
+      "rating": 9.2
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7593211752544734270",
+      "title": "腰，再软一点",
+      "rating": 9.2
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7596956333937544254",
+      "title": "被缠上了，穿成疯批的作精前女友",
+      "rating": 9.2
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7554221989641063449",
+      "title": "潮燃雾烬",
+      "rating": 9.1
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7570625606136630297",
+      "title": "财阀大佬娇养的小白花又傻又可爱",
+      "rating": 9.2
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7472703739158072382",
+      "title": "织鲸",
+      "rating": 9.1
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7542450377480735769",
+      "title": "我，顶级绿茶婊，玩遍京圈大佬",
+      "rating": 9.0
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7546227706472451096",
+      "title": "重回高中：在阴郁少年怀里撒个娇",
+      "rating": 9.1
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7587278084198370328",
+      "title": "小狗吻娇软",
+      "rating": 8.9
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7542535289969855512",
+      "title": "转校后，我把竹马校草拿捏了",
+      "rating": 8.8
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7597079610727091225",
+      "title": "炙吻为臣",
+      "rating": 8.6
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7593546594557889560",
+      "title": "和未婚夫他兄弟在未来有个孩子",
+      "rating": 9.0
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7488307897122688025",
+      "title": "宝宝好软，怎么一碰就红了",
+      "rating": 8.5
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7611913437316140057",
+      "title": "网恋吗？翻车抓回来继续谈的那种",
+      "rating": 8.4
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7529586528876497945",
+      "title": "她太难撩！",
+      "rating": 8.4
+    },
+    {
+      "cell": "青春甜宠",
+      "category": "青春甜宠",
+      "channel": "Nvpin",
+      "book_id": "7605488680806927422",
+      "title": "校花重生：开局逼睡学霸",
+      "rating": 8.2
+    }
+  ]
+}

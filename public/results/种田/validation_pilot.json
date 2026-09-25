@@ -1,0 +1,2397 @@
+{
+  "run_id": "20260911T025737Z-90fd10",
+  "run_utc": "2026-09-11T02:57:37+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "种田",
+  "source_dir": "Nvpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "兽世：被霸道冷血蛇兽人们强制爱.txt",
+    "十天后穿古代：我提前囤货躲灾年.txt",
+    "国公府弃女，被狼群宠成小公主.txt",
+    "山山有药.txt",
+    "开局一个城池，我靠系统逐鹿天下.txt",
+    "春水煎茶，慢富人家.txt",
+    "神医娇妻穿越后，救了满门忠烈.txt"
+  ],
+  "results": [
+    {
+      "title": "穿越兽世：兽夫太凶猛",
+      "file": "穿越兽世：兽夫太凶猛.txt",
+      "real_rating": 9.2,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "开篇钩子": 4,
+        "种田逻辑": 5,
+        "人设反差": 6,
+        "乡土质感": 5,
+        "节奏把控": 5,
+        "危机代价": 4,
+        "对话土味": 3,
+        "世界自洽": 6,
+        "情感锚点": 4,
+        "去爽文化": 5
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            17
+          ],
+          "success_chars": 44
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            26
+          ],
+          "success_chars": 28
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            31
+          ],
+          "success_chars": 41
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            20
+          ],
+          "success_chars": 43
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            15
+          ],
+          "success_chars": 50
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            28
+          ],
+          "success_chars": 22
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            16
+          ],
+          "success_chars": 10
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            23
+          ],
+          "success_chars": 34
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            9
+          ],
+          "success_chars": 35
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            39
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "不就休夫虐个渣，怎就混成了女帝",
+      "file": "不就休夫虐个渣，怎就混成了女帝.txt",
+      "real_rating": 8.8,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "种田逻辑": 5,
+        "人设反差": 7,
+        "乡土质感": 6,
+        "节奏把控": 5,
+        "危机代价": 5,
+        "对话土味": 6,
+        "世界自洽": 4,
+        "情感锚点": 7,
+        "去爽文化": 5
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            71,
+            12
+          ],
+          "success_chars": 25
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            50
+          ],
+          "success_chars": 18
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            31
+          ],
+          "success_chars": 19
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            22
+          ],
+          "success_chars": 36
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            33
+          ],
+          "success_chars": 25
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            34
+          ],
+          "success_chars": 22
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            10
+          ],
+          "success_chars": 33
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            20
+          ],
+          "success_chars": 34
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            20
+          ],
+          "success_chars": 49
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            38
+          ],
+          "success_chars": 13
+        }
+      }
+    },
+    {
+      "title": "邻村粮荒啃树皮，我带全村吃涮肉",
+      "file": "邻村粮荒啃树皮，我带全村吃涮肉.txt",
+      "real_rating": 8.9,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "种田逻辑": 6,
+        "人设反差": 7,
+        "乡土质感": 6,
+        "节奏把控": 7,
+        "危机代价": 6,
+        "对话土味": 5,
+        "世界自洽": 7,
+        "情感锚点": 7,
+        "去爽文化": 6
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            26
+          ],
+          "success_chars": 29
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            23
+          ],
+          "success_chars": 51
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            38
+          ],
+          "success_chars": 35
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            12
+          ],
+          "success_chars": 29
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            26
+          ],
+          "success_chars": 29
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            19
+          ],
+          "success_chars": 31
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            12
+          ],
+          "success_chars": 17
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            20
+          ],
+          "success_chars": 18
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            19
+          ],
+          "success_chars": 32
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            28
+          ],
+          "success_chars": 21
+        }
+      }
+    },
+    {
+      "title": "深山开荒避乱世，我家顿顿有肉吃",
+      "file": "深山开荒避乱世，我家顿顿有肉吃.txt",
+      "real_rating": 9.0,
+      "rubric_score": 4.3,
+      "rubric_scores": [
+        4.3
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "种田逻辑": 4,
+        "人设反差": 5,
+        "乡土质感": 3,
+        "节奏把控": 5,
+        "危机代价": 4,
+        "对话土味": 2,
+        "世界自洽": 5,
+        "情感锚点": 4,
+        "去爽文化": 3
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            47
+          ],
+          "success_chars": 62
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            38
+          ],
+          "success_chars": 52
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            44
+          ],
+          "success_chars": 47
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            42
+          ],
+          "success_chars": 33
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            43
+          ],
+          "success_chars": 51
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            10
+          ],
+          "success_chars": 21
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            6
+          ],
+          "success_chars": 2
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            35
+          ],
+          "success_chars": 21
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            26
+          ],
+          "success_chars": 30
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            17
+          ],
+          "success_chars": 43
+        }
+      }
+    },
+    {
+      "title": "清水人家，乡土生活",
+      "file": "清水人家，乡土生活.txt",
+      "real_rating": 8.9,
+      "rubric_score": 7.4,
+      "rubric_scores": [
+        7.4,
+        7.4,
+        7.4
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "种田逻辑": 6,
+        "人设反差": 7,
+        "乡土质感": 8,
+        "节奏把控": 7,
+        "危机代价": 6,
+        "对话土味": 8,
+        "世界自洽": 9,
+        "情感锚点": 8,
+        "去爽文化": 8
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            24
+          ],
+          "success_chars": 53
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            39
+          ],
+          "success_chars": 30
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            33
+          ],
+          "success_chars": 34
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            19
+          ],
+          "success_chars": 37
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            34
+          ],
+          "success_chars": 40
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            33
+          ],
+          "success_chars": 36
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            32
+          ],
+          "success_chars": 69
+        },
+        "世界自洽": {
+          "n_failures": 0,
+          "failure_chars": [],
+          "success_chars": 39
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            37
+          ],
+          "success_chars": 17
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            19
+          ],
+          "success_chars": 37
+        }
+      }
+    },
+    {
+      "title": "芽芽的荷包：荒村到世外桃源",
+      "file": "芽芽的荷包：荒村到世外桃源.txt",
+      "real_rating": 9.2,
+      "rubric_score": 7.4,
+      "rubric_scores": [
+        7.4
+      ],
+      "dimensions": {
+        "开篇钩子": 9,
+        "种田逻辑": 6,
+        "人设反差": 8,
+        "乡土质感": 8,
+        "节奏把控": 7,
+        "危机代价": 7,
+        "对话土味": 9,
+        "世界自洽": 5,
+        "情感锚点": 9,
+        "去爽文化": 8
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            46
+          ],
+          "success_chars": 48
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            47
+          ],
+          "success_chars": 41
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            23
+          ],
+          "success_chars": 64
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            56
+          ],
+          "success_chars": 38
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            82,
+            37
+          ],
+          "success_chars": 55
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            67
+          ],
+          "success_chars": 63
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            27
+          ],
+          "success_chars": 5
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            46
+          ],
+          "success_chars": 24
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            62
+          ],
+          "success_chars": 51
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            58
+          ],
+          "success_chars": 58
+        }
+      }
+    },
+    {
+      "title": "揣双胎改嫁猎户，带夫家暴富吃肉",
+      "file": "揣双胎改嫁猎户，带夫家暴富吃肉.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.9,
+      "rubric_scores": [
+        5.9
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "种田逻辑": 5,
+        "人设反差": 7,
+        "乡土质感": 6,
+        "节奏把控": 5,
+        "危机代价": 5,
+        "对话土味": 7,
+        "世界自洽": 8,
+        "情感锚点": 6,
+        "去爽文化": 5
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            33
+          ],
+          "success_chars": 36
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            20
+          ],
+          "success_chars": 22
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            18
+          ],
+          "success_chars": 41
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            30
+          ],
+          "success_chars": 38
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            33
+          ],
+          "success_chars": 46
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            38
+          ],
+          "success_chars": 45
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            41
+          ],
+          "success_chars": 22
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            21
+          ],
+          "success_chars": 24
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            26
+          ],
+          "success_chars": 41
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            27
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "屠户家的小胖妞被退婚后福运太旺",
+      "file": "屠户家的小胖妞被退婚后福运太旺.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "种田逻辑": 5,
+        "人设反差": 7,
+        "乡土质感": 6,
+        "节奏把控": 5,
+        "危机代价": 4,
+        "对话土味": 7,
+        "世界自洽": 8,
+        "情感锚点": 5,
+        "去爽文化": 5
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            31
+          ],
+          "success_chars": 35
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            24
+          ],
+          "success_chars": 33
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            29
+          ],
+          "success_chars": 32
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            30
+          ],
+          "success_chars": 35
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            30
+          ],
+          "success_chars": 20
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            21
+          ],
+          "success_chars": 24
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            16
+          ],
+          "success_chars": 43
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            12
+          ],
+          "success_chars": 30
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            19
+          ],
+          "success_chars": 24
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            30
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "傻小丫穿越记",
+      "file": "傻小丫穿越记.txt",
+      "real_rating": 8.8,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "种田逻辑": 5,
+        "人设反差": 7,
+        "乡土质感": 8,
+        "节奏把控": 6,
+        "危机代价": 7,
+        "对话土味": 9,
+        "世界自洽": 8,
+        "情感锚点": 5,
+        "去爽文化": 6
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            66,
+            52
+          ],
+          "success_chars": 44
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            38
+          ],
+          "success_chars": 34
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            36
+          ],
+          "success_chars": 44
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            36
+          ],
+          "success_chars": 49
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            38
+          ],
+          "success_chars": 28
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            45
+          ],
+          "success_chars": 37
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            16
+          ],
+          "success_chars": 54
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            34
+          ],
+          "success_chars": 36
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            37
+          ],
+          "success_chars": 38
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            32
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "流放西北：手撕渣男后，携崽南下",
+      "file": "流放西北：手撕渣男后，携崽南下.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.0,
+      "rubric_scores": [
+        4.8,
+        5.1,
+        5.1
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "种田逻辑": 4,
+        "人设反差": 5,
+        "乡土质感": 3,
+        "节奏把控": 4,
+        "危机代价": 5,
+        "对话土味": 6,
+        "世界自洽": 7,
+        "情感锚点": 5,
+        "去爽文化": 3
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            63,
+            53
+          ],
+          "success_chars": 46
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            38
+          ],
+          "success_chars": 32
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            41
+          ],
+          "success_chars": 30
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            40
+          ],
+          "success_chars": 25
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            43
+          ],
+          "success_chars": 19
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            35
+          ],
+          "success_chars": 26
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            33
+          ],
+          "success_chars": 25
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            32
+          ],
+          "success_chars": 29
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            33
+          ],
+          "success_chars": 17
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            37
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "被净身出户，末世大佬种田养全家",
+      "file": "被净身出户，末世大佬种田养全家.txt",
+      "real_rating": 8.7,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "种田逻辑": 6,
+        "人设反差": 7,
+        "乡土质感": 7,
+        "节奏把控": 6,
+        "危机代价": 6,
+        "对话土味": 5,
+        "世界自洽": 5,
+        "情感锚点": 7,
+        "去爽文化": 6
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            66,
+            58
+          ],
+          "success_chars": 56
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            52
+          ],
+          "success_chars": 39
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            37
+          ],
+          "success_chars": 41
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            33
+          ],
+          "success_chars": 41
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            29
+          ],
+          "success_chars": 32
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            37
+          ],
+          "success_chars": 30
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            34
+          ],
+          "success_chars": 32
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            44
+          ],
+          "success_chars": 28
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            30
+          ],
+          "success_chars": 35
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            38
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "长姐难当，兽语赶山赚钱养弟妹",
+      "file": "长姐难当，兽语赶山赚钱养弟妹.txt",
+      "real_rating": 8.5,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "种田逻辑": 5,
+        "人设反差": 7,
+        "乡土质感": 6,
+        "节奏把控": 6,
+        "危机代价": 5,
+        "对话土味": 7,
+        "世界自洽": 8,
+        "情感锚点": 6,
+        "去爽文化": 7
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            33
+          ],
+          "success_chars": 56
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            37
+          ],
+          "success_chars": 12
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            38
+          ],
+          "success_chars": 37
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            43
+          ],
+          "success_chars": 38
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            32
+          ],
+          "success_chars": 28
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            36
+          ],
+          "success_chars": 21
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            26
+          ],
+          "success_chars": 42
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            28
+          ],
+          "success_chars": 45
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            29
+          ],
+          "success_chars": 27
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            22
+          ],
+          "success_chars": 47
+        }
+      }
+    },
+    {
+      "title": "换亲抄家，我扫空半个京城去流放",
+      "file": "换亲抄家，我扫空半个京城去流放.txt",
+      "real_rating": 8.4,
+      "rubric_score": 4.3,
+      "rubric_scores": [
+        4.3
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "种田逻辑": 3,
+        "人设反差": 5,
+        "乡土质感": 4,
+        "节奏把控": 5,
+        "危机代价": 4,
+        "对话土味": 3,
+        "世界自洽": 4,
+        "情感锚点": 3,
+        "去爽文化": 4
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            31
+          ],
+          "success_chars": 47
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            27
+          ],
+          "success_chars": 18
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            42
+          ],
+          "success_chars": 34
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            23
+          ],
+          "success_chars": 27
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            50
+          ],
+          "success_chars": 27
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            42
+          ],
+          "success_chars": 29
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            29
+          ],
+          "success_chars": 25
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            27
+          ],
+          "success_chars": 24
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            36
+          ],
+          "success_chars": 20
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            21
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "被分家不怕，带上爹娘弟弟进深山",
+      "file": "被分家不怕，带上爹娘弟弟进深山.txt",
+      "real_rating": 8.4,
+      "rubric_score": 7.433333333333334,
+      "rubric_scores": [
+        7.1,
+        7.9,
+        7.3
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "种田逻辑": 5,
+        "人设反差": 7,
+        "乡土质感": 8,
+        "节奏把控": 6,
+        "危机代价": 8,
+        "对话土味": 9,
+        "世界自洽": 6,
+        "情感锚点": 7,
+        "去爽文化": 8
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            25
+          ],
+          "success_chars": 40
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            30
+          ],
+          "success_chars": 17
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            20
+          ],
+          "success_chars": 35
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            27
+          ],
+          "success_chars": 27
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            26
+          ],
+          "success_chars": 30
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            30
+          ],
+          "success_chars": 31
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            25
+          ],
+          "success_chars": 42
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            8
+          ],
+          "success_chars": 24
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            30
+          ],
+          "success_chars": 19
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            39
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "背叛开局？我有空间搬空恶婆家！",
+      "file": "背叛开局？我有空间搬空恶婆家！.txt",
+      "real_rating": 8.4,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "种田逻辑": 5,
+        "人设反差": 7,
+        "乡土质感": 6,
+        "节奏把控": 5,
+        "危机代价": 5,
+        "对话土味": 6,
+        "世界自洽": 4,
+        "情感锚点": 7,
+        "去爽文化": 5
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            72,
+            46
+          ],
+          "success_chars": 26
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            64
+          ],
+          "success_chars": 25
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            56
+          ],
+          "success_chars": 26
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            61,
+            43
+          ],
+          "success_chars": 30
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            56
+          ],
+          "success_chars": 36
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            23
+          ],
+          "success_chars": 25
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            32
+          ],
+          "success_chars": 33
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            54
+          ],
+          "success_chars": 33
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            36
+          ],
+          "success_chars": 46
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            45
+          ],
+          "success_chars": 45
+        }
+      }
+    },
+    {
+      "title": "身怀武力和医术，长姐带娃杀疯了",
+      "file": "身怀武力和医术，长姐带娃杀疯了.txt",
+      "real_rating": 8.4,
+      "rubric_score": 7.3,
+      "rubric_scores": [
+        7.3
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "种田逻辑": 6,
+        "人设反差": 7,
+        "乡土质感": 7,
+        "节奏把控": 6,
+        "危机代价": 7,
+        "对话土味": 6,
+        "世界自洽": 9,
+        "情感锚点": 8,
+        "去爽文化": 8
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            28
+          ],
+          "success_chars": 30
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            32
+          ],
+          "success_chars": 29
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            42
+          ],
+          "success_chars": 37
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            75,
+            30
+          ],
+          "success_chars": 31
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            19
+          ],
+          "success_chars": 33
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            60
+          ],
+          "success_chars": 41
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            26
+          ],
+          "success_chars": 37
+        },
+        "世界自洽": {
+          "n_failures": 0,
+          "failure_chars": [],
+          "success_chars": 46
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            15
+          ],
+          "success_chars": 41
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            39
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "小胖妞逃荒路上被外公舅舅宠上天",
+      "file": "小胖妞逃荒路上被外公舅舅宠上天.txt",
+      "real_rating": 8.1,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "种田逻辑": 4,
+        "人设反差": 5,
+        "乡土质感": 5,
+        "节奏把控": 4,
+        "危机代价": 3,
+        "对话土味": 6,
+        "世界自洽": 2,
+        "情感锚点": 5,
+        "去爽文化": 3
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            36
+          ],
+          "success_chars": 39
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            37
+          ],
+          "success_chars": 27
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            22
+          ],
+          "success_chars": 24
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            37
+          ],
+          "success_chars": 30
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            27
+          ],
+          "success_chars": 22
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            32
+          ],
+          "success_chars": 21
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            20
+          ],
+          "success_chars": 31
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            24
+          ],
+          "success_chars": 1
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            16
+          ],
+          "success_chars": 19
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            22
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "我们在流放地捅破天",
+      "file": "我们在流放地捅破天.txt",
+      "real_rating": 8.3,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "种田逻辑": 6,
+        "人设反差": 7,
+        "乡土质感": 6,
+        "节奏把控": 7,
+        "危机代价": 6,
+        "对话土味": 5,
+        "世界自洽": 8,
+        "情感锚点": 7,
+        "去爽文化": 8
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            42
+          ],
+          "success_chars": 57
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            44
+          ],
+          "success_chars": 49
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            20
+          ],
+          "success_chars": 39
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            27
+          ],
+          "success_chars": 42
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            31
+          ],
+          "success_chars": 38
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            27
+          ],
+          "success_chars": 35
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            33
+          ],
+          "success_chars": 52
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            28
+          ],
+          "success_chars": 35
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            28
+          ],
+          "success_chars": 41
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            18
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "穿成大力农女，咸鱼躺赢爽翻天",
+      "file": "穿成大力农女，咸鱼躺赢爽翻天.txt",
+      "real_rating": 8.2,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "开篇钩子": 4,
+        "种田逻辑": 5,
+        "人设反差": 6,
+        "乡土质感": 5,
+        "节奏把控": 5,
+        "危机代价": 4,
+        "对话土味": 3,
+        "世界自洽": 7,
+        "情感锚点": 5,
+        "去爽文化": 6
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            41
+          ],
+          "success_chars": 30
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            45
+          ],
+          "success_chars": 54
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            52
+          ],
+          "success_chars": 68
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            33
+          ],
+          "success_chars": 37
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            26
+          ],
+          "success_chars": 16
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            31
+          ],
+          "success_chars": 27
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            22
+          ],
+          "success_chars": 36
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            38
+          ],
+          "success_chars": 55
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            18
+          ],
+          "success_chars": 20
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            58
+          ],
+          "success_chars": 51
+        }
+      }
+    },
+    {
+      "title": "流放前夜，我为反派夫君留种了",
+      "file": "流放前夜，我为反派夫君留种了.txt",
+      "real_rating": 8.0,
+      "rubric_score": 5.0,
+      "rubric_scores": [
+        4.6,
+        5.2,
+        5.2
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "种田逻辑": 4,
+        "人设反差": 5,
+        "乡土质感": 3,
+        "节奏把控": 5,
+        "危机代价": 4,
+        "对话土味": 4,
+        "世界自洽": 3,
+        "情感锚点": 5,
+        "去爽文化": 4
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            37
+          ],
+          "success_chars": 31
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            33
+          ],
+          "success_chars": 38
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            19
+          ],
+          "success_chars": 35
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            27
+          ],
+          "success_chars": 24
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            44
+          ],
+          "success_chars": 17
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            61,
+            44
+          ],
+          "success_chars": 27
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            4
+          ],
+          "success_chars": 19
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            8
+          ],
+          "success_chars": 10
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            25
+          ],
+          "success_chars": 45
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            31
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "绝户女养四娃，日子过得风生水起",
+      "file": "绝户女养四娃，日子过得风生水起.txt",
+      "real_rating": 8.0,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "种田逻辑": 4,
+        "人设反差": 5,
+        "乡土质感": 7,
+        "节奏把控": 5,
+        "危机代价": 4,
+        "对话土味": 8,
+        "世界自洽": 6,
+        "情感锚点": 6,
+        "去爽文化": 5
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            24
+          ],
+          "success_chars": 33
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            16
+          ],
+          "success_chars": 36
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            15
+          ],
+          "success_chars": 43
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            7
+          ],
+          "success_chars": 40
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            8
+          ],
+          "success_chars": 42
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            14
+          ],
+          "success_chars": 38
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            10
+          ],
+          "success_chars": 34
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            12
+          ],
+          "success_chars": 44
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            7
+          ],
+          "success_chars": 41
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            18
+          ],
+          "success_chars": 40
+        }
+      }
+    },
+    {
+      "title": "断亲住进绝户屋后，老虔婆傻眼了",
+      "file": "断亲住进绝户屋后，老虔婆傻眼了.txt",
+      "real_rating": 8.1,
+      "rubric_score": 6.866666666666666,
+      "rubric_scores": [
+        7.1,
+        7.1,
+        6.4
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "种田逻辑": 5,
+        "人设反差": 6,
+        "乡土质感": 7,
+        "节奏把控": 6,
+        "危机代价": 7,
+        "对话土味": 8,
+        "世界自洽": 9,
+        "情感锚点": 7,
+        "去爽文化": 8
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            51
+          ],
+          "success_chars": 46
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            39
+          ],
+          "success_chars": 46
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            43
+          ],
+          "success_chars": 46
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            37
+          ],
+          "success_chars": 46
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            47
+          ],
+          "success_chars": 33
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            48
+          ],
+          "success_chars": 42
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            40
+          ],
+          "success_chars": 46
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            32
+          ],
+          "success_chars": 41
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            35
+          ],
+          "success_chars": 39
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            35
+          ],
+          "success_chars": 46
+        }
+      }
+    },
+    {
+      "title": "穿越兽世，被雄性们抢疯了",
+      "file": "穿越兽世，被雄性们抢疯了.txt",
+      "real_rating": 8.0,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "种田逻辑": 3,
+        "人设反差": 5,
+        "乡土质感": 2,
+        "节奏把控": 4,
+        "危机代价": 4,
+        "对话土味": 3,
+        "世界自洽": 5,
+        "情感锚点": 3,
+        "去爽文化": 4
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            69
+          ],
+          "success_chars": 31
+        },
+        "种田逻辑": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            26
+          ],
+          "success_chars": 10
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            39
+          ],
+          "success_chars": 21
+        },
+        "乡土质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            30
+          ],
+          "success_chars": 12
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            31
+          ],
+          "success_chars": 13
+        },
+        "危机代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            20
+          ],
+          "success_chars": 23
+        },
+        "对话土味": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            35
+          ],
+          "success_chars": 21
+        },
+        "世界自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            19
+          ],
+          "success_chars": 22
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            30
+          ],
+          "success_chars": 17
+        },
+        "去爽文化": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            32
+          ],
+          "success_chars": 14
+        }
+      }
+    }
+  ]
+}

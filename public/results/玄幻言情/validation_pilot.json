@@ -1,0 +1,2404 @@
+{
+  "run_id": "20260911T025301Z-b0ed12",
+  "run_utc": "2026-09-11T02:53:01+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "玄幻言情",
+  "source_dir": "Nvpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "上午毁我丹田，下午在你坟前烧纸.txt",
+    "修真界第一病秧子.txt",
+    "小师妹哭哭唧唧，但一剑毁天灭地.txt",
+    "小师妹明明超强却过分沙雕.txt",
+    "杂灵根小师妹气运超强.txt",
+    "真理，掌握在我一剑之内.txt",
+    "穿成满门炮灰，开局截胡女主气运.txt"
+  ],
+  "results": [
+    {
+      "title": "我在修仙界搞内卷",
+      "file": "我在修仙界搞内卷.txt",
+      "real_rating": 9.5,
+      "rubric_score": 6.233333333333333,
+      "rubric_scores": [
+        6.3,
+        6.1,
+        6.3
+      ],
+      "dimensions": {
+        "开钩": 7,
+        "节奏": 6,
+        "角色": 7,
+        "画面": 6,
+        "对话": 7,
+        "悬念": 6,
+        "情张": 5,
+        "设定": 7,
+        "章差": 6,
+        "外描": 6
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            43
+          ],
+          "success_chars": 23
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            42
+          ],
+          "success_chars": 18
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            18
+          ],
+          "success_chars": 7
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            32
+          ],
+          "success_chars": 20
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            37
+          ],
+          "success_chars": 7
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            22
+          ],
+          "success_chars": 8
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            31
+          ],
+          "success_chars": 20
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            41
+          ],
+          "success_chars": 11
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            16
+          ],
+          "success_chars": 9
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            23
+          ],
+          "success_chars": 13
+        }
+      }
+    },
+    {
+      "title": "全洲第一疯，我的箫也未尝不利",
+      "file": "全洲第一疯，我的箫也未尝不利.txt",
+      "real_rating": 9.5,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "开钩": 7,
+        "节奏": 6,
+        "角色": 7,
+        "画面": 6,
+        "对话": 7,
+        "悬念": 6,
+        "情张": 6,
+        "设定": 6,
+        "章差": 6,
+        "外描": 7
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            42
+          ],
+          "success_chars": 38
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            43
+          ],
+          "success_chars": 42
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            28
+          ],
+          "success_chars": 49
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            27
+          ],
+          "success_chars": 51
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            43
+          ],
+          "success_chars": 35
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            29
+          ],
+          "success_chars": 29
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            25
+          ],
+          "success_chars": 27
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            21
+          ],
+          "success_chars": 47
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            13
+          ],
+          "success_chars": 10
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            28
+          ],
+          "success_chars": 72
+        }
+      }
+    },
+    {
+      "title": "我在魔法世界开荒种田",
+      "file": "我在魔法世界开荒种田.txt",
+      "real_rating": 9.5,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "开钩": 6,
+        "节奏": 5,
+        "角色": 6,
+        "画面": 7,
+        "对话": 6,
+        "悬念": 5,
+        "情张": 5,
+        "设定": 6,
+        "章差": 5,
+        "外描": 6
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            62
+          ],
+          "success_chars": 97
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            31
+          ],
+          "success_chars": 50
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            45
+          ],
+          "success_chars": 54
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            49
+          ],
+          "success_chars": 34
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            60
+          ],
+          "success_chars": 49
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            29
+          ],
+          "success_chars": 54
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            33
+          ],
+          "success_chars": 33
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            46
+          ],
+          "success_chars": 29
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            10
+          ],
+          "success_chars": 12
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            56
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "被抛尸后，她成了反派军团家团宠",
+      "file": "被抛尸后，她成了反派军团家团宠.txt",
+      "real_rating": 9.6,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "开钩": 8,
+        "节奏": 7,
+        "角色": 6,
+        "画面": 7,
+        "对话": 6,
+        "悬念": 8,
+        "情张": 6,
+        "设定": 7,
+        "章差": 7,
+        "外描": 8
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            31
+          ],
+          "success_chars": 55
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            73,
+            52
+          ],
+          "success_chars": 45
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            34
+          ],
+          "success_chars": 14
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            56
+          ],
+          "success_chars": 34
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            48
+          ],
+          "success_chars": 19
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            17
+          ],
+          "success_chars": 33
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            31
+          ],
+          "success_chars": 11
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            35
+          ],
+          "success_chars": 7
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            23
+          ],
+          "success_chars": 25
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            24
+          ],
+          "success_chars": 13
+        }
+      }
+    },
+    {
+      "title": "你管这叫奶妈？她把人头都锤爆了",
+      "file": "你管这叫奶妈？她把人头都锤爆了.txt",
+      "real_rating": 9.5,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "开钩": 8,
+        "节奏": 7,
+        "角色": 8,
+        "画面": 6,
+        "对话": 8,
+        "悬念": 7,
+        "情张": 6,
+        "设定": 7,
+        "章差": 7,
+        "外描": 5
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            49
+          ],
+          "success_chars": 48
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            57
+          ],
+          "success_chars": 27
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            46
+          ],
+          "success_chars": 47
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            14
+          ],
+          "success_chars": 43
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            41
+          ],
+          "success_chars": 53
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            40
+          ],
+          "success_chars": 34
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            49
+          ],
+          "success_chars": 37
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            21
+          ],
+          "success_chars": 36
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            25
+          ],
+          "success_chars": 31
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            26
+          ],
+          "success_chars": 92
+        }
+      }
+    },
+    {
+      "title": "小师叔真不卷，她只想杀女主而已",
+      "file": "小师叔真不卷，她只想杀女主而已.txt",
+      "real_rating": 9.5,
+      "rubric_score": 5.9,
+      "rubric_scores": [
+        5.9
+      ],
+      "dimensions": {
+        "开钩": 7,
+        "节奏": 6,
+        "角色": 5,
+        "画面": 6,
+        "对话": 5,
+        "悬念": 7,
+        "情张": 5,
+        "设定": 6,
+        "章差": 6,
+        "外描": 5
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            8
+          ],
+          "success_chars": 12
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            11
+          ],
+          "success_chars": 15
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            11
+          ],
+          "success_chars": 10
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            9
+          ],
+          "success_chars": 8
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            10
+          ],
+          "success_chars": 14
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            9
+          ],
+          "success_chars": 9
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            10
+          ],
+          "success_chars": 13
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            9
+          ],
+          "success_chars": 11
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            12
+          ],
+          "success_chars": 9
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            9
+          ],
+          "success_chars": 10
+        }
+      }
+    },
+    {
+      "title": "病树枝头又逢春",
+      "file": "病树枝头又逢春.txt",
+      "real_rating": 9.5,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "开钩": 8,
+        "节奏": 7,
+        "角色": 8,
+        "画面": 7,
+        "对话": 6,
+        "悬念": 7,
+        "情张": 6,
+        "设定": 7,
+        "章差": 6,
+        "外描": 7
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            47
+          ],
+          "success_chars": 63
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            28
+          ],
+          "success_chars": 36
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            30
+          ],
+          "success_chars": 28
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            30
+          ],
+          "success_chars": 27
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            64,
+            19
+          ],
+          "success_chars": 32
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            22
+          ],
+          "success_chars": 57
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            35
+          ],
+          "success_chars": 58
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            56
+          ],
+          "success_chars": 42
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            17
+          ],
+          "success_chars": 55
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            17
+          ],
+          "success_chars": 46
+        }
+      }
+    },
+    {
+      "title": "什么仙道天道？呵！我修的是杀道",
+      "file": "什么仙道天道？呵！我修的是杀道.txt",
+      "real_rating": 9.4,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "开钩": 7,
+        "节奏": 6,
+        "角色": 6,
+        "画面": 5,
+        "对话": 5,
+        "悬念": 6,
+        "情张": 6,
+        "设定": 7,
+        "章差": 5,
+        "外描": 4
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            24
+          ],
+          "success_chars": 42
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            45
+          ],
+          "success_chars": 49
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            30
+          ],
+          "success_chars": 56
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            29
+          ],
+          "success_chars": 42
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            54
+          ],
+          "success_chars": 24
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            39
+          ],
+          "success_chars": 10
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            61,
+            52
+          ],
+          "success_chars": 24
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            16
+          ],
+          "success_chars": 27
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            31
+          ],
+          "success_chars": 25
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            4,
+            12
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "女配不语，只一味抢夺机缘",
+      "file": "女配不语，只一味抢夺机缘.txt",
+      "real_rating": 9.4,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "开钩": 6,
+        "节奏": 5,
+        "角色": 5,
+        "画面": 4,
+        "对话": 5,
+        "悬念": 6,
+        "情张": 4,
+        "设定": 5,
+        "章差": 5,
+        "外描": 3
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            42
+          ],
+          "success_chars": 14
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            47
+          ],
+          "success_chars": 29
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            40
+          ],
+          "success_chars": 45
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            26
+          ],
+          "success_chars": 24
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            36
+          ],
+          "success_chars": 47
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            26
+          ],
+          "success_chars": 34
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            54
+          ],
+          "success_chars": 9
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            27
+          ],
+          "success_chars": 28
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            27
+          ],
+          "success_chars": 30
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            17
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "说好第一剑修，怎么是犯贱的贱",
+      "file": "说好第一剑修，怎么是犯贱的贱.txt",
+      "real_rating": 9.5,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "开钩": 8,
+        "节奏": 7,
+        "角色": 6,
+        "画面": 5,
+        "对话": 7,
+        "悬念": 6,
+        "情张": 5,
+        "设定": 7,
+        "章差": 6,
+        "外描": 4
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            61
+          ],
+          "success_chars": 37
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            26
+          ],
+          "success_chars": 28
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            39
+          ],
+          "success_chars": 24
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            61,
+            53
+          ],
+          "success_chars": 19
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            23
+          ],
+          "success_chars": 30
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            42
+          ],
+          "success_chars": 17
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            39
+          ],
+          "success_chars": 20
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            31
+          ],
+          "success_chars": 21
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            22
+          ],
+          "success_chars": 16
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            54
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "强的令人发指，懒的人神共愤",
+      "file": "强的令人发指，懒的人神共愤.txt",
+      "real_rating": 9.4,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8,
+        5.8,
+        5.8
+      ],
+      "dimensions": {
+        "开钩": 6,
+        "节奏": 5,
+        "角色": 7,
+        "画面": 8,
+        "对话": 6,
+        "悬念": 5,
+        "情张": 4,
+        "设定": 5,
+        "章差": 4,
+        "外描": 7
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            38
+          ],
+          "success_chars": 73
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            33
+          ],
+          "success_chars": 42
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            46
+          ],
+          "success_chars": 29
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            29
+          ],
+          "success_chars": 35
+        },
+        "对话": {
+          "n_failures": 3,
+          "failure_chars": [
+            4,
+            9,
+            17
+          ],
+          "success_chars": 10
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            14
+          ],
+          "success_chars": 9
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            29
+          ],
+          "success_chars": 24
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            23
+          ],
+          "success_chars": 10
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            17
+          ],
+          "success_chars": 27
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            10
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "你惹她干嘛？天道老东西最护崽",
+      "file": "你惹她干嘛？天道老东西最护崽.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "开钩": 6,
+        "节奏": 5,
+        "角色": 7,
+        "画面": 6,
+        "对话": 7,
+        "悬念": 6,
+        "情张": 5,
+        "设定": 6,
+        "章差": 5,
+        "外描": 6
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            31
+          ],
+          "success_chars": 33
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            30
+          ],
+          "success_chars": 26
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            39
+          ],
+          "success_chars": 37
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            42
+          ],
+          "success_chars": 34
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            38
+          ],
+          "success_chars": 40
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            40
+          ],
+          "success_chars": 33
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            37
+          ],
+          "success_chars": 31
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            38
+          ],
+          "success_chars": 30
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            32
+          ],
+          "success_chars": 24
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            41
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "邪门！全修真界都在抢我当亲传",
+      "file": "邪门！全修真界都在抢我当亲传.txt",
+      "real_rating": 9.4,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "开钩": 8,
+        "节奏": 7,
+        "角色": 6,
+        "画面": 7,
+        "对话": 8,
+        "悬念": 8,
+        "情张": 6,
+        "设定": 7,
+        "章差": 7,
+        "外描": 6
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            32
+          ],
+          "success_chars": 37
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            56
+          ],
+          "success_chars": 20
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            10
+          ],
+          "success_chars": 23
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            38
+          ],
+          "success_chars": 15
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            35
+          ],
+          "success_chars": 21
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            16
+          ],
+          "success_chars": 36
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            34
+          ],
+          "success_chars": 28
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            34
+          ],
+          "success_chars": 43
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            14
+          ],
+          "success_chars": 11
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            33
+          ],
+          "success_chars": 83
+        }
+      }
+    },
+    {
+      "title": "穿书之没人能比我更懂嚣张",
+      "file": "穿书之没人能比我更懂嚣张.txt",
+      "real_rating": 9.3,
+      "rubric_score": 5.233333333333333,
+      "rubric_scores": [
+        5.8,
+        5.1,
+        4.8
+      ],
+      "dimensions": {
+        "开钩": 6,
+        "节奏": 5,
+        "角色": 6,
+        "画面": 5,
+        "对话": 6,
+        "悬念": 7,
+        "情张": 5,
+        "设定": 6,
+        "章差": 5,
+        "外描": 4
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            27
+          ],
+          "success_chars": 51
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            22
+          ],
+          "success_chars": 41
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            63,
+            70
+          ],
+          "success_chars": 25
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            41
+          ],
+          "success_chars": 42
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            37
+          ],
+          "success_chars": 23
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            22
+          ],
+          "success_chars": 30
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            43
+          ],
+          "success_chars": 12
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            72,
+            22
+          ],
+          "success_chars": 15
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            15
+          ],
+          "success_chars": 12
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            33
+          ],
+          "success_chars": 13
+        }
+      }
+    },
+    {
+      "title": "什么剑灵，那是我老婆！",
+      "file": "什么剑灵，那是我老婆！.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "开钩": 7,
+        "节奏": 6,
+        "角色": 5,
+        "画面": 6,
+        "对话": 5,
+        "悬念": 7,
+        "情张": 6,
+        "设定": 6,
+        "章差": 5,
+        "外描": 4
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            34
+          ],
+          "success_chars": 46
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            37
+          ],
+          "success_chars": 26
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            21
+          ],
+          "success_chars": 31
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            37
+          ],
+          "success_chars": 42
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            37
+          ],
+          "success_chars": 24
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            23
+          ],
+          "success_chars": 23
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            39
+          ],
+          "success_chars": 25
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            32
+          ],
+          "success_chars": 22
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            30
+          ],
+          "success_chars": 25
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            29
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "与男频爽文男主成亲的第二年",
+      "file": "与男频爽文男主成亲的第二年.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "开钩": 5,
+        "节奏": 6,
+        "角色": 5,
+        "画面": 6,
+        "对话": 5,
+        "悬念": 7,
+        "情张": 4,
+        "设定": 5,
+        "章差": 5,
+        "外描": 6
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            33
+          ],
+          "success_chars": 47
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            40
+          ],
+          "success_chars": 36
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            54
+          ],
+          "success_chars": 38
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            76,
+            15
+          ],
+          "success_chars": 49
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            23
+          ],
+          "success_chars": 27
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            35
+          ],
+          "success_chars": 44
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            30
+          ],
+          "success_chars": 48
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            41
+          ],
+          "success_chars": 25
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            23
+          ],
+          "success_chars": 30
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            34
+          ],
+          "success_chars": 67
+        }
+      }
+    },
+    {
+      "title": "什么上吊绳？那是我小师妹！",
+      "file": "什么上吊绳？那是我小师妹！.txt",
+      "real_rating": 9.1,
+      "rubric_score": 7.4,
+      "rubric_scores": [
+        7.4
+      ],
+      "dimensions": {
+        "开钩": 8,
+        "节奏": 7,
+        "角色": 9,
+        "画面": 6,
+        "对话": 8,
+        "悬念": 8,
+        "情张": 7,
+        "设定": 8,
+        "章差": 7,
+        "外描": 5
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            34
+          ],
+          "success_chars": 38
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            83
+          ],
+          "success_chars": 34
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            55
+          ],
+          "success_chars": 76
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            38
+          ],
+          "success_chars": 39
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            18
+          ],
+          "success_chars": 41
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            15
+          ],
+          "success_chars": 44
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            37
+          ],
+          "success_chars": 40
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            15
+          ],
+          "success_chars": 39
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            20
+          ],
+          "success_chars": 34
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            22
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "天道都不敢惹她，你居然夺她神骨",
+      "file": "天道都不敢惹她，你居然夺她神骨.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4,
+        5.4,
+        5.4
+      ],
+      "dimensions": {
+        "开钩": 6,
+        "节奏": 5,
+        "角色": 5,
+        "画面": 6,
+        "对话": 5,
+        "悬念": 7,
+        "情张": 4,
+        "设定": 5,
+        "章差": 6,
+        "外描": 5
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            42
+          ],
+          "success_chars": 18
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            52
+          ],
+          "success_chars": 35
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            24
+          ],
+          "success_chars": 25
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            22
+          ],
+          "success_chars": 34
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            29
+          ],
+          "success_chars": 28
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            23
+          ],
+          "success_chars": 44
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            15
+          ],
+          "success_chars": 16
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            41
+          ],
+          "success_chars": 46
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            6
+          ],
+          "success_chars": 8
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            30
+          ],
+          "success_chars": 48
+        }
+      }
+    },
+    {
+      "title": "师妹你无敌了，准备准备飞升吧",
+      "file": "师妹你无敌了，准备准备飞升吧.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "开钩": 7,
+        "节奏": 6,
+        "角色": 8,
+        "画面": 6,
+        "对话": 7,
+        "悬念": 7,
+        "情张": 6,
+        "设定": 7,
+        "章差": 6,
+        "外描": 5
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            16
+          ],
+          "success_chars": 38
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            39
+          ],
+          "success_chars": 38
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            28
+          ],
+          "success_chars": 58
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            19
+          ],
+          "success_chars": 32
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            43
+          ],
+          "success_chars": 20
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            26
+          ],
+          "success_chars": 46
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            48
+          ],
+          "success_chars": 39
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            33
+          ],
+          "success_chars": 30
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            9
+          ],
+          "success_chars": 34
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            12
+          ],
+          "success_chars": 10
+        }
+      }
+    },
+    {
+      "title": "师门全是大妖？好巧我也是",
+      "file": "师门全是大妖？好巧我也是.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "开钩": 8,
+        "节奏": 7,
+        "角色": 6,
+        "画面": 6,
+        "对话": 5,
+        "悬念": 7,
+        "情张": 5,
+        "设定": 6,
+        "章差": 6,
+        "外描": 5
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            36
+          ],
+          "success_chars": 48
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            50
+          ],
+          "success_chars": 46
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            30
+          ],
+          "success_chars": 37
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            29
+          ],
+          "success_chars": 33
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            19
+          ],
+          "success_chars": 37
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            39
+          ],
+          "success_chars": 47
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            7
+          ],
+          "success_chars": 40
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            64,
+            25
+          ],
+          "success_chars": 26
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            9
+          ],
+          "success_chars": 28
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            36
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "修仙后我成了天道最头疼的存在",
+      "file": "修仙后我成了天道最头疼的存在.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "开钩": 6,
+        "节奏": 5,
+        "角色": 4,
+        "画面": 5,
+        "对话": 5,
+        "悬念": 5,
+        "情张": 4,
+        "设定": 6,
+        "章差": 5,
+        "外描": 4
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            42
+          ],
+          "success_chars": 43
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            32
+          ],
+          "success_chars": 35
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            43
+          ],
+          "success_chars": 30
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            32
+          ],
+          "success_chars": 52
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            20
+          ],
+          "success_chars": 25
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            35
+          ],
+          "success_chars": 54
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            36
+          ],
+          "success_chars": 33
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            19
+          ],
+          "success_chars": 26
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            20
+          ],
+          "success_chars": 26
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            14
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "合欢妖女媚骨天成，师兄被亲懵了",
+      "file": "合欢妖女媚骨天成，师兄被亲懵了.txt",
+      "real_rating": 8.9,
+      "rubric_score": 4.7,
+      "rubric_scores": [
+        4.7
+      ],
+      "dimensions": {
+        "开钩": 6,
+        "节奏": 5,
+        "角色": 4,
+        "画面": 5,
+        "对话": 3,
+        "悬念": 6,
+        "情张": 3,
+        "设定": 5,
+        "章差": 4,
+        "外描": 4
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            45
+          ],
+          "success_chars": 48
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            38
+          ],
+          "success_chars": 29
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            29
+          ],
+          "success_chars": 57
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            34
+          ],
+          "success_chars": 55
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            40
+          ],
+          "success_chars": 21
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            27
+          ],
+          "success_chars": 31
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            21
+          ],
+          "success_chars": 42
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            24
+          ],
+          "success_chars": 47
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            9
+          ],
+          "success_chars": 12
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 27
+        }
+      }
+    },
+    {
+      "title": "只是呼吸，你们却奉我为神女",
+      "file": "只是呼吸，你们却奉我为神女.txt",
+      "real_rating": 8.6,
+      "rubric_score": 6.833333333333333,
+      "rubric_scores": [
+        7.1,
+        7.1,
+        6.3
+      ],
+      "dimensions": {
+        "开钩": 7,
+        "节奏": 6,
+        "角色": 8,
+        "画面": 6,
+        "对话": 7,
+        "悬念": 7,
+        "情张": 6,
+        "设定": 8,
+        "章差": 7,
+        "外描": 7
+      },
+      "evidence_shape": {
+        "开钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            41
+          ],
+          "success_chars": 33
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            30
+          ],
+          "success_chars": 25
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            24
+          ],
+          "success_chars": 35
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            32
+          ],
+          "success_chars": 28
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            32
+          ],
+          "success_chars": 26
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            21
+          ],
+          "success_chars": 26
+        },
+        "情张": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            11
+          ],
+          "success_chars": 25
+        },
+        "设定": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            34
+          ],
+          "success_chars": 27
+        },
+        "章差": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            8
+          ],
+          "success_chars": 26
+        },
+        "外描": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            19
+          ],
+          "success_chars": 30
+        }
+      }
+    }
+  ]
+}

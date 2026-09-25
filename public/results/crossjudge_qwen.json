@@ -1,0 +1,390 @@
+{
+  "provider": "qwen",
+  "model": "qwen3-max",
+  "rows": [
+    {
+      "kind": "真人",
+      "label": "谍战不严谨？不，其实我就是外挂",
+      "real_rating": 9.3,
+      "o3_score": 5.6,
+      "category": "民国言情",
+      "new_score": 5.6
+    },
+    {
+      "kind": "真人",
+      "label": "穿书四零：开局就剩妹妹带娃逃命",
+      "real_rating": 9.2,
+      "o3_score": 5.2,
+      "category": "民国言情",
+      "new_score": 3.6
+    },
+    {
+      "kind": "真人",
+      "label": "穿越民国：开局一张饼",
+      "real_rating": 9.2,
+      "o3_score": 5.1,
+      "category": "民国言情",
+      "new_score": 5.9
+    },
+    {
+      "kind": "真人",
+      "label": "孤身赴国难",
+      "real_rating": 9.1,
+      "o3_score": 4.3,
+      "category": "民国言情",
+      "new_score": 4.7
+    },
+    {
+      "kind": "真人",
+      "label": "夫人要离婚？暴戾少帅夜夜来堵门",
+      "real_rating": 9.0,
+      "o3_score": 6.3,
+      "category": "民国言情",
+      "new_score": 5.8
+    },
+    {
+      "kind": "真人",
+      "label": "小奶团萌化啦，督军全家抢着吸崽",
+      "real_rating": 9.0,
+      "o3_score": 6.2,
+      "category": "民国言情",
+      "new_score": 5.1
+    },
+    {
+      "kind": "真人",
+      "label": "惊！怂包把暴戾督军强制爱了",
+      "real_rating": 9.0,
+      "o3_score": 6.6,
+      "category": "民国言情",
+      "new_score": 4.1
+    },
+    {
+      "kind": "真人",
+      "label": "抗战：我是全军后勤大主任",
+      "real_rating": 9.0,
+      "o3_score": 5.0,
+      "category": "民国言情",
+      "new_score": 4.1
+    },
+    {
+      "kind": "真人",
+      "label": "人在民国，疯狂吸取气运",
+      "real_rating": 8.9,
+      "o3_score": 5.8,
+      "category": "民国言情",
+      "new_score": 4.1
+    },
+    {
+      "kind": "真人",
+      "label": "阮家有女，裴心独钟",
+      "real_rating": 8.5,
+      "o3_score": 5.1,
+      "category": "民国言情",
+      "new_score": 5.9
+    },
+    {
+      "kind": "真人",
+      "label": "功勋系统：三面女谍卧底嘎嘎乱杀",
+      "real_rating": 8.2,
+      "o3_score": 5.2,
+      "category": "民国言情",
+      "new_score": 4.1
+    },
+    {
+      "kind": "真人",
+      "label": "柔弱小护士？屁！她是战场活阎王",
+      "real_rating": 8.2,
+      "o3_score": 7.1,
+      "category": "民国言情",
+      "new_score": 7.3
+    },
+    {
+      "kind": "真人",
+      "label": "碎瓷金缮",
+      "real_rating": 7.9,
+      "o3_score": 7.5,
+      "category": "民国言情",
+      "new_score": 6.3
+    },
+    {
+      "kind": "真人",
+      "label": "上海滩1937，阳光下的死神",
+      "real_rating": 7.6,
+      "o3_score": 6.0,
+      "category": "民国言情",
+      "new_score": 5.3
+    },
+    {
+      "kind": "真人",
+      "label": "抗战萌娃，全网投喂有意志的钢铁",
+      "real_rating": 7.5,
+      "o3_score": 7.3,
+      "category": "民国言情",
+      "new_score": 4.3
+    },
+    {
+      "kind": "真人",
+      "label": "从风雨飘零到山河锦绣",
+      "real_rating": 7.4,
+      "o3_score": 5.0,
+      "category": "民国言情",
+      "new_score": 4.1
+    },
+    {
+      "kind": "AI",
+      "label": "iter_1",
+      "real_rating": null,
+      "o3_score": 7.0,
+      "category": "动漫衍生",
+      "new_score": 7.8
+    },
+    {
+      "kind": "AI",
+      "label": "iter_2",
+      "real_rating": null,
+      "o3_score": 7.0,
+      "category": "动漫衍生",
+      "new_score": 7.8
+    },
+    {
+      "kind": "AI",
+      "label": "iter_3",
+      "real_rating": null,
+      "o3_score": 6.9,
+      "category": "动漫衍生",
+      "new_score": 6.9
+    },
+    {
+      "kind": "AI",
+      "label": "iter_4",
+      "real_rating": null,
+      "o3_score": 7.05,
+      "category": "动漫衍生",
+      "new_score": 8.1
+    },
+    {
+      "kind": "AI",
+      "label": "iter_5",
+      "real_rating": null,
+      "o3_score": 7.2,
+      "category": "动漫衍生",
+      "new_score": 8.1
+    },
+    {
+      "kind": "AI",
+      "label": "iter_6",
+      "real_rating": null,
+      "o3_score": 7.0,
+      "category": "动漫衍生",
+      "new_score": 7.6
+    },
+    {
+      "kind": "AI",
+      "label": "iter_7",
+      "real_rating": null,
+      "o3_score": 6.9,
+      "category": "动漫衍生",
+      "new_score": 8.1
+    },
+    {
+      "kind": "AI",
+      "label": "iter_8",
+      "real_rating": null,
+      "o3_score": 7.05,
+      "category": "动漫衍生",
+      "new_score": 8.4
+    },
+    {
+      "kind": "AI",
+      "label": "iter_9",
+      "real_rating": null,
+      "o3_score": 7.1,
+      "category": "动漫衍生",
+      "new_score": 8.4
+    },
+    {
+      "kind": "AI",
+      "label": "iter_10",
+      "real_rating": null,
+      "o3_score": 7.1,
+      "category": "动漫衍生",
+      "new_score": 8.3
+    },
+    {
+      "kind": "真人",
+      "label": "海贼：十五岁的旧时代霸主",
+      "real_rating": 9.1,
+      "o3_score": 5.45,
+      "category": "动漫衍生",
+      "new_score": 5.8
+    },
+    {
+      "kind": "真人",
+      "label": "崩铁：什么叫你给纳努克发了车票",
+      "real_rating": 8.9,
+      "o3_score": 6.4,
+      "category": "动漫衍生",
+      "new_score": 5.2
+    },
+    {
+      "kind": "真人",
+      "label": "战锤百倍正反馈，四神洗成人类神",
+      "real_rating": 8.9,
+      "o3_score": 6.05,
+      "category": "动漫衍生",
+      "new_score": 5.9
+    },
+    {
+      "kind": "真人",
+      "label": "一心求死的我竟是最强人间体",
+      "real_rating": 8.8,
+      "o3_score": 5.7,
+      "category": "动漫衍生",
+      "new_score": 5.1
+    },
+    {
+      "kind": "真人",
+      "label": "我，祖国人，漫威唯一人间之神",
+      "real_rating": 8.8,
+      "o3_score": 5.9,
+      "category": "动漫衍生",
+      "new_score": 5.4
+    },
+    {
+      "kind": "真人",
+      "label": "海贼：疯了，他才是洛克斯话事人",
+      "real_rating": 8.5,
+      "o3_score": 5.2,
+      "category": "动漫衍生",
+      "new_score": 5.2
+    },
+    {
+      "kind": "真人",
+      "label": "谁教你用魂系打法玩魔法少女的？",
+      "real_rating": 8.4,
+      "o3_score": 6.35,
+      "category": "动漫衍生",
+      "new_score": 7.8
+    },
+    {
+      "kind": "真人",
+      "label": "天幕：开局锐评三代，忍界全傻了",
+      "real_rating": 8.3,
+      "o3_score": 5.6,
+      "category": "动漫衍生",
+      "new_score": 5.4
+    },
+    {
+      "kind": "真人",
+      "label": "超级蜘蛛侠：全新之日！",
+      "real_rating": 8.1,
+      "o3_score": 5.4,
+      "category": "动漫衍生",
+      "new_score": 4.7
+    },
+    {
+      "kind": "真人",
+      "label": "崩铁：我都P40了，系统才来",
+      "real_rating": 8.0,
+      "o3_score": 5.15,
+      "category": "动漫衍生",
+      "new_score": 5.1
+    },
+    {
+      "kind": "真人",
+      "label": "开服之前，我执掌潮汐监狱",
+      "real_rating": 8.0,
+      "o3_score": 5.1,
+      "category": "动漫衍生",
+      "new_score": 5.2
+    },
+    {
+      "kind": "真人",
+      "label": "海贼：没人比我更懂霸王色",
+      "real_rating": 8.0,
+      "o3_score": 5.5,
+      "category": "动漫衍生",
+      "new_score": 5.2
+    },
+    {
+      "kind": "真人",
+      "label": "咒回模拟：扭曲且傲慢的救世主",
+      "real_rating": 7.9,
+      "o3_score": 6.5,
+      "category": "动漫衍生",
+      "new_score": 6.3
+    },
+    {
+      "kind": "真人",
+      "label": "一人：开局在东北杀鬼子",
+      "real_rating": 7.7,
+      "o3_score": 5.05,
+      "category": "动漫衍生",
+      "new_score": 6.1
+    },
+    {
+      "kind": "真人",
+      "label": "坏了！这艾斯把暗暗果实给吃了",
+      "real_rating": 7.7,
+      "o3_score": 6.0,
+      "category": "动漫衍生",
+      "new_score": 5.2
+    },
+    {
+      "kind": "真人",
+      "label": "一人：照着无限修炼成仙！",
+      "real_rating": 7.4,
+      "o3_score": 4.7,
+      "category": "动漫衍生",
+      "new_score": 5.3
+    },
+    {
+      "kind": "真人",
+      "label": "海贼：混在洛克斯团，每天变强",
+      "real_rating": 7.4,
+      "o3_score": 6.4,
+      "category": "动漫衍生",
+      "new_score": 6.3
+    },
+    {
+      "kind": "真人",
+      "label": "漫威丧尸，从推倒寡姐开始",
+      "real_rating": 7.3,
+      "o3_score": 5.95,
+      "category": "动漫衍生",
+      "new_score": 5.9
+    },
+    {
+      "kind": "真人",
+      "label": "一人：满级老祖，出关吓呆十佬",
+      "real_rating": 7.2,
+      "o3_score": 6.5,
+      "category": "动漫衍生",
+      "new_score": 6.9
+    },
+    {
+      "kind": "真人",
+      "label": "长生火影：你才玩忍界多少年？",
+      "real_rating": 7.0,
+      "o3_score": 5.4,
+      "category": "动漫衍生",
+      "new_score": 4.7
+    },
+    {
+      "kind": "真人",
+      "label": "都有符咒了，谁还跟你玩嘎啦给木",
+      "real_rating": 6.6,
+      "o3_score": 5.7,
+      "category": "动漫衍生",
+      "new_score": 6.1
+    },
+    {
+      "kind": "真人",
+      "label": "冠军了，系统还当我是萌新",
+      "real_rating": 6.1,
+      "o3_score": 5.9,
+      "category": "动漫衍生",
+      "new_score": 5.6
+    }
+  ]
+}

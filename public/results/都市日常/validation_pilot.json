@@ -1,0 +1,2404 @@
+{
+  "run_id": "20260911T021828Z-6ec909",
+  "run_utc": "2026-09-11T02:18:28+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "都市日常",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "不是，哥们？你是咋成魅魔万人迷.txt",
+    "官梯.txt",
+    "带万亿资本入仕，权倾一方.txt",
+    "改命记实录.txt",
+    "校花学姐从无绯闻，直到我上大学.txt",
+    "测字有术.txt",
+    "离婚后才知，我是首富唯一血脉.txt"
+  ],
+  "results": [
+    {
+      "title": "火线提拔",
+      "file": "火线提拔.txt",
+      "real_rating": 9.3,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设鲜活": 6,
+        "日常戏剧": 5,
+        "情感真实": 6,
+        "节奏把控": 5,
+        "对话自然": 6,
+        "悬念设计": 7,
+        "世界观融": 7,
+        "反差营造": 6,
+        "细节质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            29
+          ],
+          "success_chars": 33
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            30
+          ],
+          "success_chars": 33
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            33
+          ],
+          "success_chars": 39
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            32
+          ],
+          "success_chars": 41
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            21
+          ],
+          "success_chars": 28
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            21
+          ],
+          "success_chars": 45
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            26
+          ],
+          "success_chars": 27
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            23
+          ],
+          "success_chars": 33
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            31
+          ],
+          "success_chars": 27
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            27
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "开局停职？我转投纪委调查组",
+      "file": "开局停职？我转投纪委调查组.txt",
+      "real_rating": 9.3,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1,
+        5.1,
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设鲜活": 5,
+        "日常戏剧": 5,
+        "情感真实": 5,
+        "节奏把控": 5,
+        "对话自然": 5,
+        "悬念设计": 6,
+        "世界观融": 4,
+        "反差营造": 5,
+        "细节质感": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            21
+          ],
+          "success_chars": 65
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            26
+          ],
+          "success_chars": 19
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            25
+          ],
+          "success_chars": 44
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            17
+          ],
+          "success_chars": 36
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            23
+          ],
+          "success_chars": 27
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            15
+          ],
+          "success_chars": 24
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            29
+          ],
+          "success_chars": 24
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            28
+          ],
+          "success_chars": 31
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            21
+          ],
+          "success_chars": 47
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            18
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "官场之绝对权力",
+      "file": "官场之绝对权力.txt",
+      "real_rating": 9.4,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设鲜活": 5,
+        "日常戏剧": 5,
+        "情感真实": 5,
+        "节奏把控": 6,
+        "对话自然": 4,
+        "悬念设计": 7,
+        "世界观融": 6,
+        "反差营造": 6,
+        "细节质感": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            44
+          ],
+          "success_chars": 88
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            34
+          ],
+          "success_chars": 49
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            47
+          ],
+          "success_chars": 70
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            40
+          ],
+          "success_chars": 22
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            23
+          ],
+          "success_chars": 40
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            21
+          ],
+          "success_chars": 29
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            39
+          ],
+          "success_chars": 56
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            21
+          ],
+          "success_chars": 52
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            30
+          ],
+          "success_chars": 58
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            57
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "我真没想恋爱，可她们非要",
+      "file": "我真没想恋爱，可她们非要.txt",
+      "real_rating": 9.4,
+      "rubric_score": 8.1,
+      "rubric_scores": [
+        8.1
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "人设鲜活": 8,
+        "日常戏剧": 8,
+        "情感真实": 9,
+        "节奏把控": 7,
+        "对话自然": 9,
+        "悬念设计": 8,
+        "世界观融": 9,
+        "反差营造": 8,
+        "细节质感": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            24
+          ],
+          "success_chars": 42
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            14
+          ],
+          "success_chars": 43
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            19
+          ],
+          "success_chars": 45
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            12
+          ],
+          "success_chars": 62
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            26
+          ],
+          "success_chars": 37
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            15
+          ],
+          "success_chars": 45
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            11
+          ],
+          "success_chars": 59
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            9
+          ],
+          "success_chars": 54
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            13
+          ],
+          "success_chars": 48
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            7
+          ],
+          "success_chars": 50
+        }
+      }
+    },
+    {
+      "title": "趁我青涩，校花姐姐想要玩养成？",
+      "file": "趁我青涩，校花姐姐想要玩养成？.txt",
+      "real_rating": 9.5,
+      "rubric_score": 8.1,
+      "rubric_scores": [
+        8.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设鲜活": 9,
+        "日常戏剧": 8,
+        "情感真实": 8,
+        "节奏把控": 7,
+        "对话自然": 9,
+        "悬念设计": 7,
+        "世界观融": 8,
+        "反差营造": 9,
+        "细节质感": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            28
+          ],
+          "success_chars": 47
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            15
+          ],
+          "success_chars": 79
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            26
+          ],
+          "success_chars": 59
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            13
+          ],
+          "success_chars": 67
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            38
+          ],
+          "success_chars": 48
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            7
+          ],
+          "success_chars": 63
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            17
+          ],
+          "success_chars": 48
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            14
+          ],
+          "success_chars": 61
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            16
+          ],
+          "success_chars": 69
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            18
+          ],
+          "success_chars": 68
+        }
+      }
+    },
+    {
+      "title": "官人官色",
+      "file": "官人官色.txt",
+      "real_rating": 9.3,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设鲜活": 6,
+        "日常戏剧": 7,
+        "情感真实": 7,
+        "节奏把控": 6,
+        "对话自然": 7,
+        "悬念设计": 6,
+        "世界观融": 8,
+        "反差营造": 7,
+        "细节质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            86
+          ],
+          "success_chars": 31
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            34
+          ],
+          "success_chars": 44
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            52
+          ],
+          "success_chars": 40
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            72,
+            54
+          ],
+          "success_chars": 41
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            73,
+            70
+          ],
+          "success_chars": 51
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            30
+          ],
+          "success_chars": 44
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            53
+          ],
+          "success_chars": 41
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            29
+          ],
+          "success_chars": 46
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            56
+          ],
+          "success_chars": 39
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            45
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "睡了姐姐闺蜜，她竟是我大学教授",
+      "file": "睡了姐姐闺蜜，她竟是我大学教授.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设鲜活": 5,
+        "日常戏剧": 5,
+        "情感真实": 4,
+        "节奏把控": 5,
+        "对话自然": 6,
+        "悬念设计": 6,
+        "世界观融": 7,
+        "反差营造": 7,
+        "细节质感": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            50
+          ],
+          "success_chars": 51
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            24
+          ],
+          "success_chars": 19
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            14
+          ],
+          "success_chars": 12
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            16
+          ],
+          "success_chars": 32
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            24
+          ],
+          "success_chars": 16
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            11
+          ],
+          "success_chars": 34
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            25
+          ],
+          "success_chars": 20
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            23
+          ],
+          "success_chars": 17
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            16
+          ],
+          "success_chars": 21
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            20
+          ],
+          "success_chars": 9
+        }
+      }
+    },
+    {
+      "title": "官场从秘书开始",
+      "file": "官场从秘书开始.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设鲜活": 6,
+        "日常戏剧": 7,
+        "情感真实": 6,
+        "节奏把控": 5,
+        "对话自然": 5,
+        "悬念设计": 6,
+        "世界观融": 4,
+        "反差营造": 7,
+        "细节质感": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            52
+          ],
+          "success_chars": 28
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            25
+          ],
+          "success_chars": 49
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            39
+          ],
+          "success_chars": 31
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            30
+          ],
+          "success_chars": 49
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            26
+          ],
+          "success_chars": 27
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            41
+          ],
+          "success_chars": 36
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            25
+          ],
+          "success_chars": 23
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            46
+          ],
+          "success_chars": 21
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            26
+          ],
+          "success_chars": 28
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            25
+          ],
+          "success_chars": 27
+        }
+      }
+    },
+    {
+      "title": "黑社会：雄霸天下",
+      "file": "黑社会：雄霸天下.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设鲜活": 6,
+        "日常戏剧": 5,
+        "情感真实": 7,
+        "节奏把控": 6,
+        "对话自然": 5,
+        "悬念设计": 7,
+        "世界观融": 4,
+        "反差营造": 7,
+        "细节质感": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            44
+          ],
+          "success_chars": 26
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            32
+          ],
+          "success_chars": 36
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            27
+          ],
+          "success_chars": 36
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            35
+          ],
+          "success_chars": 22
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            47
+          ],
+          "success_chars": 36
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            13
+          ],
+          "success_chars": 24
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            23
+          ],
+          "success_chars": 23
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            20
+          ],
+          "success_chars": 35
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            25
+          ],
+          "success_chars": 15
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            10
+          ],
+          "success_chars": 8
+        }
+      }
+    },
+    {
+      "title": "缅北，魔窟里的生与死",
+      "file": "缅北，魔窟里的生与死.txt",
+      "real_rating": 9.1,
+      "rubric_score": 3.9,
+      "rubric_scores": [
+        3.9
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设鲜活": 3,
+        "日常戏剧": 2,
+        "情感真实": 5,
+        "节奏把控": 3,
+        "对话自然": 4,
+        "悬念设计": 5,
+        "世界观融": 6,
+        "反差营造": 4,
+        "细节质感": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            19
+          ],
+          "success_chars": 38
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            38
+          ],
+          "success_chars": 19
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            47
+          ],
+          "success_chars": 29
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            21
+          ],
+          "success_chars": 38
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            50
+          ],
+          "success_chars": 39
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            33
+          ],
+          "success_chars": 28
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            43
+          ],
+          "success_chars": 38
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            27
+          ],
+          "success_chars": 32
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            8
+          ],
+          "success_chars": 29
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            24
+          ],
+          "success_chars": 44
+        }
+      }
+    },
+    {
+      "title": "重回2014，这波优势在我！",
+      "file": "重回2014，这波优势在我！.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.266666666666667,
+      "rubric_scores": [
+        4.7,
+        4.3,
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设鲜活": 4,
+        "日常戏剧": 3,
+        "情感真实": 5,
+        "节奏把控": 4,
+        "对话自然": 5,
+        "悬念设计": 4,
+        "世界观融": 6,
+        "反差营造": 5,
+        "细节质感": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            17
+          ],
+          "success_chars": 16
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            34
+          ],
+          "success_chars": 34
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            60
+          ],
+          "success_chars": 20
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            23
+          ],
+          "success_chars": 22
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            39
+          ],
+          "success_chars": 16
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            54
+          ],
+          "success_chars": 25
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            17
+          ],
+          "success_chars": 19
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            10
+          ],
+          "success_chars": 31
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            37
+          ],
+          "success_chars": 24
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            33
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "她上岸提分手，我转身成领导秘书",
+      "file": "她上岸提分手，我转身成领导秘书.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设鲜活": 5,
+        "日常戏剧": 5,
+        "情感真实": 6,
+        "节奏把控": 5,
+        "对话自然": 6,
+        "悬念设计": 5,
+        "世界观融": 7,
+        "反差营造": 6,
+        "细节质感": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            19
+          ],
+          "success_chars": 50
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            39
+          ],
+          "success_chars": 41
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            30
+          ],
+          "success_chars": 71
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            46
+          ],
+          "success_chars": 54
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            26
+          ],
+          "success_chars": 37
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            21
+          ],
+          "success_chars": 37
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            49
+          ],
+          "success_chars": 41
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            38
+          ],
+          "success_chars": 43
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            34
+          ],
+          "success_chars": 51
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            18
+          ],
+          "success_chars": 49
+        }
+      }
+    },
+    {
+      "title": "恋综女友是京圈大小姐！",
+      "file": "恋综女友是京圈大小姐！.txt",
+      "real_rating": 8.7,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设鲜活": 5,
+        "日常戏剧": 5,
+        "情感真实": 4,
+        "节奏把控": 5,
+        "对话自然": 5,
+        "悬念设计": 6,
+        "世界观融": 4,
+        "反差营造": 5,
+        "细节质感": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            9
+          ],
+          "success_chars": 29
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            23
+          ],
+          "success_chars": 45
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            30
+          ],
+          "success_chars": 32
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            43
+          ],
+          "success_chars": 30
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            47
+          ],
+          "success_chars": 39
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            14
+          ],
+          "success_chars": 44
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            20
+          ],
+          "success_chars": 34
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            25
+          ],
+          "success_chars": 39
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            18
+          ],
+          "success_chars": 24
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            32
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "卧底，替死去的黑老大照顾大嫂",
+      "file": "卧底，替死去的黑老大照顾大嫂.txt",
+      "real_rating": 8.4,
+      "rubric_score": 4.7,
+      "rubric_scores": [
+        3.9,
+        3.9,
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设鲜活": 3,
+        "日常戏剧": 2,
+        "情感真实": 2,
+        "节奏把控": 5,
+        "对话自然": 3,
+        "悬念设计": 6,
+        "世界观融": 4,
+        "反差营造": 5,
+        "细节质感": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            39
+          ],
+          "success_chars": 31
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            29
+          ],
+          "success_chars": 27
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            25
+          ],
+          "success_chars": 29
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            6
+          ],
+          "success_chars": 28
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            37
+          ],
+          "success_chars": 20
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            21
+          ],
+          "success_chars": 29
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            32
+          ],
+          "success_chars": 29
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            31
+          ],
+          "success_chars": 34
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            21
+          ],
+          "success_chars": 46
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            15
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "反腐第一剑，先斩丈母娘",
+      "file": "反腐第一剑，先斩丈母娘.txt",
+      "real_rating": 8.2,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设鲜活": 5,
+        "日常戏剧": 4,
+        "情感真实": 3,
+        "节奏把控": 5,
+        "对话自然": 4,
+        "悬念设计": 5,
+        "世界观融": 3,
+        "反差营造": 6,
+        "细节质感": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            35
+          ],
+          "success_chars": 25
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            24
+          ],
+          "success_chars": 24
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            30
+          ],
+          "success_chars": 18
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            26
+          ],
+          "success_chars": 22
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            24
+          ],
+          "success_chars": 26
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            14
+          ],
+          "success_chars": 18
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            19
+          ],
+          "success_chars": 17
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            21
+          ],
+          "success_chars": 15
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            16
+          ],
+          "success_chars": 21
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            8
+          ],
+          "success_chars": 21
+        }
+      }
+    },
+    {
+      "title": "打工情缘",
+      "file": "打工情缘.txt",
+      "real_rating": 8.2,
+      "rubric_score": 6.7,
+      "rubric_scores": [
+        6.7
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设鲜活": 6,
+        "日常戏剧": 7,
+        "情感真实": 6,
+        "节奏把控": 5,
+        "对话自然": 7,
+        "悬念设计": 5,
+        "世界观融": 8,
+        "反差营造": 7,
+        "细节质感": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            33
+          ],
+          "success_chars": 22
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            25
+          ],
+          "success_chars": 45
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            27
+          ],
+          "success_chars": 35
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            60
+          ],
+          "success_chars": 30
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            34
+          ],
+          "success_chars": 21
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            26
+          ],
+          "success_chars": 31
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            33
+          ],
+          "success_chars": 40
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            20
+          ],
+          "success_chars": 64
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            22
+          ],
+          "success_chars": 51
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            12
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "退役后找不到工作，只能当雇佣兵",
+      "file": "退役后找不到工作，只能当雇佣兵.txt",
+      "real_rating": 8.2,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设鲜活": 5,
+        "日常戏剧": 4,
+        "情感真实": 5,
+        "节奏把控": 5,
+        "对话自然": 4,
+        "悬念设计": 6,
+        "世界观融": 3,
+        "反差营造": 5,
+        "细节质感": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            18
+          ],
+          "success_chars": 41
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            40
+          ],
+          "success_chars": 41
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            31
+          ],
+          "success_chars": 34
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            36
+          ],
+          "success_chars": 37
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            24
+          ],
+          "success_chars": 40
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            35
+          ],
+          "success_chars": 42
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            33
+          ],
+          "success_chars": 37
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            23
+          ],
+          "success_chars": 39
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            19
+          ],
+          "success_chars": 40
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            22
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "温柔的堂嫂",
+      "file": "温柔的堂嫂.txt",
+      "real_rating": 8.1,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3,
+        5.3,
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设鲜活": 5,
+        "日常戏剧": 5,
+        "情感真实": 6,
+        "节奏把控": 5,
+        "对话自然": 6,
+        "悬念设计": 4,
+        "世界观融": 7,
+        "反差营造": 5,
+        "细节质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            34
+          ],
+          "success_chars": 23
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            14
+          ],
+          "success_chars": 37
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            33
+          ],
+          "success_chars": 63
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            30
+          ],
+          "success_chars": 32
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            24
+          ],
+          "success_chars": 28
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            46
+          ],
+          "success_chars": 15
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            28
+          ],
+          "success_chars": 30
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            32
+          ],
+          "success_chars": 36
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            31
+          ],
+          "success_chars": 56
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            25
+          ],
+          "success_chars": 46
+        }
+      }
+    },
+    {
+      "title": "江湖：红颜争香斗艳",
+      "file": "江湖：红颜争香斗艳.txt",
+      "real_rating": 8.1,
+      "rubric_score": 3.6,
+      "rubric_scores": [
+        3.6
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设鲜活": 3,
+        "日常戏剧": 2,
+        "情感真实": 3,
+        "节奏把控": 4,
+        "对话自然": 3,
+        "悬念设计": 5,
+        "世界观融": 2,
+        "反差营造": 4,
+        "细节质感": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            6
+          ],
+          "success_chars": 21
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            39
+          ],
+          "success_chars": 39
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            18
+          ],
+          "success_chars": 29
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            33
+          ],
+          "success_chars": 40
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            40
+          ],
+          "success_chars": 29
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            16
+          ],
+          "success_chars": 24
+        },
+        "悬念设计": {
+          "n_failures": 3,
+          "failure_chars": [
+            3,
+            2,
+            16
+          ],
+          "success_chars": 21
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            23
+          ],
+          "success_chars": 25
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            26
+          ],
+          "success_chars": 32
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            15
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "那年我十八表嫂助我人生开挂",
+      "file": "那年我十八表嫂助我人生开挂.txt",
+      "real_rating": 8.1,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设鲜活": 6,
+        "日常戏剧": 7,
+        "情感真实": 5,
+        "节奏把控": 6,
+        "对话自然": 7,
+        "悬念设计": 6,
+        "世界观融": 8,
+        "反差营造": 7,
+        "细节质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            35
+          ],
+          "success_chars": 33
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            39
+          ],
+          "success_chars": 38
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            34
+          ],
+          "success_chars": 31
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            27
+          ],
+          "success_chars": 27
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            30
+          ],
+          "success_chars": 33
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            43
+          ],
+          "success_chars": 33
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            20
+          ],
+          "success_chars": 26
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            24
+          ],
+          "success_chars": 32
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            33
+          ],
+          "success_chars": 28
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            14
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "红颜扶我踏青云",
+      "file": "红颜扶我踏青云.txt",
+      "real_rating": 8.0,
+      "rubric_score": 3.4,
+      "rubric_scores": [
+        3.4
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设鲜活": 3,
+        "日常戏剧": 2,
+        "情感真实": 2,
+        "节奏把控": 3,
+        "对话自然": 4,
+        "悬念设计": 5,
+        "世界观融": 3,
+        "反差营造": 4,
+        "细节质感": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            67,
+            32
+          ],
+          "success_chars": 16
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            33
+          ],
+          "success_chars": 37
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            38
+          ],
+          "success_chars": 20
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            58
+          ],
+          "success_chars": 34
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            59
+          ],
+          "success_chars": 28
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            47
+          ],
+          "success_chars": 32
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            35
+          ],
+          "success_chars": 27
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            40
+          ],
+          "success_chars": 33
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            33
+          ],
+          "success_chars": 47
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            15
+          ],
+          "success_chars": 72
+        }
+      }
+    },
+    {
+      "title": "官中局",
+      "file": "官中局.txt",
+      "real_rating": 7.9,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设鲜活": 6,
+        "日常戏剧": 5,
+        "情感真实": 6,
+        "节奏把控": 5,
+        "对话自然": 6,
+        "悬念设计": 5,
+        "世界观融": 7,
+        "反差营造": 6,
+        "细节质感": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            20
+          ],
+          "success_chars": 13
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            21
+          ],
+          "success_chars": 25
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            36
+          ],
+          "success_chars": 30
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            10
+          ],
+          "success_chars": 36
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            50
+          ],
+          "success_chars": 38
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            23
+          ],
+          "success_chars": 26
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            29
+          ],
+          "success_chars": 32
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            14
+          ],
+          "success_chars": 32
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            24
+          ],
+          "success_chars": 41
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            21
+          ],
+          "success_chars": 20
+        }
+      }
+    },
+    {
+      "title": "东莞潇洒人生",
+      "file": "东莞潇洒人生.txt",
+      "real_rating": 7.8,
+      "rubric_score": 5.233333333333333,
+      "rubric_scores": [
+        6.1,
+        4.8,
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设鲜活": 5,
+        "日常戏剧": 7,
+        "情感真实": 4,
+        "节奏把控": 6,
+        "对话自然": 5,
+        "悬念设计": 6,
+        "世界观融": 8,
+        "反差营造": 7,
+        "细节质感": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            29
+          ],
+          "success_chars": 35
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            47
+          ],
+          "success_chars": 32
+        },
+        "日常戏剧": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            20
+          ],
+          "success_chars": 33
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            28
+          ],
+          "success_chars": 30
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            26
+          ],
+          "success_chars": 28
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            17
+          ],
+          "success_chars": 32
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            16
+          ],
+          "success_chars": 34
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            27
+          ],
+          "success_chars": 42
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            26
+          ],
+          "success_chars": 34
+        },
+        "细节质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            20
+          ],
+          "success_chars": 37
+        }
+      }
+    }
+  ]
+}

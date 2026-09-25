@@ -1,0 +1,2404 @@
+{
+  "run_id": "20260911T022625Z-3722c0",
+  "run_utc": "2026-09-11T02:26:25+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "都市高武",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "从前有座镇妖关.txt",
+    "开局地摊卖大力.txt",
+    "我不是戏神.txt",
+    "我在精神病院学斩神.txt",
+    "血量亿倍增幅，被当成废物异能.txt",
+    "诸神愚戏.txt",
+    "高武：永远比老婆高三个境界.txt"
+  ],
+  "results": [
+    {
+      "title": "大一实习，你跑去749收容怪物",
+      "file": "大一实习，你跑去749收容怪物.txt",
+      "real_rating": 9.5,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 6,
+        "节奏张力": 7,
+        "人设辨识": 6,
+        "世界渗透": 5,
+        "悬念密度": 6,
+        "代价显性": 4,
+        "对话功能": 5,
+        "异常合理": 6,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            30
+          ],
+          "success_chars": 29
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            58
+          ],
+          "success_chars": 16
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            24
+          ],
+          "success_chars": 21
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            26
+          ],
+          "success_chars": 56
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            17
+          ],
+          "success_chars": 19
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            19
+          ],
+          "success_chars": 25
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            32
+          ],
+          "success_chars": 37
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            8
+          ],
+          "success_chars": 31
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            31
+          ],
+          "success_chars": 9
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            21
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "这个魔子不对劲",
+      "file": "这个魔子不对劲.txt",
+      "real_rating": 9.4,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 4,
+        "节奏张力": 6,
+        "人设辨识": 5,
+        "世界渗透": 5,
+        "悬念密度": 4,
+        "代价显性": 3,
+        "对话功能": 4,
+        "异常合理": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            31
+          ],
+          "success_chars": 26
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            16
+          ],
+          "success_chars": 20
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            57
+          ],
+          "success_chars": 23
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            20
+          ],
+          "success_chars": 20
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            20
+          ],
+          "success_chars": 32
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            13
+          ],
+          "success_chars": 23
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            12
+          ],
+          "success_chars": 13
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            30
+          ],
+          "success_chars": 17
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            10
+          ],
+          "success_chars": 24
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            10
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "犯上者",
+      "file": "犯上者.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "矛盾锐度": 5,
+        "节奏张力": 6,
+        "人设辨识": 7,
+        "世界渗透": 7,
+        "悬念密度": 6,
+        "代价显性": 6,
+        "对话功能": 6,
+        "异常合理": 5,
+        "情绪锚点": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            32
+          ],
+          "success_chars": 22
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            24
+          ],
+          "success_chars": 35
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            21
+          ],
+          "success_chars": 27
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            21
+          ],
+          "success_chars": 29
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            38
+          ],
+          "success_chars": 38
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            7
+          ],
+          "success_chars": 38
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            33
+          ],
+          "success_chars": 36
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            48
+          ],
+          "success_chars": 44
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            22
+          ],
+          "success_chars": 13
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            13
+          ],
+          "success_chars": 27
+        }
+      }
+    },
+    {
+      "title": "我无限回档，洞悉所有底牌",
+      "file": "我无限回档，洞悉所有底牌.txt",
+      "real_rating": 9.5,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "矛盾锐度": 6,
+        "节奏张力": 7,
+        "人设辨识": 5,
+        "世界渗透": 5,
+        "悬念密度": 7,
+        "代价显性": 6,
+        "对话功能": 4,
+        "异常合理": 6,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            39
+          ],
+          "success_chars": 26
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            26
+          ],
+          "success_chars": 24
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            29
+          ],
+          "success_chars": 18
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            11
+          ],
+          "success_chars": 35
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            24
+          ],
+          "success_chars": 25
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            22
+          ],
+          "success_chars": 29
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            12
+          ],
+          "success_chars": 23
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            29
+          ],
+          "success_chars": 28
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            25
+          ],
+          "success_chars": 31
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            19
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "时停时停时停时停时停时停时停！",
+      "file": "时停时停时停时停时停时停时停！.txt",
+      "real_rating": 9.4,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "矛盾锐度": 6,
+        "节奏张力": 5,
+        "人设辨识": 6,
+        "世界渗透": 5,
+        "悬念密度": 6,
+        "代价显性": 4,
+        "对话功能": 5,
+        "异常合理": 5,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            37
+          ],
+          "success_chars": 31
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            46
+          ],
+          "success_chars": 51
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            50
+          ],
+          "success_chars": 33
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            48
+          ],
+          "success_chars": 28
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            39
+          ],
+          "success_chars": 37
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            28
+          ],
+          "success_chars": 22
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            39
+          ],
+          "success_chars": 36
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            71,
+            23
+          ],
+          "success_chars": 25
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            37
+          ],
+          "success_chars": 42
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            26
+          ],
+          "success_chars": 44
+        }
+      }
+    },
+    {
+      "title": "让你改装机娘，你让机娘上墙",
+      "file": "让你改装机娘，你让机娘上墙.txt",
+      "real_rating": 9.5,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 4,
+        "节奏张力": 6,
+        "人设辨识": 5,
+        "世界渗透": 7,
+        "悬念密度": 6,
+        "代价显性": 3,
+        "对话功能": 5,
+        "异常合理": 6,
+        "情绪锚点": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            24
+          ],
+          "success_chars": 26
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            39
+          ],
+          "success_chars": 31
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            66,
+            40
+          ],
+          "success_chars": 28
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 26
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            27
+          ],
+          "success_chars": 33
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            24
+          ],
+          "success_chars": 28
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            21
+          ],
+          "success_chars": 37
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            30
+          ],
+          "success_chars": 41
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            18
+          ],
+          "success_chars": 39
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            23
+          ],
+          "success_chars": 42
+        }
+      }
+    },
+    {
+      "title": "不太冷的魔术师",
+      "file": "不太冷的魔术师.txt",
+      "real_rating": 9.5,
+      "rubric_score": 4.3,
+      "rubric_scores": [
+        4.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "矛盾锐度": 5,
+        "节奏张力": 4,
+        "人设辨识": 6,
+        "世界渗透": 3,
+        "悬念密度": 5,
+        "代价显性": 2,
+        "对话功能": 5,
+        "异常合理": 4,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            49
+          ],
+          "success_chars": 61
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            26
+          ],
+          "success_chars": 19
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            83,
+            78
+          ],
+          "success_chars": 18
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            77,
+            26
+          ],
+          "success_chars": 24
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            37
+          ],
+          "success_chars": 15
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            38
+          ],
+          "success_chars": 35
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            26
+          ],
+          "success_chars": 13
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            8
+          ],
+          "success_chars": 26
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            68,
+            37
+          ],
+          "success_chars": 19
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            19
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "一起堕落吗神明",
+      "file": "一起堕落吗神明.txt",
+      "real_rating": 9.4,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 6,
+        "节奏张力": 5,
+        "人设辨识": 7,
+        "世界渗透": 6,
+        "悬念密度": 5,
+        "代价显性": 4,
+        "对话功能": 5,
+        "异常合理": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            31
+          ],
+          "success_chars": 36
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            19
+          ],
+          "success_chars": 25
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            39
+          ],
+          "success_chars": 42
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            28
+          ],
+          "success_chars": 34
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            20
+          ],
+          "success_chars": 23
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            40
+          ],
+          "success_chars": 53
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            34
+          ],
+          "success_chars": 29
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            16
+          ],
+          "success_chars": 27
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            40
+          ],
+          "success_chars": 38
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            28
+          ],
+          "success_chars": 50
+        }
+      }
+    },
+    {
+      "title": "高武：天才就是1天赋加99药水",
+      "file": "高武：天才就是1天赋加99药水.txt",
+      "real_rating": 9.4,
+      "rubric_score": 5.033333333333333,
+      "rubric_scores": [
+        5.1,
+        5.1,
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 4,
+        "节奏张力": 6,
+        "人设辨识": 5,
+        "世界渗透": 7,
+        "悬念密度": 4,
+        "代价显性": 3,
+        "对话功能": 5,
+        "异常合理": 6,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            19
+          ],
+          "success_chars": 31
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            14
+          ],
+          "success_chars": 28
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            27
+          ],
+          "success_chars": 29
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            19
+          ],
+          "success_chars": 32
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            19
+          ],
+          "success_chars": 35
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            38
+          ],
+          "success_chars": 19
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            17
+          ],
+          "success_chars": 32
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            16
+          ],
+          "success_chars": 24
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            38
+          ],
+          "success_chars": 32
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            22
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "天骄？妖孽？不好，是肝帝",
+      "file": "天骄？妖孽？不好，是肝帝.txt",
+      "real_rating": 9.3,
+      "rubric_score": 4.3,
+      "rubric_scores": [
+        4.3
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 4,
+        "节奏张力": 5,
+        "人设辨识": 4,
+        "世界渗透": 5,
+        "悬念密度": 4,
+        "代价显性": 3,
+        "对话功能": 4,
+        "异常合理": 5,
+        "情绪锚点": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            40
+          ],
+          "success_chars": 42
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            15
+          ],
+          "success_chars": 27
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            50
+          ],
+          "success_chars": 29
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            34
+          ],
+          "success_chars": 59
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            27
+          ],
+          "success_chars": 25
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            12
+          ],
+          "success_chars": 37
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            11
+          ],
+          "success_chars": 38
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            40
+          ],
+          "success_chars": 42
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            44
+          ],
+          "success_chars": 34
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            33
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "序列：吃神者",
+      "file": "序列：吃神者.txt",
+      "real_rating": 9.3,
+      "rubric_score": 6.133333333333333,
+      "rubric_scores": [
+        6.3,
+        6.3,
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 4,
+        "节奏张力": 5,
+        "人设辨识": 4,
+        "世界渗透": 5,
+        "悬念密度": 5,
+        "代价显性": 3,
+        "对话功能": 4,
+        "异常合理": 4,
+        "情绪锚点": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            64,
+            40
+          ],
+          "success_chars": 37
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            82
+          ],
+          "success_chars": 39
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            32
+          ],
+          "success_chars": 21
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            39
+          ],
+          "success_chars": 24
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            30
+          ],
+          "success_chars": 49
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            59
+          ],
+          "success_chars": 49
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            24
+          ],
+          "success_chars": 43
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            24
+          ],
+          "success_chars": 41
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            30
+          ],
+          "success_chars": 49
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            35
+          ],
+          "success_chars": 15
+        }
+      }
+    },
+    {
+      "title": "两百年后，我独自镇压末世",
+      "file": "两百年后，我独自镇压末世.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "矛盾锐度": 5,
+        "节奏张力": 6,
+        "人设辨识": 7,
+        "世界渗透": 6,
+        "悬念密度": 7,
+        "代价显性": 8,
+        "对话功能": 5,
+        "异常合理": 6,
+        "情绪锚点": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            48
+          ],
+          "success_chars": 50
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            42
+          ],
+          "success_chars": 63
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            24
+          ],
+          "success_chars": 37
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            27
+          ],
+          "success_chars": 37
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            38
+          ],
+          "success_chars": 41
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            37
+          ],
+          "success_chars": 33
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            35
+          ],
+          "success_chars": 41
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            21
+          ],
+          "success_chars": 41
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            34
+          ],
+          "success_chars": 39
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            35
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "我的五脏六腑，皆为魔神",
+      "file": "我的五脏六腑，皆为魔神.txt",
+      "real_rating": 9.0,
+      "rubric_score": 7.033333333333333,
+      "rubric_scores": [
+        6.9,
+        7.1,
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "矛盾锐度": 7,
+        "节奏张力": 6,
+        "人设辨识": 8,
+        "世界渗透": 7,
+        "悬念密度": 7,
+        "代价显性": 5,
+        "对话功能": 6,
+        "异常合理": 6,
+        "情绪锚点": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            32
+          ],
+          "success_chars": 20
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            13
+          ],
+          "success_chars": 26
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            8
+          ],
+          "success_chars": 23
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            27
+          ],
+          "success_chars": 34
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            21
+          ],
+          "success_chars": 39
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            28
+          ],
+          "success_chars": 16
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            15
+          ],
+          "success_chars": 26
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            18
+          ],
+          "success_chars": 35
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            27
+          ],
+          "success_chars": 23
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            19
+          ],
+          "success_chars": 17
+        }
+      }
+    },
+    {
+      "title": "神序001，参见！",
+      "file": "神序001，参见！.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "矛盾锐度": 5,
+        "节奏张力": 6,
+        "人设辨识": 5,
+        "世界渗透": 6,
+        "悬念密度": 7,
+        "代价显性": 4,
+        "对话功能": 5,
+        "异常合理": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            34
+          ],
+          "success_chars": 31
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            15
+          ],
+          "success_chars": 27
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            21
+          ],
+          "success_chars": 41
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            22
+          ],
+          "success_chars": 24
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            33
+          ],
+          "success_chars": 58
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            15
+          ],
+          "success_chars": 28
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            16
+          ],
+          "success_chars": 38
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            27
+          ],
+          "success_chars": 17
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            28
+          ],
+          "success_chars": 26
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            28
+          ],
+          "success_chars": 44
+        }
+      }
+    },
+    {
+      "title": "游走神话，开局偷耶稣尸体",
+      "file": "游走神话，开局偷耶稣尸体.txt",
+      "real_rating": 8.4,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 4,
+        "节奏张力": 6,
+        "人设辨识": 5,
+        "世界渗透": 5,
+        "悬念密度": 4,
+        "代价显性": 3,
+        "对话功能": 5,
+        "异常合理": 4,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            28
+          ],
+          "success_chars": 34
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            33
+          ],
+          "success_chars": 31
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            34
+          ],
+          "success_chars": 32
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            26
+          ],
+          "success_chars": 21
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            38
+          ],
+          "success_chars": 35
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            31
+          ],
+          "success_chars": 42
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            7
+          ],
+          "success_chars": 39
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            29
+          ],
+          "success_chars": 31
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            20
+          ],
+          "success_chars": 33
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            15
+          ],
+          "success_chars": 46
+        }
+      }
+    },
+    {
+      "title": "别装了，你也不是正经觉醒者吧？",
+      "file": "别装了，你也不是正经觉醒者吧？.txt",
+      "real_rating": 8.1,
+      "rubric_score": 6.066666666666667,
+      "rubric_scores": [
+        5.9,
+        5.9,
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 6,
+        "节奏张力": 5,
+        "人设辨识": 7,
+        "世界渗透": 6,
+        "悬念密度": 6,
+        "代价显性": 7,
+        "对话功能": 5,
+        "异常合理": 6,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            19
+          ],
+          "success_chars": 14
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            18
+          ],
+          "success_chars": 30
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            32
+          ],
+          "success_chars": 27
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            21
+          ],
+          "success_chars": 27
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            42
+          ],
+          "success_chars": 33
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            25
+          ],
+          "success_chars": 6
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            21
+          ],
+          "success_chars": 54
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            24
+          ],
+          "success_chars": 39
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            12
+          ],
+          "success_chars": 45
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            21
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "全球僵尸降临，你说道士序列没用",
+      "file": "全球僵尸降临，你说道士序列没用.txt",
+      "real_rating": 8.6,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "矛盾锐度": 5,
+        "节奏张力": 7,
+        "人设辨识": 5,
+        "世界渗透": 6,
+        "悬念密度": 5,
+        "代价显性": 4,
+        "对话功能": 6,
+        "异常合理": 7,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            9
+          ],
+          "success_chars": 12
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            8
+          ],
+          "success_chars": 12
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            6
+          ],
+          "success_chars": 9
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            10
+          ],
+          "success_chars": 11
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            8
+          ],
+          "success_chars": 10
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            5
+          ],
+          "success_chars": 9
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            7
+          ],
+          "success_chars": 9
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            9
+          ],
+          "success_chars": 9
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            8
+          ],
+          "success_chars": 9
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            8
+          ],
+          "success_chars": 9
+        }
+      }
+    },
+    {
+      "title": "鉴定网络热门伪人",
+      "file": "鉴定网络热门伪人.txt",
+      "real_rating": 8.5,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 4,
+        "节奏张力": 6,
+        "人设辨识": 5,
+        "世界渗透": 5,
+        "悬念密度": 5,
+        "代价显性": 3,
+        "对话功能": 4,
+        "异常合理": 5,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            70
+          ],
+          "success_chars": 36
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            14
+          ],
+          "success_chars": 14
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            34
+          ],
+          "success_chars": 52
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            31
+          ],
+          "success_chars": 35
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            42
+          ],
+          "success_chars": 56
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            19
+          ],
+          "success_chars": 41
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            18
+          ],
+          "success_chars": 30
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            28
+          ],
+          "success_chars": 36
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            29
+          ],
+          "success_chars": 32
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            14
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "恒月长存，万物终成怪异",
+      "file": "恒月长存，万物终成怪异.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 4,
+        "节奏张力": 6,
+        "人设辨识": 5,
+        "世界渗透": 5,
+        "悬念密度": 6,
+        "代价显性": 4,
+        "对话功能": 5,
+        "异常合理": 5,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            10
+          ],
+          "success_chars": 11
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            8
+          ],
+          "success_chars": 14
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            18
+          ],
+          "success_chars": 16
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            16
+          ],
+          "success_chars": 12
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            20
+          ],
+          "success_chars": 14
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            13
+          ],
+          "success_chars": 13
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            18
+          ],
+          "success_chars": 11
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            16
+          ],
+          "success_chars": 13
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            14
+          ],
+          "success_chars": 15
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            11
+          ],
+          "success_chars": 12
+        }
+      }
+    },
+    {
+      "title": "十八岁全系法神，一人镇压全世界",
+      "file": "十八岁全系法神，一人镇压全世界.txt",
+      "real_rating": 7.7,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "矛盾锐度": 5,
+        "节奏张力": 7,
+        "人设辨识": 6,
+        "世界渗透": 5,
+        "悬念密度": 6,
+        "代价显性": 4,
+        "对话功能": 5,
+        "异常合理": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            28
+          ],
+          "success_chars": 40
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            40
+          ],
+          "success_chars": 31
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            26
+          ],
+          "success_chars": 39
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            56
+          ],
+          "success_chars": 45
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            40
+          ],
+          "success_chars": 37
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            12
+          ],
+          "success_chars": 46
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            34
+          ],
+          "success_chars": 39
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            19
+          ],
+          "success_chars": 48
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            30
+          ],
+          "success_chars": 29
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            30
+          ],
+          "success_chars": 46
+        }
+      }
+    },
+    {
+      "title": "高武：被退学后，我在前线杀疯了",
+      "file": "高武：被退学后，我在前线杀疯了.txt",
+      "real_rating": 7.4,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 4,
+        "节奏张力": 6,
+        "人设辨识": 5,
+        "世界渗透": 5,
+        "悬念密度": 3,
+        "代价显性": 2,
+        "对话功能": 4,
+        "异常合理": 3,
+        "情绪锚点": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            37
+          ],
+          "success_chars": 27
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            47
+          ],
+          "success_chars": 29
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            20
+          ],
+          "success_chars": 29
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            27
+          ],
+          "success_chars": 27
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            25
+          ],
+          "success_chars": 23
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            15
+          ],
+          "success_chars": 11
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            18
+          ],
+          "success_chars": 27
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            16
+          ],
+          "success_chars": 32
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            15
+          ],
+          "success_chars": 30
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            24
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "高武：我永远比儿子高四个境界",
+      "file": "高武：我永远比儿子高四个境界.txt",
+      "real_rating": 7.1,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 4,
+        "节奏张力": 6,
+        "人设辨识": 5,
+        "世界渗透": 5,
+        "悬念密度": 4,
+        "代价显性": 3,
+        "对话功能": 5,
+        "异常合理": 3,
+        "情绪锚点": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            44
+          ],
+          "success_chars": 38
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            32
+          ],
+          "success_chars": 47
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            21
+          ],
+          "success_chars": 34
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            28
+          ],
+          "success_chars": 30
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            15
+          ],
+          "success_chars": 27
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            30
+          ],
+          "success_chars": 57
+        },
+        "代价显性": {
+          "n_failures": 3,
+          "failure_chars": [
+            30,
+            17,
+            11
+          ],
+          "success_chars": 16
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            10
+          ],
+          "success_chars": 38
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            20
+          ],
+          "success_chars": 30
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            15
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "高武：一块钱买一年修为",
+      "file": "高武：一块钱买一年修为.txt",
+      "real_rating": 7.0,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.8,
+        4.9,
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "矛盾锐度": 6,
+        "节奏张力": 7,
+        "人设辨识": 6,
+        "世界渗透": 7,
+        "悬念密度": 6,
+        "代价显性": 4,
+        "对话功能": 5,
+        "异常合理": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            31
+          ],
+          "success_chars": 44
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            39
+          ],
+          "success_chars": 71
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            43
+          ],
+          "success_chars": 50
+        },
+        "人设辨识": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            19
+          ],
+          "success_chars": 47
+        },
+        "世界渗透": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            26
+          ],
+          "success_chars": 46
+        },
+        "悬念密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            29
+          ],
+          "success_chars": 39
+        },
+        "代价显性": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            15
+          ],
+          "success_chars": 47
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            47
+          ],
+          "success_chars": 25
+        },
+        "异常合理": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            41
+          ],
+          "success_chars": 57
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            42
+          ],
+          "success_chars": 53
+        }
+      }
+    }
+  ]
+}

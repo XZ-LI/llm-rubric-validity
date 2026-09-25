@@ -1,0 +1,2403 @@
+{
+  "run_id": "20260911T000430Z-f43222",
+  "run_utc": "2026-09-11T00:04:30+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "东方仙侠",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "三年元婴，你还说你没开挂.txt",
+    "修仙界第一大祸害.txt",
+    "凡骨.txt",
+    "剑起白玉京.txt",
+    "救！我的仙帝嫡弟有厌庶癖.txt",
+    "无敌六皇子，父皇你可害苦了儿臣.txt",
+    "西游：师父又要讲故事了.txt"
+  ],
+  "results": [
+    {
+      "title": "凡人策",
+      "file": "凡人策.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子": 7,
+        "世界": 6,
+        "节奏": 5,
+        "升级": 3,
+        "角色": 6,
+        "对话": 4,
+        "悬念": 6,
+        "情感": 5,
+        "仙味": 4,
+        "反转": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            32
+          ],
+          "success_chars": 48
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            24
+          ],
+          "success_chars": 42
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            23
+          ],
+          "success_chars": 31
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            19
+          ],
+          "success_chars": 15
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            18
+          ],
+          "success_chars": 21
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            9
+          ],
+          "success_chars": 10
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            16
+          ],
+          "success_chars": 15
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            45
+          ],
+          "success_chars": 27
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            8
+          ],
+          "success_chars": 21
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            11
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "灵葫芦修仙记",
+      "file": "灵葫芦修仙记.txt",
+      "real_rating": 9.0,
+      "rubric_score": 4.966666666666667,
+      "rubric_scores": [
+        4.9,
+        4.8,
+        5.2
+      ],
+      "dimensions": {
+        "钩子": 5,
+        "世界": 4,
+        "节奏": 6,
+        "升级": 5,
+        "角色": 6,
+        "对话": 5,
+        "悬念": 5,
+        "情感": 6,
+        "仙味": 3,
+        "反转": 2
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            40
+          ],
+          "success_chars": 44
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            40
+          ],
+          "success_chars": 43
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            48
+          ],
+          "success_chars": 35
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            22
+          ],
+          "success_chars": 42
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            18
+          ],
+          "success_chars": 47
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            16
+          ],
+          "success_chars": 45
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            20
+          ],
+          "success_chars": 31
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            30
+          ],
+          "success_chars": 34
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            38
+          ],
+          "success_chars": 22
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            21
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "道心参天",
+      "file": "道心参天.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子": 7,
+        "世界": 6,
+        "节奏": 7,
+        "升级": 6,
+        "角色": 7,
+        "对话": 6,
+        "悬念": 7,
+        "情感": 8,
+        "仙味": 6,
+        "反转": 7
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            41
+          ],
+          "success_chars": 23
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            26
+          ],
+          "success_chars": 29
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            35
+          ],
+          "success_chars": 25
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            42
+          ],
+          "success_chars": 29
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            26
+          ],
+          "success_chars": 32
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            27
+          ],
+          "success_chars": 20
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            16
+          ],
+          "success_chars": 23
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            10
+          ],
+          "success_chars": 25
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            12
+          ],
+          "success_chars": 13
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            20
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "天不应",
+      "file": "天不应.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "世界": 5,
+        "节奏": 5,
+        "升级": 3,
+        "角色": 6,
+        "对话": 5,
+        "悬念": 6,
+        "情感": 6,
+        "仙味": 2,
+        "反转": 3
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            34
+          ],
+          "success_chars": 42
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            24
+          ],
+          "success_chars": 42
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            26
+          ],
+          "success_chars": 29
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            14
+          ],
+          "success_chars": 30
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            11
+          ],
+          "success_chars": 38
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            25
+          ],
+          "success_chars": 44
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            16
+          ],
+          "success_chars": 34
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            18
+          ],
+          "success_chars": 36
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            15
+          ],
+          "success_chars": 42
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            21
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "诸天：从迎娶邀月宫主开始",
+      "file": "诸天：从迎娶邀月宫主开始.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子": 5,
+        "世界": 6,
+        "节奏": 7,
+        "升级": 5,
+        "角色": 6,
+        "对话": 5,
+        "悬念": 4,
+        "情感": 5,
+        "仙味": 3,
+        "反转": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            28
+          ],
+          "success_chars": 42
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            26
+          ],
+          "success_chars": 50
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            48
+          ],
+          "success_chars": 37
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            40
+          ],
+          "success_chars": 41
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            33
+          ],
+          "success_chars": 41
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            34
+          ],
+          "success_chars": 25
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            12
+          ],
+          "success_chars": 27
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            21
+          ],
+          "success_chars": 34
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            6
+          ],
+          "success_chars": 36
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            22
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "西游：这是谁把金丹放我府上的？",
+      "file": "西游：这是谁把金丹放我府上的？.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "钩子": 7,
+        "世界": 8,
+        "节奏": 7,
+        "升级": 6,
+        "角色": 7,
+        "对话": 6,
+        "悬念": 8,
+        "情感": 6,
+        "仙味": 7,
+        "反转": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            35
+          ],
+          "success_chars": 39
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            23
+          ],
+          "success_chars": 59
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            26
+          ],
+          "success_chars": 46
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            22
+          ],
+          "success_chars": 39
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            46
+          ],
+          "success_chars": 45
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            13
+          ],
+          "success_chars": 36
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            24
+          ],
+          "success_chars": 44
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            49
+          ],
+          "success_chars": 43
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            4
+          ],
+          "success_chars": 41
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            32
+          ],
+          "success_chars": 47
+        }
+      }
+    },
+    {
+      "title": "开局长生，苟在下界吃土飞升",
+      "file": "开局长生，苟在下界吃土飞升.txt",
+      "real_rating": 9.0,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子": 3,
+        "世界": 5,
+        "节奏": 4,
+        "升级": 6,
+        "角色": 5,
+        "对话": 5,
+        "悬念": 6,
+        "情感": 4,
+        "仙味": 5,
+        "反转": 3
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            73,
+            39
+          ],
+          "success_chars": 51
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            56
+          ],
+          "success_chars": 45
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            30
+          ],
+          "success_chars": 35
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            35
+          ],
+          "success_chars": 44
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            39
+          ],
+          "success_chars": 40
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            57
+          ],
+          "success_chars": 35
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            27
+          ],
+          "success_chars": 35
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            33
+          ],
+          "success_chars": 36
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            33
+          ],
+          "success_chars": 37
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            31
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "凡人修仙，万尸铸仙骨",
+      "file": "凡人修仙，万尸铸仙骨.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "钩子": 5,
+        "世界": 6,
+        "节奏": 5,
+        "升级": 4,
+        "角色": 5,
+        "对话": 5,
+        "悬念": 6,
+        "情感": 4,
+        "仙味": 5,
+        "反转": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            46
+          ],
+          "success_chars": 40
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            10
+          ],
+          "success_chars": 49
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            21
+          ],
+          "success_chars": 30
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            34
+          ],
+          "success_chars": 40
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            18
+          ],
+          "success_chars": 24
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            28
+          ],
+          "success_chars": 6
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            24
+          ],
+          "success_chars": 42
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            24
+          ],
+          "success_chars": 34
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            24
+          ],
+          "success_chars": 27
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            22
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "帝域",
+      "file": "帝域.txt",
+      "real_rating": 8.8,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3,
+        6.3,
+        6.3
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "世界": 7,
+        "节奏": 6,
+        "升级": 5,
+        "角色": 7,
+        "对话": 6,
+        "悬念": 7,
+        "情感": 7,
+        "仙味": 5,
+        "反转": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            34
+          ],
+          "success_chars": 37
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            43
+          ],
+          "success_chars": 45
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            16
+          ],
+          "success_chars": 30
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            27
+          ],
+          "success_chars": 39
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            26
+          ],
+          "success_chars": 38
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            21
+          ],
+          "success_chars": 31
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            21
+          ],
+          "success_chars": 39
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            38
+          ],
+          "success_chars": 37
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            12
+          ],
+          "success_chars": 24
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            40
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "凡人修仙之符祖",
+      "file": "凡人修仙之符祖.txt",
+      "real_rating": 8.6,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "钩子": 3,
+        "世界": 4,
+        "节奏": 5,
+        "升级": 4,
+        "角色": 5,
+        "对话": 4,
+        "悬念": 4,
+        "情感": 5,
+        "仙味": 4,
+        "反转": 3
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            22
+          ],
+          "success_chars": 47
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            4,
+            17
+          ],
+          "success_chars": 55
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            31
+          ],
+          "success_chars": 31
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            30
+          ],
+          "success_chars": 40
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            31
+          ],
+          "success_chars": 34
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            4
+          ],
+          "success_chars": 28
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            33
+          ],
+          "success_chars": 20
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            21
+          ],
+          "success_chars": 32
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            15
+          ],
+          "success_chars": 36
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            32
+          ],
+          "success_chars": 17
+        }
+      }
+    },
+    {
+      "title": "凡人修仙，开局看守废丹房",
+      "file": "凡人修仙，开局看守废丹房.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子": 5,
+        "世界": 6,
+        "节奏": 7,
+        "升级": 5,
+        "角色": 6,
+        "对话": 5,
+        "悬念": 7,
+        "情感": 6,
+        "仙味": 5,
+        "反转": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            25
+          ],
+          "success_chars": 23
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            31
+          ],
+          "success_chars": 46
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            24
+          ],
+          "success_chars": 44
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            15
+          ],
+          "success_chars": 17
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            41
+          ],
+          "success_chars": 54
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            30
+          ],
+          "success_chars": 12
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            47
+          ],
+          "success_chars": 31
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            64,
+            31
+          ],
+          "success_chars": 56
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            20
+          ],
+          "success_chars": 32
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            26
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "不择手段，可成仙否？",
+      "file": "不择手段，可成仙否？.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8,
+        5.8,
+        5.8
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "世界": 5,
+        "节奏": 7,
+        "升级": 4,
+        "角色": 6,
+        "对话": 5,
+        "悬念": 7,
+        "情感": 5,
+        "仙味": 3,
+        "反转": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            16
+          ],
+          "success_chars": 36
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            16
+          ],
+          "success_chars": 34
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            23
+          ],
+          "success_chars": 51
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            16
+          ],
+          "success_chars": 30
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            24
+          ],
+          "success_chars": 35
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            18
+          ],
+          "success_chars": 34
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            1,
+            17
+          ],
+          "success_chars": 32
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            26
+          ],
+          "success_chars": 32
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            37
+          ],
+          "success_chars": 35
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            11
+          ],
+          "success_chars": 37
+        }
+      }
+    },
+    {
+      "title": "修仙：旁门左道就是这样的",
+      "file": "修仙：旁门左道就是这样的.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子": 5,
+        "世界": 6,
+        "节奏": 5,
+        "升级": 7,
+        "角色": 5,
+        "对话": 5,
+        "悬念": 6,
+        "情感": 5,
+        "仙味": 4,
+        "反转": 3
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            12
+          ],
+          "success_chars": 24
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 38
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            7
+          ],
+          "success_chars": 56
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            13
+          ],
+          "success_chars": 63
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            29
+          ],
+          "success_chars": 28
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            4
+          ],
+          "success_chars": 36
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            13
+          ],
+          "success_chars": 30
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            21
+          ],
+          "success_chars": 27
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            22
+          ],
+          "success_chars": 19
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            13
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "说好修仙，你的本体怎么是恒星？",
+      "file": "说好修仙，你的本体怎么是恒星？.txt",
+      "real_rating": 8.3,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "世界": 5,
+        "节奏": 5,
+        "升级": 4,
+        "角色": 6,
+        "对话": 5,
+        "悬念": 6,
+        "情感": 5,
+        "仙味": 7,
+        "反转": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            8
+          ],
+          "success_chars": 7
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            30
+          ],
+          "success_chars": 16
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            22
+          ],
+          "success_chars": 60
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            11
+          ],
+          "success_chars": 40
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            39
+          ],
+          "success_chars": 45
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            19
+          ],
+          "success_chars": 34
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            29
+          ],
+          "success_chars": 31
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            39
+          ],
+          "success_chars": 24
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            17
+          ],
+          "success_chars": 39
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            37
+          ],
+          "success_chars": 18
+        }
+      }
+    },
+    {
+      "title": "开局成帝，我来给诸天上强度",
+      "file": "开局成帝，我来给诸天上强度.txt",
+      "real_rating": 8.2,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "世界": 7,
+        "节奏": 5,
+        "升级": 6,
+        "角色": 5,
+        "对话": 5,
+        "悬念": 6,
+        "情感": 4,
+        "仙味": 7,
+        "反转": 3
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            21
+          ],
+          "success_chars": 35
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            29
+          ],
+          "success_chars": 27
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            46
+          ],
+          "success_chars": 53
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            49
+          ],
+          "success_chars": 22
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            33
+          ],
+          "success_chars": 41
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            17
+          ],
+          "success_chars": 30
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            15
+          ],
+          "success_chars": 37
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            21
+          ],
+          "success_chars": 40
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            21
+          ],
+          "success_chars": 45
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            30
+          ],
+          "success_chars": 40
+        }
+      }
+    },
+    {
+      "title": "道炁长存",
+      "file": "道炁长存.txt",
+      "real_rating": 8.2,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子": 7,
+        "世界": 6,
+        "节奏": 5,
+        "升级": 4,
+        "角色": 6,
+        "对话": 5,
+        "悬念": 6,
+        "情感": 7,
+        "仙味": 5,
+        "反转": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            45
+          ],
+          "success_chars": 30
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            23
+          ],
+          "success_chars": 30
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            25
+          ],
+          "success_chars": 23
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            31
+          ],
+          "success_chars": 39
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            27
+          ],
+          "success_chars": 41
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            9
+          ],
+          "success_chars": 33
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            11
+          ],
+          "success_chars": 14
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            26
+          ],
+          "success_chars": 17
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            21
+          ],
+          "success_chars": 26
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            13
+          ],
+          "success_chars": 37
+        }
+      }
+    },
+    {
+      "title": "仙界闭关小能手",
+      "file": "仙界闭关小能手.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子": 5,
+        "世界": 6,
+        "节奏": 5,
+        "升级": 4,
+        "角色": 5,
+        "对话": 5,
+        "悬念": 6,
+        "情感": 5,
+        "仙味": 4,
+        "反转": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            9
+          ],
+          "success_chars": 10
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            8
+          ],
+          "success_chars": 9
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            8
+          ],
+          "success_chars": 9
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            7
+          ],
+          "success_chars": 10
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            7
+          ],
+          "success_chars": 11
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            6
+          ],
+          "success_chars": 9
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            7
+          ],
+          "success_chars": 8
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            6
+          ],
+          "success_chars": 8
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            7
+          ],
+          "success_chars": 8
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            8
+          ],
+          "success_chars": 8
+        }
+      }
+    },
+    {
+      "title": "合欢宗第一炉鼎！",
+      "file": "合欢宗第一炉鼎！.txt",
+      "real_rating": 8.0,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子": 3,
+        "世界": 4,
+        "节奏": 3,
+        "升级": 2,
+        "角色": 3,
+        "对话": 2,
+        "悬念": 4,
+        "情感": 3,
+        "仙味": 1,
+        "反转": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            17
+          ],
+          "success_chars": 35
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            14
+          ],
+          "success_chars": 31
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            12
+          ],
+          "success_chars": 25
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            9
+          ],
+          "success_chars": 25
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            18
+          ],
+          "success_chars": 24
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            9
+          ],
+          "success_chars": 26
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            15
+          ],
+          "success_chars": 25
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            10
+          ],
+          "success_chars": 22
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            11
+          ],
+          "success_chars": 22
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            9
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "百岁仙尊",
+      "file": "百岁仙尊.txt",
+      "real_rating": 8.1,
+      "rubric_score": 6.133333333333334,
+      "rubric_scores": [
+        6.4,
+        5.9,
+        6.1
+      ],
+      "dimensions": {
+        "钩子": 5,
+        "世界": 6,
+        "节奏": 7,
+        "升级": 6,
+        "角色": 7,
+        "对话": 6,
+        "悬念": 7,
+        "情感": 7,
+        "仙味": 6,
+        "反转": 8
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            49
+          ],
+          "success_chars": 53
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            3,
+            35
+          ],
+          "success_chars": 46
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            63
+          ],
+          "success_chars": 37
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            33
+          ],
+          "success_chars": 44
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            36
+          ],
+          "success_chars": 32
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            27
+          ],
+          "success_chars": 54
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            14
+          ],
+          "success_chars": 39
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            14
+          ],
+          "success_chars": 38
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            5
+          ],
+          "success_chars": 42
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            8
+          ],
+          "success_chars": 46
+        }
+      }
+    },
+    {
+      "title": "破戒后，一天一个新境界",
+      "file": "破戒后，一天一个新境界.txt",
+      "real_rating": 8.0,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子": 3,
+        "世界": 4,
+        "节奏": 5,
+        "升级": 3,
+        "角色": 4,
+        "对话": 2,
+        "悬念": 5,
+        "情感": 3,
+        "仙味": 2,
+        "反转": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            31
+          ],
+          "success_chars": 28
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            40
+          ],
+          "success_chars": 35
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            24
+          ],
+          "success_chars": 28
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            22
+          ],
+          "success_chars": 34
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            37
+          ],
+          "success_chars": 29
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            18
+          ],
+          "success_chars": 27
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            25
+          ],
+          "success_chars": 30
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            21
+          ],
+          "success_chars": 28
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            23
+          ],
+          "success_chars": 31
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            9
+          ],
+          "success_chars": 27
+        }
+      }
+    },
+    {
+      "title": "被贬废丹房，我偷偷无敌了",
+      "file": "被贬废丹房，我偷偷无敌了.txt",
+      "real_rating": 8.2,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "世界": 5,
+        "节奏": 5,
+        "升级": 7,
+        "角色": 4,
+        "对话": 5,
+        "悬念": 6,
+        "情感": 5,
+        "仙味": 5,
+        "反转": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            79,
+            46
+          ],
+          "success_chars": 31
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            39
+          ],
+          "success_chars": 35
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            40
+          ],
+          "success_chars": 37
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            43
+          ],
+          "success_chars": 39
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            38
+          ],
+          "success_chars": 36
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            43
+          ],
+          "success_chars": 31
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            27
+          ],
+          "success_chars": 36
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            29
+          ],
+          "success_chars": 33
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            36
+          ],
+          "success_chars": 27
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            32
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "灵药空间：五灵根才是完美道基",
+      "file": "灵药空间：五灵根才是完美道基.txt",
+      "real_rating": 7.9,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子": 5,
+        "世界": 6,
+        "节奏": 6,
+        "升级": 5,
+        "角色": 5,
+        "对话": 4,
+        "悬念": 5,
+        "情感": 5,
+        "仙味": 4,
+        "反转": 3
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            20
+          ],
+          "success_chars": 51
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            21
+          ],
+          "success_chars": 42
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            37
+          ],
+          "success_chars": 26
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            23
+          ],
+          "success_chars": 30
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            41
+          ],
+          "success_chars": 53
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            25
+          ],
+          "success_chars": 8
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            23
+          ],
+          "success_chars": 33
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            34
+          ],
+          "success_chars": 40
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            26
+          ],
+          "success_chars": 20
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            34
+          ],
+          "success_chars": 18
+        }
+      }
+    },
+    {
+      "title": "他一躺平杂役，你惹他干嘛",
+      "file": "他一躺平杂役，你惹他干嘛.txt",
+      "real_rating": 7.8,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.8,
+        6.3,
+        4.7
+      ],
+      "dimensions": {
+        "钩子": 5,
+        "世界": 6,
+        "节奏": 7,
+        "升级": 5,
+        "角色": 6,
+        "对话": 5,
+        "悬念": 7,
+        "情感": 6,
+        "仙味": 5,
+        "反转": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            27
+          ],
+          "success_chars": 48
+        },
+        "世界": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            12
+          ],
+          "success_chars": 42
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            41
+          ],
+          "success_chars": 49
+        },
+        "升级": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            20
+          ],
+          "success_chars": 37
+        },
+        "角色": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            50
+          ],
+          "success_chars": 50
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            23
+          ],
+          "success_chars": 39
+        },
+        "悬念": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            27
+          ],
+          "success_chars": 35
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            31
+          ],
+          "success_chars": 44
+        },
+        "仙味": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            13
+          ],
+          "success_chars": 44
+        },
+        "反转": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            25
+          ],
+          "success_chars": 43
+        }
+      }
+    }
+  ]
+}

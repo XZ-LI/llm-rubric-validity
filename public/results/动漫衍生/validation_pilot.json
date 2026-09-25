@@ -1,0 +1,2403 @@
+{
+  "run_id": "20260911T000753Z-ca13c7",
+  "run_utc": "2026-09-11T00:07:53+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "动漫衍生",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "一人，赵董说我被举报，谁干的？.txt",
+    "咒回：天才术师，从被追杀开始.txt",
+    "崩铁：翁法罗斯的幕后学者.txt",
+    "搜打撤很火！但是在战锤40k！.txt",
+    "让你性转，没让你当重女啊！.txt",
+    "铠甲勇士：开局救下路法.txt",
+    "黑塔女士，什么叫我也待开发？.txt"
+  ],
+  "results": [
+    {
+      "title": "战锤百倍正反馈，四神洗成人类神",
+      "file": "战锤百倍正反馈，四神洗成人类神.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.9,
+      "rubric_scores": [
+        5.9
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "融设": 7,
+        "角塑": 6,
+        "对话": 5,
+        "节奏": 7,
+        "悬链": 6,
+        "情感": 5,
+        "画面": 7,
+        "反哏": 6,
+        "代价": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            36
+          ],
+          "success_chars": 46
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            15
+          ],
+          "success_chars": 36
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            28
+          ],
+          "success_chars": 39
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            23
+          ],
+          "success_chars": 17
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            24
+          ],
+          "success_chars": 41
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            17
+          ],
+          "success_chars": 45
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            22
+          ],
+          "success_chars": 44
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            22
+          ],
+          "success_chars": 31
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            8
+          ],
+          "success_chars": 35
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            15
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "我，祖国人，漫威唯一人间之神",
+      "file": "我，祖国人，漫威唯一人间之神.txt",
+      "real_rating": 8.8,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.1,
+        5.4,
+        5.1
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "融设": 5,
+        "角塑": 4,
+        "对话": 5,
+        "节奏": 7,
+        "悬链": 6,
+        "情感": 3,
+        "画面": 7,
+        "反哏": 5,
+        "代价": 2
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            73,
+            28
+          ],
+          "success_chars": 44
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            27
+          ],
+          "success_chars": 30
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            30
+          ],
+          "success_chars": 24
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            52
+          ],
+          "success_chars": 31
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            22
+          ],
+          "success_chars": 23
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            20
+          ],
+          "success_chars": 23
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            25
+          ],
+          "success_chars": 24
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            16
+          ],
+          "success_chars": 62
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            13
+          ],
+          "success_chars": 22
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            12
+          ],
+          "success_chars": 11
+        }
+      }
+    },
+    {
+      "title": "海贼：十五岁的旧时代霸主",
+      "file": "海贼：十五岁的旧时代霸主.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "融设": 7,
+        "角塑": 6,
+        "对话": 5,
+        "节奏": 6,
+        "悬链": 5,
+        "情感": 5,
+        "画面": 6,
+        "反哏": 4,
+        "代价": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            26
+          ],
+          "success_chars": 67
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            46
+          ],
+          "success_chars": 51
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            36
+          ],
+          "success_chars": 36
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            79,
+            28
+          ],
+          "success_chars": 38
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            85,
+            15
+          ],
+          "success_chars": 22
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            26
+          ],
+          "success_chars": 53
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            28
+          ],
+          "success_chars": 31
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            46
+          ],
+          "success_chars": 42
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            23
+          ],
+          "success_chars": 13
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            30
+          ],
+          "success_chars": 37
+        }
+      }
+    },
+    {
+      "title": "冲徒逆师得手后，反手让我出师",
+      "file": "冲徒逆师得手后，反手让我出师.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.9,
+      "rubric_scores": [
+        5.9
+      ],
+      "dimensions": {
+        "钩子": 5,
+        "融设": 6,
+        "角塑": 7,
+        "对话": 6,
+        "节奏": 5,
+        "悬链": 6,
+        "情感": 7,
+        "画面": 6,
+        "反哏": 4,
+        "代价": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            24
+          ],
+          "success_chars": 38
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            17
+          ],
+          "success_chars": 54
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            20
+          ],
+          "success_chars": 51
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            21
+          ],
+          "success_chars": 36
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            27
+          ],
+          "success_chars": 36
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            17
+          ],
+          "success_chars": 39
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            41
+          ],
+          "success_chars": 41
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            37
+          ],
+          "success_chars": 29
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            27
+          ],
+          "success_chars": 42
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            40
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "一心求死的我竟是最强人间体",
+      "file": "一心求死的我竟是最强人间体.txt",
+      "real_rating": 8.8,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "融设": 5,
+        "角塑": 5,
+        "对话": 6,
+        "节奏": 7,
+        "悬链": 5,
+        "情感": 4,
+        "画面": 6,
+        "反哏": 5,
+        "代价": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            67
+          ],
+          "success_chars": 55
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            30
+          ],
+          "success_chars": 41
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            26
+          ],
+          "success_chars": 50
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            18
+          ],
+          "success_chars": 49
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            29
+          ],
+          "success_chars": 43
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            25
+          ],
+          "success_chars": 40
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            9
+          ],
+          "success_chars": 33
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            13
+          ],
+          "success_chars": 27
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            18
+          ],
+          "success_chars": 39
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            35
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "崩铁：什么叫你给纳努克发了车票",
+      "file": "崩铁：什么叫你给纳努克发了车票.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "融设": 5,
+        "角塑": 4,
+        "对话": 5,
+        "节奏": 6,
+        "悬链": 5,
+        "情感": 4,
+        "画面": 7,
+        "反哏": 6,
+        "代价": 3
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            22
+          ],
+          "success_chars": 10
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            13
+          ],
+          "success_chars": 10
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            11
+          ],
+          "success_chars": 9
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            12
+          ],
+          "success_chars": 9
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            10
+          ],
+          "success_chars": 11
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            9
+          ],
+          "success_chars": 10
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            8
+          ],
+          "success_chars": 8
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            11
+          ],
+          "success_chars": 10
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            8
+          ],
+          "success_chars": 10
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            9
+          ],
+          "success_chars": 8
+        }
+      }
+    },
+    {
+      "title": "超级蜘蛛侠：全新之日！",
+      "file": "超级蜘蛛侠：全新之日！.txt",
+      "real_rating": 8.1,
+      "rubric_score": 5.0,
+      "rubric_scores": [
+        4.8,
+        5.4,
+        4.8
+      ],
+      "dimensions": {
+        "钩子": 4,
+        "融设": 5,
+        "角塑": 5,
+        "对话": 4,
+        "节奏": 6,
+        "悬链": 5,
+        "情感": 3,
+        "画面": 6,
+        "反哏": 4,
+        "代价": 3
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            16
+          ],
+          "success_chars": 78
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            14
+          ],
+          "success_chars": 17
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            70
+          ],
+          "success_chars": 35
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            20
+          ],
+          "success_chars": 55
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            27
+          ],
+          "success_chars": 44
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            8
+          ],
+          "success_chars": 22
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            6
+          ],
+          "success_chars": 33
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            12
+          ],
+          "success_chars": 60
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            13
+          ],
+          "success_chars": 32
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            17
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "天幕：开局锐评三代，忍界全傻了",
+      "file": "天幕：开局锐评三代，忍界全傻了.txt",
+      "real_rating": 8.3,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "融设": 7,
+        "角塑": 6,
+        "对话": 5,
+        "节奏": 5,
+        "悬链": 6,
+        "情感": 5,
+        "画面": 6,
+        "反哏": 4,
+        "代价": 3
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            21
+          ],
+          "success_chars": 41
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            35
+          ],
+          "success_chars": 27
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            18
+          ],
+          "success_chars": 36
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            26
+          ],
+          "success_chars": 49
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            40
+          ],
+          "success_chars": 32
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            17
+          ],
+          "success_chars": 52
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            29
+          ],
+          "success_chars": 35
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            31
+          ],
+          "success_chars": 30
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            32
+          ],
+          "success_chars": 19
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            20
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "谁教你用魂系打法玩魔法少女的？",
+      "file": "谁教你用魂系打法玩魔法少女的？.txt",
+      "real_rating": 8.4,
+      "rubric_score": 7.9,
+      "rubric_scores": [
+        7.9
+      ],
+      "dimensions": {
+        "钩子": 7,
+        "融设": 8,
+        "角塑": 8,
+        "对话": 6,
+        "节奏": 9,
+        "悬链": 7,
+        "情感": 8,
+        "画面": 9,
+        "反哏": 9,
+        "代价": 8
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            13
+          ],
+          "success_chars": 65
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            45
+          ],
+          "success_chars": 50
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            38
+          ],
+          "success_chars": 42
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            10
+          ],
+          "success_chars": 47
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            36
+          ],
+          "success_chars": 45
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            27
+          ],
+          "success_chars": 38
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            9
+          ],
+          "success_chars": 40
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            14
+          ],
+          "success_chars": 48
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            23
+          ],
+          "success_chars": 47
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            20
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "崩铁：我都P40了，系统才来",
+      "file": "崩铁：我都P40了，系统才来.txt",
+      "real_rating": 8.0,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子": 4,
+        "融设": 5,
+        "角塑": 6,
+        "对话": 5,
+        "节奏": 4,
+        "悬链": 3,
+        "情感": 5,
+        "画面": 5,
+        "反哏": 6,
+        "代价": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            44
+          ],
+          "success_chars": 36
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            64
+          ],
+          "success_chars": 31
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            47
+          ],
+          "success_chars": 34
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            47
+          ],
+          "success_chars": 29
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            37
+          ],
+          "success_chars": 23
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            28
+          ],
+          "success_chars": 29
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            40
+          ],
+          "success_chars": 28
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            32
+          ],
+          "success_chars": 38
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            33
+          ],
+          "success_chars": 25
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            34
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "海贼：疯了，他才是洛克斯话事人",
+      "file": "海贼：疯了，他才是洛克斯话事人.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "融设": 5,
+        "角塑": 5,
+        "对话": 6,
+        "节奏": 5,
+        "悬链": 7,
+        "情感": 5,
+        "画面": 6,
+        "反哏": 4,
+        "代价": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            8
+          ],
+          "success_chars": 11
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            13
+          ],
+          "success_chars": 13
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            11
+          ],
+          "success_chars": 11
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            9
+          ],
+          "success_chars": 15
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            12
+          ],
+          "success_chars": 11
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            10
+          ],
+          "success_chars": 10
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            11
+          ],
+          "success_chars": 11
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            9
+          ],
+          "success_chars": 11
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            8
+          ],
+          "success_chars": 13
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            9
+          ],
+          "success_chars": 11
+        }
+      }
+    },
+    {
+      "title": "开服之前，我执掌潮汐监狱",
+      "file": "开服之前，我执掌潮汐监狱.txt",
+      "real_rating": 8.0,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子": 5,
+        "融设": 6,
+        "角塑": 5,
+        "对话": 5,
+        "节奏": 6,
+        "悬链": 7,
+        "情感": 4,
+        "画面": 6,
+        "反哏": 5,
+        "代价": 7
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            31
+          ],
+          "success_chars": 16
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            33
+          ],
+          "success_chars": 28
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            26
+          ],
+          "success_chars": 31
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            19
+          ],
+          "success_chars": 46
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            34
+          ],
+          "success_chars": 35
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            7
+          ],
+          "success_chars": 27
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            50
+          ],
+          "success_chars": 54
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            52
+          ],
+          "success_chars": 50
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            28
+          ],
+          "success_chars": 48
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            15
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "咒回模拟：扭曲且傲慢的救世主",
+      "file": "咒回模拟：扭曲且傲慢的救世主.txt",
+      "real_rating": 7.9,
+      "rubric_score": 6.666666666666667,
+      "rubric_scores": [
+        6.8,
+        6.4,
+        6.8
+      ],
+      "dimensions": {
+        "钩子": 8,
+        "融设": 7,
+        "角塑": 6,
+        "对话": 5,
+        "节奏": 8,
+        "悬链": 9,
+        "情感": 6,
+        "画面": 7,
+        "反哏": 5,
+        "代价": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            47
+          ],
+          "success_chars": 57
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            35
+          ],
+          "success_chars": 60
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            14
+          ],
+          "success_chars": 37
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            30
+          ],
+          "success_chars": 26
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            26
+          ],
+          "success_chars": 35
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            53
+          ],
+          "success_chars": 41
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            27
+          ],
+          "success_chars": 34
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            14
+          ],
+          "success_chars": 53
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            27
+          ],
+          "success_chars": 24
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            14
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "海贼：没人比我更懂霸王色",
+      "file": "海贼：没人比我更懂霸王色.txt",
+      "real_rating": 8.0,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "融设": 5,
+        "角塑": 5,
+        "对话": 4,
+        "节奏": 5,
+        "悬链": 6,
+        "情感": 5,
+        "画面": 5,
+        "反哏": 7,
+        "代价": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            31
+          ],
+          "success_chars": 17
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            80,
+            31
+          ],
+          "success_chars": 33
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            38
+          ],
+          "success_chars": 34
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            25
+          ],
+          "success_chars": 41
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            42
+          ],
+          "success_chars": 27
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            14
+          ],
+          "success_chars": 27
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            28
+          ],
+          "success_chars": 27
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            30
+          ],
+          "success_chars": 30
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            63,
+            36
+          ],
+          "success_chars": 26
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            45
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "一人：开局在东北杀鬼子",
+      "file": "一人：开局在东北杀鬼子.txt",
+      "real_rating": 7.7,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "融设": 5,
+        "角塑": 5,
+        "对话": 4,
+        "节奏": 6,
+        "悬链": 5,
+        "情感": 6,
+        "画面": 7,
+        "反哏": 4,
+        "代价": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            52
+          ],
+          "success_chars": 49
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            28
+          ],
+          "success_chars": 27
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            18
+          ],
+          "success_chars": 32
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            38
+          ],
+          "success_chars": 51
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            32
+          ],
+          "success_chars": 38
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            17
+          ],
+          "success_chars": 20
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            44
+          ],
+          "success_chars": 22
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            31
+          ],
+          "success_chars": 25
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            30
+          ],
+          "success_chars": 28
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            20
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "一人：照着无限修炼成仙！",
+      "file": "一人：照着无限修炼成仙！.txt",
+      "real_rating": 7.4,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子": 5,
+        "融设": 6,
+        "角塑": 6,
+        "对话": 5,
+        "节奏": 5,
+        "悬链": 4,
+        "情感": 4,
+        "画面": 6,
+        "反哏": 3,
+        "代价": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            20
+          ],
+          "success_chars": 39
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            48
+          ],
+          "success_chars": 27
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            20
+          ],
+          "success_chars": 31
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            20
+          ],
+          "success_chars": 32
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            77,
+            45
+          ],
+          "success_chars": 33
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            19
+          ],
+          "success_chars": 15
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            14
+          ],
+          "success_chars": 23
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            14
+          ],
+          "success_chars": 18
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            14
+          ],
+          "success_chars": 16
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            15
+          ],
+          "success_chars": 15
+        }
+      }
+    },
+    {
+      "title": "坏了！这艾斯把暗暗果实给吃了",
+      "file": "坏了！这艾斯把暗暗果实给吃了.txt",
+      "real_rating": 7.7,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "融设": 7,
+        "角塑": 6,
+        "对话": 5,
+        "节奏": 6,
+        "悬链": 5,
+        "情感": 5,
+        "画面": 7,
+        "反哏": 4,
+        "代价": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            13
+          ],
+          "success_chars": 43
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            70,
+            17
+          ],
+          "success_chars": 46
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            38
+          ],
+          "success_chars": 41
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            25
+          ],
+          "success_chars": 13
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            48
+          ],
+          "success_chars": 35
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            14
+          ],
+          "success_chars": 29
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            19
+          ],
+          "success_chars": 26
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            40
+          ],
+          "success_chars": 45
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            18
+          ],
+          "success_chars": 57
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            67,
+            17
+          ],
+          "success_chars": 52
+        }
+      }
+    },
+    {
+      "title": "海贼：混在洛克斯团，每天变强",
+      "file": "海贼：混在洛克斯团，每天变强.txt",
+      "real_rating": 7.4,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子": 7,
+        "融设": 6,
+        "角塑": 5,
+        "对话": 5,
+        "节奏": 6,
+        "悬链": 7,
+        "情感": 5,
+        "画面": 6,
+        "反哏": 4,
+        "代价": 5
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            26
+          ],
+          "success_chars": 18
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            32
+          ],
+          "success_chars": 22
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            23
+          ],
+          "success_chars": 24
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            23
+          ],
+          "success_chars": 13
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            28
+          ],
+          "success_chars": 19
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            3
+          ],
+          "success_chars": 43
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            31
+          ],
+          "success_chars": 24
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            42
+          ],
+          "success_chars": 33
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            28
+          ],
+          "success_chars": 33
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            33
+          ],
+          "success_chars": 63
+        }
+      }
+    },
+    {
+      "title": "漫威丧尸，从推倒寡姐开始",
+      "file": "漫威丧尸，从推倒寡姐开始.txt",
+      "real_rating": 7.3,
+      "rubric_score": 5.9,
+      "rubric_scores": [
+        5.9,
+        5.9,
+        5.9
+      ],
+      "dimensions": {
+        "钩子": 7,
+        "融设": 6,
+        "角塑": 5,
+        "对话": 6,
+        "节奏": 6,
+        "悬链": 5,
+        "情感": 6,
+        "画面": 7,
+        "反哏": 5,
+        "代价": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            41
+          ],
+          "success_chars": 53
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            52
+          ],
+          "success_chars": 31
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            31
+          ],
+          "success_chars": 53
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            27
+          ],
+          "success_chars": 45
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            34
+          ],
+          "success_chars": 28
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            4,
+            32
+          ],
+          "success_chars": 35
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            17
+          ],
+          "success_chars": 59
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            39
+          ],
+          "success_chars": 38
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            9
+          ],
+          "success_chars": 38
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            42
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "一人：满级老祖，出关吓呆十佬",
+      "file": "一人：满级老祖，出关吓呆十佬.txt",
+      "real_rating": 7.2,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "钩子": 8,
+        "融设": 7,
+        "角塑": 8,
+        "对话": 7,
+        "节奏": 6,
+        "悬链": 7,
+        "情感": 7,
+        "画面": 8,
+        "反哏": 5,
+        "代价": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            26
+          ],
+          "success_chars": 46
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            11
+          ],
+          "success_chars": 63
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            21
+          ],
+          "success_chars": 34
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            19
+          ],
+          "success_chars": 15
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            32
+          ],
+          "success_chars": 44
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            26
+          ],
+          "success_chars": 19
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            9
+          ],
+          "success_chars": 22
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            16
+          ],
+          "success_chars": 31
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            25
+          ],
+          "success_chars": 29
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            25
+          ],
+          "success_chars": 56
+        }
+      }
+    },
+    {
+      "title": "长生火影：你才玩忍界多少年？",
+      "file": "长生火影：你才玩忍界多少年？.txt",
+      "real_rating": 7.0,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子": 4,
+        "融设": 5,
+        "角塑": 5,
+        "对话": 4,
+        "节奏": 5,
+        "悬链": 6,
+        "情感": 5,
+        "画面": 5,
+        "反哏": 3,
+        "代价": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            17
+          ],
+          "success_chars": 35
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            35
+          ],
+          "success_chars": 23
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            9
+          ],
+          "success_chars": 36
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            9
+          ],
+          "success_chars": 25
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            45
+          ],
+          "success_chars": 34
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            24
+          ],
+          "success_chars": 48
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            17
+          ],
+          "success_chars": 34
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            16
+          ],
+          "success_chars": 33
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            6
+          ],
+          "success_chars": 27
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            19
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "都有符咒了，谁还跟你玩嘎啦给木",
+      "file": "都有符咒了，谁还跟你玩嘎啦给木.txt",
+      "real_rating": 6.6,
+      "rubric_score": 5.9,
+      "rubric_scores": [
+        5.9
+      ],
+      "dimensions": {
+        "钩子": 6,
+        "融设": 5,
+        "角塑": 7,
+        "对话": 8,
+        "节奏": 6,
+        "悬链": 5,
+        "情感": 5,
+        "画面": 6,
+        "反哏": 7,
+        "代价": 4
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            25
+          ],
+          "success_chars": 39
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            42
+          ],
+          "success_chars": 41
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            22
+          ],
+          "success_chars": 25
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            32
+          ],
+          "success_chars": 13
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            28
+          ],
+          "success_chars": 15
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            18
+          ],
+          "success_chars": 25
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            20
+          ],
+          "success_chars": 29
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            28
+          ],
+          "success_chars": 40
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            24
+          ],
+          "success_chars": 27
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            23
+          ],
+          "success_chars": 52
+        }
+      }
+    },
+    {
+      "title": "冠军了，系统还当我是萌新",
+      "file": "冠军了，系统还当我是萌新.txt",
+      "real_rating": 6.1,
+      "rubric_score": 6.133333333333334,
+      "rubric_scores": [
+        6.1,
+        6.4,
+        5.9
+      ],
+      "dimensions": {
+        "钩子": 5,
+        "融设": 6,
+        "角塑": 5,
+        "对话": 6,
+        "节奏": 5,
+        "悬链": 7,
+        "情感": 5,
+        "画面": 7,
+        "反哏": 8,
+        "代价": 6
+      },
+      "evidence_shape": {
+        "钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            34
+          ],
+          "success_chars": 42
+        },
+        "融设": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            64
+          ],
+          "success_chars": 38
+        },
+        "角塑": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            34
+          ],
+          "success_chars": 27
+        },
+        "对话": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            38
+          ],
+          "success_chars": 67
+        },
+        "节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            34
+          ],
+          "success_chars": 29
+        },
+        "悬链": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            29
+          ],
+          "success_chars": 45
+        },
+        "情感": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            41
+          ],
+          "success_chars": 40
+        },
+        "画面": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            40
+          ],
+          "success_chars": 39
+        },
+        "反哏": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            14
+          ],
+          "success_chars": 45
+        },
+        "代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            15
+          ],
+          "success_chars": 34
+        }
+      }
+    }
+  ]
+}

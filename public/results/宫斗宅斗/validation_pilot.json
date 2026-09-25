@@ -1,0 +1,2403 @@
+{
+  "run_id": "20260911T023808Z-e45801",
+  "run_utc": "2026-09-11T02:38:08+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "宫斗宅斗",
+  "source_dir": "Nvpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "全京城都知道，那对父女脑子有坑.txt",
+    "嫁首辅守寡一辈子，重生我改嫁了.txt",
+    "岁岁春欢.txt",
+    "折春漪.txt",
+    "生子就升职，通房不动情气哭世子.txt",
+    "白眼狼妹妹进宫前夜，宠妃重生了.txt",
+    "缚春情.txt"
+  ],
+  "results": [
+    {
+      "title": "当土著贵女学会了穿越女的新用法",
+      "file": "当土著贵女学会了穿越女的新用法.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立骨": 8,
+        "宅斗张力": 7,
+        "反转密度": 5,
+        "礼制真实": 8,
+        "情感层次": 7,
+        "节奏控制": 6,
+        "配角功能": 7,
+        "伏笔埋设": 6,
+        "品类调性": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            23
+          ],
+          "success_chars": 53
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            41
+          ],
+          "success_chars": 42
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            31
+          ],
+          "success_chars": 51
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            32
+          ],
+          "success_chars": 33
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            20
+          ],
+          "success_chars": 18
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            22
+          ],
+          "success_chars": 16
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            36
+          ],
+          "success_chars": 36
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            27
+          ],
+          "success_chars": 43
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            24
+          ],
+          "success_chars": 33
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            20
+          ],
+          "success_chars": 58
+        }
+      }
+    },
+    {
+      "title": "椒殿承宠",
+      "file": "椒殿承宠.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设立骨": 6,
+        "宅斗张力": 4,
+        "反转密度": 3,
+        "礼制真实": 5,
+        "情感层次": 6,
+        "节奏控制": 5,
+        "配角功能": 4,
+        "伏笔埋设": 5,
+        "品类调性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            31
+          ],
+          "success_chars": 34
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            36
+          ],
+          "success_chars": 26
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            21
+          ],
+          "success_chars": 32
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            38
+          ],
+          "success_chars": 22
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            24
+          ],
+          "success_chars": 13
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            36
+          ],
+          "success_chars": 41
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            40
+          ],
+          "success_chars": 5
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            20
+          ],
+          "success_chars": 7
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            13
+          ],
+          "success_chars": 22
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            29
+          ],
+          "success_chars": 42
+        }
+      }
+    },
+    {
+      "title": "人在古代，权贵步步强夺",
+      "file": "人在古代，权贵步步强夺.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1,
+        5.1,
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设立骨": 6,
+        "宅斗张力": 4,
+        "反转密度": 3,
+        "礼制真实": 7,
+        "情感层次": 5,
+        "节奏控制": 4,
+        "配角功能": 5,
+        "伏笔埋设": 4,
+        "品类调性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            36
+          ],
+          "success_chars": 21
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            52
+          ],
+          "success_chars": 26
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            28
+          ],
+          "success_chars": 33
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            59
+          ],
+          "success_chars": 36
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            49
+          ],
+          "success_chars": 18
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            31
+          ],
+          "success_chars": 56
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            39
+          ],
+          "success_chars": 44
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            16
+          ],
+          "success_chars": 25
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            20
+          ],
+          "success_chars": 33
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            37
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "巴山楚水施茶计，小鼻嘎又作又癫",
+      "file": "巴山楚水施茶计，小鼻嘎又作又癫.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立骨": 7,
+        "宅斗张力": 5,
+        "反转密度": 6,
+        "礼制真实": 4,
+        "情感层次": 6,
+        "节奏控制": 5,
+        "配角功能": 6,
+        "伏笔埋设": 7,
+        "品类调性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            16
+          ],
+          "success_chars": 36
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            38
+          ],
+          "success_chars": 40
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            32
+          ],
+          "success_chars": 41
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            18
+          ],
+          "success_chars": 42
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            31
+          ],
+          "success_chars": 32
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            24
+          ],
+          "success_chars": 57
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            36
+          ],
+          "success_chars": 36
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            22
+          ],
+          "success_chars": 36
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            13
+          ],
+          "success_chars": 36
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            34
+          ],
+          "success_chars": 47
+        }
+      }
+    },
+    {
+      "title": "作精美人当继室，古板权臣宠上天",
+      "file": "作精美人当继室，古板权臣宠上天.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设立骨": 7,
+        "宅斗张力": 4,
+        "反转密度": 3,
+        "礼制真实": 6,
+        "情感层次": 6,
+        "节奏控制": 7,
+        "配角功能": 4,
+        "伏笔埋设": 5,
+        "品类调性": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            48
+          ],
+          "success_chars": 33
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            32
+          ],
+          "success_chars": 39
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            24
+          ],
+          "success_chars": 30
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            25
+          ],
+          "success_chars": 25
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            40
+          ],
+          "success_chars": 25
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            34
+          ],
+          "success_chars": 28
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            16
+          ],
+          "success_chars": 26
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            27
+          ],
+          "success_chars": 28
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            29
+          ],
+          "success_chars": 30
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            29
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "新婚夜，她带着药房武器库去流放",
+      "file": "新婚夜，她带着药房武器库去流放.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立骨": 5,
+        "宅斗张力": 4,
+        "反转密度": 5,
+        "礼制真实": 3,
+        "情感层次": 5,
+        "节奏控制": 7,
+        "配角功能": 4,
+        "伏笔埋设": 6,
+        "品类调性": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            6
+          ],
+          "success_chars": 9
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            7
+          ],
+          "success_chars": 9
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            7
+          ],
+          "success_chars": 10
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            5
+          ],
+          "success_chars": 9
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            8
+          ],
+          "success_chars": 9
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            6
+          ],
+          "success_chars": 9
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            6
+          ],
+          "success_chars": 9
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            7
+          ],
+          "success_chars": 8
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            6
+          ],
+          "success_chars": 8
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            7
+          ],
+          "success_chars": 8
+        }
+      }
+    },
+    {
+      "title": "殿下别忍了，您的佛珠都捏碎了",
+      "file": "殿下别忍了，您的佛珠都捏碎了.txt",
+      "real_rating": 8.9,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "人设立骨": 8,
+        "宅斗张力": 7,
+        "反转密度": 8,
+        "礼制真实": 5,
+        "情感层次": 7,
+        "节奏控制": 6,
+        "配角功能": 7,
+        "伏笔埋设": 8,
+        "品类调性": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            28
+          ],
+          "success_chars": 28
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            34
+          ],
+          "success_chars": 40
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            12
+          ],
+          "success_chars": 23
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            10
+          ],
+          "success_chars": 34
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            39
+          ],
+          "success_chars": 14
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            8
+          ],
+          "success_chars": 22
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            30
+          ],
+          "success_chars": 3
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            12
+          ],
+          "success_chars": 44
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            36
+          ],
+          "success_chars": 41
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            10
+          ],
+          "success_chars": 7
+        }
+      }
+    },
+    {
+      "title": "前夫悔断肠？抱歉，我已位列朝班",
+      "file": "前夫悔断肠？抱歉，我已位列朝班.txt",
+      "real_rating": 8.8,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3,
+        5.3,
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立骨": 7,
+        "宅斗张力": 5,
+        "反转密度": 4,
+        "礼制真实": 4,
+        "情感层次": 5,
+        "节奏控制": 5,
+        "配角功能": 6,
+        "伏笔埋设": 5,
+        "品类调性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            35
+          ],
+          "success_chars": 43
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            24
+          ],
+          "success_chars": 47
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            20
+          ],
+          "success_chars": 39
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            31
+          ],
+          "success_chars": 25
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            44
+          ],
+          "success_chars": 27
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            14
+          ],
+          "success_chars": 50
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            35
+          ],
+          "success_chars": 29
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            8
+          ],
+          "success_chars": 56
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            21
+          ],
+          "success_chars": 26
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            36
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "将门六姝",
+      "file": "将门六姝.txt",
+      "real_rating": 8.9,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立骨": 7,
+        "宅斗张力": 6,
+        "反转密度": 5,
+        "礼制真实": 7,
+        "情感层次": 6,
+        "节奏控制": 6,
+        "配角功能": 7,
+        "伏笔埋设": 6,
+        "品类调性": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            53
+          ],
+          "success_chars": 40
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            29
+          ],
+          "success_chars": 36
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            27
+          ],
+          "success_chars": 23
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            25
+          ],
+          "success_chars": 36
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            22
+          ],
+          "success_chars": 33
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            13
+          ],
+          "success_chars": 23
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            29
+          ],
+          "success_chars": 22
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            20
+          ],
+          "success_chars": 24
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            18
+          ],
+          "success_chars": 32
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            26
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "卖入王府，我被世子隐秘偏爱",
+      "file": "卖入王府，我被世子隐秘偏爱.txt",
+      "real_rating": 8.7,
+      "rubric_score": 4.7,
+      "rubric_scores": [
+        4.7
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设立骨": 6,
+        "宅斗张力": 4,
+        "反转密度": 5,
+        "礼制真实": 3,
+        "情感层次": 5,
+        "节奏控制": 5,
+        "配角功能": 4,
+        "伏笔埋设": 5,
+        "品类调性": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            16
+          ],
+          "success_chars": 12
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            12
+          ],
+          "success_chars": 47
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            31
+          ],
+          "success_chars": 32
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            23
+          ],
+          "success_chars": 21
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            30
+          ],
+          "success_chars": 21
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            9
+          ],
+          "success_chars": 47
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            33
+          ],
+          "success_chars": 28
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            14
+          ],
+          "success_chars": 17
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            12
+          ],
+          "success_chars": 36
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            18
+          ],
+          "success_chars": 16
+        }
+      }
+    },
+    {
+      "title": "妾本闲凉",
+      "file": "妾本闲凉.txt",
+      "real_rating": 8.7,
+      "rubric_score": 6.166666666666666,
+      "rubric_scores": [
+        6.3,
+        6.1,
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立骨": 7,
+        "宅斗张力": 6,
+        "反转密度": 5,
+        "礼制真实": 5,
+        "情感层次": 6,
+        "节奏控制": 5,
+        "配角功能": 6,
+        "伏笔埋设": 7,
+        "品类调性": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            33
+          ],
+          "success_chars": 33
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            29
+          ],
+          "success_chars": 32
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            45
+          ],
+          "success_chars": 32
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            38
+          ],
+          "success_chars": 38
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            20
+          ],
+          "success_chars": 37
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            25
+          ],
+          "success_chars": 22
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            36
+          ],
+          "success_chars": 42
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            19
+          ],
+          "success_chars": 22
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            28
+          ],
+          "success_chars": 23
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            34
+          ],
+          "success_chars": 27
+        }
+      }
+    },
+    {
+      "title": "穿成侯夫人，让当外室的女主绝望",
+      "file": "穿成侯夫人，让当外室的女主绝望.txt",
+      "real_rating": 8.8,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立骨": 7,
+        "宅斗张力": 6,
+        "反转密度": 5,
+        "礼制真实": 4,
+        "情感层次": 5,
+        "节奏控制": 5,
+        "配角功能": 6,
+        "伏笔埋设": 5,
+        "品类调性": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            57
+          ],
+          "success_chars": 45
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            24
+          ],
+          "success_chars": 48
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            29
+          ],
+          "success_chars": 47
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            41
+          ],
+          "success_chars": 30
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            25
+          ],
+          "success_chars": 21
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            14
+          ],
+          "success_chars": 44
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            35
+          ],
+          "success_chars": 20
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            13
+          ],
+          "success_chars": 34
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            28
+          ],
+          "success_chars": 27
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            35
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "惊！被她害死的摄政王也重生了",
+      "file": "惊！被她害死的摄政王也重生了.txt",
+      "real_rating": 8.7,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立骨": 7,
+        "宅斗张力": 6,
+        "反转密度": 8,
+        "礼制真实": 5,
+        "情感层次": 6,
+        "节奏控制": 6,
+        "配角功能": 7,
+        "伏笔埋设": 7,
+        "品类调性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            15
+          ],
+          "success_chars": 39
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            7
+          ],
+          "success_chars": 24
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            21
+          ],
+          "success_chars": 24
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            15
+          ],
+          "success_chars": 23
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            11
+          ],
+          "success_chars": 23
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            7
+          ],
+          "success_chars": 24
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            17
+          ],
+          "success_chars": 29
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            12
+          ],
+          "success_chars": 14
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            14
+          ],
+          "success_chars": 18
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            24
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "竹马哪有养兄香！半夜敲门扑入怀",
+      "file": "竹马哪有养兄香！半夜敲门扑入怀.txt",
+      "real_rating": 8.7,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立骨": 7,
+        "宅斗张力": 6,
+        "反转密度": 7,
+        "礼制真实": 5,
+        "情感层次": 7,
+        "节奏控制": 6,
+        "配角功能": 6,
+        "伏笔埋设": 7,
+        "品类调性": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            14
+          ],
+          "success_chars": 62
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            13
+          ],
+          "success_chars": 25
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            22
+          ],
+          "success_chars": 21
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            28
+          ],
+          "success_chars": 45
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            18
+          ],
+          "success_chars": 16
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            11
+          ],
+          "success_chars": 23
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            28
+          ],
+          "success_chars": 34
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            12
+          ],
+          "success_chars": 31
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            19
+          ],
+          "success_chars": 24
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            6
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "凤冠血，掌心娇",
+      "file": "凤冠血，掌心娇.txt",
+      "real_rating": 8.6,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6,
+        5.6,
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立骨": 5,
+        "宅斗张力": 4,
+        "反转密度": 7,
+        "礼制真实": 5,
+        "情感层次": 6,
+        "节奏控制": 5,
+        "配角功能": 6,
+        "伏笔埋设": 7,
+        "品类调性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            20
+          ],
+          "success_chars": 53
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            15
+          ],
+          "success_chars": 47
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            46
+          ],
+          "success_chars": 38
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            16
+          ],
+          "success_chars": 37
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            35
+          ],
+          "success_chars": 23
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            21
+          ],
+          "success_chars": 35
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            32
+          ],
+          "success_chars": 24
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            26
+          ],
+          "success_chars": 31
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            7
+          ],
+          "success_chars": 17
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            18
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "惊华庭",
+      "file": "惊华庭.txt",
+      "real_rating": 8.7,
+      "rubric_score": 8.3,
+      "rubric_scores": [
+        8.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立骨": 9,
+        "宅斗张力": 9,
+        "反转密度": 8,
+        "礼制真实": 7,
+        "情感层次": 8,
+        "节奏控制": 8,
+        "配角功能": 8,
+        "伏笔埋设": 8,
+        "品类调性": 9
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            31
+          ],
+          "success_chars": 50
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            34
+          ],
+          "success_chars": 59
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            21
+          ],
+          "success_chars": 65
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            12
+          ],
+          "success_chars": 58
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            25
+          ],
+          "success_chars": 50
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            7
+          ],
+          "success_chars": 60
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            41
+          ],
+          "success_chars": 57
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            52
+          ],
+          "success_chars": 47
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            31
+          ],
+          "success_chars": 59
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            33
+          ],
+          "success_chars": 70
+        }
+      }
+    },
+    {
+      "title": "嫡女归京，马甲一个比一个惊人！",
+      "file": "嫡女归京，马甲一个比一个惊人！.txt",
+      "real_rating": 8.6,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设立骨": 6,
+        "宅斗张力": 5,
+        "反转密度": 4,
+        "礼制真实": 6,
+        "情感层次": 5,
+        "节奏控制": 5,
+        "配角功能": 6,
+        "伏笔埋设": 5,
+        "品类调性": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            38
+          ],
+          "success_chars": 72
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            36
+          ],
+          "success_chars": 46
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            51
+          ],
+          "success_chars": 64
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            28
+          ],
+          "success_chars": 77
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            15
+          ],
+          "success_chars": 55
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            24
+          ],
+          "success_chars": 25
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            47
+          ],
+          "success_chars": 32
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            12
+          ],
+          "success_chars": 34
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            17
+          ],
+          "success_chars": 28
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            52
+          ],
+          "success_chars": 15
+        }
+      }
+    },
+    {
+      "title": "窝才一岁半，有点儿脾气肿么啦？",
+      "file": "窝才一岁半，有点儿脾气肿么啦？.txt",
+      "real_rating": 8.6,
+      "rubric_score": 3.1,
+      "rubric_scores": [
+        3.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设立骨": 5,
+        "宅斗张力": 3,
+        "反转密度": 2,
+        "礼制真实": 2,
+        "情感层次": 4,
+        "节奏控制": 3,
+        "配角功能": 4,
+        "伏笔埋设": 3,
+        "品类调性": 2
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            15
+          ],
+          "success_chars": 41
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            9
+          ],
+          "success_chars": 68
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            36
+          ],
+          "success_chars": 37
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            37
+          ],
+          "success_chars": 49
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            26
+          ],
+          "success_chars": 13
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            23
+          ],
+          "success_chars": 37
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            30
+          ],
+          "success_chars": 41
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            13
+          ],
+          "success_chars": 31
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            33
+          ],
+          "success_chars": 24
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            16
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "通房低贱？三年五子全府宠上天！",
+      "file": "通房低贱？三年五子全府宠上天！.txt",
+      "real_rating": 8.4,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设立骨": 6,
+        "宅斗张力": 5,
+        "反转密度": 4,
+        "礼制真实": 5,
+        "情感层次": 5,
+        "节奏控制": 4,
+        "配角功能": 5,
+        "伏笔埋设": 5,
+        "品类调性": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            27
+          ],
+          "success_chars": 35
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            20
+          ],
+          "success_chars": 30
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            19
+          ],
+          "success_chars": 21
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            27
+          ],
+          "success_chars": 34
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            22
+          ],
+          "success_chars": 26
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            48
+          ],
+          "success_chars": 20
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            21
+          ],
+          "success_chars": 28
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            19
+          ],
+          "success_chars": 24
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            21
+          ],
+          "success_chars": 18
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            25
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "夫人十年不孕，改嫁后一胎三宝",
+      "file": "夫人十年不孕，改嫁后一胎三宝.txt",
+      "real_rating": 8.3,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设立骨": 7,
+        "宅斗张力": 5,
+        "反转密度": 4,
+        "礼制真实": 5,
+        "情感层次": 6,
+        "节奏控制": 5,
+        "配角功能": 4,
+        "伏笔埋设": 3,
+        "品类调性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            37
+          ],
+          "success_chars": 59
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            30
+          ],
+          "success_chars": 47
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            34
+          ],
+          "success_chars": 25
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            33
+          ],
+          "success_chars": 54
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            38
+          ],
+          "success_chars": 28
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            16
+          ],
+          "success_chars": 18
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            27
+          ],
+          "success_chars": 22
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            26
+          ],
+          "success_chars": 26
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            37
+          ],
+          "success_chars": 15
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            20
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "和嫡姐进错婚房，清冷权臣变忠犬",
+      "file": "和嫡姐进错婚房，清冷权臣变忠犬.txt",
+      "real_rating": 7.9,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        4.9,
+        5.1,
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设立骨": 6,
+        "宅斗张力": 4,
+        "反转密度": 7,
+        "礼制真实": 5,
+        "情感层次": 5,
+        "节奏控制": 4,
+        "配角功能": 5,
+        "伏笔埋设": 6,
+        "品类调性": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            14
+          ],
+          "success_chars": 56
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            25
+          ],
+          "success_chars": 15
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            8
+          ],
+          "success_chars": 51
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            17
+          ],
+          "success_chars": 13
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            14
+          ],
+          "success_chars": 29
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            38
+          ],
+          "success_chars": 36
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            45
+          ],
+          "success_chars": 20
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            53
+          ],
+          "success_chars": 25
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            32
+          ],
+          "success_chars": 21
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            20
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "穿成权臣表哥的美貌炮灰表妹",
+      "file": "穿成权臣表哥的美貌炮灰表妹.txt",
+      "real_rating": 8.3,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设立骨": 7,
+        "宅斗张力": 6,
+        "反转密度": 5,
+        "礼制真实": 5,
+        "情感层次": 6,
+        "节奏控制": 7,
+        "配角功能": 6,
+        "伏笔埋设": 5,
+        "品类调性": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            70
+          ],
+          "success_chars": 76
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            42
+          ],
+          "success_chars": 81
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            34
+          ],
+          "success_chars": 69
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            29
+          ],
+          "success_chars": 67
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            43
+          ],
+          "success_chars": 48
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            16
+          ],
+          "success_chars": 60
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            32
+          ],
+          "success_chars": 42
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            27
+          ],
+          "success_chars": 68
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            30
+          ],
+          "success_chars": 52
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            31
+          ],
+          "success_chars": 56
+        }
+      }
+    },
+    {
+      "title": "育儿嫂入公府成白月光之莺鸣柳",
+      "file": "育儿嫂入公府成白月光之莺鸣柳.txt",
+      "real_rating": 8.6,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设立骨": 6,
+        "宅斗张力": 5,
+        "反转密度": 4,
+        "礼制真实": 7,
+        "情感层次": 5,
+        "节奏控制": 6,
+        "配角功能": 6,
+        "伏笔埋设": 5,
+        "品类调性": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            15
+          ],
+          "success_chars": 9
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            13
+          ],
+          "success_chars": 18
+        },
+        "宅斗张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            11
+          ],
+          "success_chars": 18
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            15
+          ],
+          "success_chars": 10
+        },
+        "礼制真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            12
+          ],
+          "success_chars": 15
+        },
+        "情感层次": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            12
+          ],
+          "success_chars": 14
+        },
+        "节奏控制": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            12
+          ],
+          "success_chars": 9
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            10
+          ],
+          "success_chars": 15
+        },
+        "伏笔埋设": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            10
+          ],
+          "success_chars": 14
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            10
+          ],
+          "success_chars": 12
+        }
+      }
+    }
+  ]
+}

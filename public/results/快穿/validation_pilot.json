@@ -1,0 +1,2403 @@
+{
+  "run_id": "20260911T024300Z-b82dc5",
+  "run_utc": "2026-09-11T02:43:00+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "快穿",
+  "source_dir": "Nvpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "不是男主要不起，反派更有性价比.txt",
+    "太子爷们猛猛亲，会哄但不停.txt",
+    "好热，你往水里加了什么.txt",
+    "快穿之人渣洗白手册.txt",
+    "快穿女配：你们的男主归我了.txt",
+    "快穿：当狐狸精拿了恶女洗白剧本.txt",
+    "男主男德满分，只想和女配结婚.txt"
+  ],
+  "results": [
+    {
+      "title": "快穿：女主的心上人怎么喜欢我",
+      "file": "快穿：女主的心上人怎么喜欢我.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.933333333333334,
+      "rubric_scores": [
+        5.8,
+        5.9,
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "节奏密度": 5,
+        "系统融合": 4,
+        "反派塑造": 5,
+        "世界贴合": 7,
+        "任务张力": 5,
+        "对话锋芒": 6,
+        "反转设计": 7,
+        "情感锚点": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            22
+          ],
+          "success_chars": 25
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            13
+          ],
+          "success_chars": 23
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            40
+          ],
+          "success_chars": 18
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            32
+          ],
+          "success_chars": 24
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            28
+          ],
+          "success_chars": 23
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            21
+          ],
+          "success_chars": 25
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            31
+          ],
+          "success_chars": 27
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            12
+          ],
+          "success_chars": 26
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            21
+          ],
+          "success_chars": 24
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            34
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "男主怎么都爱上了绿茶小主播",
+      "file": "男主怎么都爱上了绿茶小主播.txt",
+      "real_rating": 9.1,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "节奏密度": 5,
+        "系统融合": 0,
+        "反派塑造": 4,
+        "世界贴合": 6,
+        "任务张力": 3,
+        "对话锋芒": 7,
+        "反转设计": 5,
+        "情感锚点": 2
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            36
+          ],
+          "success_chars": 35
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            37
+          ],
+          "success_chars": 55
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            56
+          ],
+          "success_chars": 31
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            9
+          ],
+          "success_chars": 1
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            32
+          ],
+          "success_chars": 37
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            25
+          ],
+          "success_chars": 42
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            42
+          ],
+          "success_chars": 42
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            35
+          ],
+          "success_chars": 25
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            37
+          ],
+          "success_chars": 40
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            23
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "快穿：你男主？我勾勾手就过来了",
+      "file": "快穿：你男主？我勾勾手就过来了.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "节奏密度": 5,
+        "系统融合": 4,
+        "反派塑造": 5,
+        "世界贴合": 6,
+        "任务张力": 5,
+        "对话锋芒": 6,
+        "反转设计": 7,
+        "情感锚点": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            47
+          ],
+          "success_chars": 38
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            47
+          ],
+          "success_chars": 46
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            33
+          ],
+          "success_chars": 32
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            65,
+            41
+          ],
+          "success_chars": 25
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            33
+          ],
+          "success_chars": 37
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            24
+          ],
+          "success_chars": 28
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            43
+          ],
+          "success_chars": 26
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            6
+          ],
+          "success_chars": 24
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            18
+          ],
+          "success_chars": 27
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            14
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "快穿：做自己人生的主角",
+      "file": "快穿：做自己人生的主角.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 8,
+        "节奏密度": 7,
+        "系统融合": 5,
+        "反派塑造": 4,
+        "世界贴合": 8,
+        "任务张力": 6,
+        "对话锋芒": 8,
+        "反转设计": 7,
+        "情感锚点": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            11
+          ],
+          "success_chars": 37
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            22
+          ],
+          "success_chars": 53
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            33
+          ],
+          "success_chars": 36
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            41
+          ],
+          "success_chars": 33
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            27
+          ],
+          "success_chars": 70
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            38
+          ],
+          "success_chars": 29
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            56
+          ],
+          "success_chars": 35
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            11
+          ],
+          "success_chars": 25
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            32
+          ],
+          "success_chars": 33
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            33
+          ],
+          "success_chars": 48
+        }
+      }
+    },
+    {
+      "title": "抱歉女主，你的男主，只爱我呢",
+      "file": "抱歉女主，你的男主，只爱我呢.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "节奏密度": 5,
+        "系统融合": 4,
+        "反派塑造": 8,
+        "世界贴合": 6,
+        "任务张力": 5,
+        "对话锋芒": 7,
+        "反转设计": 6,
+        "情感锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            49
+          ],
+          "success_chars": 16
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            31
+          ],
+          "success_chars": 31
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            36
+          ],
+          "success_chars": 41
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            33
+          ],
+          "success_chars": 32
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            23
+          ],
+          "success_chars": 47
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            23
+          ],
+          "success_chars": 41
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            16
+          ],
+          "success_chars": 42
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            25
+          ],
+          "success_chars": 43
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            29
+          ],
+          "success_chars": 37
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            16
+          ],
+          "success_chars": 43
+        }
+      }
+    },
+    {
+      "title": "快穿之万人迷路人甲摆烂攻略指南",
+      "file": "快穿之万人迷路人甲摆烂攻略指南.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "节奏密度": 5,
+        "系统融合": 7,
+        "反派塑造": 4,
+        "世界贴合": 6,
+        "任务张力": 5,
+        "对话锋芒": 5,
+        "反转设计": 6,
+        "情感锚点": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            40
+          ],
+          "success_chars": 50
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            32
+          ],
+          "success_chars": 33
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            46
+          ],
+          "success_chars": 38
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            40
+          ],
+          "success_chars": 38
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            28
+          ],
+          "success_chars": 35
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            23
+          ],
+          "success_chars": 45
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            45
+          ],
+          "success_chars": 55
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            24
+          ],
+          "success_chars": 34
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            24
+          ],
+          "success_chars": 30
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            42
+          ],
+          "success_chars": 27
+        }
+      }
+    },
+    {
+      "title": "请问你女朋友有对象吗",
+      "file": "请问你女朋友有对象吗.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "节奏密度": 5,
+        "系统融合": 7,
+        "反派塑造": 6,
+        "世界贴合": 7,
+        "任务张力": 5,
+        "对话锋芒": 6,
+        "反转设计": 5,
+        "情感锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            30
+          ],
+          "success_chars": 73
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            12
+          ],
+          "success_chars": 65
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            29
+          ],
+          "success_chars": 43
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            35
+          ],
+          "success_chars": 51
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            40
+          ],
+          "success_chars": 26
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            26
+          ],
+          "success_chars": 51
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            29
+          ],
+          "success_chars": 17
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            20
+          ],
+          "success_chars": 26
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            59
+          ],
+          "success_chars": 30
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            50
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "人族无圣？我以功德震碎三千界",
+      "file": "人族无圣？我以功德震碎三千界.txt",
+      "real_rating": 8.8,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设反差": 7,
+        "节奏密度": 6,
+        "系统融合": 5,
+        "反派塑造": 4,
+        "世界贴合": 8,
+        "任务张力": 5,
+        "对话锋芒": 7,
+        "反转设计": 6,
+        "情感锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            45
+          ],
+          "success_chars": 58
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            42
+          ],
+          "success_chars": 57
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            31
+          ],
+          "success_chars": 33
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            18
+          ],
+          "success_chars": 38
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            19
+          ],
+          "success_chars": 22
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            26
+          ],
+          "success_chars": 54
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            14
+          ],
+          "success_chars": 35
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            18
+          ],
+          "success_chars": 47
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            21
+          ],
+          "success_chars": 27
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            22
+          ],
+          "success_chars": 10
+        }
+      }
+    },
+    {
+      "title": "快穿：优秀男性太凶猛",
+      "file": "快穿：优秀男性太凶猛.txt",
+      "real_rating": 8.7,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "节奏密度": 4,
+        "系统融合": 5,
+        "反派塑造": 7,
+        "世界贴合": 6,
+        "任务张力": 5,
+        "对话锋芒": 4,
+        "反转设计": 5,
+        "情感锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            34
+          ],
+          "success_chars": 34
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            19
+          ],
+          "success_chars": 40
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            38
+          ],
+          "success_chars": 31
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            22
+          ],
+          "success_chars": 30
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            11
+          ],
+          "success_chars": 44
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            24
+          ],
+          "success_chars": 31
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            12
+          ],
+          "success_chars": 29
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            15
+          ],
+          "success_chars": 32
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            12
+          ],
+          "success_chars": 28
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            27
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "抱歉女主，男主变成我的狗了",
+      "file": "抱歉女主，男主变成我的狗了.txt",
+      "real_rating": 8.9,
+      "rubric_score": 4.3,
+      "rubric_scores": [
+        4.3
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设反差": 5,
+        "节奏密度": 5,
+        "系统融合": 3,
+        "反派塑造": 2,
+        "世界贴合": 6,
+        "任务张力": 4,
+        "对话锋芒": 5,
+        "反转设计": 3,
+        "情感锚点": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            35
+          ],
+          "success_chars": 36
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            24
+          ],
+          "success_chars": 37
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            36
+          ],
+          "success_chars": 41
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            32
+          ],
+          "success_chars": 19
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            42
+          ],
+          "success_chars": 32
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            27
+          ],
+          "success_chars": 36
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            24
+          ],
+          "success_chars": 20
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            19
+          ],
+          "success_chars": 49
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            40
+          ],
+          "success_chars": 19
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            17
+          ],
+          "success_chars": 20
+        }
+      }
+    },
+    {
+      "title": "快穿狐狸精女配，疯批主神强制爱",
+      "file": "快穿狐狸精女配，疯批主神强制爱.txt",
+      "real_rating": 8.8,
+      "rubric_score": 6.7,
+      "rubric_scores": [
+        6.1,
+        6.9,
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "节奏密度": 5,
+        "系统融合": 6,
+        "反派塑造": 5,
+        "世界贴合": 6,
+        "任务张力": 6,
+        "对话锋芒": 7,
+        "反转设计": 7,
+        "情感锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            50
+          ],
+          "success_chars": 51
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            41
+          ],
+          "success_chars": 71
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            64
+          ],
+          "success_chars": 54
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            24
+          ],
+          "success_chars": 31
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            27
+          ],
+          "success_chars": 42
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            43
+          ],
+          "success_chars": 50
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            26
+          ],
+          "success_chars": 16
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            24
+          ],
+          "success_chars": 97
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            23
+          ],
+          "success_chars": 87
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            34
+          ],
+          "success_chars": 12
+        }
+      }
+    },
+    {
+      "title": "快穿：主角身边被剧情杀的炮灰",
+      "file": "快穿：主角身边被剧情杀的炮灰.txt",
+      "real_rating": 8.9,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 7,
+        "节奏密度": 6,
+        "系统融合": 4,
+        "反派塑造": 5,
+        "世界贴合": 8,
+        "任务张力": 5,
+        "对话锋芒": 6,
+        "反转设计": 5,
+        "情感锚点": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            33
+          ],
+          "success_chars": 38
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            23
+          ],
+          "success_chars": 46
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            44
+          ],
+          "success_chars": 41
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            16
+          ],
+          "success_chars": 37
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            33
+          ],
+          "success_chars": 53
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            22
+          ],
+          "success_chars": 57
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            20
+          ],
+          "success_chars": 33
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            20
+          ],
+          "success_chars": 28
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            26
+          ],
+          "success_chars": 30
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            28
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "女配想要女配得到",
+      "file": "女配想要女配得到.txt",
+      "real_rating": 8.5,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "节奏密度": 5,
+        "系统融合": 4,
+        "反派塑造": 3,
+        "世界贴合": 6,
+        "任务张力": 5,
+        "对话锋芒": 5,
+        "反转设计": 4,
+        "情感锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            64,
+            47
+          ],
+          "success_chars": 45
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            48
+          ],
+          "success_chars": 54
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            48
+          ],
+          "success_chars": 48
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            48
+          ],
+          "success_chars": 28
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            35
+          ],
+          "success_chars": 47
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            47
+          ],
+          "success_chars": 28
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            72,
+            34
+          ],
+          "success_chars": 59
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            30
+          ],
+          "success_chars": 39
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            50
+          ],
+          "success_chars": 34
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            37
+          ],
+          "success_chars": 49
+        }
+      }
+    },
+    {
+      "title": "快穿：炮灰男配不走剧情",
+      "file": "快穿：炮灰男配不走剧情.txt",
+      "real_rating": 8.5,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9,
+        4.9,
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "节奏密度": 5,
+        "系统融合": 3,
+        "反派塑造": 4,
+        "世界贴合": 6,
+        "任务张力": 4,
+        "对话锋芒": 5,
+        "反转设计": 5,
+        "情感锚点": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            40
+          ],
+          "success_chars": 59
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            40
+          ],
+          "success_chars": 52
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            41
+          ],
+          "success_chars": 35
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            31
+          ],
+          "success_chars": 24
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            45
+          ],
+          "success_chars": 32
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            35
+          ],
+          "success_chars": 60
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            36
+          ],
+          "success_chars": 26
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            24
+          ],
+          "success_chars": 13
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            14
+          ],
+          "success_chars": 28
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            22
+          ],
+          "success_chars": 12
+        }
+      }
+    },
+    {
+      "title": "快穿：我靠装可怜扮柔弱攻略男主",
+      "file": "快穿：我靠装可怜扮柔弱攻略男主.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "节奏密度": 5,
+        "系统融合": 6,
+        "反派塑造": 5,
+        "世界贴合": 6,
+        "任务张力": 5,
+        "对话锋芒": 6,
+        "反转设计": 4,
+        "情感锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            44
+          ],
+          "success_chars": 46
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            35
+          ],
+          "success_chars": 49
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            29
+          ],
+          "success_chars": 34
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            57
+          ],
+          "success_chars": 45
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            40
+          ],
+          "success_chars": 53
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            39
+          ],
+          "success_chars": 34
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            38
+          ],
+          "success_chars": 37
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            27
+          ],
+          "success_chars": 31
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            28
+          ],
+          "success_chars": 58
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            42
+          ],
+          "success_chars": 45
+        }
+      }
+    },
+    {
+      "title": "快穿：男主，你未婚妻被人抢走了",
+      "file": "快穿：男主，你未婚妻被人抢走了.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "节奏密度": 5,
+        "系统融合": 4,
+        "反派塑造": 5,
+        "世界贴合": 6,
+        "任务张力": 5,
+        "对话锋芒": 6,
+        "反转设计": 7,
+        "情感锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            25
+          ],
+          "success_chars": 25
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            22
+          ],
+          "success_chars": 46
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            11
+          ],
+          "success_chars": 26
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            19
+          ],
+          "success_chars": 51
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            23
+          ],
+          "success_chars": 49
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            27
+          ],
+          "success_chars": 48
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            21
+          ],
+          "success_chars": 50
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            46
+          ],
+          "success_chars": 52
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            17
+          ],
+          "success_chars": 39
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            29
+          ],
+          "success_chars": 47
+        }
+      }
+    },
+    {
+      "title": "快穿：又被一见钟情了",
+      "file": "快穿：又被一见钟情了.txt",
+      "real_rating": 8.3,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8,
+        5.8,
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "节奏密度": 5,
+        "系统融合": 6,
+        "反派塑造": 3,
+        "世界贴合": 7,
+        "任务张力": 5,
+        "对话锋芒": 6,
+        "反转设计": 4,
+        "情感锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            24
+          ],
+          "success_chars": 54
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            21
+          ],
+          "success_chars": 37
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            38
+          ],
+          "success_chars": 22
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            31
+          ],
+          "success_chars": 28
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            23
+          ],
+          "success_chars": 7
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            17
+          ],
+          "success_chars": 33
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            16
+          ],
+          "success_chars": 27
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            8
+          ],
+          "success_chars": 47
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            15
+          ],
+          "success_chars": 27
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            14
+          ],
+          "success_chars": 27
+        }
+      }
+    },
+    {
+      "title": "快穿：炮灰活得久，熬死所有人",
+      "file": "快穿：炮灰活得久，熬死所有人.txt",
+      "real_rating": 8.3,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "节奏密度": 5,
+        "系统融合": 4,
+        "反派塑造": 3,
+        "世界贴合": 6,
+        "任务张力": 5,
+        "对话锋芒": 6,
+        "反转设计": 5,
+        "情感锚点": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            33
+          ],
+          "success_chars": 28
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            35
+          ],
+          "success_chars": 40
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            42
+          ],
+          "success_chars": 37
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            34
+          ],
+          "success_chars": 34
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            27
+          ],
+          "success_chars": 34
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            32
+          ],
+          "success_chars": 32
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            14
+          ],
+          "success_chars": 37
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            14
+          ],
+          "success_chars": 39
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            28
+          ],
+          "success_chars": 33
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            15
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "快穿之矜贵男主他又沦陷了",
+      "file": "快穿之矜贵男主他又沦陷了.txt",
+      "real_rating": 8.1,
+      "rubric_score": 4.6,
+      "rubric_scores": [
+        4.6
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 5,
+        "节奏密度": 4,
+        "系统融合": 2,
+        "反派塑造": 5,
+        "世界贴合": 6,
+        "任务张力": 3,
+        "对话锋芒": 4,
+        "反转设计": 3,
+        "情感锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            45
+          ],
+          "success_chars": 35
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            33
+          ],
+          "success_chars": 51
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            31
+          ],
+          "success_chars": 45
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            29
+          ],
+          "success_chars": 20
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            24
+          ],
+          "success_chars": 34
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            22
+          ],
+          "success_chars": 19
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            41
+          ],
+          "success_chars": 29
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            9
+          ],
+          "success_chars": 25
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            21
+          ],
+          "success_chars": 24
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            28
+          ],
+          "success_chars": 8
+        }
+      }
+    },
+    {
+      "title": "快穿：宝宝，选我好不好",
+      "file": "快穿：宝宝，选我好不好.txt",
+      "real_rating": 8.3,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "节奏密度": 5,
+        "系统融合": 4,
+        "反派塑造": 3,
+        "世界贴合": 6,
+        "任务张力": 5,
+        "对话锋芒": 6,
+        "反转设计": 4,
+        "情感锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            46
+          ],
+          "success_chars": 42
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            55
+          ],
+          "success_chars": 35
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            40
+          ],
+          "success_chars": 33
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            25
+          ],
+          "success_chars": 33
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            37
+          ],
+          "success_chars": 31
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            47
+          ],
+          "success_chars": 28
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            19
+          ],
+          "success_chars": 45
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            31
+          ],
+          "success_chars": 38
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            35
+          ],
+          "success_chars": 34
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            34
+          ],
+          "success_chars": 16
+        }
+      }
+    },
+    {
+      "title": "天道一见钟情，偏宠恶毒女配",
+      "file": "天道一见钟情，偏宠恶毒女配.txt",
+      "real_rating": 7.8,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "节奏密度": 5,
+        "系统融合": 4,
+        "反派塑造": 5,
+        "世界贴合": 5,
+        "任务张力": 4,
+        "对话锋芒": 5,
+        "反转设计": 4,
+        "情感锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            45
+          ],
+          "success_chars": 20
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            39
+          ],
+          "success_chars": 27
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            33
+          ],
+          "success_chars": 38
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            14
+          ],
+          "success_chars": 43
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            25
+          ],
+          "success_chars": 21
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            22
+          ],
+          "success_chars": 27
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            37
+          ],
+          "success_chars": 35
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            27
+          ],
+          "success_chars": 22
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            24
+          ],
+          "success_chars": 41
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            40
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "反杀！心机白月光满级撩人法则",
+      "file": "反杀！心机白月光满级撩人法则.txt",
+      "real_rating": 7.4,
+      "rubric_score": 5.266666666666667,
+      "rubric_scores": [
+        5.3,
+        5.2,
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "节奏密度": 5,
+        "系统融合": 4,
+        "反派塑造": 5,
+        "世界贴合": 6,
+        "任务张力": 5,
+        "对话锋芒": 5,
+        "反转设计": 6,
+        "情感锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            47
+          ],
+          "success_chars": 36
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            64
+          ],
+          "success_chars": 36
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            46
+          ],
+          "success_chars": 50
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            41
+          ],
+          "success_chars": 38
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            36
+          ],
+          "success_chars": 38
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            39
+          ],
+          "success_chars": 53
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            34
+          ],
+          "success_chars": 53
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            34
+          ],
+          "success_chars": 46
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            29
+          ],
+          "success_chars": 57
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            36
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "勾引深情男配",
+      "file": "勾引深情男配.txt",
+      "real_rating": 8.1,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "节奏密度": 5,
+        "系统融合": 6,
+        "反派塑造": 4,
+        "世界贴合": 5,
+        "任务张力": 5,
+        "对话锋芒": 6,
+        "反转设计": 5,
+        "情感锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            16
+          ],
+          "success_chars": 10
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            12
+          ],
+          "success_chars": 10
+        },
+        "节奏密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            10
+          ],
+          "success_chars": 10
+        },
+        "系统融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            10
+          ],
+          "success_chars": 10
+        },
+        "反派塑造": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            10
+          ],
+          "success_chars": 11
+        },
+        "世界贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            9
+          ],
+          "success_chars": 10
+        },
+        "任务张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            7
+          ],
+          "success_chars": 9
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            12
+          ],
+          "success_chars": 14
+        },
+        "反转设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            8
+          ],
+          "success_chars": 9
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            8
+          ],
+          "success_chars": 10
+        }
+      }
+    }
+  ]
+}

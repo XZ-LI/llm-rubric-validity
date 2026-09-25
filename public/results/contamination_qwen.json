@@ -1,0 +1,87 @@
+{
+  "provider": "qwen",
+  "model": "qwen3-max",
+  "rows": [
+    {
+      "kind": "真书",
+      "title": "孤身赴国难",
+      "seen": false,
+      "confidence": "high",
+      "rating_guess": null,
+      "real_rating": 9.1,
+      "protagonist": "不知道"
+    },
+    {
+      "kind": "假书",
+      "title": "重生九零：我靠养珍珠蚌暴富",
+      "seen": false,
+      "confidence": "low",
+      "rating_guess": null,
+      "real_rating": null,
+      "protagonist": "不知道"
+    },
+    {
+      "kind": "假书",
+      "title": "龙椅上的第三只狸奴",
+      "seen": false,
+      "confidence": "high",
+      "rating_guess": null,
+      "real_rating": null,
+      "protagonist": "不知道"
+    },
+    {
+      "kind": "真书",
+      "title": "我，祖国人，漫威唯一人间之神",
+      "seen": false,
+      "confidence": "high",
+      "rating_guess": null,
+      "real_rating": 8.8,
+      "protagonist": "不知道"
+    },
+    {
+      "kind": "真书",
+      "title": "烽火佳人",
+      "seen": false,
+      "confidence": "low",
+      "rating_guess": null,
+      "real_rating": 9.5,
+      "protagonist": "不知道"
+    },
+    {
+      "kind": "假书",
+      "title": "穿成反派他嫂子的读心兔",
+      "seen": false,
+      "confidence": "low",
+      "rating_guess": null,
+      "real_rating": null,
+      "protagonist": "不知道"
+    },
+    {
+      "kind": "真书",
+      "title": "黑塔女士，什么叫我也待开发？",
+      "seen": false,
+      "confidence": "high",
+      "rating_guess": null,
+      "real_rating": 9.7,
+      "protagonist": "不知道"
+    },
+    {
+      "kind": "真书",
+      "title": "柔弱小护士？屁！她是战场活阎王",
+      "seen": false,
+      "confidence": "high",
+      "rating_guess": null,
+      "real_rating": 8.2,
+      "protagonist": "不知道"
+    },
+    {
+      "kind": "真书",
+      "title": "坏了！这艾斯把暗暗果实给吃了",
+      "seen": false,
+      "confidence": "high",
+      "rating_guess": null,
+      "real_rating": 7.7,
+      "protagonist": "不知道"
+    }
+  ]
+}

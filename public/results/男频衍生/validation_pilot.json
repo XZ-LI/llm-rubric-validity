@@ -1,0 +1,2403 @@
+{
+  "run_id": "20260911T020802Z-fac4aa",
+  "run_utc": "2026-09-11T02:08:02+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "男频衍生",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "名义：高植物重生后怼哭沙瑞金.txt",
+    "四合院之最强九十五号大院.txt",
+    "天生七杀命，早杀人，晚也杀人.txt",
+    "特种兵：026后勤仓库.txt",
+    "特种兵：边境狙神，开局一等功.txt",
+    "祁同伟：重生从北大博士开始.txt",
+    "路明非，救不了他们你算什么至尊.txt"
+  ],
+  "results": [
+    {
+      "title": "四合院一大爷有养老人贾家怎么办",
+      "file": "四合院一大爷有养老人贾家怎么办.txt",
+      "real_rating": 8.0,
+      "rubric_score": 3.6,
+      "rubric_scores": [
+        3.6
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设锐度": 5,
+        "权谋密度": 2,
+        "机缘代价": 3,
+        "节奏压强": 4,
+        "衍生贴合": 3,
+        "台词锋芒": 3,
+        "升级可视": 4,
+        "反派压迫": 1,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            23
+          ],
+          "success_chars": 44
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            38
+          ],
+          "success_chars": 14
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            15
+          ],
+          "success_chars": 38
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            21
+          ],
+          "success_chars": 29
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            50
+          ],
+          "success_chars": 17
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            22
+          ],
+          "success_chars": 22
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            20
+          ],
+          "success_chars": 29
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            17
+          ],
+          "success_chars": 12
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            22
+          ],
+          "success_chars": 30
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            19
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "硬核求生：从行尸走肉到生化危机",
+      "file": "硬核求生：从行尸走肉到生化危机.txt",
+      "real_rating": 8.1,
+      "rubric_score": 5.1000000000000005,
+      "rubric_scores": [
+        5.2,
+        5.2,
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "权谋密度": 5,
+        "机缘代价": 4,
+        "节奏压强": 6,
+        "衍生贴合": 3,
+        "台词锋芒": 7,
+        "升级可视": 4,
+        "反派压迫": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            10
+          ],
+          "success_chars": 27
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            10
+          ],
+          "success_chars": 66
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            40
+          ],
+          "success_chars": 27
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            92,
+            36
+          ],
+          "success_chars": 22
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            60
+          ],
+          "success_chars": 11
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            16
+          ],
+          "success_chars": 13
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            16
+          ],
+          "success_chars": 23
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            21
+          ],
+          "success_chars": 17
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            13
+          ],
+          "success_chars": 49
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            7
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "四合院：做一个有素养的流氓",
+      "file": "四合院：做一个有素养的流氓.txt",
+      "real_rating": 8.4,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "权谋密度": 4,
+        "机缘代价": 5,
+        "节奏压强": 6,
+        "衍生贴合": 7,
+        "台词锋芒": 5,
+        "升级可视": 5,
+        "反派压迫": 4,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            18
+          ],
+          "success_chars": 20
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            26
+          ],
+          "success_chars": 33
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            27
+          ],
+          "success_chars": 25
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            18
+          ],
+          "success_chars": 59
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            35
+          ],
+          "success_chars": 31
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            15
+          ],
+          "success_chars": 60
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            15
+          ],
+          "success_chars": 20
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            40
+          ],
+          "success_chars": 43
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            19
+          ],
+          "success_chars": 26
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            38
+          ],
+          "success_chars": 98
+        }
+      }
+    },
+    {
+      "title": "名义：这汉东有毒吧！",
+      "file": "名义：这汉东有毒吧！.txt",
+      "real_rating": 8.6,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 7,
+        "权谋密度": 8,
+        "机缘代价": 5,
+        "节奏压强": 7,
+        "衍生贴合": 8,
+        "台词锋芒": 7,
+        "升级可视": 5,
+        "反派压迫": 6,
+        "情绪锚点": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            25
+          ],
+          "success_chars": 27
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            26
+          ],
+          "success_chars": 39
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            19
+          ],
+          "success_chars": 46
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            18
+          ],
+          "success_chars": 43
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            24
+          ],
+          "success_chars": 39
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            36
+          ],
+          "success_chars": 40
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            20
+          ],
+          "success_chars": 52
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            24
+          ],
+          "success_chars": 19
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            37
+          ],
+          "success_chars": 38
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            18
+          ],
+          "success_chars": 64
+        }
+      }
+    },
+    {
+      "title": "名义，我叫刘长生，只手镇汉东！",
+      "file": "名义，我叫刘长生，只手镇汉东！.txt",
+      "real_rating": 8.6,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "权谋密度": 7,
+        "机缘代价": 4,
+        "节奏压强": 6,
+        "衍生贴合": 7,
+        "台词锋芒": 6,
+        "升级可视": 5,
+        "反派压迫": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            39
+          ],
+          "success_chars": 45
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            17
+          ],
+          "success_chars": 61
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            19
+          ],
+          "success_chars": 60
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            28
+          ],
+          "success_chars": 39
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            39
+          ],
+          "success_chars": 51
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            19
+          ],
+          "success_chars": 44
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            44
+          ],
+          "success_chars": 53
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            7
+          ],
+          "success_chars": 50
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            22
+          ],
+          "success_chars": 33
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            34
+          ],
+          "success_chars": 52
+        }
+      }
+    },
+    {
+      "title": "名义，都是同志哪来的山头",
+      "file": "名义，都是同志哪来的山头.txt",
+      "real_rating": 8.2,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "权谋密度": 5,
+        "机缘代价": 4,
+        "节奏压强": 6,
+        "衍生贴合": 7,
+        "台词锋芒": 6,
+        "升级可视": 8,
+        "反派压迫": 4,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            26
+          ],
+          "success_chars": 21
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            64,
+            22
+          ],
+          "success_chars": 65
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            33
+          ],
+          "success_chars": 49
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            37
+          ],
+          "success_chars": 37
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            16
+          ],
+          "success_chars": 20
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            69,
+            30
+          ],
+          "success_chars": 52
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            8
+          ],
+          "success_chars": 58
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            15
+          ],
+          "success_chars": 52
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            14
+          ],
+          "success_chars": 11
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            17
+          ],
+          "success_chars": 60
+        }
+      }
+    },
+    {
+      "title": "四合院：快来人，把他嘴缝上",
+      "file": "四合院：快来人，把他嘴缝上.txt",
+      "real_rating": 8.0,
+      "rubric_score": 3.6,
+      "rubric_scores": [
+        3.6
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设锐度": 5,
+        "权谋密度": 2,
+        "机缘代价": 3,
+        "节奏压强": 4,
+        "衍生贴合": 3,
+        "台词锋芒": 5,
+        "升级可视": 2,
+        "反派压迫": 1,
+        "情绪锚点": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            51
+          ],
+          "success_chars": 33
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            43
+          ],
+          "success_chars": 21
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            15
+          ],
+          "success_chars": 0
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            21
+          ],
+          "success_chars": 20
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            18
+          ],
+          "success_chars": 44
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            27
+          ],
+          "success_chars": 20
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            6
+          ],
+          "success_chars": 12
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            12
+          ],
+          "success_chars": 0
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            17
+          ],
+          "success_chars": 0
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            11
+          ],
+          "success_chars": 67
+        }
+      }
+    },
+    {
+      "title": "穿越尹志平，唯爱李莫愁",
+      "file": "穿越尹志平，唯爱李莫愁.txt",
+      "real_rating": 7.9,
+      "rubric_score": 4.8,
+      "rubric_scores": [
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设锐度": 5,
+        "权谋密度": 3,
+        "机缘代价": 4,
+        "节奏压强": 5,
+        "衍生贴合": 6,
+        "台词锋芒": 4,
+        "升级可视": 7,
+        "反派压迫": 2,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            45
+          ],
+          "success_chars": 29
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            33
+          ],
+          "success_chars": 26
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            27
+          ],
+          "success_chars": 27
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            21
+          ],
+          "success_chars": 22
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            21
+          ],
+          "success_chars": 25
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            31
+          ],
+          "success_chars": 27
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            21
+          ],
+          "success_chars": 28
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            18
+          ],
+          "success_chars": 31
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            17
+          ],
+          "success_chars": 10
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            22
+          ],
+          "success_chars": 44
+        }
+      }
+    },
+    {
+      "title": "名义：团团伙伙？不，是汉东王！",
+      "file": "名义：团团伙伙？不，是汉东王！.txt",
+      "real_rating": 7.8,
+      "rubric_score": 6.166666666666666,
+      "rubric_scores": [
+        6.1,
+        6.3,
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "权谋密度": 7,
+        "机缘代价": 4,
+        "节奏压强": 5,
+        "衍生贴合": 8,
+        "台词锋芒": 6,
+        "升级可视": 7,
+        "反派压迫": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            44
+          ],
+          "success_chars": 31
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            68
+          ],
+          "success_chars": 24
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            19
+          ],
+          "success_chars": 54
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            29
+          ],
+          "success_chars": 73
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            30
+          ],
+          "success_chars": 44
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            23
+          ],
+          "success_chars": 50
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            32
+          ],
+          "success_chars": 36
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            22
+          ],
+          "success_chars": 46
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            22
+          ],
+          "success_chars": 35
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            21
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "四合院：从1948到2029",
+      "file": "四合院：从1948到2029.txt",
+      "real_rating": 7.8,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "权谋密度": 5,
+        "机缘代价": 4,
+        "节奏压强": 6,
+        "衍生贴合": 5,
+        "台词锋芒": 7,
+        "升级可视": 3,
+        "反派压迫": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            22
+          ],
+          "success_chars": 59
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            54
+          ],
+          "success_chars": 33
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            30
+          ],
+          "success_chars": 35
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            35
+          ],
+          "success_chars": 34
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            49
+          ],
+          "success_chars": 31
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            26
+          ],
+          "success_chars": 31
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            25
+          ],
+          "success_chars": 63
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            14
+          ],
+          "success_chars": 27
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            40
+          ],
+          "success_chars": 38
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            22
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "做个糕点怎么还给一等功？",
+      "file": "做个糕点怎么还给一等功？.txt",
+      "real_rating": 7.5,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "权谋密度": 3,
+        "机缘代价": 4,
+        "节奏压强": 7,
+        "衍生贴合": 5,
+        "台词锋芒": 6,
+        "升级可视": 5,
+        "反派压迫": 3,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            10
+          ],
+          "success_chars": 40
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            6
+          ],
+          "success_chars": 48
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            26
+          ],
+          "success_chars": 21
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            26
+          ],
+          "success_chars": 11
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            32
+          ],
+          "success_chars": 40
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            27
+          ],
+          "success_chars": 24
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            12
+          ],
+          "success_chars": 22
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            25
+          ],
+          "success_chars": 19
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            28
+          ],
+          "success_chars": 34
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            26
+          ],
+          "success_chars": 62
+        }
+      }
+    },
+    {
+      "title": "四合院：从副师长转业开始",
+      "file": "四合院：从副师长转业开始.txt",
+      "real_rating": 7.6,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设锐度": 5,
+        "权谋密度": 3,
+        "机缘代价": 4,
+        "节奏压强": 5,
+        "衍生贴合": 6,
+        "台词锋芒": 4,
+        "升级可视": 3,
+        "反派压迫": 2,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            43
+          ],
+          "success_chars": 23
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            20
+          ],
+          "success_chars": 56
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            33
+          ],
+          "success_chars": 54
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            77,
+            50
+          ],
+          "success_chars": 43
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            52
+          ],
+          "success_chars": 47
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            34
+          ],
+          "success_chars": 35
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            14
+          ],
+          "success_chars": 46
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            34
+          ],
+          "success_chars": 32
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            25
+          ],
+          "success_chars": 7
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            31
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "特种兵，我带B组来踢场子",
+      "file": "特种兵，我带B组来踢场子.txt",
+      "real_rating": 7.6,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 5,
+        "权谋密度": 3,
+        "机缘代价": 4,
+        "节奏压强": 7,
+        "衍生贴合": 6,
+        "台词锋芒": 6,
+        "升级可视": 4,
+        "反派压迫": 5,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            35
+          ],
+          "success_chars": 49
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            31
+          ],
+          "success_chars": 78
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            38
+          ],
+          "success_chars": 51
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            49
+          ],
+          "success_chars": 39
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            61,
+            56
+          ],
+          "success_chars": 42
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            36
+          ],
+          "success_chars": 35
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            46
+          ],
+          "success_chars": 50
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            27
+          ],
+          "success_chars": 49
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            25
+          ],
+          "success_chars": 47
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            42
+          ],
+          "success_chars": 43
+        }
+      }
+    },
+    {
+      "title": "行尸世界：我重建保护伞蜂巢",
+      "file": "行尸世界：我重建保护伞蜂巢.txt",
+      "real_rating": 7.5,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1,
+        5.1,
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "权谋密度": 3,
+        "机缘代价": 2,
+        "节奏压强": 7,
+        "衍生贴合": 4,
+        "台词锋芒": 5,
+        "升级可视": 3,
+        "反派压迫": 6,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            19
+          ],
+          "success_chars": 26
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            7
+          ],
+          "success_chars": 51
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            19
+          ],
+          "success_chars": 55
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            17
+          ],
+          "success_chars": 16
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            21
+          ],
+          "success_chars": 44
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            22
+          ],
+          "success_chars": 49
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            14
+          ],
+          "success_chars": 46
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            13
+          ],
+          "success_chars": 19
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            19
+          ],
+          "success_chars": 34
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            9
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "四合院：进来一个最阴的",
+      "file": "四合院：进来一个最阴的.txt",
+      "real_rating": 7.4,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "权谋密度": 4,
+        "机缘代价": 5,
+        "节奏压强": 5,
+        "衍生贴合": 7,
+        "台词锋芒": 6,
+        "升级可视": 4,
+        "反派压迫": 3,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            30
+          ],
+          "success_chars": 51
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            27
+          ],
+          "success_chars": 48
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            9
+          ],
+          "success_chars": 39
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            27
+          ],
+          "success_chars": 20
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            22
+          ],
+          "success_chars": 44
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            12
+          ],
+          "success_chars": 41
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            10
+          ],
+          "success_chars": 35
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            22
+          ],
+          "success_chars": 36
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            28
+          ],
+          "success_chars": 17
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            30
+          ],
+          "success_chars": 37
+        }
+      }
+    },
+    {
+      "title": "一人：火力不足，加特林不过分吧",
+      "file": "一人：火力不足，加特林不过分吧.txt",
+      "real_rating": 7.2,
+      "rubric_score": 7.3,
+      "rubric_scores": [
+        7.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设锐度": 7,
+        "权谋密度": 5,
+        "机缘代价": 6,
+        "节奏压强": 8,
+        "衍生贴合": 9,
+        "台词锋芒": 7,
+        "升级可视": 6,
+        "反派压迫": 7,
+        "情绪锚点": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            37
+          ],
+          "success_chars": 66
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            20
+          ],
+          "success_chars": 25
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            36
+          ],
+          "success_chars": 18
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            25
+          ],
+          "success_chars": 50
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            21
+          ],
+          "success_chars": 29
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            27
+          ],
+          "success_chars": 72
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            4,
+            11
+          ],
+          "success_chars": 54
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            11
+          ],
+          "success_chars": 31
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            42
+          ],
+          "success_chars": 53
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            23
+          ],
+          "success_chars": 20
+        }
+      }
+    },
+    {
+      "title": "人在天龙，开局神照经",
+      "file": "人在天龙，开局神照经.txt",
+      "real_rating": 7.3,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "权谋密度": 3,
+        "机缘代价": 4,
+        "节奏压强": 5,
+        "衍生贴合": 7,
+        "台词锋芒": 5,
+        "升级可视": 4,
+        "反派压迫": 6,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            57
+          ],
+          "success_chars": 43
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            20
+          ],
+          "success_chars": 31
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            63
+          ],
+          "success_chars": 46
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            22
+          ],
+          "success_chars": 44
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            27
+          ],
+          "success_chars": 23
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            45
+          ],
+          "success_chars": 39
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            16
+          ],
+          "success_chars": 42
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            15
+          ],
+          "success_chars": 33
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            17
+          ],
+          "success_chars": 41
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            12
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "穿越港岛，我成了熟妇杀手",
+      "file": "穿越港岛，我成了熟妇杀手.txt",
+      "real_rating": 7.0,
+      "rubric_score": 5.8999999999999995,
+      "rubric_scores": [
+        5.8,
+        5.8,
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "人设锐度": 6,
+        "权谋密度": 5,
+        "机缘代价": 4,
+        "节奏压强": 6,
+        "衍生贴合": 5,
+        "台词锋芒": 6,
+        "升级可视": 5,
+        "反派压迫": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            10
+          ],
+          "success_chars": 52
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            20
+          ],
+          "success_chars": 54
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            7
+          ],
+          "success_chars": 28
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            35
+          ],
+          "success_chars": 25
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            26
+          ],
+          "success_chars": 43
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            32
+          ],
+          "success_chars": 6
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            16
+          ],
+          "success_chars": 19
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            31
+          ],
+          "success_chars": 13
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            4
+          ],
+          "success_chars": 39
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            27
+          ],
+          "success_chars": 60
+        }
+      }
+    },
+    {
+      "title": "龙族：退休老龙被迫营业录",
+      "file": "龙族：退休老龙被迫营业录.txt",
+      "real_rating": 7.5,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 4,
+        "权谋密度": 3,
+        "机缘代价": 6,
+        "节奏压强": 5,
+        "衍生贴合": 7,
+        "台词锋芒": 6,
+        "升级可视": 3,
+        "反派压迫": 4,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            7
+          ],
+          "success_chars": 12
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            7
+          ],
+          "success_chars": 11
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            11
+          ],
+          "success_chars": 16
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            8
+          ],
+          "success_chars": 12
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            8
+          ],
+          "success_chars": 10
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            8
+          ],
+          "success_chars": 9
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            3,
+            3
+          ],
+          "success_chars": 11
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            5
+          ],
+          "success_chars": 7
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            7
+          ],
+          "success_chars": 10
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            6
+          ],
+          "success_chars": 10
+        }
+      }
+    },
+    {
+      "title": "综武天下第一蹦出来个毛脸和尚",
+      "file": "综武天下第一蹦出来个毛脸和尚.txt",
+      "real_rating": 6.9,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "权谋密度": 5,
+        "机缘代价": 4,
+        "节奏压强": 6,
+        "衍生贴合": 7,
+        "台词锋芒": 6,
+        "升级可视": 5,
+        "反派压迫": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            21
+          ],
+          "success_chars": 19
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            24
+          ],
+          "success_chars": 46
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            37
+          ],
+          "success_chars": 47
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            23
+          ],
+          "success_chars": 57
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            24
+          ],
+          "success_chars": 73
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            51
+          ],
+          "success_chars": 83
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            9
+          ],
+          "success_chars": 40
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            38
+          ],
+          "success_chars": 21
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            42
+          ],
+          "success_chars": 18
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            37
+          ],
+          "success_chars": 71
+        }
+      }
+    },
+    {
+      "title": "四合院：独苗烈属，屡立奇功！",
+      "file": "四合院：独苗烈属，屡立奇功！.txt",
+      "real_rating": 6.8,
+      "rubric_score": 4.3,
+      "rubric_scores": [
+        4.3
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设锐度": 5,
+        "权谋密度": 3,
+        "机缘代价": 2,
+        "节奏压强": 5,
+        "衍生贴合": 6,
+        "台词锋芒": 4,
+        "升级可视": 5,
+        "反派压迫": 2,
+        "情绪锚点": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            17
+          ],
+          "success_chars": 34
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            15
+          ],
+          "success_chars": 49
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            33
+          ],
+          "success_chars": 48
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            36
+          ],
+          "success_chars": 59
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            31
+          ],
+          "success_chars": 34
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            39
+          ],
+          "success_chars": 48
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            18
+          ],
+          "success_chars": 7
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            9
+          ],
+          "success_chars": 19
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            19
+          ],
+          "success_chars": 28
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            14
+          ],
+          "success_chars": 52
+        }
+      }
+    },
+    {
+      "title": "7610050364431141912",
+      "file": "7610050364431141912.txt",
+      "real_rating": 6.4,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 7,
+        "权谋密度": 6,
+        "机缘代价": 5,
+        "节奏压强": 6,
+        "衍生贴合": 8,
+        "台词锋芒": 7,
+        "升级可视": 6,
+        "反派压迫": 6,
+        "情绪锚点": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            63
+          ],
+          "success_chars": 40
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            39
+          ],
+          "success_chars": 63
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            22
+          ],
+          "success_chars": 77
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            19
+          ],
+          "success_chars": 17
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            16
+          ],
+          "success_chars": 22
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            18
+          ],
+          "success_chars": 38
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            4
+          ],
+          "success_chars": 57
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            10
+          ],
+          "success_chars": 13
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            22
+          ],
+          "success_chars": 23
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            11
+          ],
+          "success_chars": 67
+        }
+      }
+    },
+    {
+      "title": "我爹空降汉东，我成全球首富了？",
+      "file": "我爹空降汉东，我成全球首富了？.txt",
+      "real_rating": 6.3,
+      "rubric_score": 5.133333333333333,
+      "rubric_scores": [
+        5.1,
+        5.2,
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "权谋密度": 4,
+        "机缘代价": 3,
+        "节奏压强": 5,
+        "衍生贴合": 7,
+        "台词锋芒": 5,
+        "升级可视": 4,
+        "反派压迫": 5,
+        "情绪锚点": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            20
+          ],
+          "success_chars": 22
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            7
+          ],
+          "success_chars": 38
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            35
+          ],
+          "success_chars": 46
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            29
+          ],
+          "success_chars": 43
+        },
+        "节奏压强": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            19
+          ],
+          "success_chars": 34
+        },
+        "衍生贴合": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            42
+          ],
+          "success_chars": 37
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            9
+          ],
+          "success_chars": 32
+        },
+        "升级可视": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            26
+          ],
+          "success_chars": 28
+        },
+        "反派压迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            31
+          ],
+          "success_chars": 15
+        },
+        "情绪锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            17
+          ],
+          "success_chars": 65
+        }
+      }
+    }
+  ]
+}

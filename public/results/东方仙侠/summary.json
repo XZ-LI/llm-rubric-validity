@@ -1,0 +1,62 @@
+{
+  "category": "东方仙侠",
+  "target_score": 9.0,
+  "total_rounds": 10,
+  "scores": [
+    {
+      "iteration": 1,
+      "score": 7.4
+    },
+    {
+      "iteration": 2,
+      "score": 7.1
+    },
+    {
+      "iteration": 3,
+      "score": 7.4
+    },
+    {
+      "iteration": 4,
+      "score": 7.4
+    },
+    {
+      "iteration": 5,
+      "score": 7.3
+    },
+    {
+      "iteration": 6,
+      "score": 7.4
+    },
+    {
+      "iteration": 7,
+      "score": 7.6
+    },
+    {
+      "iteration": 8,
+      "score": 7.4
+    },
+    {
+      "iteration": 9,
+      "score": 7.34
+    },
+    {
+      "iteration": 10,
+      "score": 7.4
+    }
+  ],
+  "best_iteration": 7,
+  "best_score": 7.6,
+  "score_trend": [
+    7.4,
+    7.1,
+    7.4,
+    7.4,
+    7.3,
+    7.4,
+    7.6,
+    7.4,
+    7.34,
+    7.4
+  ],
+  "goal_reached": false
+}

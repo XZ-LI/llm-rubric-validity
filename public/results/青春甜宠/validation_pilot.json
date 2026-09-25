@@ -1,0 +1,2300 @@
+{
+  "run_id": "20260911T030818Z-ae1760",
+  "run_utc": "2026-09-11T03:08:18+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "青春甜宠",
+  "source_dir": "Nvpin",
+  "output_spec": "lean",
+  "n": 22,
+  "excluded_contaminated": [
+    "他比夏日热烈.txt",
+    "别和我服软.txt",
+    "她不哄他了.txt",
+    "沉沦雨桐.txt",
+    "濯枝有雨.txt",
+    "超甜！病娇竹马的小青梅被宠爆了.txt",
+    "都重生了才告诉我全家是恐怖分子.txt"
+  ],
+  "results": [
+    {
+      "title": "坏兄妹",
+      "file": "坏兄妹.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设反差": 7,
+        "甜宠节奏": 6,
+        "对话自然": 8,
+        "画面感强": 8,
+        "悬念设计": 7,
+        "情感真实": 7,
+        "配角功能": 6,
+        "世界观融合": 7,
+        "节奏把控": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            13
+          ],
+          "success_chars": 17
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            15
+          ],
+          "success_chars": 22
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            15
+          ],
+          "success_chars": 21
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            10
+          ],
+          "success_chars": 37
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            16
+          ],
+          "success_chars": 27
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            44
+          ],
+          "success_chars": 17
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            24
+          ],
+          "success_chars": 28
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            23
+          ],
+          "success_chars": 28
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            21
+          ],
+          "success_chars": 19
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            21
+          ],
+          "success_chars": 16
+        }
+      }
+    },
+    {
+      "title": "槐风",
+      "file": "槐风.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        5.6,
+        6.3,
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 7,
+        "甜宠节奏": 4,
+        "对话自然": 6,
+        "画面感强": 6,
+        "悬念设计": 5,
+        "情感真实": 6,
+        "配角功能": 5,
+        "世界观融合": 6,
+        "节奏把控": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            43
+          ],
+          "success_chars": 47
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            31
+          ],
+          "success_chars": 37
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            28
+          ],
+          "success_chars": 15
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            26
+          ],
+          "success_chars": 27
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            19
+          ],
+          "success_chars": 23
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            16
+          ],
+          "success_chars": 12
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            33
+          ],
+          "success_chars": 39
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            16
+          ],
+          "success_chars": 33
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            21
+          ],
+          "success_chars": 29
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            24
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "酸涩湿吻",
+      "file": "酸涩湿吻.txt",
+      "real_rating": 9.5,
+      "rubric_score": 8.1,
+      "rubric_scores": [
+        8.1
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "人设反差": 8,
+        "甜宠节奏": 6,
+        "对话自然": 8,
+        "画面感强": 9,
+        "悬念设计": 8,
+        "情感真实": 9,
+        "配角功能": 7,
+        "世界观融合": 8,
+        "节奏把控": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            20
+          ],
+          "success_chars": 48
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            27
+          ],
+          "success_chars": 45
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            12
+          ],
+          "success_chars": 23
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            22
+          ],
+          "success_chars": 40
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            30
+          ],
+          "success_chars": 45
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            22
+          ],
+          "success_chars": 27
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            34
+          ],
+          "success_chars": 26
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            21
+          ],
+          "success_chars": 42
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            21
+          ],
+          "success_chars": 40
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            21
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "离婚前重回高中，这次我不心动了",
+      "file": "离婚前重回高中，这次我不心动了.txt",
+      "real_rating": 9.4,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设反差": 7,
+        "甜宠节奏": 6,
+        "对话自然": 7,
+        "画面感强": 7,
+        "悬念设计": 9,
+        "情感真实": 6,
+        "配角功能": 5,
+        "世界观融合": 8,
+        "节奏把控": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            42
+          ],
+          "success_chars": 56
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            30
+          ],
+          "success_chars": 52
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            33
+          ],
+          "success_chars": 29
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            31
+          ],
+          "success_chars": 43
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            29
+          ],
+          "success_chars": 47
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            20
+          ],
+          "success_chars": 38
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            35
+          ],
+          "success_chars": 40
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            16
+          ],
+          "success_chars": 36
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            16
+          ],
+          "success_chars": 36
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            20
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "睁眼！重生阴湿亡夫少年时",
+      "file": "睁眼！重生阴湿亡夫少年时.txt",
+      "real_rating": 9.4,
+      "rubric_score": 7.6,
+      "rubric_scores": [
+        7.6
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "人设反差": 8,
+        "甜宠节奏": 6,
+        "对话自然": 7,
+        "画面感强": 8,
+        "悬念设计": 9,
+        "情感真实": 7,
+        "配角功能": 7,
+        "世界观融合": 8,
+        "节奏把控": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            36
+          ],
+          "success_chars": 48
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            32
+          ],
+          "success_chars": 84
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            19
+          ],
+          "success_chars": 42
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            24
+          ],
+          "success_chars": 52
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            26
+          ],
+          "success_chars": 55
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            29
+          ],
+          "success_chars": 50
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            35
+          ],
+          "success_chars": 59
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            25
+          ],
+          "success_chars": 59
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            23
+          ],
+          "success_chars": 48
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            46
+          ],
+          "success_chars": 61
+        }
+      }
+    },
+    {
+      "title": "认亲后，大家的画风一起跑偏了",
+      "file": "认亲后，大家的画风一起跑偏了.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 8,
+        "甜宠节奏": 5,
+        "对话自然": 9,
+        "画面感强": 7,
+        "悬念设计": 4,
+        "情感真实": 8,
+        "配角功能": 7,
+        "世界观融合": 8,
+        "节奏把控": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            33
+          ],
+          "success_chars": 62
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            22
+          ],
+          "success_chars": 107
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            15
+          ],
+          "success_chars": 59
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            7
+          ],
+          "success_chars": 104
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            15
+          ],
+          "success_chars": 84
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            29
+          ],
+          "success_chars": 72
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            14
+          ],
+          "success_chars": 79
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            20
+          ],
+          "success_chars": 50
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            15
+          ],
+          "success_chars": 64
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            23
+          ],
+          "success_chars": 49
+        }
+      }
+    },
+    {
+      "title": "上位阶梯：顶级心机女的资本时代",
+      "file": "上位阶梯：顶级心机女的资本时代.txt",
+      "real_rating": 9.2,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 6,
+        "甜宠节奏": 4,
+        "对话自然": 5,
+        "画面感强": 6,
+        "悬念设计": 5,
+        "情感真实": 5,
+        "配角功能": 4,
+        "世界观融合": 5,
+        "节奏把控": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            48
+          ],
+          "success_chars": 37
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            39
+          ],
+          "success_chars": 57
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            27
+          ],
+          "success_chars": 36
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            11
+          ],
+          "success_chars": 48
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            43
+          ],
+          "success_chars": 15
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            24
+          ],
+          "success_chars": 30
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            27
+          ],
+          "success_chars": 42
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            39
+          ],
+          "success_chars": 32
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            33
+          ],
+          "success_chars": 33
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            29
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "腰，再软一点",
+      "file": "腰，再软一点.txt",
+      "real_rating": 9.2,
+      "rubric_score": 4.933333333333334,
+      "rubric_scores": [
+        5.8,
+        4.3,
+        4.7
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设反差": 6,
+        "甜宠节奏": 5,
+        "对话自然": 5,
+        "画面感强": 7,
+        "悬念设计": 6,
+        "情感真实": 5,
+        "配角功能": 6,
+        "世界观融合": 7,
+        "节奏把控": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            27
+          ],
+          "success_chars": 16
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            33
+          ],
+          "success_chars": 36
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            33
+          ],
+          "success_chars": 40
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            25
+          ],
+          "success_chars": 13
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            32
+          ],
+          "success_chars": 9
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            23
+          ],
+          "success_chars": 25
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            23
+          ],
+          "success_chars": 11
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            34
+          ],
+          "success_chars": 35
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            19
+          ],
+          "success_chars": 21
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            30
+          ],
+          "success_chars": 16
+        }
+      }
+    },
+    {
+      "title": "被缠上了，穿成疯批的作精前女友",
+      "file": "被缠上了，穿成疯批的作精前女友.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "甜宠节奏": 8,
+        "对话自然": 6,
+        "画面感强": 7,
+        "悬念设计": 5,
+        "情感真实": 6,
+        "配角功能": 4,
+        "世界观融合": 5,
+        "节奏把控": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            38
+          ],
+          "success_chars": 70
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            24
+          ],
+          "success_chars": 99
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            36
+          ],
+          "success_chars": 65
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            36
+          ],
+          "success_chars": 28
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            38
+          ],
+          "success_chars": 48
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            52
+          ],
+          "success_chars": 54
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            26
+          ],
+          "success_chars": 29
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            32
+          ],
+          "success_chars": 41
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            27
+          ],
+          "success_chars": 69
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            32
+          ],
+          "success_chars": 71
+        }
+      }
+    },
+    {
+      "title": "潮燃雾烬",
+      "file": "潮燃雾烬.txt",
+      "real_rating": 9.1,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设反差": 7,
+        "甜宠节奏": 6,
+        "对话自然": 5,
+        "画面感强": 8,
+        "悬念设计": 9,
+        "情感真实": 7,
+        "配角功能": 6,
+        "世界观融合": 7,
+        "节奏把控": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            35
+          ],
+          "success_chars": 47
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            28
+          ],
+          "success_chars": 50
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            29
+          ],
+          "success_chars": 42
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            22
+          ],
+          "success_chars": 33
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            21
+          ],
+          "success_chars": 32
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            22
+          ],
+          "success_chars": 30
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            15
+          ],
+          "success_chars": 34
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            28
+          ],
+          "success_chars": 33
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            17
+          ],
+          "success_chars": 34
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            17
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "财阀大佬娇养的小白花又傻又可爱",
+      "file": "财阀大佬娇养的小白花又傻又可爱.txt",
+      "real_rating": 9.2,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设反差": 4,
+        "甜宠节奏": 3,
+        "对话自然": 4,
+        "画面感强": 5,
+        "悬念设计": 4,
+        "情感真实": 3,
+        "配角功能": 3,
+        "世界观融合": 4,
+        "节奏把控": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            31
+          ],
+          "success_chars": 37
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            41
+          ],
+          "success_chars": 38
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            21
+          ],
+          "success_chars": 55
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            74,
+            27
+          ],
+          "success_chars": 41
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            16
+          ],
+          "success_chars": 49
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            68,
+            29
+          ],
+          "success_chars": 28
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            42
+          ],
+          "success_chars": 34
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            33
+          ],
+          "success_chars": 25
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            29
+          ],
+          "success_chars": 50
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            56
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "织鲸",
+      "file": "织鲸.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设反差": 6,
+        "甜宠节奏": 5,
+        "对话自然": 7,
+        "画面感强": 7,
+        "悬念设计": 8,
+        "情感真实": 7,
+        "配角功能": 6,
+        "世界观融合": 7,
+        "节奏把控": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            16
+          ],
+          "success_chars": 62
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            54
+          ],
+          "success_chars": 18
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            36
+          ],
+          "success_chars": 13
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            5
+          ],
+          "success_chars": 37
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            26
+          ],
+          "success_chars": 42
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            9
+          ],
+          "success_chars": 16
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            7
+          ],
+          "success_chars": 12
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            23
+          ],
+          "success_chars": 25
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            15
+          ],
+          "success_chars": 56
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            43
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "我，顶级绿茶婊，玩遍京圈大佬",
+      "file": "我，顶级绿茶婊，玩遍京圈大佬.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.666666666666667,
+      "rubric_scores": [
+        6.4,
+        6.9,
+        6.7
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设反差": 7,
+        "甜宠节奏": 5,
+        "对话自然": 6,
+        "画面感强": 8,
+        "悬念设计": 7,
+        "情感真实": 6,
+        "配角功能": 5,
+        "世界观融合": 7,
+        "节奏把控": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            27
+          ],
+          "success_chars": 52
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            30
+          ],
+          "success_chars": 33
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            27
+          ],
+          "success_chars": 30
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            12
+          ],
+          "success_chars": 14
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            31
+          ],
+          "success_chars": 28
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            7
+          ],
+          "success_chars": 36
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            30
+          ],
+          "success_chars": 20
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            20
+          ],
+          "success_chars": 28
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            19
+          ],
+          "success_chars": 31
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            36
+          ],
+          "success_chars": 44
+        }
+      }
+    },
+    {
+      "title": "重回高中：在阴郁少年怀里撒个娇",
+      "file": "重回高中：在阴郁少年怀里撒个娇.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设反差": 7,
+        "甜宠节奏": 5,
+        "对话自然": 6,
+        "画面感强": 7,
+        "悬念设计": 8,
+        "情感真实": 6,
+        "配角功能": 5,
+        "世界观融合": 7,
+        "节奏把控": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            17
+          ],
+          "success_chars": 69
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            32
+          ],
+          "success_chars": 31
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            35
+          ],
+          "success_chars": 58
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            57
+          ],
+          "success_chars": 36
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            38
+          ],
+          "success_chars": 17
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            9
+          ],
+          "success_chars": 40
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            42
+          ],
+          "success_chars": 17
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            25
+          ],
+          "success_chars": 16
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            21
+          ],
+          "success_chars": 38
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            27
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "小狗吻娇软",
+      "file": "小狗吻娇软.txt",
+      "real_rating": 8.9,
+      "rubric_score": 4.3,
+      "rubric_scores": [
+        4.3
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "人设反差": 5,
+        "甜宠节奏": 3,
+        "对话自然": 4,
+        "画面感强": 6,
+        "悬念设计": 5,
+        "情感真实": 3,
+        "配角功能": 4,
+        "世界观融合": 5,
+        "节奏把控": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            37
+          ],
+          "success_chars": 17
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            32
+          ],
+          "success_chars": 21
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            18
+          ],
+          "success_chars": 17
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            16
+          ],
+          "success_chars": 21
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            19
+          ],
+          "success_chars": 21
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            16
+          ],
+          "success_chars": 23
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            39
+          ],
+          "success_chars": 16
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            23
+          ],
+          "success_chars": 12
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            17
+          ],
+          "success_chars": 14
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            16
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "转校后，我把竹马校草拿捏了",
+      "file": "转校后，我把竹马校草拿捏了.txt",
+      "real_rating": 8.8,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 5,
+        "甜宠节奏": 4,
+        "对话自然": 5,
+        "画面感强": 6,
+        "悬念设计": 5,
+        "情感真实": 4,
+        "配角功能": 5,
+        "世界观融合": 5,
+        "节奏把控": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            30
+          ],
+          "success_chars": 77
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            23
+          ],
+          "success_chars": 73
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            47
+          ],
+          "success_chars": 31
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            29
+          ],
+          "success_chars": 19
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            19
+          ],
+          "success_chars": 48
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            26
+          ],
+          "success_chars": 52
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            33
+          ],
+          "success_chars": 29
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            20
+          ],
+          "success_chars": 29
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            42
+          ],
+          "success_chars": 27
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            49
+          ],
+          "success_chars": 48
+        }
+      }
+    },
+    {
+      "title": "炙吻为臣",
+      "file": "炙吻为臣.txt",
+      "real_rating": 8.6,
+      "rubric_score": 7.3,
+      "rubric_scores": [
+        7.4,
+        7.3,
+        7.2
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "人设反差": 8,
+        "甜宠节奏": 5,
+        "对话自然": 6,
+        "画面感强": 8,
+        "悬念设计": 9,
+        "情感真实": 7,
+        "配角功能": 6,
+        "世界观融合": 7,
+        "节奏把控": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            11
+          ],
+          "success_chars": 41
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            24
+          ],
+          "success_chars": 62
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            26
+          ],
+          "success_chars": 44
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            10
+          ],
+          "success_chars": 45
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            26
+          ],
+          "success_chars": 33
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            18
+          ],
+          "success_chars": 34
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            27
+          ],
+          "success_chars": 44
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            33
+          ],
+          "success_chars": 22
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            32
+          ],
+          "success_chars": 35
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            36
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "和未婚夫他兄弟在未来有个孩子",
+      "file": "和未婚夫他兄弟在未来有个孩子.txt",
+      "real_rating": 9.0,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设反差": 7,
+        "甜宠节奏": 5,
+        "对话自然": 6,
+        "画面感强": 7,
+        "悬念设计": 9,
+        "情感真实": 6,
+        "配角功能": 6,
+        "世界观融合": 8,
+        "节奏把控": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            22
+          ],
+          "success_chars": 16
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            25
+          ],
+          "success_chars": 34
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            14
+          ],
+          "success_chars": 46
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            10
+          ],
+          "success_chars": 21
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            17
+          ],
+          "success_chars": 34
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            16
+          ],
+          "success_chars": 15
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            28
+          ],
+          "success_chars": 46
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            23
+          ],
+          "success_chars": 19
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            16
+          ],
+          "success_chars": 60
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            18
+          ],
+          "success_chars": 48
+        }
+      }
+    },
+    {
+      "title": "宝宝好软，怎么一碰就红了",
+      "file": "宝宝好软，怎么一碰就红了.txt",
+      "real_rating": 8.5,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "甜宠节奏": 8,
+        "对话自然": 7,
+        "画面感强": 6,
+        "悬念设计": 7,
+        "情感真实": 7,
+        "配角功能": 5,
+        "世界观融合": 6,
+        "节奏把控": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            28
+          ],
+          "success_chars": 14
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            21
+          ],
+          "success_chars": 34
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            26
+          ],
+          "success_chars": 27
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            31
+          ],
+          "success_chars": 19
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            11
+          ],
+          "success_chars": 20
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            26
+          ],
+          "success_chars": 20
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            14
+          ],
+          "success_chars": 28
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            22
+          ],
+          "success_chars": 31
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            23
+          ],
+          "success_chars": 8
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            19
+          ],
+          "success_chars": 18
+        }
+      }
+    },
+    {
+      "title": "网恋吗？翻车抓回来继续谈的那种",
+      "file": "网恋吗？翻车抓回来继续谈的那种.txt",
+      "real_rating": 8.4,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设反差": 7,
+        "甜宠节奏": 5,
+        "对话自然": 6,
+        "画面感强": 7,
+        "悬念设计": 8,
+        "情感真实": 6,
+        "配角功能": 7,
+        "世界观融合": 8,
+        "节奏把控": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            30
+          ],
+          "success_chars": 66
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            33
+          ],
+          "success_chars": 46
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            30
+          ],
+          "success_chars": 46
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            23
+          ],
+          "success_chars": 52
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            33
+          ],
+          "success_chars": 73
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            4
+          ],
+          "success_chars": 60
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            12
+          ],
+          "success_chars": 44
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            20
+          ],
+          "success_chars": 46
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            21
+          ],
+          "success_chars": 57
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            27
+          ],
+          "success_chars": 47
+        }
+      }
+    },
+    {
+      "title": "她太难撩！",
+      "file": "她太难撩！.txt",
+      "real_rating": 8.4,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设反差": 7,
+        "甜宠节奏": 5,
+        "对话自然": 6,
+        "画面感强": 7,
+        "悬念设计": 6,
+        "情感真实": 6,
+        "配角功能": 5,
+        "世界观融合": 6,
+        "节奏把控": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            43
+          ],
+          "success_chars": 30
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            44
+          ],
+          "success_chars": 56
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            71
+          ],
+          "success_chars": 15
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            28
+          ],
+          "success_chars": 17
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            16
+          ],
+          "success_chars": 60
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            18
+          ],
+          "success_chars": 25
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            42
+          ],
+          "success_chars": 18
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            27
+          ],
+          "success_chars": 33
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            40
+          ],
+          "success_chars": 33
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            38
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "校花重生：开局逼睡学霸",
+      "file": "校花重生：开局逼睡学霸.txt",
+      "real_rating": 8.2,
+      "rubric_score": 7.5,
+      "rubric_scores": [
+        7.6,
+        7.3,
+        7.6
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "人设反差": 8,
+        "甜宠节奏": 6,
+        "对话自然": 7,
+        "画面感强": 8,
+        "悬念设计": 9,
+        "情感真实": 8,
+        "配角功能": 6,
+        "世界观融合": 7,
+        "节奏把控": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            26
+          ],
+          "success_chars": 30
+        },
+        "人设反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            30
+          ],
+          "success_chars": 52
+        },
+        "甜宠节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            26
+          ],
+          "success_chars": 35
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            47
+          ],
+          "success_chars": 24
+        },
+        "画面感强": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            37
+          ],
+          "success_chars": 31
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            29
+          ],
+          "success_chars": 33
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            21
+          ],
+          "success_chars": 41
+        },
+        "配角功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            33
+          ],
+          "success_chars": 39
+        },
+        "世界观融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            49
+          ],
+          "success_chars": 46
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            27
+          ],
+          "success_chars": 41
+        }
+      }
+    }
+  ]
+}

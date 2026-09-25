@@ -1,0 +1,2403 @@
+{
+  "run_id": "20260911T020531Z-86bbca",
+  "run_utc": "2026-09-11T02:05:31+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "玄幻脑洞",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "传说管理局.txt",
+    "加钱镖人，开局获得开天路权！.txt",
+    "废武魂？我，逆天进化，震惊世界.txt",
+    "我都轮回三世，师父你怎么还活着.txt",
+    "每年加一点从山野村夫成仙界道祖.txt",
+    "洪荒：开局系统被盘古炼化.txt",
+    "玄幻：成为瞎子，我游历江湖.txt"
+  ],
+  "results": [
+    {
+      "title": "全宗上下，拼不出一个好人？",
+      "file": "全宗上下，拼不出一个好人？.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "人设鲜活": 7,
+        "节奏把控": 6,
+        "世界融合": 6,
+        "悬念设计": 5,
+        "代价真实": 7,
+        "对话自然": 7,
+        "情感共鸣": 5,
+        "反差营造": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            20
+          ],
+          "success_chars": 27
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            21
+          ],
+          "success_chars": 25
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            20
+          ],
+          "success_chars": 19
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            22
+          ],
+          "success_chars": 29
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            18
+          ],
+          "success_chars": 26
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            10
+          ],
+          "success_chars": 16
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            14
+          ],
+          "success_chars": 19
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            26
+          ],
+          "success_chars": 16
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            9
+          ],
+          "success_chars": 19
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            27
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "让你氪金修仙，没让你包养女剑仙",
+      "file": "让你氪金修仙，没让你包养女剑仙.txt",
+      "real_rating": 9.3,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "人设鲜活": 7,
+        "节奏把控": 6,
+        "世界融合": 5,
+        "悬念设计": 6,
+        "代价真实": 4,
+        "对话自然": 7,
+        "情感共鸣": 7,
+        "反差营造": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            34
+          ],
+          "success_chars": 19
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            38
+          ],
+          "success_chars": 27
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            32
+          ],
+          "success_chars": 35
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            32
+          ],
+          "success_chars": 30
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            23
+          ],
+          "success_chars": 31
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            27
+          ],
+          "success_chars": 26
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            4
+          ],
+          "success_chars": 24
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            22
+          ],
+          "success_chars": 28
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            26
+          ],
+          "success_chars": 35
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            9
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "不死帝师",
+      "file": "不死帝师.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 6,
+        "人设鲜活": 7,
+        "节奏把控": 6,
+        "世界融合": 5,
+        "悬念设计": 7,
+        "代价真实": 5,
+        "对话自然": 7,
+        "情感共鸣": 7,
+        "反差营造": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            26
+          ],
+          "success_chars": 24
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            38
+          ],
+          "success_chars": 48
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            19
+          ],
+          "success_chars": 57
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            37
+          ],
+          "success_chars": 47
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            31
+          ],
+          "success_chars": 28
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            37
+          ],
+          "success_chars": 32
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            34
+          ],
+          "success_chars": 50
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            20
+          ],
+          "success_chars": 34
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            44
+          ],
+          "success_chars": 31
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            34
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "世界游戏化，却忘了生成玩家",
+      "file": "世界游戏化，却忘了生成玩家.txt",
+      "real_rating": 9.3,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 6,
+        "人设鲜活": 7,
+        "节奏把控": 6,
+        "世界融合": 6,
+        "悬念设计": 5,
+        "代价真实": 5,
+        "对话自然": 8,
+        "情感共鸣": 6,
+        "反差营造": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            30
+          ],
+          "success_chars": 61
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            33
+          ],
+          "success_chars": 59
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            25
+          ],
+          "success_chars": 25
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            37
+          ],
+          "success_chars": 42
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            13
+          ],
+          "success_chars": 31
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            22
+          ],
+          "success_chars": 26
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            34
+          ],
+          "success_chars": 20
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            18
+          ],
+          "success_chars": 25
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            7
+          ],
+          "success_chars": 25
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            19
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "游戏入侵：我称帝了玩家才穿越",
+      "file": "游戏入侵：我称帝了玩家才穿越.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.333333333333333,
+      "rubric_scores": [
+        5.3,
+        5.4,
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "人设鲜活": 6,
+        "节奏把控": 5,
+        "世界融合": 6,
+        "悬念设计": 5,
+        "代价真实": 4,
+        "对话自然": 5,
+        "情感共鸣": 6,
+        "反差营造": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            51
+          ],
+          "success_chars": 36
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            56
+          ],
+          "success_chars": 24
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            13
+          ],
+          "success_chars": 63
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            30
+          ],
+          "success_chars": 8
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            10
+          ],
+          "success_chars": 49
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            18
+          ],
+          "success_chars": 46
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            18
+          ],
+          "success_chars": 29
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            14
+          ],
+          "success_chars": 28
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            6
+          ],
+          "success_chars": 8
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            32
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "这个反派有点良心，但是不多！",
+      "file": "这个反派有点良心，但是不多！.txt",
+      "real_rating": 9.5,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "人设鲜活": 6,
+        "节奏把控": 7,
+        "世界融合": 6,
+        "悬念设计": 6,
+        "代价真实": 4,
+        "对话自然": 5,
+        "情感共鸣": 5,
+        "反差营造": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            53
+          ],
+          "success_chars": 13
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            44
+          ],
+          "success_chars": 30
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            57
+          ],
+          "success_chars": 45
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            33
+          ],
+          "success_chars": 22
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            23
+          ],
+          "success_chars": 34
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            22
+          ],
+          "success_chars": 29
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            29
+          ],
+          "success_chars": 25
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            28
+          ],
+          "success_chars": 41
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            23
+          ],
+          "success_chars": 36
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            33
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "代号：登仙！",
+      "file": "代号：登仙！.txt",
+      "real_rating": 9.2,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "脑洞新颖": 6,
+        "人设鲜活": 7,
+        "节奏把控": 8,
+        "世界融合": 6,
+        "悬念设计": 7,
+        "代价真实": 5,
+        "对话自然": 8,
+        "情感共鸣": 7,
+        "反差营造": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            12
+          ],
+          "success_chars": 46
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            17
+          ],
+          "success_chars": 36
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            11
+          ],
+          "success_chars": 29
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            12
+          ],
+          "success_chars": 29
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            16
+          ],
+          "success_chars": 28
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            7
+          ],
+          "success_chars": 34
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            19
+          ],
+          "success_chars": 17
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            6
+          ],
+          "success_chars": 28
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            21
+          ],
+          "success_chars": 24
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            11
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "从野神开始，以香火证道真神",
+      "file": "从野神开始，以香火证道真神.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.433333333333334,
+      "rubric_scores": [
+        6.5,
+        6.3,
+        6.5
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 7,
+        "人设鲜活": 7,
+        "节奏把控": 6,
+        "世界融合": 7,
+        "悬念设计": 6,
+        "代价真实": 5,
+        "对话自然": 7,
+        "情感共鸣": 6,
+        "反差营造": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            27
+          ],
+          "success_chars": 37
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            34
+          ],
+          "success_chars": 30
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            13
+          ],
+          "success_chars": 27
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            28
+          ],
+          "success_chars": 40
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            11
+          ],
+          "success_chars": 56
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            13
+          ],
+          "success_chars": 18
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            37
+          ],
+          "success_chars": 38
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            15
+          ],
+          "success_chars": 31
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            22
+          ],
+          "success_chars": 24
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            16
+          ],
+          "success_chars": 51
+        }
+      }
+    },
+    {
+      "title": "那妖魔是姜大人！",
+      "file": "那妖魔是姜大人！.txt",
+      "real_rating": 9.1,
+      "rubric_score": 7.3,
+      "rubric_scores": [
+        7.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "脑洞新颖": 6,
+        "人设鲜活": 7,
+        "节奏把控": 8,
+        "世界融合": 7,
+        "悬念设计": 8,
+        "代价真实": 7,
+        "对话自然": 6,
+        "情感共鸣": 7,
+        "反差营造": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            52
+          ],
+          "success_chars": 55
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            20
+          ],
+          "success_chars": 27
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            30
+          ],
+          "success_chars": 46
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            27
+          ],
+          "success_chars": 44
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            20
+          ],
+          "success_chars": 38
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            12
+          ],
+          "success_chars": 40
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            38
+          ],
+          "success_chars": 51
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            7
+          ],
+          "success_chars": 21
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            21
+          ],
+          "success_chars": 33
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            23
+          ],
+          "success_chars": 42
+        }
+      }
+    },
+    {
+      "title": "三十亿野神，唯有我百倍供品？",
+      "file": "三十亿野神，唯有我百倍供品？.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 6,
+        "人设鲜活": 5,
+        "节奏把控": 7,
+        "世界融合": 6,
+        "悬念设计": 5,
+        "代价真实": 4,
+        "对话自然": 6,
+        "情感共鸣": 5,
+        "反差营造": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            25
+          ],
+          "success_chars": 18
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            48
+          ],
+          "success_chars": 19
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            22
+          ],
+          "success_chars": 20
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            17
+          ],
+          "success_chars": 27
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            35
+          ],
+          "success_chars": 30
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            21
+          ],
+          "success_chars": 16
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            21
+          ],
+          "success_chars": 23
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            30
+          ],
+          "success_chars": 20
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            26
+          ],
+          "success_chars": 23
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            11
+          ],
+          "success_chars": 21
+        }
+      }
+    },
+    {
+      "title": "神域囚徒！",
+      "file": "神域囚徒！.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "人设鲜活": 7,
+        "节奏把控": 7,
+        "世界融合": 6,
+        "悬念设计": 6,
+        "代价真实": 7,
+        "对话自然": 6,
+        "情感共鸣": 6,
+        "反差营造": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            32
+          ],
+          "success_chars": 40
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            40
+          ],
+          "success_chars": 33
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            19
+          ],
+          "success_chars": 44
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            38
+          ],
+          "success_chars": 39
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            20
+          ],
+          "success_chars": 37
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            3
+          ],
+          "success_chars": 21
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            16
+          ],
+          "success_chars": 43
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            5
+          ],
+          "success_chars": 34
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            10
+          ],
+          "success_chars": 23
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            28
+          ],
+          "success_chars": 37
+        }
+      }
+    },
+    {
+      "title": "我来给修仙界上点强度",
+      "file": "我来给修仙界上点强度.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "脑洞新颖": 6,
+        "人设鲜活": 7,
+        "节奏把控": 6,
+        "世界融合": 5,
+        "悬念设计": 5,
+        "代价真实": 4,
+        "对话自然": 7,
+        "情感共鸣": 5,
+        "反差营造": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            21
+          ],
+          "success_chars": 41
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            22
+          ],
+          "success_chars": 55
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            20
+          ],
+          "success_chars": 55
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            44
+          ],
+          "success_chars": 46
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            24
+          ],
+          "success_chars": 36
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            19
+          ],
+          "success_chars": 53
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            25
+          ],
+          "success_chars": 27
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            25
+          ],
+          "success_chars": 24
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            31
+          ],
+          "success_chars": 37
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            23
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "我教孤儿读书，他们却屠尽武林！",
+      "file": "我教孤儿读书，他们却屠尽武林！.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "脑洞新颖": 6,
+        "人设鲜活": 6,
+        "节奏把控": 5,
+        "世界融合": 5,
+        "悬念设计": 4,
+        "代价真实": 3,
+        "对话自然": 6,
+        "情感共鸣": 5,
+        "反差营造": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            22
+          ],
+          "success_chars": 12
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            45
+          ],
+          "success_chars": 19
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            19
+          ],
+          "success_chars": 24
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            9
+          ],
+          "success_chars": 30
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            20
+          ],
+          "success_chars": 21
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            12
+          ],
+          "success_chars": 13
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            6
+          ],
+          "success_chars": 21
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            13
+          ],
+          "success_chars": 10
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            19
+          ],
+          "success_chars": 22
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            12
+          ],
+          "success_chars": 18
+        }
+      }
+    },
+    {
+      "title": "灵源仙路",
+      "file": "灵源仙路.txt",
+      "real_rating": 8.8,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "脑洞新颖": 6,
+        "人设鲜活": 7,
+        "节奏把控": 6,
+        "世界融合": 7,
+        "悬念设计": 6,
+        "代价真实": 5,
+        "对话自然": 7,
+        "情感共鸣": 6,
+        "反差营造": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            33
+          ],
+          "success_chars": 26
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            23
+          ],
+          "success_chars": 19
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            20
+          ],
+          "success_chars": 24
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            22
+          ],
+          "success_chars": 20
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            23
+          ],
+          "success_chars": 22
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            14
+          ],
+          "success_chars": 20
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            20
+          ],
+          "success_chars": 20
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            8
+          ],
+          "success_chars": 20
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            19
+          ],
+          "success_chars": 22
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            8
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "这个道子正的发邪",
+      "file": "这个道子正的发邪.txt",
+      "real_rating": 8.7,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "人设鲜活": 7,
+        "节奏把控": 6,
+        "世界融合": 6,
+        "悬念设计": 5,
+        "代价真实": 4,
+        "对话自然": 5,
+        "情感共鸣": 5,
+        "反差营造": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            46
+          ],
+          "success_chars": 19
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            39
+          ],
+          "success_chars": 19
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            2
+          ],
+          "success_chars": 29
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            27
+          ],
+          "success_chars": 25
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            27
+          ],
+          "success_chars": 19
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            16
+          ],
+          "success_chars": 24
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            24
+          ],
+          "success_chars": 23
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            26
+          ],
+          "success_chars": 33
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            24
+          ],
+          "success_chars": 15
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            12
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "你惹他干嘛？他宗门最弱都是大帝",
+      "file": "你惹他干嘛？他宗门最弱都是大帝.txt",
+      "real_rating": 8.4,
+      "rubric_score": 5.666666666666667,
+      "rubric_scores": [
+        5.4,
+        5.8,
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "人设鲜活": 7,
+        "节奏把控": 6,
+        "世界融合": 5,
+        "悬念设计": 5,
+        "代价真实": 4,
+        "对话自然": 5,
+        "情感共鸣": 6,
+        "反差营造": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            28
+          ],
+          "success_chars": 27
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            26
+          ],
+          "success_chars": 22
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            9
+          ],
+          "success_chars": 33
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            24
+          ],
+          "success_chars": 26
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            16
+          ],
+          "success_chars": 24
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            20
+          ],
+          "success_chars": 18
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            9
+          ],
+          "success_chars": 24
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            15
+          ],
+          "success_chars": 21
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            26
+          ],
+          "success_chars": 19
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            10
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "说好一年一词条，万词王什么鬼",
+      "file": "说好一年一词条，万词王什么鬼.txt",
+      "real_rating": 8.7,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 7,
+        "人设鲜活": 7,
+        "节奏把控": 6,
+        "世界融合": 5,
+        "悬念设计": 7,
+        "代价真实": 6,
+        "对话自然": 6,
+        "情感共鸣": 6,
+        "反差营造": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            33
+          ],
+          "success_chars": 31
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            48
+          ],
+          "success_chars": 59
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            61
+          ],
+          "success_chars": 46
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            54
+          ],
+          "success_chars": 44
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            29
+          ],
+          "success_chars": 31
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            39
+          ],
+          "success_chars": 32
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            37
+          ],
+          "success_chars": 42
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            29
+          ],
+          "success_chars": 22
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            38
+          ],
+          "success_chars": 67
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            33
+          ],
+          "success_chars": 58
+        }
+      }
+    },
+    {
+      "title": "造个鬼城，咋还封神了呢？",
+      "file": "造个鬼城，咋还封神了呢？.txt",
+      "real_rating": 8.8,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9,
+        6.9,
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "脑洞新颖": 6,
+        "人设鲜活": 7,
+        "节奏把控": 8,
+        "世界融合": 7,
+        "悬念设计": 6,
+        "代价真实": 5,
+        "对话自然": 7,
+        "情感共鸣": 7,
+        "反差营造": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            20
+          ],
+          "success_chars": 16
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            18
+          ],
+          "success_chars": 17
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            14
+          ],
+          "success_chars": 16
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            23
+          ],
+          "success_chars": 19
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            13
+          ],
+          "success_chars": 17
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            10
+          ],
+          "success_chars": 15
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            14
+          ],
+          "success_chars": 20
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            15
+          ],
+          "success_chars": 14
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            10
+          ],
+          "success_chars": 16
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            16
+          ],
+          "success_chars": 17
+        }
+      }
+    },
+    {
+      "title": "你都拜师菩提了，还开风影灵月？",
+      "file": "你都拜师菩提了，还开风影灵月？.txt",
+      "real_rating": 8.4,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "人设鲜活": 6,
+        "节奏把控": 7,
+        "世界融合": 6,
+        "悬念设计": 5,
+        "代价真实": 4,
+        "对话自然": 6,
+        "情感共鸣": 5,
+        "反差营造": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            23
+          ],
+          "success_chars": 45
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            40
+          ],
+          "success_chars": 34
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            30
+          ],
+          "success_chars": 44
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            25
+          ],
+          "success_chars": 27
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            29
+          ],
+          "success_chars": 26
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            23
+          ],
+          "success_chars": 25
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            36
+          ],
+          "success_chars": 31
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            23
+          ],
+          "success_chars": 8
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            14
+          ],
+          "success_chars": 25
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            21
+          ],
+          "success_chars": 46
+        }
+      }
+    },
+    {
+      "title": "风流宗师，从五禽拳开始镇压帝女",
+      "file": "风流宗师，从五禽拳开始镇压帝女.txt",
+      "real_rating": 7.5,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.9,
+        7.2,
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 6,
+        "人设鲜活": 7,
+        "节奏把控": 7,
+        "世界融合": 7,
+        "悬念设计": 6,
+        "代价真实": 8,
+        "对话自然": 7,
+        "情感共鸣": 7,
+        "反差营造": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            23
+          ],
+          "success_chars": 12
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            34
+          ],
+          "success_chars": 53
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            40
+          ],
+          "success_chars": 24
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            20
+          ],
+          "success_chars": 29
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            20
+          ],
+          "success_chars": 30
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            21
+          ],
+          "success_chars": 32
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            24
+          ],
+          "success_chars": 46
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            22
+          ],
+          "success_chars": 31
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            35
+          ],
+          "success_chars": 27
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            12
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "穿成杂灵根？复制词条后我无敌了",
+      "file": "穿成杂灵根？复制词条后我无敌了.txt",
+      "real_rating": 7.9,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 6,
+        "人设鲜活": 7,
+        "节奏把控": 7,
+        "世界融合": 6,
+        "悬念设计": 7,
+        "代价真实": 5,
+        "对话自然": 6,
+        "情感共鸣": 5,
+        "反差营造": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            43
+          ],
+          "success_chars": 34
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            30
+          ],
+          "success_chars": 54
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            34
+          ],
+          "success_chars": 46
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            21
+          ],
+          "success_chars": 28
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            12
+          ],
+          "success_chars": 44
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            23
+          ],
+          "success_chars": 42
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            38
+          ],
+          "success_chars": 25
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            27
+          ],
+          "success_chars": 11
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            42
+          ],
+          "success_chars": 34
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            18
+          ],
+          "success_chars": 49
+        }
+      }
+    },
+    {
+      "title": "替弟联姻，我登临巅峰你悔什么",
+      "file": "替弟联姻，我登临巅峰你悔什么.txt",
+      "real_rating": 8.0,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "人设鲜活": 7,
+        "节奏把控": 6,
+        "世界融合": 7,
+        "悬念设计": 6,
+        "代价真实": 5,
+        "对话自然": 7,
+        "情感共鸣": 6,
+        "反差营造": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            33
+          ],
+          "success_chars": 53
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            38
+          ],
+          "success_chars": 25
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            38
+          ],
+          "success_chars": 93
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            43
+          ],
+          "success_chars": 22
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            21
+          ],
+          "success_chars": 49
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            51
+          ],
+          "success_chars": 23
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            29
+          ],
+          "success_chars": 48
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            22
+          ],
+          "success_chars": 9
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            35
+          ],
+          "success_chars": 36
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            25
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "爹妈双帝尊，姐姐超护短，怎么输",
+      "file": "爹妈双帝尊，姐姐超护短，怎么输.txt",
+      "real_rating": 8.3,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "人设鲜活": 7,
+        "节奏把控": 6,
+        "世界融合": 5,
+        "悬念设计": 6,
+        "代价真实": 4,
+        "对话自然": 5,
+        "情感共鸣": 5,
+        "反差营造": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            64,
+            56
+          ],
+          "success_chars": 41
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            69,
+            39
+          ],
+          "success_chars": 41
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            38
+          ],
+          "success_chars": 47
+        },
+        "节奏把控": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            37
+          ],
+          "success_chars": 34
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            44
+          ],
+          "success_chars": 38
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            35
+          ],
+          "success_chars": 35
+        },
+        "代价真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            41
+          ],
+          "success_chars": 35
+        },
+        "对话自然": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            39
+          ],
+          "success_chars": 30
+        },
+        "情感共鸣": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            36
+          ],
+          "success_chars": 28
+        },
+        "反差营造": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            37
+          ],
+          "success_chars": 36
+        }
+      }
+    }
+  ]
+}

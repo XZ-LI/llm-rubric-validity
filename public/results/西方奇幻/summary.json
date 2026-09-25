@@ -1,0 +1,76 @@
+{
+  "category": "西方奇幻",
+  "rebuilt_utc": "2026-09-10T20:38:37+00:00",
+  "rebuilt_from": "iter_*/evaluation.json",
+  "rebuilt_reason": "原 summary.json 与 iter 目录不一致，判定为旧跑残留；以 iter 目录为准重建",
+  "total_rounds": 10,
+  "scores": [
+    {
+      "iteration": 1,
+      "score": 7.0
+    },
+    {
+      "iteration": 2,
+      "score": 7.3
+    },
+    {
+      "iteration": 3,
+      "score": 7.4
+    },
+    {
+      "iteration": 4,
+      "score": 7.0
+    },
+    {
+      "iteration": 5,
+      "score": 7.4
+    },
+    {
+      "iteration": 6,
+      "score": 7.0
+    },
+    {
+      "iteration": 7,
+      "score": 7.3
+    },
+    {
+      "iteration": 8,
+      "score": 7.6
+    },
+    {
+      "iteration": 9,
+      "score": 7.1
+    },
+    {
+      "iteration": 10,
+      "score": 7.35
+    }
+  ],
+  "score_trend": [
+    7.0,
+    7.3,
+    7.4,
+    7.0,
+    7.4,
+    7.0,
+    7.3,
+    7.6,
+    7.1,
+    7.35
+  ],
+  "system_prompt_bytes": [
+    1145,
+    2952,
+    5688,
+    7183,
+    9092,
+    11068,
+    12711,
+    13879,
+    16507,
+    19650
+  ],
+  "best_iteration": 8,
+  "best_score": 7.6,
+  "goal_reached": false
+}

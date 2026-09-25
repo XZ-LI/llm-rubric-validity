@@ -1,0 +1,2394 @@
+{
+  "run_id": "20260911T025515Z-4b53a6",
+  "run_utc": "2026-09-11T02:55:15+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "现言脑洞",
+  "source_dir": "Nvpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "乖孙女烧纸钱！爷爷送空间带你飞.txt",
+    "小小老子当团宠，把渣爹当胎盘哄.txt",
+    "惊！玄学大佬竟是法律系高材生.txt",
+    "望尽山海.txt",
+    "病弱金丝雀被权贵少爷们抢疯了.txt",
+    "都说了学魔法的都有病！.txt",
+    "风水玄学：开局从摆地摊开始.txt"
+  ],
+  "results": [
+    {
+      "title": "不知道，他们自己就舔我手心了",
+      "file": "不知道，他们自己就舔我手心了.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.5,
+      "rubric_scores": [
+        6.5
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "脑洞新颖": 6,
+        "人设立体": 7,
+        "节奏张力": 7,
+        "对话鲜活": 6,
+        "悬念设计": 7,
+        "世界观融": 6,
+        "反转密度": 6,
+        "情绪感染": 7,
+        "系统辅助": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            41
+          ],
+          "success_chars": 43
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            67,
+            37
+          ],
+          "success_chars": 28
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            22
+          ],
+          "success_chars": 44
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            36
+          ],
+          "success_chars": 29
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            13
+          ],
+          "success_chars": 35
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            30
+          ],
+          "success_chars": 29
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            44
+          ],
+          "success_chars": 28
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            26
+          ],
+          "success_chars": 44
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            14
+          ],
+          "success_chars": 21
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            18
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "黑月光冠冕",
+      "file": "黑月光冠冕.txt",
+      "real_rating": 9.5,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "脑洞新颖": 6,
+        "人设立体": 7,
+        "节奏张力": 7,
+        "对话鲜活": 8,
+        "悬念设计": 8,
+        "世界观融": 7,
+        "反转密度": 7,
+        "情绪感染": 8,
+        "系统辅助": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            40
+          ],
+          "success_chars": 36
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            30
+          ],
+          "success_chars": 31
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            26
+          ],
+          "success_chars": 39
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            21
+          ],
+          "success_chars": 32
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 35
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            27
+          ],
+          "success_chars": 30
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            14
+          ],
+          "success_chars": 32
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            22
+          ],
+          "success_chars": 27
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            13
+          ],
+          "success_chars": 28
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            23
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "人在星际，召唤的是千古华夏",
+      "file": "人在星际，召唤的是千古华夏.txt",
+      "real_rating": 9.3,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1,
+        6.1,
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 7,
+        "人设立体": 6,
+        "节奏张力": 5,
+        "对话鲜活": 5,
+        "悬念设计": 6,
+        "世界观融": 7,
+        "反转密度": 5,
+        "情绪感染": 5,
+        "系统辅助": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            35
+          ],
+          "success_chars": 57
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            26
+          ],
+          "success_chars": 37
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            47
+          ],
+          "success_chars": 72
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            38
+          ],
+          "success_chars": 49
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            28
+          ],
+          "success_chars": 25
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            16
+          ],
+          "success_chars": 48
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            14
+          ],
+          "success_chars": 78
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            17
+          ],
+          "success_chars": 44
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            15
+          ],
+          "success_chars": 21
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            39
+          ],
+          "success_chars": 17
+        }
+      }
+    },
+    {
+      "title": "玄学少女说你三更死，打钱改命",
+      "file": "玄学少女说你三更死，打钱改命.txt",
+      "real_rating": 9.4,
+      "rubric_score": 7.4,
+      "rubric_scores": [
+        7.4
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 7,
+        "人设立体": 8,
+        "节奏张力": 7,
+        "对话鲜活": 7,
+        "悬念设计": 8,
+        "世界观融": 7,
+        "反转密度": 8,
+        "情绪感染": 7,
+        "系统辅助": 9
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            42
+          ],
+          "success_chars": 53
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            28
+          ],
+          "success_chars": 50
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            24
+          ],
+          "success_chars": 54
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            36
+          ],
+          "success_chars": 69
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            20
+          ],
+          "success_chars": 37
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            20
+          ],
+          "success_chars": 43
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            27
+          ],
+          "success_chars": 34
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            19
+          ],
+          "success_chars": 50
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            17
+          ],
+          "success_chars": 32
+        },
+        "系统辅助": {
+          "n_failures": 0,
+          "failure_chars": [],
+          "success_chars": 45
+        }
+      }
+    },
+    {
+      "title": "哄男主同居后，前女友夜夜被诱吻",
+      "file": "哄男主同居后，前女友夜夜被诱吻.txt",
+      "real_rating": 9.3,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "脑洞新颖": 6,
+        "人设立体": 8,
+        "节奏张力": 7,
+        "对话鲜活": 8,
+        "悬念设计": 6,
+        "世界观融": 7,
+        "反转密度": 6,
+        "情绪感染": 7,
+        "系统辅助": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            46
+          ],
+          "success_chars": 45
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            43
+          ],
+          "success_chars": 12
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            30
+          ],
+          "success_chars": 10
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            37
+          ],
+          "success_chars": 63
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            32
+          ],
+          "success_chars": 15
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            38
+          ],
+          "success_chars": 27
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            37
+          ],
+          "success_chars": 16
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            27
+          ],
+          "success_chars": 30
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            22
+          ],
+          "success_chars": 36
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            32
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "恶毒女配，驯疯男主",
+      "file": "恶毒女配，驯疯男主.txt",
+      "real_rating": 9.2,
+      "rubric_score": 7.366666666666666,
+      "rubric_scores": [
+        7.3,
+        7.2,
+        7.6
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "脑洞新颖": 6,
+        "人设立体": 8,
+        "节奏张力": 7,
+        "对话鲜活": 8,
+        "悬念设计": 8,
+        "世界观融": 7,
+        "反转密度": 8,
+        "情绪感染": 7,
+        "系统辅助": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            44
+          ],
+          "success_chars": 64
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            33
+          ],
+          "success_chars": 19
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            31
+          ],
+          "success_chars": 35
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            28
+          ],
+          "success_chars": 47
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            49
+          ],
+          "success_chars": 25
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            35
+          ],
+          "success_chars": 14
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            27
+          ],
+          "success_chars": 59
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            27
+          ],
+          "success_chars": 38
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            26
+          ],
+          "success_chars": 26
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            18
+          ],
+          "success_chars": 42
+        }
+      }
+    },
+    {
+      "title": "穿越兽世：你有兽人老公吗",
+      "file": "穿越兽世：你有兽人老公吗.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "脑洞新颖": 7,
+        "人设立体": 7,
+        "节奏张力": 6,
+        "对话鲜活": 7,
+        "悬念设计": 8,
+        "世界观融": 7,
+        "反转密度": 6,
+        "情绪感染": 7,
+        "系统辅助": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            17
+          ],
+          "success_chars": 39
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            50
+          ],
+          "success_chars": 43
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            33
+          ],
+          "success_chars": 25
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            65
+          ],
+          "success_chars": 44
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            21
+          ],
+          "success_chars": 24
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            13
+          ],
+          "success_chars": 23
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            27
+          ],
+          "success_chars": 16
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            29
+          ],
+          "success_chars": 17
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            7
+          ],
+          "success_chars": 5
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            8
+          ],
+          "success_chars": 13
+        }
+      }
+    },
+    {
+      "title": "快穿之老实人女配不老实",
+      "file": "快穿之老实人女配不老实.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "人设立体": 7,
+        "节奏张力": 6,
+        "对话鲜活": 7,
+        "悬念设计": 5,
+        "世界观融": 6,
+        "反转密度": 6,
+        "情绪感染": 6,
+        "系统辅助": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            12
+          ],
+          "success_chars": 34
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            14
+          ],
+          "success_chars": 31
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            29
+          ],
+          "success_chars": 33
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            17
+          ],
+          "success_chars": 29
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            29
+          ],
+          "success_chars": 17
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            8
+          ],
+          "success_chars": 21
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            32
+          ],
+          "success_chars": 40
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            49
+          ],
+          "success_chars": 39
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            20
+          ],
+          "success_chars": 14
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            9
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "直播算命轰动全网，官方坐不住了",
+      "file": "直播算命轰动全网，官方坐不住了.txt",
+      "real_rating": 9.2,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "脑洞新颖": 6,
+        "人设立体": 7,
+        "节奏张力": 8,
+        "对话鲜活": 7,
+        "悬念设计": 8,
+        "世界观融": 8,
+        "反转密度": 7,
+        "情绪感染": 7,
+        "系统辅助": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            17
+          ],
+          "success_chars": 31
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            35
+          ],
+          "success_chars": 22
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            23
+          ],
+          "success_chars": 24
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            21
+          ],
+          "success_chars": 43
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            26
+          ],
+          "success_chars": 43
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            29
+          ],
+          "success_chars": 38
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            13
+          ],
+          "success_chars": 43
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            21
+          ],
+          "success_chars": 38
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            12
+          ],
+          "success_chars": 40
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            26
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "玄学大佬断亲后，和酆都大帝锁了",
+      "file": "玄学大佬断亲后，和酆都大帝锁了.txt",
+      "real_rating": 9.2,
+      "rubric_score": 7.6,
+      "rubric_scores": [
+        7.6
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "脑洞新颖": 7,
+        "人设立体": 8,
+        "节奏张力": 7,
+        "对话鲜活": 7,
+        "悬念设计": 8,
+        "世界观融": 8,
+        "反转密度": 7,
+        "情绪感染": 7,
+        "系统辅助": 9
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            14
+          ],
+          "success_chars": 43
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            48
+          ],
+          "success_chars": 32
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            23
+          ],
+          "success_chars": 49
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            63,
+            42
+          ],
+          "success_chars": 39
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            17
+          ],
+          "success_chars": 40
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            20
+          ],
+          "success_chars": 44
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            35
+          ],
+          "success_chars": 40
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            33
+          ],
+          "success_chars": 48
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            29
+          ],
+          "success_chars": 41
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            31
+          ],
+          "success_chars": 45
+        }
+      }
+    },
+    {
+      "title": "满门忠烈被逼当填房，弹幕杀疯了",
+      "file": "满门忠烈被逼当填房，弹幕杀疯了.txt",
+      "real_rating": 9.1,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "脑洞新颖": 6,
+        "人设立体": 7,
+        "节奏张力": 6,
+        "对话鲜活": 7,
+        "悬念设计": 8,
+        "世界观融": 7,
+        "反转密度": 7,
+        "情绪感染": 7,
+        "系统辅助": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            29
+          ],
+          "success_chars": 42
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            38
+          ],
+          "success_chars": 32
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            29
+          ],
+          "success_chars": 33
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            40
+          ],
+          "success_chars": 39
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            10
+          ],
+          "success_chars": 46
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            24
+          ],
+          "success_chars": 41
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            12
+          ],
+          "success_chars": 45
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            29
+          ],
+          "success_chars": 39
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            16
+          ],
+          "success_chars": 44
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            24
+          ],
+          "success_chars": 37
+        }
+      }
+    },
+    {
+      "title": "漂亮女配又被男主亲哭了",
+      "file": "漂亮女配又被男主亲哭了.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 5,
+        "人设立体": 7,
+        "节奏张力": 6,
+        "对话鲜活": 7,
+        "悬念设计": 5,
+        "世界观融": 6,
+        "反转密度": 5,
+        "情绪感染": 6,
+        "系统辅助": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            52
+          ],
+          "success_chars": 60
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            32
+          ],
+          "success_chars": 34
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            33
+          ],
+          "success_chars": 37
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            42
+          ],
+          "success_chars": 37
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            21
+          ],
+          "success_chars": 76
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            25
+          ],
+          "success_chars": 38
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            11
+          ],
+          "success_chars": 47
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            27
+          ],
+          "success_chars": 26
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            18
+          ],
+          "success_chars": 27
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            43
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "装瞎回豪门，假千金的鱼塘全炸了",
+      "file": "装瞎回豪门，假千金的鱼塘全炸了.txt",
+      "real_rating": 9.0,
+      "rubric_score": 7.8,
+      "rubric_scores": [
+        7.8,
+        7.8,
+        7.8
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "脑洞新颖": 7,
+        "人设立体": 8,
+        "节奏张力": 8,
+        "对话鲜活": 7,
+        "悬念设计": 9,
+        "世界观融": 8,
+        "反转密度": 8,
+        "情绪感染": 8,
+        "系统辅助": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            32
+          ],
+          "success_chars": 67
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            39
+          ],
+          "success_chars": 32
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            10
+          ],
+          "success_chars": 32
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            26
+          ],
+          "success_chars": 23
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            28
+          ],
+          "success_chars": 12
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            24
+          ],
+          "success_chars": 39
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            22
+          ],
+          "success_chars": 16
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            23
+          ],
+          "success_chars": 49
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            9
+          ],
+          "success_chars": 32
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            30
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "退圈后，我在山沟沟种田养娃",
+      "file": "退圈后，我在山沟沟种田养娃.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "脑洞新颖": 6,
+        "人设立体": 7,
+        "节奏张力": 7,
+        "对话鲜活": 6,
+        "悬念设计": 6,
+        "世界观融": 7,
+        "反转密度": 5,
+        "情绪感染": 6,
+        "系统辅助": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            26
+          ],
+          "success_chars": 71
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            72,
+            44
+          ],
+          "success_chars": 41
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            45
+          ],
+          "success_chars": 45
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            34
+          ],
+          "success_chars": 36
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            32
+          ],
+          "success_chars": 59
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            4,
+            34
+          ],
+          "success_chars": 33
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            34
+          ],
+          "success_chars": 56
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            28
+          ],
+          "success_chars": 34
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            22
+          ],
+          "success_chars": 53
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            34
+          ],
+          "success_chars": 37
+        }
+      }
+    },
+    {
+      "title": "红糖白盐几块钱，古人员工买疯了",
+      "file": "红糖白盐几块钱，古人员工买疯了.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "脑洞新颖": 6,
+        "人设立体": 7,
+        "节奏张力": 5,
+        "对话鲜活": 6,
+        "悬念设计": 6,
+        "世界观融": 7,
+        "反转密度": 5,
+        "情绪感染": 7,
+        "系统辅助": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            44
+          ],
+          "success_chars": 45
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            65
+          ],
+          "success_chars": 30
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            75,
+            44
+          ],
+          "success_chars": 40
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            78,
+            52
+          ],
+          "success_chars": 24
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            50
+          ],
+          "success_chars": 28
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            34
+          ],
+          "success_chars": 37
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            41
+          ],
+          "success_chars": 25
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            28
+          ],
+          "success_chars": 31
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            18
+          ],
+          "success_chars": 30
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            35
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "兽语破案！国家和小动物抢着宠我",
+      "file": "兽语破案！国家和小动物抢着宠我.txt",
+      "real_rating": 8.9,
+      "rubric_score": 7.4,
+      "rubric_scores": [
+        7.4
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "脑洞新颖": 6,
+        "人设立体": 7,
+        "节奏张力": 8,
+        "对话鲜活": 7,
+        "悬念设计": 9,
+        "世界观融": 7,
+        "反转密度": 7,
+        "情绪感染": 8,
+        "系统辅助": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            15
+          ],
+          "success_chars": 36
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 32
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            39
+          ],
+          "success_chars": 37
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            28
+          ],
+          "success_chars": 35
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            22
+          ],
+          "success_chars": 39
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            45
+          ],
+          "success_chars": 35
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            12
+          ],
+          "success_chars": 35
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            24
+          ],
+          "success_chars": 31
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            7
+          ],
+          "success_chars": 32
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            22
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "恶女靠捞金，撬了万人迷的男主",
+      "file": "恶女靠捞金，撬了万人迷的男主.txt",
+      "real_rating": 8.8,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "脑洞新颖": 6,
+        "人设立体": 8,
+        "节奏张力": 6,
+        "对话鲜活": 7,
+        "悬念设计": 7,
+        "世界观融": 6,
+        "反转密度": 6,
+        "情绪感染": 7,
+        "系统辅助": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            18
+          ],
+          "success_chars": 25
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            19
+          ],
+          "success_chars": 31
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            18
+          ],
+          "success_chars": 35
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            29
+          ],
+          "success_chars": 37
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            20
+          ],
+          "success_chars": 32
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            19
+          ],
+          "success_chars": 24
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            21
+          ],
+          "success_chars": 20
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            25
+          ],
+          "success_chars": 42
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            23
+          ],
+          "success_chars": 48
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            22
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "笑死！整顿内娱这事根本难不倒她",
+      "file": "笑死！整顿内娱这事根本难不倒她.txt",
+      "real_rating": 8.7,
+      "rubric_score": 7.4,
+      "rubric_scores": [
+        7.4
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "脑洞新颖": 7,
+        "人设立体": 8,
+        "节奏张力": 7,
+        "对话鲜活": 8,
+        "悬念设计": 7,
+        "世界观融": 8,
+        "反转密度": 7,
+        "情绪感染": 7,
+        "系统辅助": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            60
+          ],
+          "success_chars": 64
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            33
+          ],
+          "success_chars": 17
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            15
+          ],
+          "success_chars": 45
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            56
+          ],
+          "success_chars": 34
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            29
+          ],
+          "success_chars": 46
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            15
+          ],
+          "success_chars": 20
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            13
+          ],
+          "success_chars": 50
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            32
+          ],
+          "success_chars": 39
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            16
+          ],
+          "success_chars": 14
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            28
+          ],
+          "success_chars": 21
+        }
+      }
+    },
+    {
+      "title": "团灭前一秒，我带魔教回现代了",
+      "file": "团灭前一秒，我带魔教回现代了.txt",
+      "real_rating": 8.8,
+      "rubric_score": 7.8,
+      "rubric_scores": [
+        7.8
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "脑洞新颖": 7,
+        "人设立体": 8,
+        "节奏张力": 8,
+        "对话鲜活": 9,
+        "悬念设计": 7,
+        "世界观融": 8,
+        "反转密度": 8,
+        "情绪感染": 9,
+        "系统辅助": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            51
+          ],
+          "success_chars": 54
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            41
+          ],
+          "success_chars": 46
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            29
+          ],
+          "success_chars": 57
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            31
+          ],
+          "success_chars": 57
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            9
+          ],
+          "success_chars": 69
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            4
+          ],
+          "success_chars": 56
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            22
+          ],
+          "success_chars": 57
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            28
+          ],
+          "success_chars": 56
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            20
+          ],
+          "success_chars": 51
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            22
+          ],
+          "success_chars": 46
+        }
+      }
+    },
+    {
+      "title": "失业后，我回村直播爆火全网",
+      "file": "失业后，我回村直播爆火全网.txt",
+      "real_rating": 8.7,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "脑洞新颖": 6,
+        "人设立体": 7,
+        "节奏张力": 6,
+        "对话鲜活": 8,
+        "悬念设计": 5,
+        "世界观融": 7,
+        "反转密度": 6,
+        "情绪感染": 7,
+        "系统辅助": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            30
+          ],
+          "success_chars": 51
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            33
+          ],
+          "success_chars": 55
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            19
+          ],
+          "success_chars": 50
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            30
+          ],
+          "success_chars": 47
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            32
+          ],
+          "success_chars": 57
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            23
+          ],
+          "success_chars": 40
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            31
+          ],
+          "success_chars": 67
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            29
+          ],
+          "success_chars": 47
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            24
+          ],
+          "success_chars": 40
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            28
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "踹掉渣男后，全星际雄性疯抢我",
+      "file": "踹掉渣男后，全星际雄性疯抢我.txt",
+      "real_rating": 8.7,
+      "rubric_score": 6.733333333333333,
+      "rubric_scores": [
+        6.3,
+        6.8,
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "脑洞新颖": 6,
+        "人设立体": 7,
+        "节奏张力": 6,
+        "对话鲜活": 6,
+        "悬念设计": 5,
+        "世界观融": 7,
+        "反转密度": 6,
+        "情绪感染": 6,
+        "系统辅助": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            6
+          ],
+          "success_chars": 42
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            51
+          ],
+          "success_chars": 50
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            14
+          ],
+          "success_chars": 24
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            48
+          ],
+          "success_chars": 39
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            19
+          ],
+          "success_chars": 17
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            26
+          ],
+          "success_chars": 36
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            16
+          ],
+          "success_chars": 29
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            31
+          ],
+          "success_chars": 42
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            36
+          ],
+          "success_chars": 52
+        },
+        "系统辅助": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            31
+          ],
+          "success_chars": 18
+        }
+      }
+    },
+    {
+      "title": "回村摆烂！京市太子爷求我嫁！",
+      "file": "回村摆烂！京市太子爷求我嫁！.txt",
+      "real_rating": 8.6,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8,
+        6.8,
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "脑洞新颖": 6,
+        "人设立体": 7,
+        "节奏张力": 7,
+        "对话鲜活": 6,
+        "悬念设计": 7,
+        "世界观融": 5,
+        "反转密度": 7,
+        "情绪感染": 6,
+        "系统辅助": 9
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            24
+          ],
+          "success_chars": 41
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            9
+          ],
+          "success_chars": 32
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            27
+          ],
+          "success_chars": 30
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            38
+          ],
+          "success_chars": 29
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            17
+          ],
+          "success_chars": 31
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            7
+          ],
+          "success_chars": 18
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            12
+          ],
+          "success_chars": 25
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            20
+          ],
+          "success_chars": 24
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            25
+          ],
+          "success_chars": 34
+        },
+        "系统辅助": {
+          "n_failures": 0,
+          "failure_chars": [],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "重生在星际我炼制的药剂千奇百怪",
+      "file": "重生在星际我炼制的药剂千奇百怪.txt",
+      "real_rating": 8.6,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "脑洞新颖": 7,
+        "人设立体": 6,
+        "节奏张力": 5,
+        "对话鲜活": 5,
+        "悬念设计": 6,
+        "世界观融": 7,
+        "反转密度": 5,
+        "情绪感染": 6,
+        "系统辅助": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            19
+          ],
+          "success_chars": 48
+        },
+        "脑洞新颖": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            35
+          ],
+          "success_chars": 21
+        },
+        "人设立体": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            26
+          ],
+          "success_chars": 51
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            40
+          ],
+          "success_chars": 28
+        },
+        "对话鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            19
+          ],
+          "success_chars": 26
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 49
+        },
+        "世界观融": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            19
+          ],
+          "success_chars": 26
+        },
+        "反转密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            16
+          ],
+          "success_chars": 27
+        },
+        "情绪感染": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            13
+          ],
+          "success_chars": 20
+        },
+        "系统辅助": {
+          "n_failures": 0,
+          "failure_chars": [],
+          "success_chars": 52
+        }
+      }
+    }
+  ]
+}

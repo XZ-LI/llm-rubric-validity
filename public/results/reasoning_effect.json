@@ -1,0 +1,380 @@
+{
+  "model": "qwen-turbo",
+  "cell": "动漫衍生",
+  "results": {
+    "思考关": [
+      {
+        "kind": "AI",
+        "label": "iter_1",
+        "rating": null,
+        "score": 6.9
+      },
+      {
+        "kind": "AI",
+        "label": "iter_2",
+        "rating": null,
+        "score": 7.1
+      },
+      {
+        "kind": "AI",
+        "label": "iter_3",
+        "rating": null,
+        "score": 6.3
+      },
+      {
+        "kind": "AI",
+        "label": "iter_4",
+        "rating": null,
+        "score": 6.1
+      },
+      {
+        "kind": "AI",
+        "label": "iter_5",
+        "rating": null,
+        "score": 6.1
+      },
+      {
+        "kind": "AI",
+        "label": "iter_6",
+        "rating": null,
+        "score": 6.9
+      },
+      {
+        "kind": "AI",
+        "label": "iter_7",
+        "rating": null,
+        "score": 5.8
+      },
+      {
+        "kind": "AI",
+        "label": "iter_8",
+        "rating": null,
+        "score": 6.6
+      },
+      {
+        "kind": "AI",
+        "label": "iter_9",
+        "rating": null,
+        "score": 8.7
+      },
+      {
+        "kind": "AI",
+        "label": "iter_10",
+        "rating": null,
+        "score": 6.3
+      },
+      {
+        "kind": "真人",
+        "label": "战锤百倍正反馈，四神洗成人类神",
+        "rating": 8.9,
+        "score": 5.0
+      },
+      {
+        "kind": "真人",
+        "label": "我，祖国人，漫威唯一人间之神",
+        "rating": 8.8,
+        "score": 5.1
+      },
+      {
+        "kind": "真人",
+        "label": "海贼：十五岁的旧时代霸主",
+        "rating": 9.1,
+        "score": 5.3
+      },
+      {
+        "kind": "真人",
+        "label": "冲徒逆师得手后，反手让我出师",
+        "rating": 8.9,
+        "score": 5.6
+      },
+      {
+        "kind": "真人",
+        "label": "一心求死的我竟是最强人间体",
+        "rating": 8.8,
+        "score": 6.1
+      },
+      {
+        "kind": "真人",
+        "label": "崩铁：什么叫你给纳努克发了车票",
+        "rating": 8.9,
+        "score": 6.1
+      },
+      {
+        "kind": "真人",
+        "label": "超级蜘蛛侠：全新之日！",
+        "rating": 8.1,
+        "score": 5.1
+      },
+      {
+        "kind": "真人",
+        "label": "天幕：开局锐评三代，忍界全傻了",
+        "rating": 8.3,
+        "score": 5.8
+      },
+      {
+        "kind": "真人",
+        "label": "谁教你用魂系打法玩魔法少女的？",
+        "rating": 8.4,
+        "score": 6.1
+      },
+      {
+        "kind": "真人",
+        "label": "崩铁：我都P40了，系统才来",
+        "rating": 8.0,
+        "score": 4.2
+      },
+      {
+        "kind": "真人",
+        "label": "海贼：疯了，他才是洛克斯话事人",
+        "rating": 8.5,
+        "score": 5.3
+      },
+      {
+        "kind": "真人",
+        "label": "开服之前，我执掌潮汐监狱",
+        "rating": 8.0,
+        "score": 5.2
+      },
+      {
+        "kind": "真人",
+        "label": "海贼：没人比我更懂霸王色",
+        "rating": 8.0,
+        "score": 5.7
+      },
+      {
+        "kind": "真人",
+        "label": "一人：开局在东北杀鬼子",
+        "rating": 7.7,
+        "score": 5.3
+      },
+      {
+        "kind": "真人",
+        "label": "一人：照着无限修炼成仙！",
+        "rating": 7.4,
+        "score": 4.7
+      },
+      {
+        "kind": "真人",
+        "label": "坏了！这艾斯把暗暗果实给吃了",
+        "rating": 7.7,
+        "score": 58.0
+      },
+      {
+        "kind": "真人",
+        "label": "海贼：混在洛克斯团，每天变强",
+        "rating": 7.4,
+        "score": 5.8
+      },
+      {
+        "kind": "真人",
+        "label": "漫威丧尸，从推倒寡姐开始",
+        "rating": 7.3,
+        "score": 6.1
+      },
+      {
+        "kind": "真人",
+        "label": "一人：满级老祖，出关吓呆十佬",
+        "rating": 7.2,
+        "score": 6.3
+      },
+      {
+        "kind": "真人",
+        "label": "都有符咒了，谁还跟你玩嘎啦给木",
+        "rating": 6.6,
+        "score": 5.3
+      },
+      {
+        "kind": "真人",
+        "label": "冠军了，系统还当我是萌新",
+        "rating": 6.1,
+        "score": 5.8
+      }
+    ],
+    "思考开": [
+      {
+        "kind": "AI",
+        "label": "iter_2",
+        "rating": null,
+        "score": 7.1
+      },
+      {
+        "kind": "AI",
+        "label": "iter_3",
+        "rating": null,
+        "score": 6.3
+      },
+      {
+        "kind": "AI",
+        "label": "iter_4",
+        "rating": null,
+        "score": 6.3
+      },
+      {
+        "kind": "AI",
+        "label": "iter_5",
+        "rating": null,
+        "score": 7.0
+      },
+      {
+        "kind": "AI",
+        "label": "iter_6",
+        "rating": null,
+        "score": 5.8
+      },
+      {
+        "kind": "AI",
+        "label": "iter_7",
+        "rating": null,
+        "score": 5.8
+      },
+      {
+        "kind": "AI",
+        "label": "iter_8",
+        "rating": null,
+        "score": 5.8
+      },
+      {
+        "kind": "AI",
+        "label": "iter_9",
+        "rating": null,
+        "score": 6.4
+      },
+      {
+        "kind": "AI",
+        "label": "iter_10",
+        "rating": null,
+        "score": 5.7
+      },
+      {
+        "kind": "真人",
+        "label": "战锤百倍正反馈，四神洗成人类神",
+        "rating": 8.9,
+        "score": 4.3
+      },
+      {
+        "kind": "真人",
+        "label": "我，祖国人，漫威唯一人间之神",
+        "rating": 8.8,
+        "score": 5.3
+      },
+      {
+        "kind": "真人",
+        "label": "海贼：十五岁的旧时代霸主",
+        "rating": 9.1,
+        "score": 5.2
+      },
+      {
+        "kind": "真人",
+        "label": "冲徒逆师得手后，反手让我出师",
+        "rating": 8.9,
+        "score": 4.7
+      },
+      {
+        "kind": "真人",
+        "label": "一心求死的我竟是最强人间体",
+        "rating": 8.8,
+        "score": 6.0
+      },
+      {
+        "kind": "真人",
+        "label": "崩铁：什么叫你给纳努克发了车票",
+        "rating": 8.9,
+        "score": 6.3
+      },
+      {
+        "kind": "真人",
+        "label": "超级蜘蛛侠：全新之日！",
+        "rating": 8.1,
+        "score": 5.1
+      },
+      {
+        "kind": "真人",
+        "label": "天幕：开局锐评三代，忍界全傻了",
+        "rating": 8.3,
+        "score": 5.3
+      },
+      {
+        "kind": "真人",
+        "label": "谁教你用魂系打法玩魔法少女的？",
+        "rating": 8.4,
+        "score": 6.0
+      },
+      {
+        "kind": "真人",
+        "label": "崩铁：我都P40了，系统才来",
+        "rating": 8.0,
+        "score": 3.9
+      },
+      {
+        "kind": "真人",
+        "label": "海贼：疯了，他才是洛克斯话事人",
+        "rating": 8.5,
+        "score": 3.2
+      },
+      {
+        "kind": "真人",
+        "label": "开服之前，我执掌潮汐监狱",
+        "rating": 8.0,
+        "score": 6.3
+      },
+      {
+        "kind": "真人",
+        "label": "海贼：没人比我更懂霸王色",
+        "rating": 8.0,
+        "score": 4.2
+      },
+      {
+        "kind": "真人",
+        "label": "一人：开局在东北杀鬼子",
+        "rating": 7.7,
+        "score": 4.7
+      },
+      {
+        "kind": "真人",
+        "label": "一人：照着无限修炼成仙！",
+        "rating": 7.4,
+        "score": 5.3
+      },
+      {
+        "kind": "真人",
+        "label": "坏了！这艾斯把暗暗果实给吃了",
+        "rating": 7.7,
+        "score": 5.5
+      },
+      {
+        "kind": "真人",
+        "label": "海贼：混在洛克斯团，每天变强",
+        "rating": 7.4,
+        "score": 6.3
+      },
+      {
+        "kind": "真人",
+        "label": "漫威丧尸，从推倒寡姐开始",
+        "rating": 7.3,
+        "score": 54.0
+      },
+      {
+        "kind": "真人",
+        "label": "一人：满级老祖，出关吓呆十佬",
+        "rating": 7.2,
+        "score": 5.8
+      },
+      {
+        "kind": "真人",
+        "label": "都有符咒了，谁还跟你玩嘎啦给木",
+        "rating": 6.6,
+        "score": 3.1
+      },
+      {
+        "kind": "真人",
+        "label": "冠军了，系统还当我是萌新",
+        "rating": 6.1,
+        "score": 5.0
+      }
+    ]
+  },
+  "gaps": {
+    "思考关": -1.3152380952380955,
+    "思考开": -1.1603174603174606
+  }
+}

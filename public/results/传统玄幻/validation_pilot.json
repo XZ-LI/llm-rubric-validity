@@ -1,0 +1,2404 @@
+{
+  "run_id": "20260911T000610Z-93b0f0",
+  "run_utc": "2026-09-11T00:06:10+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "传统玄幻",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "丹经，丹道，丹圣！.txt",
+    "仙子别跑，咱们天生一对.txt",
+    "修仙界第一混乱.txt",
+    "天渊.txt",
+    "我一个卧底，让我撑起整个宗门？.txt",
+    "我堂堂镇北侯，你给我玩代嫁？.txt",
+    "烟雨楼.txt"
+  ],
+  "results": [
+    {
+      "title": "瞎子背剑，无眼窥天",
+      "file": "瞎子背剑，无眼窥天.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "节奏感": 6,
+        "人设度": 7,
+        "画面感": 7,
+        "对话味": 5,
+        "悬念度": 6,
+        "升级线": 5,
+        "机缘价": 4,
+        "宗政戏": 3,
+        "章异度": 5
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            22
+          ],
+          "success_chars": 19
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            15
+          ],
+          "success_chars": 27
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            21
+          ],
+          "success_chars": 28
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            37
+          ],
+          "success_chars": 26
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            12
+          ],
+          "success_chars": 11
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            20
+          ],
+          "success_chars": 20
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            17
+          ],
+          "success_chars": 16
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            23
+          ],
+          "success_chars": 22
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            17
+          ],
+          "success_chars": 11
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            12
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "蛇天帝",
+      "file": "蛇天帝.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "节奏感": 7,
+        "人设度": 8,
+        "画面感": 7,
+        "对话味": 6,
+        "悬念度": 8,
+        "升级线": 7,
+        "机缘价": 6,
+        "宗政戏": 4,
+        "章异度": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            37
+          ],
+          "success_chars": 58
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            30
+          ],
+          "success_chars": 41
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            34
+          ],
+          "success_chars": 31
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            39
+          ],
+          "success_chars": 52
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            44
+          ],
+          "success_chars": 28
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            5
+          ],
+          "success_chars": 23
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            31
+          ],
+          "success_chars": 30
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            21
+          ],
+          "success_chars": 27
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            24
+          ],
+          "success_chars": 25
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            10
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "练阴阳，合欢喜，成大道",
+      "file": "练阴阳，合欢喜，成大道.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "开篇钩": 6,
+        "节奏感": 7,
+        "人设度": 8,
+        "画面感": 7,
+        "对话味": 6,
+        "悬念度": 8,
+        "升级线": 5,
+        "机缘价": 4,
+        "宗政戏": 3,
+        "章异度": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            29
+          ],
+          "success_chars": 22
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            24
+          ],
+          "success_chars": 22
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            31
+          ],
+          "success_chars": 22
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            26
+          ],
+          "success_chars": 22
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            28
+          ],
+          "success_chars": 41
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            25
+          ],
+          "success_chars": 28
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            23
+          ],
+          "success_chars": 23
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            33
+          ],
+          "success_chars": 24
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            25
+          ],
+          "success_chars": 23
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            17
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "剑饮不知醉",
+      "file": "剑饮不知醉.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "开篇钩": 6,
+        "节奏感": 5,
+        "人设度": 7,
+        "画面感": 6,
+        "对话味": 6,
+        "悬念度": 5,
+        "升级线": 3,
+        "机缘价": 2,
+        "宗政戏": 6,
+        "章异度": 4
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            68
+          ],
+          "success_chars": 33
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            46
+          ],
+          "success_chars": 25
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            15
+          ],
+          "success_chars": 59
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            29
+          ],
+          "success_chars": 66
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            34
+          ],
+          "success_chars": 29
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            50
+          ],
+          "success_chars": 57
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            18
+          ],
+          "success_chars": 49
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            43
+          ],
+          "success_chars": 33
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            40
+          ],
+          "success_chars": 43
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            11
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "葬神刀",
+      "file": "葬神刀.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.5,
+      "rubric_scores": [
+        6.3,
+        6.3,
+        6.9
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "节奏感": 7,
+        "人设度": 6,
+        "画面感": 6,
+        "对话味": 5,
+        "悬念度": 7,
+        "升级线": 5,
+        "机缘价": 6,
+        "宗政戏": 5,
+        "章异度": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            11
+          ],
+          "success_chars": 40
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            52
+          ],
+          "success_chars": 38
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            22
+          ],
+          "success_chars": 71
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            53
+          ],
+          "success_chars": 40
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            42
+          ],
+          "success_chars": 59
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            37
+          ],
+          "success_chars": 82
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            15
+          ],
+          "success_chars": 60
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            13
+          ],
+          "success_chars": 45
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            20
+          ],
+          "success_chars": 24
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            8
+          ],
+          "success_chars": 8
+        }
+      }
+    },
+    {
+      "title": "踏天境",
+      "file": "踏天境.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "开篇钩": 6,
+        "节奏感": 5,
+        "人设度": 6,
+        "画面感": 5,
+        "对话味": 5,
+        "悬念度": 7,
+        "升级线": 6,
+        "机缘价": 4,
+        "宗政戏": 5,
+        "章异度": 5
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            84,
+            62
+          ],
+          "success_chars": 30
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            70,
+            67
+          ],
+          "success_chars": 23
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            39
+          ],
+          "success_chars": 26
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            35
+          ],
+          "success_chars": 39
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            52
+          ],
+          "success_chars": 24
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            33
+          ],
+          "success_chars": 29
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            32
+          ],
+          "success_chars": 27
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            44
+          ],
+          "success_chars": 29
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            33
+          ],
+          "success_chars": 25
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            33
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "师弟，别这么修仙",
+      "file": "师弟，别这么修仙.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.0,
+      "rubric_scores": [
+        5.8,
+        6.1,
+        6.1
+      ],
+      "dimensions": {
+        "开篇钩": 5,
+        "节奏感": 6,
+        "人设度": 7,
+        "画面感": 5,
+        "对话味": 6,
+        "悬念度": 7,
+        "升级线": 4,
+        "机缘价": 3,
+        "宗政戏": 5,
+        "章异度": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            20
+          ],
+          "success_chars": 25
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            25
+          ],
+          "success_chars": 29
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            31
+          ],
+          "success_chars": 30
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            43
+          ],
+          "success_chars": 45
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            24
+          ],
+          "success_chars": 27
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            27
+          ],
+          "success_chars": 13
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            24
+          ],
+          "success_chars": 25
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            22
+          ],
+          "success_chars": 22
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            24
+          ],
+          "success_chars": 27
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            12
+          ],
+          "success_chars": 27
+        }
+      }
+    },
+    {
+      "title": "葬天境",
+      "file": "葬天境.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "开篇钩": 5,
+        "节奏感": 6,
+        "人设度": 5,
+        "画面感": 5,
+        "对话味": 5,
+        "悬念度": 6,
+        "升级线": 6,
+        "机缘价": 4,
+        "宗政戏": 5,
+        "章异度": 5
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            47
+          ],
+          "success_chars": 25
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            24
+          ],
+          "success_chars": 33
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            13
+          ],
+          "success_chars": 15
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            28
+          ],
+          "success_chars": 40
+        },
+        "对话味": {
+          "n_failures": 1,
+          "failure_chars": [
+            59
+          ],
+          "success_chars": 55
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            21
+          ],
+          "success_chars": 14
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            28
+          ],
+          "success_chars": 24
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            23
+          ],
+          "success_chars": 17
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            23
+          ],
+          "success_chars": 32
+        },
+        "章异度": {
+          "n_failures": 3,
+          "failure_chars": [
+            11,
+            11,
+            13
+          ],
+          "success_chars": 11
+        }
+      }
+    },
+    {
+      "title": "蝼蚁？下一世你应该称呼我什么？",
+      "file": "蝼蚁？下一世你应该称呼我什么？.txt",
+      "real_rating": 9.0,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "开篇钩": 4,
+        "节奏感": 3,
+        "人设度": 5,
+        "画面感": 4,
+        "对话味": 3,
+        "悬念度": 6,
+        "升级线": 5,
+        "机缘价": 4,
+        "宗政戏": 3,
+        "章异度": 2
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            38
+          ],
+          "success_chars": 63
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            34
+          ],
+          "success_chars": 32
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            31
+          ],
+          "success_chars": 27
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            10
+          ],
+          "success_chars": 45
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            64,
+            27
+          ],
+          "success_chars": 37
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            38
+          ],
+          "success_chars": 36
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            17
+          ],
+          "success_chars": 16
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            9
+          ],
+          "success_chars": 35
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            11
+          ],
+          "success_chars": 40
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            30
+          ],
+          "success_chars": 21
+        }
+      }
+    },
+    {
+      "title": "长生万年，多亿点熟人怎么了？",
+      "file": "长生万年，多亿点熟人怎么了？.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "开篇钩": 6,
+        "节奏感": 5,
+        "人设度": 7,
+        "画面感": 5,
+        "对话味": 6,
+        "悬念度": 6,
+        "升级线": 4,
+        "机缘价": 3,
+        "宗政戏": 6,
+        "章异度": 5
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            46
+          ],
+          "success_chars": 42
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            78,
+            65
+          ],
+          "success_chars": 29
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            94,
+            20
+          ],
+          "success_chars": 44
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            44
+          ],
+          "success_chars": 71
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            40
+          ],
+          "success_chars": 38
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            49
+          ],
+          "success_chars": 39
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            24
+          ],
+          "success_chars": 24
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            30
+          ],
+          "success_chars": 27
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            38
+          ],
+          "success_chars": 35
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            24
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "凡人修仙记",
+      "file": "凡人修仙记.txt",
+      "real_rating": 8.9,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "开篇钩": 5,
+        "节奏感": 6,
+        "人设度": 7,
+        "画面感": 8,
+        "对话味": 6,
+        "悬念度": 7,
+        "升级线": 4,
+        "机缘价": 5,
+        "宗政戏": 3,
+        "章异度": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            23
+          ],
+          "success_chars": 52
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            68,
+            16
+          ],
+          "success_chars": 61
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            47
+          ],
+          "success_chars": 42
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            53
+          ],
+          "success_chars": 25
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            20
+          ],
+          "success_chars": 45
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            60
+          ],
+          "success_chars": 15
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            27
+          ],
+          "success_chars": 23
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            48
+          ],
+          "success_chars": 23
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            23
+          ],
+          "success_chars": 54
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            9
+          ],
+          "success_chars": 44
+        }
+      }
+    },
+    {
+      "title": "他的修仙，让整个修仙界破防了！",
+      "file": "他的修仙，让整个修仙界破防了！.txt",
+      "real_rating": 8.8,
+      "rubric_score": 5.133333333333333,
+      "rubric_scores": [
+        5.2,
+        5.1,
+        5.1
+      ],
+      "dimensions": {
+        "开篇钩": 6,
+        "节奏感": 5,
+        "人设度": 7,
+        "画面感": 5,
+        "对话味": 6,
+        "悬念度": 5,
+        "升级线": 4,
+        "机缘价": 3,
+        "宗政戏": 6,
+        "章异度": 5
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            20
+          ],
+          "success_chars": 31
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            26
+          ],
+          "success_chars": 66
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            42
+          ],
+          "success_chars": 57
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            38
+          ],
+          "success_chars": 50
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            27
+          ],
+          "success_chars": 59
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            12
+          ],
+          "success_chars": 24
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            17
+          ],
+          "success_chars": 30
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            21
+          ],
+          "success_chars": 12
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            20
+          ],
+          "success_chars": 36
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            19
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "道友，你在和谁说话？",
+      "file": "道友，你在和谁说话？.txt",
+      "real_rating": 8.9,
+      "rubric_score": 7.3,
+      "rubric_scores": [
+        7.3
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "节奏感": 7,
+        "人设度": 9,
+        "画面感": 8,
+        "对话味": 8,
+        "悬念度": 9,
+        "升级线": 5,
+        "机缘价": 8,
+        "宗政戏": 4,
+        "章异度": 7
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            41
+          ],
+          "success_chars": 17
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            40
+          ],
+          "success_chars": 64
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            31
+          ],
+          "success_chars": 62
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            37
+          ],
+          "success_chars": 66
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            44
+          ],
+          "success_chars": 24
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            21
+          ],
+          "success_chars": 69
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            30
+          ],
+          "success_chars": 10
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            27
+          ],
+          "success_chars": 21
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            22
+          ],
+          "success_chars": 25
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            21
+          ],
+          "success_chars": 53
+        }
+      }
+    },
+    {
+      "title": "大荒悍匪",
+      "file": "大荒悍匪.txt",
+      "real_rating": 8.9,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "节奏感": 7,
+        "人设度": 6,
+        "画面感": 8,
+        "对话味": 6,
+        "悬念度": 7,
+        "升级线": 5,
+        "机缘价": 6,
+        "宗政戏": 4,
+        "章异度": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            30
+          ],
+          "success_chars": 55
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            39
+          ],
+          "success_chars": 44
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            41
+          ],
+          "success_chars": 33
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            37
+          ],
+          "success_chars": 44
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            14
+          ],
+          "success_chars": 43
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            32
+          ],
+          "success_chars": 45
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            42
+          ],
+          "success_chars": 26
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            32
+          ],
+          "success_chars": 48
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            34
+          ],
+          "success_chars": 26
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            35
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "我反派家世通天，梨花飘落你窗前",
+      "file": "我反派家世通天，梨花飘落你窗前.txt",
+      "real_rating": 8.7,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "开篇钩": 6,
+        "节奏感": 5,
+        "人设度": 5,
+        "画面感": 6,
+        "对话味": 5,
+        "悬念度": 7,
+        "升级线": 4,
+        "机缘价": 3,
+        "宗政戏": 6,
+        "章异度": 5
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            32
+          ],
+          "success_chars": 50
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            62,
+            50
+          ],
+          "success_chars": 33
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            47
+          ],
+          "success_chars": 36
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            25
+          ],
+          "success_chars": 10
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            38
+          ],
+          "success_chars": 20
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            41
+          ],
+          "success_chars": 16
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            10
+          ],
+          "success_chars": 20
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            37
+          ],
+          "success_chars": 24
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            19
+          ],
+          "success_chars": 28
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            20
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "我在天牢，长生不死",
+      "file": "我在天牢，长生不死.txt",
+      "real_rating": 8.6,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "开篇钩": 6,
+        "节奏感": 5,
+        "人设度": 7,
+        "画面感": 6,
+        "对话味": 5,
+        "悬念度": 4,
+        "升级线": 5,
+        "机缘价": 3,
+        "宗政戏": 5,
+        "章异度": 4
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            33
+          ],
+          "success_chars": 6
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            37
+          ],
+          "success_chars": 37
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            39
+          ],
+          "success_chars": 23
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            21
+          ],
+          "success_chars": 20
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            39
+          ],
+          "success_chars": 35
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            28
+          ],
+          "success_chars": 31
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            29
+          ],
+          "success_chars": 37
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            29
+          ],
+          "success_chars": 34
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            27
+          ],
+          "success_chars": 28
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            21
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "师尊重伤，苟活的我被迫出山",
+      "file": "师尊重伤，苟活的我被迫出山.txt",
+      "real_rating": 8.3,
+      "rubric_score": 5.533333333333333,
+      "rubric_scores": [
+        5.6,
+        5.4,
+        5.6
+      ],
+      "dimensions": {
+        "开篇钩": 5,
+        "节奏感": 6,
+        "人设度": 5,
+        "画面感": 6,
+        "对话味": 5,
+        "悬念度": 7,
+        "升级线": 4,
+        "机缘价": 5,
+        "宗政戏": 6,
+        "章异度": 5
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            9
+          ],
+          "success_chars": 33
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            22
+          ],
+          "success_chars": 32
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            15
+          ],
+          "success_chars": 18
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            15
+          ],
+          "success_chars": 47
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            6
+          ],
+          "success_chars": 19
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            13
+          ],
+          "success_chars": 35
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            20
+          ],
+          "success_chars": 11
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            28
+          ],
+          "success_chars": 22
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            29
+          ],
+          "success_chars": 33
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            19
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "开局侮辱圣女，我是幽冥魔尊",
+      "file": "开局侮辱圣女，我是幽冥魔尊.txt",
+      "real_rating": 8.1,
+      "rubric_score": 3.1,
+      "rubric_scores": [
+        3.1
+      ],
+      "dimensions": {
+        "开篇钩": 4,
+        "节奏感": 3,
+        "人设度": 2,
+        "画面感": 3,
+        "对话味": 2,
+        "悬念度": 5,
+        "升级线": 4,
+        "机缘价": 1,
+        "宗政戏": 2,
+        "章异度": 3
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            8
+          ],
+          "success_chars": 12
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            28
+          ],
+          "success_chars": 30
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            37
+          ],
+          "success_chars": 35
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            34
+          ],
+          "success_chars": 30
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            10
+          ],
+          "success_chars": 11
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            21
+          ],
+          "success_chars": 30
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            18
+          ],
+          "success_chars": 28
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            23
+          ],
+          "success_chars": 30
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            11
+          ],
+          "success_chars": 22
+        },
+        "章异度": {
+          "n_failures": 3,
+          "failure_chars": [
+            6,
+            6,
+            6
+          ],
+          "success_chars": 27
+        }
+      }
+    },
+    {
+      "title": "大道天阙",
+      "file": "大道天阙.txt",
+      "real_rating": 8.6,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "开篇钩": 5,
+        "节奏感": 6,
+        "人设度": 7,
+        "画面感": 6,
+        "对话味": 7,
+        "悬念度": 8,
+        "升级线": 4,
+        "机缘价": 5,
+        "宗政戏": 7,
+        "章异度": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            46
+          ],
+          "success_chars": 32
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            64,
+            55
+          ],
+          "success_chars": 31
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            48
+          ],
+          "success_chars": 30
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            19
+          ],
+          "success_chars": 54
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            28
+          ],
+          "success_chars": 28
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            13
+          ],
+          "success_chars": 56
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            44
+          ],
+          "success_chars": 31
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            15
+          ],
+          "success_chars": 33
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            33
+          ],
+          "success_chars": 28
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            11
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "贫道略开金口，怎么举世皆惊？",
+      "file": "贫道略开金口，怎么举世皆惊？.txt",
+      "real_rating": 8.2,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "开篇钩": 7,
+        "节奏感": 6,
+        "人设度": 6,
+        "画面感": 8,
+        "对话味": 7,
+        "悬念度": 9,
+        "升级线": 5,
+        "机缘价": 6,
+        "宗政戏": 3,
+        "章异度": 7
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            27
+          ],
+          "success_chars": 33
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            44
+          ],
+          "success_chars": 42
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            19
+          ],
+          "success_chars": 29
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            25
+          ],
+          "success_chars": 50
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            13
+          ],
+          "success_chars": 42
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            23
+          ],
+          "success_chars": 54
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            21
+          ],
+          "success_chars": 28
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            29
+          ],
+          "success_chars": 47
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            27
+          ],
+          "success_chars": 10
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            6
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "贴地武夫，谁教他炼剑起飞的？",
+      "file": "贴地武夫，谁教他炼剑起飞的？.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "开篇钩": 6,
+        "节奏感": 5,
+        "人设度": 5,
+        "画面感": 6,
+        "对话味": 4,
+        "悬念度": 5,
+        "升级线": 3,
+        "机缘价": 4,
+        "宗政戏": 4,
+        "章异度": 5
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            25
+          ],
+          "success_chars": 67
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            43
+          ],
+          "success_chars": 31
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            37
+          ],
+          "success_chars": 25
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            29
+          ],
+          "success_chars": 35
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            15
+          ],
+          "success_chars": 30
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            22
+          ],
+          "success_chars": 18
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            30
+          ],
+          "success_chars": 27
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            19
+          ],
+          "success_chars": 28
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            29
+          ],
+          "success_chars": 24
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            28
+          ],
+          "success_chars": 21
+        }
+      }
+    },
+    {
+      "title": "自缚禁地五百年，我弃宗门当散修",
+      "file": "自缚禁地五百年，我弃宗门当散修.txt",
+      "real_rating": 7.9,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "开篇钩": 7,
+        "节奏感": 6,
+        "人设度": 8,
+        "画面感": 5,
+        "对话味": 6,
+        "悬念度": 8,
+        "升级线": 4,
+        "机缘价": 7,
+        "宗政戏": 7,
+        "章异度": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            20
+          ],
+          "success_chars": 37
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            58
+          ],
+          "success_chars": 24
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            36
+          ],
+          "success_chars": 38
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            26
+          ],
+          "success_chars": 27
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            20
+          ],
+          "success_chars": 30
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            40
+          ],
+          "success_chars": 39
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            20
+          ],
+          "success_chars": 29
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            40
+          ],
+          "success_chars": 31
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            35
+          ],
+          "success_chars": 29
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            39
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "我，纨绔世子，开局征服太子妃！",
+      "file": "我，纨绔世子，开局征服太子妃！.txt",
+      "real_rating": 7.5,
+      "rubric_score": 5.133333333333333,
+      "rubric_scores": [
+        5.1,
+        5.1,
+        5.2
+      ],
+      "dimensions": {
+        "开篇钩": 6,
+        "节奏感": 5,
+        "人设度": 5,
+        "画面感": 4,
+        "对话味": 4,
+        "悬念度": 6,
+        "升级线": 5,
+        "机缘价": 3,
+        "宗政戏": 5,
+        "章异度": 4
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            23
+          ],
+          "success_chars": 23
+        },
+        "节奏感": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            19
+          ],
+          "success_chars": 40
+        },
+        "人设度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            30
+          ],
+          "success_chars": 38
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            23
+          ],
+          "success_chars": 34
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            13
+          ],
+          "success_chars": 32
+        },
+        "悬念度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            24
+          ],
+          "success_chars": 45
+        },
+        "升级线": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            5
+          ],
+          "success_chars": 51
+        },
+        "机缘价": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            14
+          ],
+          "success_chars": 31
+        },
+        "宗政戏": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            14
+          ],
+          "success_chars": 33
+        },
+        "章异度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            16
+          ],
+          "success_chars": 18
+        }
+      }
+    }
+  ]
+}

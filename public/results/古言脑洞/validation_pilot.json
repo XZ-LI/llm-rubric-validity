@@ -1,0 +1,2197 @@
+{
+  "run_id": "20260911T022801Z-14d3df",
+  "run_utc": "2026-09-11T02:28:01+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "古言脑洞",
+  "source_dir": "Nvpin",
+  "output_spec": "lean",
+  "n": 21,
+  "excluded_contaminated": [
+    "全家偷听心声，演，我就看你们演.txt",
+    "叮，成就流芳百世，表小姐开卷了.txt",
+    "回京后，神算大小姐名满天下.txt",
+    "天幕大秦：三岁奶团是始皇孙女.txt",
+    "流放路上：开着房车养废腿王爷.txt",
+    "穿越之我全家都有八百个心眼子.txt",
+    "都杀了，做人没必要太正常.txt"
+  ],
+  "results": [
+    {
+      "title": "捏鬼！画符！将军嫡长女地府来的",
+      "file": "捏鬼！画符！将军嫡长女地府来的.txt",
+      "real_rating": 9.3,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "开篇钩": 6,
+        "脑洞值": 5,
+        "爽节奏": 7,
+        "人设彩": 6,
+        "对话味": 5,
+        "画面感": 6,
+        "古韵感": 4,
+        "悬念链": 6,
+        "逻辑严": 5,
+        "反转劲": 5
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            68
+          ],
+          "success_chars": 32
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            36
+          ],
+          "success_chars": 26
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            27
+          ],
+          "success_chars": 13
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            14
+          ],
+          "success_chars": 50
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            43
+          ],
+          "success_chars": 54
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            68,
+            34
+          ],
+          "success_chars": 35
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            13
+          ],
+          "success_chars": 30
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            21
+          ],
+          "success_chars": 25
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            36
+          ],
+          "success_chars": 29
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            25
+          ],
+          "success_chars": 13
+        }
+      }
+    },
+    {
+      "title": "出去打听打听，谁家杀手去和亲？",
+      "file": "出去打听打听，谁家杀手去和亲？.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "脑洞值": 6,
+        "爽节奏": 7,
+        "人设彩": 8,
+        "对话味": 7,
+        "画面感": 6,
+        "古韵感": 5,
+        "悬念链": 7,
+        "逻辑严": 6,
+        "反转劲": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            50
+          ],
+          "success_chars": 72
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            82
+          ],
+          "success_chars": 52
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            58
+          ],
+          "success_chars": 47
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            36
+          ],
+          "success_chars": 43
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            24
+          ],
+          "success_chars": 28
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            28
+          ],
+          "success_chars": 57
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            5
+          ],
+          "success_chars": 22
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            37
+          ],
+          "success_chars": 32
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            28
+          ],
+          "success_chars": 17
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            9
+          ],
+          "success_chars": 29
+        }
+      }
+    },
+    {
+      "title": "不许偷听朕说话",
+      "file": "不许偷听朕说话.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.233333333333333,
+      "rubric_scores": [
+        6.3,
+        6.1,
+        6.3
+      ],
+      "dimensions": {
+        "开篇钩": 7,
+        "脑洞值": 6,
+        "爽节奏": 5,
+        "人设彩": 7,
+        "对话味": 6,
+        "画面感": 7,
+        "古韵感": 8,
+        "悬念链": 6,
+        "逻辑严": 5,
+        "反转劲": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            24
+          ],
+          "success_chars": 35
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            23
+          ],
+          "success_chars": 26
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            32
+          ],
+          "success_chars": 24
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            19
+          ],
+          "success_chars": 25
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            24
+          ],
+          "success_chars": 25
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            20
+          ],
+          "success_chars": 33
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            5
+          ],
+          "success_chars": 34
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            26
+          ],
+          "success_chars": 23
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            26
+          ],
+          "success_chars": 23
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            30
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "始皇偷听我心声，不统六国统全球",
+      "file": "始皇偷听我心声，不统六国统全球.txt",
+      "real_rating": 9.4,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "开篇钩": 6,
+        "脑洞值": 5,
+        "爽节奏": 5,
+        "人设彩": 7,
+        "对话味": 6,
+        "画面感": 6,
+        "古韵感": 5,
+        "悬念链": 7,
+        "逻辑严": 5,
+        "反转劲": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            28
+          ],
+          "success_chars": 23
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            33
+          ],
+          "success_chars": 25
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            55
+          ],
+          "success_chars": 23
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            23
+          ],
+          "success_chars": 36
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            29
+          ],
+          "success_chars": 30
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            32
+          ],
+          "success_chars": 41
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            12
+          ],
+          "success_chars": 36
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            18
+          ],
+          "success_chars": 32
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            32
+          ],
+          "success_chars": 24
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            38
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "都成亲了才发现夫君有狐狸尾巴",
+      "file": "都成亲了才发现夫君有狐狸尾巴.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "开篇钩": 6,
+        "脑洞值": 5,
+        "爽节奏": 6,
+        "人设彩": 7,
+        "对话味": 6,
+        "画面感": 7,
+        "古韵感": 8,
+        "悬念链": 6,
+        "逻辑严": 5,
+        "反转劲": 7
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            51
+          ],
+          "success_chars": 40
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            35
+          ],
+          "success_chars": 32
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            32
+          ],
+          "success_chars": 39
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            24
+          ],
+          "success_chars": 49
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            10
+          ],
+          "success_chars": 37
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            26
+          ],
+          "success_chars": 37
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            9
+          ],
+          "success_chars": 47
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            23
+          ],
+          "success_chars": 48
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            33
+          ],
+          "success_chars": 25
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            6
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "都亲了才告诉我他是大反派！？",
+      "file": "都亲了才告诉我他是大反派！？.txt",
+      "real_rating": 9.4,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "脑洞值": 6,
+        "爽节奏": 5,
+        "人设彩": 7,
+        "对话味": 6,
+        "画面感": 8,
+        "古韵感": 5,
+        "悬念链": 7,
+        "逻辑严": 5,
+        "反转劲": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            70,
+            74
+          ],
+          "success_chars": 74
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            44
+          ],
+          "success_chars": 34
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            63
+          ],
+          "success_chars": 27
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            34
+          ],
+          "success_chars": 35
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            36
+          ],
+          "success_chars": 36
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            43
+          ],
+          "success_chars": 72
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            20
+          ],
+          "success_chars": 23
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            40
+          ],
+          "success_chars": 35
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            45
+          ],
+          "success_chars": 27
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            24
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "黑莲花略施心机，各路大佬全沦陷",
+      "file": "黑莲花略施心机，各路大佬全沦陷.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "开篇钩": 6,
+        "脑洞值": 5,
+        "爽节奏": 7,
+        "人设彩": 7,
+        "对话味": 6,
+        "画面感": 5,
+        "古韵感": 6,
+        "悬念链": 6,
+        "逻辑严": 6,
+        "反转劲": 7
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            29
+          ],
+          "success_chars": 30
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            47
+          ],
+          "success_chars": 16
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            29
+          ],
+          "success_chars": 32
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            29
+          ],
+          "success_chars": 30
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            40
+          ],
+          "success_chars": 44
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            37
+          ],
+          "success_chars": 21
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            28
+          ],
+          "success_chars": 30
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            30
+          ],
+          "success_chars": 8
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            16
+          ],
+          "success_chars": 25
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            11
+          ],
+          "success_chars": 46
+        }
+      }
+    },
+    {
+      "title": "太子崽崽今天登基了吗？",
+      "file": "太子崽崽今天登基了吗？.txt",
+      "real_rating": 9.2,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1,
+        7.1,
+        7.1
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "脑洞值": 6,
+        "爽节奏": 7,
+        "人设彩": 8,
+        "对话味": 6,
+        "画面感": 8,
+        "古韵感": 5,
+        "悬念链": 7,
+        "逻辑严": 6,
+        "反转劲": 7
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            24
+          ],
+          "success_chars": 40
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            55
+          ],
+          "success_chars": 38
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            21
+          ],
+          "success_chars": 35
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            14
+          ],
+          "success_chars": 45
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            21
+          ],
+          "success_chars": 51
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            15
+          ],
+          "success_chars": 50
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            6
+          ],
+          "success_chars": 37
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            32
+          ],
+          "success_chars": 44
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            28
+          ],
+          "success_chars": 31
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            7
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "大秦：谁惹寡人体弱多病的爱卿了",
+      "file": "大秦：谁惹寡人体弱多病的爱卿了.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "开篇钩": 5,
+        "脑洞值": 6,
+        "爽节奏": 4,
+        "人设彩": 7,
+        "对话味": 6,
+        "画面感": 7,
+        "古韵感": 5,
+        "悬念链": 6,
+        "逻辑严": 7,
+        "反转劲": 5
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            50
+          ],
+          "success_chars": 44
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            74,
+            30
+          ],
+          "success_chars": 54
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            49
+          ],
+          "success_chars": 70
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            51
+          ],
+          "success_chars": 70
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            57
+          ],
+          "success_chars": 30
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            45
+          ],
+          "success_chars": 43
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            13
+          ],
+          "success_chars": 21
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            7
+          ],
+          "success_chars": 32
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            30
+          ],
+          "success_chars": 48
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            16
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "说好的灭门呢，怎么变宠妻了？",
+      "file": "说好的灭门呢，怎么变宠妻了？.txt",
+      "real_rating": 9.1,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "脑洞值": 6,
+        "爽节奏": 8,
+        "人设彩": 7,
+        "对话味": 6,
+        "画面感": 7,
+        "古韵感": 5,
+        "悬念链": 8,
+        "逻辑严": 6,
+        "反转劲": 7
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            9
+          ],
+          "success_chars": 72
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            22
+          ],
+          "success_chars": 66
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            42
+          ],
+          "success_chars": 44
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            53
+          ],
+          "success_chars": 63
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            15
+          ],
+          "success_chars": 20
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            22
+          ],
+          "success_chars": 52
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            34
+          ],
+          "success_chars": 35
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            34
+          ],
+          "success_chars": 44
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            23
+          ],
+          "success_chars": 32
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            35
+          ],
+          "success_chars": 50
+        }
+      }
+    },
+    {
+      "title": "死在亲儿子手里，恶毒太后重生了",
+      "file": "死在亲儿子手里，恶毒太后重生了.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "开篇钩": 7,
+        "脑洞值": 6,
+        "爽节奏": 6,
+        "人设彩": 7,
+        "对话味": 6,
+        "画面感": 6,
+        "古韵感": 5,
+        "悬念链": 7,
+        "逻辑严": 6,
+        "反转劲": 7
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            43
+          ],
+          "success_chars": 37
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            32
+          ],
+          "success_chars": 27
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            25
+          ],
+          "success_chars": 30
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            29
+          ],
+          "success_chars": 34
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            31
+          ],
+          "success_chars": 31
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            56
+          ],
+          "success_chars": 33
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            3,
+            14
+          ],
+          "success_chars": 29
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            19
+          ],
+          "success_chars": 31
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            34
+          ],
+          "success_chars": 25
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            23
+          ],
+          "success_chars": 27
+        }
+      }
+    },
+    {
+      "title": "这苗疆反派怎么用嘴下蛊？",
+      "file": "这苗疆反派怎么用嘴下蛊？.txt",
+      "real_rating": 9.3,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "开篇钩": 7,
+        "脑洞值": 6,
+        "爽节奏": 6,
+        "人设彩": 7,
+        "对话味": 6,
+        "画面感": 7,
+        "古韵感": 5,
+        "悬念链": 7,
+        "逻辑严": 6,
+        "反转劲": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            70,
+            92
+          ],
+          "success_chars": 61
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            69
+          ],
+          "success_chars": 57
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            55
+          ],
+          "success_chars": 46
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            65,
+            68
+          ],
+          "success_chars": 55
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            34
+          ],
+          "success_chars": 59
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            52
+          ],
+          "success_chars": 56
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            57
+          ],
+          "success_chars": 46
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            28
+          ],
+          "success_chars": 50
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            45
+          ],
+          "success_chars": 38
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            50
+          ],
+          "success_chars": 49
+        }
+      }
+    },
+    {
+      "title": "穿书奸臣之女，没人比我更懂贪",
+      "file": "穿书奸臣之女，没人比我更懂贪.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.966666666666667,
+      "rubric_scores": [
+        7.1,
+        6.9,
+        6.9
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "脑洞值": 6,
+        "爽节奏": 7,
+        "人设彩": 7,
+        "对话味": 6,
+        "画面感": 8,
+        "古韵感": 5,
+        "悬念链": 7,
+        "逻辑严": 6,
+        "反转劲": 8
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            51
+          ],
+          "success_chars": 50
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            75,
+            59
+          ],
+          "success_chars": 52
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            34
+          ],
+          "success_chars": 48
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            61,
+            23
+          ],
+          "success_chars": 32
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            27
+          ],
+          "success_chars": 41
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            38
+          ],
+          "success_chars": 53
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            25
+          ],
+          "success_chars": 12
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            28
+          ],
+          "success_chars": 64
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            32
+          ],
+          "success_chars": 39
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            30
+          ],
+          "success_chars": 55
+        }
+      }
+    },
+    {
+      "title": "我养大的年下，后来成了年上",
+      "file": "我养大的年下，后来成了年上.txt",
+      "real_rating": 8.7,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "脑洞值": 7,
+        "爽节奏": 7,
+        "人设彩": 8,
+        "对话味": 6,
+        "画面感": 8,
+        "古韵感": 5,
+        "悬念链": 7,
+        "逻辑严": 6,
+        "反转劲": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            43
+          ],
+          "success_chars": 43
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            15
+          ],
+          "success_chars": 43
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            35
+          ],
+          "success_chars": 36
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            27
+          ],
+          "success_chars": 48
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            41
+          ],
+          "success_chars": 16
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            40
+          ],
+          "success_chars": 45
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            24
+          ],
+          "success_chars": 24
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            24
+          ],
+          "success_chars": 58
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            58
+          ],
+          "success_chars": 18
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            33
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "穿成死对头生的女儿，我只想登基",
+      "file": "穿成死对头生的女儿，我只想登基.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "脑洞值": 6,
+        "爽节奏": 7,
+        "人设彩": 7,
+        "对话味": 6,
+        "画面感": 7,
+        "古韵感": 5,
+        "悬念链": 7,
+        "逻辑严": 5,
+        "反转劲": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            32
+          ],
+          "success_chars": 67
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            34
+          ],
+          "success_chars": 39
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            51
+          ],
+          "success_chars": 42
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            38
+          ],
+          "success_chars": 40
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            21
+          ],
+          "success_chars": 35
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            28
+          ],
+          "success_chars": 37
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            25
+          ],
+          "success_chars": 28
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            9
+          ],
+          "success_chars": 35
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            33
+          ],
+          "success_chars": 30
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            33
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "嫡母要我命？气呼呼！系统快爆瓜",
+      "file": "嫡母要我命？气呼呼！系统快爆瓜.txt",
+      "real_rating": 8.8,
+      "rubric_score": 7.3,
+      "rubric_scores": [
+        7.3
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "脑洞值": 6,
+        "爽节奏": 8,
+        "人设彩": 7,
+        "对话味": 7,
+        "画面感": 7,
+        "古韵感": 5,
+        "悬念链": 8,
+        "逻辑严": 6,
+        "反转劲": 8
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            10
+          ],
+          "success_chars": 57
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            38
+          ],
+          "success_chars": 44
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            21
+          ],
+          "success_chars": 49
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            8
+          ],
+          "success_chars": 54
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            15
+          ],
+          "success_chars": 62
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            14
+          ],
+          "success_chars": 43
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            21
+          ],
+          "success_chars": 46
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            12
+          ],
+          "success_chars": 42
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            21
+          ],
+          "success_chars": 40
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            19
+          ],
+          "success_chars": 47
+        }
+      }
+    },
+    {
+      "title": "佛珠镇百鬼，煞星渡余生",
+      "file": "佛珠镇百鬼，煞星渡余生.txt",
+      "real_rating": 8.6,
+      "rubric_score": 7.4,
+      "rubric_scores": [
+        7.4
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "脑洞值": 7,
+        "爽节奏": 8,
+        "人设彩": 8,
+        "对话味": 7,
+        "画面感": 8,
+        "古韵感": 6,
+        "悬念链": 7,
+        "逻辑严": 7,
+        "反转劲": 7
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            22
+          ],
+          "success_chars": 59
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            25
+          ],
+          "success_chars": 45
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            38
+          ],
+          "success_chars": 72
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            39
+          ],
+          "success_chars": 34
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            30
+          ],
+          "success_chars": 45
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            17
+          ],
+          "success_chars": 18
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            23
+          ],
+          "success_chars": 57
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            36
+          ],
+          "success_chars": 41
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            37
+          ],
+          "success_chars": 29
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            26
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "太子妃爱吃瓜满朝文武偷听笑哈哈",
+      "file": "太子妃爱吃瓜满朝文武偷听笑哈哈.txt",
+      "real_rating": 8.6,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8,
+        5.8,
+        5.8
+      ],
+      "dimensions": {
+        "开篇钩": 6,
+        "脑洞值": 5,
+        "爽节奏": 6,
+        "人设彩": 7,
+        "对话味": 5,
+        "画面感": 5,
+        "古韵感": 4,
+        "悬念链": 6,
+        "逻辑严": 5,
+        "反转劲": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            7
+          ],
+          "success_chars": 36
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            10
+          ],
+          "success_chars": 37
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            19
+          ],
+          "success_chars": 38
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            20
+          ],
+          "success_chars": 30
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            24
+          ],
+          "success_chars": 27
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            31
+          ],
+          "success_chars": 9
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            5
+          ],
+          "success_chars": 10
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            33
+          ],
+          "success_chars": 24
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            11
+          ],
+          "success_chars": 26
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            24
+          ],
+          "success_chars": 10
+        }
+      }
+    },
+    {
+      "title": "吃瓜的我，遇上读心的她",
+      "file": "吃瓜的我，遇上读心的她.txt",
+      "real_rating": 8.5,
+      "rubric_score": 6.2,
+      "rubric_scores": [
+        6.2
+      ],
+      "dimensions": {
+        "开篇钩": 7,
+        "脑洞值": 6,
+        "爽节奏": 6,
+        "人设彩": 7,
+        "对话味": 6,
+        "画面感": 7,
+        "古韵感": 5,
+        "悬念链": 6,
+        "逻辑严": 6,
+        "反转劲": 5
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            30
+          ],
+          "success_chars": 33
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            65,
+            44
+          ],
+          "success_chars": 41
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            39
+          ],
+          "success_chars": 52
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            35
+          ],
+          "success_chars": 36
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            5
+          ],
+          "success_chars": 24
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            13
+          ],
+          "success_chars": 40
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            10
+          ],
+          "success_chars": 25
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            25
+          ],
+          "success_chars": 38
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            67,
+            40
+          ],
+          "success_chars": 19
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            30
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "假皇子爱吃瓜，身份暴露成团宠",
+      "file": "假皇子爱吃瓜，身份暴露成团宠.txt",
+      "real_rating": 7.8,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4,
+        6.8,
+        6.0
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "脑洞值": 6,
+        "爽节奏": 7,
+        "人设彩": 7,
+        "对话味": 6,
+        "画面感": 6,
+        "古韵感": 5,
+        "悬念链": 7,
+        "逻辑严": 5,
+        "反转劲": 6
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            29
+          ],
+          "success_chars": 58
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            29
+          ],
+          "success_chars": 22
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            34
+          ],
+          "success_chars": 23
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            20
+          ],
+          "success_chars": 24
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            25
+          ],
+          "success_chars": 41
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            26
+          ],
+          "success_chars": 75
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            3
+          ],
+          "success_chars": 16
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            28
+          ],
+          "success_chars": 19
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            45
+          ],
+          "success_chars": 22
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            22
+          ],
+          "success_chars": 16
+        }
+      }
+    },
+    {
+      "title": "我带警犬穿越成弃妃",
+      "file": "我带警犬穿越成弃妃.txt",
+      "real_rating": 8.2,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "开篇钩": 8,
+        "脑洞值": 6,
+        "爽节奏": 7,
+        "人设彩": 7,
+        "对话味": 6,
+        "画面感": 8,
+        "古韵感": 5,
+        "悬念链": 6,
+        "逻辑严": 5,
+        "反转劲": 5
+      },
+      "evidence_shape": {
+        "开篇钩": {
+          "n_failures": 2,
+          "failure_chars": [
+            69,
+            88
+          ],
+          "success_chars": 49
+        },
+        "脑洞值": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            51
+          ],
+          "success_chars": 37
+        },
+        "爽节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            67
+          ],
+          "success_chars": 39
+        },
+        "人设彩": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            38
+          ],
+          "success_chars": 39
+        },
+        "对话味": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            40
+          ],
+          "success_chars": 41
+        },
+        "画面感": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            47
+          ],
+          "success_chars": 41
+        },
+        "古韵感": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            33
+          ],
+          "success_chars": 32
+        },
+        "悬念链": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            37
+          ],
+          "success_chars": 30
+        },
+        "逻辑严": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            33
+          ],
+          "success_chars": 29
+        },
+        "反转劲": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            33
+          ],
+          "success_chars": 27
+        }
+      }
+    }
+  ]
+}

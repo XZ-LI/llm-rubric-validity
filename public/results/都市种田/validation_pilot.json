@@ -1,0 +1,2404 @@
+{
+  "run_id": "20260911T022047Z-607f62",
+  "run_utc": "2026-09-11T02:20:47+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "都市种田",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "1979，火车供水员的悠闲生活.txt",
+    "七零，洞房夜上了资本家小姐的床.txt",
+    "兄弟你人类魅魔啊？毛茸茸追着跑.txt",
+    "怒海镇渊.txt",
+    "穿越灵异港岛：建立超凡家族.txt",
+    "这个社会大佬过份谨慎且熟读律法.txt",
+    "都重生了，让国家走点捷径怎么了.txt"
+  ],
+  "results": [
+    {
+      "title": "真敢让我重生啊",
+      "file": "真敢让我重生啊.txt",
+      "real_rating": 8.5,
+      "rubric_score": 4.233333333333333,
+      "rubric_scores": [
+        3.8,
+        4.8,
+        4.1
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "人设鲜活": 5,
+        "种田实感": 2,
+        "节奏张弛": 5,
+        "情感锚点": 4,
+        "世界融合": 5,
+        "对话功能": 4,
+        "悬念设计": 3,
+        "品类调性": 1,
+        "逻辑自洽": 5
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            32
+          ],
+          "success_chars": 24
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            27
+          ],
+          "success_chars": 25
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            30
+          ],
+          "success_chars": 1
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            24
+          ],
+          "success_chars": 18
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            20
+          ],
+          "success_chars": 17
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            15
+          ],
+          "success_chars": 20
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            17
+          ],
+          "success_chars": 22
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            11
+          ],
+          "success_chars": 18
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            19
+          ],
+          "success_chars": 12
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            24
+          ],
+          "success_chars": 20
+        }
+      }
+    },
+    {
+      "title": "当了神豪后她们都喜欢叫我爸爸",
+      "file": "当了神豪后她们都喜欢叫我爸爸.txt",
+      "real_rating": 8.7,
+      "rubric_score": 2.9,
+      "rubric_scores": [
+        2.9
+      ],
+      "dimensions": {
+        "开篇钩子": 4,
+        "人设鲜活": 3,
+        "种田实感": 2,
+        "节奏张弛": 5,
+        "情感锚点": 2,
+        "世界融合": 3,
+        "对话功能": 4,
+        "悬念设计": 3,
+        "品类调性": 1,
+        "逻辑自洽": 3
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            40
+          ],
+          "success_chars": 26
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            14
+          ],
+          "success_chars": 34
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            35
+          ],
+          "success_chars": 56
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            23
+          ],
+          "success_chars": 17
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            43
+          ],
+          "success_chars": 23
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            20
+          ],
+          "success_chars": 21
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            28
+          ],
+          "success_chars": 35
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            4
+          ],
+          "success_chars": 31
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            19
+          ],
+          "success_chars": 21
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            37
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "重回高三：从高考满分重启人生",
+      "file": "重回高三：从高考满分重启人生.txt",
+      "real_rating": 8.8,
+      "rubric_score": 4.7,
+      "rubric_scores": [
+        4.7
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "人设鲜活": 5,
+        "种田实感": 2,
+        "节奏张弛": 5,
+        "情感锚点": 6,
+        "世界融合": 4,
+        "对话功能": 5,
+        "悬念设计": 5,
+        "品类调性": 3,
+        "逻辑自洽": 5
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            72
+          ],
+          "success_chars": 41
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            28
+          ],
+          "success_chars": 52
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            33
+          ],
+          "success_chars": 36
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            28
+          ],
+          "success_chars": 25
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            22
+          ],
+          "success_chars": 25
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            17
+          ],
+          "success_chars": 31
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            27
+          ],
+          "success_chars": 25
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            1,
+            25
+          ],
+          "success_chars": 19
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            22
+          ],
+          "success_chars": 44
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            19
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "搬运2026，喂饱1988",
+      "file": "搬运2026，喂饱1988.txt",
+      "real_rating": 9.1,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "开篇钩子": 5,
+        "人设鲜活": 6,
+        "种田实感": 7,
+        "节奏张弛": 5,
+        "情感锚点": 6,
+        "世界融合": 4,
+        "对话功能": 5,
+        "悬念设计": 4,
+        "品类调性": 6,
+        "逻辑自洽": 3
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            33
+          ],
+          "success_chars": 29
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            27
+          ],
+          "success_chars": 62
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            45
+          ],
+          "success_chars": 19
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            35
+          ],
+          "success_chars": 37
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            15
+          ],
+          "success_chars": 42
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            28
+          ],
+          "success_chars": 19
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            12
+          ],
+          "success_chars": 38
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            3
+          ],
+          "success_chars": 19
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            51
+          ],
+          "success_chars": 38
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            38
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "我在逼乎吹牛，国家怎么当真了",
+      "file": "我在逼乎吹牛，国家怎么当真了.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.9,
+      "rubric_scores": [
+        5.9
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "人设鲜活": 7,
+        "种田实感": 4,
+        "节奏张弛": 6,
+        "情感锚点": 7,
+        "世界融合": 5,
+        "对话功能": 7,
+        "悬念设计": 6,
+        "品类调性": 5,
+        "逻辑自洽": 6
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            19
+          ],
+          "success_chars": 45
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            28
+          ],
+          "success_chars": 43
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            40
+          ],
+          "success_chars": 48
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            22
+          ],
+          "success_chars": 41
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            31
+          ],
+          "success_chars": 53
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            27
+          ],
+          "success_chars": 33
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            23
+          ],
+          "success_chars": 32
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            6
+          ],
+          "success_chars": 32
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            12
+          ],
+          "success_chars": 64
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            10
+          ],
+          "success_chars": 65
+        }
+      }
+    },
+    {
+      "title": "冒充京圈子弟，操纵全球资本",
+      "file": "冒充京圈子弟，操纵全球资本.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "人设鲜活": 7,
+        "种田实感": 4,
+        "节奏张弛": 6,
+        "情感锚点": 5,
+        "世界融合": 6,
+        "对话功能": 7,
+        "悬念设计": 7,
+        "品类调性": 3,
+        "逻辑自洽": 5
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            38
+          ],
+          "success_chars": 52
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            32
+          ],
+          "success_chars": 50
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            25
+          ],
+          "success_chars": 50
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            38
+          ],
+          "success_chars": 39
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            12
+          ],
+          "success_chars": 55
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            53
+          ],
+          "success_chars": 32
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            36
+          ],
+          "success_chars": 39
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            23
+          ],
+          "success_chars": 37
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            46
+          ],
+          "success_chars": 29
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            31
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "穿越60从打猎开始养活九个姐姐",
+      "file": "穿越60从打猎开始养活九个姐姐.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.9,
+      "rubric_scores": [
+        5.9
+      ],
+      "dimensions": {
+        "开篇钩子": 5,
+        "人设鲜活": 6,
+        "种田实感": 7,
+        "节奏张弛": 6,
+        "情感锚点": 6,
+        "世界融合": 5,
+        "对话功能": 6,
+        "悬念设计": 5,
+        "品类调性": 6,
+        "逻辑自洽": 5
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            22
+          ],
+          "success_chars": 52
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            38
+          ],
+          "success_chars": 31
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            47
+          ],
+          "success_chars": 34
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            32
+          ],
+          "success_chars": 32
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            24
+          ],
+          "success_chars": 48
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            29
+          ],
+          "success_chars": 29
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            30
+          ],
+          "success_chars": 31
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            34
+          ],
+          "success_chars": 21
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            25
+          ],
+          "success_chars": 47
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            29
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "七零，我的老婆是资本家大小姐",
+      "file": "七零，我的老婆是资本家大小姐.txt",
+      "real_rating": 8.4,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "开篇钩子": 4,
+        "人设鲜活": 5,
+        "种田实感": 6,
+        "节奏张弛": 5,
+        "情感锚点": 4,
+        "世界融合": 3,
+        "对话功能": 5,
+        "悬念设计": 4,
+        "品类调性": 5,
+        "逻辑自洽": 5
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            44
+          ],
+          "success_chars": 44
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            40
+          ],
+          "success_chars": 42
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 54
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            38
+          ],
+          "success_chars": 39
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            24
+          ],
+          "success_chars": 23
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            66,
+            47
+          ],
+          "success_chars": 5
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            20
+          ],
+          "success_chars": 45
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            45
+          ],
+          "success_chars": 33
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            31
+          ],
+          "success_chars": 32
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            36
+          ],
+          "success_chars": 47
+        }
+      }
+    },
+    {
+      "title": "重生08，豆包成了我的外挂",
+      "file": "重生08，豆包成了我的外挂.txt",
+      "real_rating": 8.3,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "人设鲜活": 7,
+        "种田实感": 5,
+        "节奏张弛": 6,
+        "情感锚点": 7,
+        "世界融合": 6,
+        "对话功能": 6,
+        "悬念设计": 7,
+        "品类调性": 5,
+        "逻辑自洽": 6
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            32
+          ],
+          "success_chars": 47
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            21
+          ],
+          "success_chars": 70
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            43
+          ],
+          "success_chars": 96
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            55
+          ],
+          "success_chars": 40
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            19
+          ],
+          "success_chars": 46
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            38
+          ],
+          "success_chars": 38
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            70,
+            43
+          ],
+          "success_chars": 39
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            12
+          ],
+          "success_chars": 12
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            21
+          ],
+          "success_chars": 47
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            30
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "大学没毕业，你怎么登上福布斯了",
+      "file": "大学没毕业，你怎么登上福布斯了.txt",
+      "real_rating": 8.1,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "人设鲜活": 7,
+        "种田实感": 4,
+        "节奏张弛": 6,
+        "情感锚点": 8,
+        "世界融合": 5,
+        "对话功能": 7,
+        "悬念设计": 6,
+        "品类调性": 5,
+        "逻辑自洽": 6
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            26
+          ],
+          "success_chars": 27
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            20
+          ],
+          "success_chars": 38
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            41
+          ],
+          "success_chars": 35
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            33
+          ],
+          "success_chars": 48
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            58
+          ],
+          "success_chars": 30
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            15
+          ],
+          "success_chars": 41
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            36
+          ],
+          "success_chars": 43
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            13
+          ],
+          "success_chars": 13
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            25
+          ],
+          "success_chars": 22
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            35
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "上辈子苦够了，重生再也不当舔狗",
+      "file": "上辈子苦够了，重生再也不当舔狗.txt",
+      "real_rating": 8.0,
+      "rubric_score": 4.3,
+      "rubric_scores": [
+        4.3
+      ],
+      "dimensions": {
+        "开篇钩子": 4,
+        "人设鲜活": 5,
+        "种田实感": 3,
+        "节奏张弛": 6,
+        "情感锚点": 5,
+        "世界融合": 4,
+        "对话功能": 5,
+        "悬念设计": 5,
+        "品类调性": 3,
+        "逻辑自洽": 4
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            40
+          ],
+          "success_chars": 35
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            23
+          ],
+          "success_chars": 57
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            38
+          ],
+          "success_chars": 44
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            41
+          ],
+          "success_chars": 35
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            22
+          ],
+          "success_chars": 41
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            34
+          ],
+          "success_chars": 42
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            81,
+            53
+          ],
+          "success_chars": 33
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            21
+          ],
+          "success_chars": 32
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            25
+          ],
+          "success_chars": 44
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            25
+          ],
+          "success_chars": 49
+        }
+      }
+    },
+    {
+      "title": "狩猎北大荒：从投奔亲姑姑开始",
+      "file": "狩猎北大荒：从投奔亲姑姑开始.txt",
+      "real_rating": 8.1,
+      "rubric_score": 5.8999999999999995,
+      "rubric_scores": [
+        6.1,
+        5.8,
+        5.8
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "人设鲜活": 6,
+        "种田实感": 7,
+        "节奏张弛": 6,
+        "情感锚点": 5,
+        "世界融合": 5,
+        "对话功能": 4,
+        "悬念设计": 6,
+        "品类调性": 5,
+        "逻辑自洽": 6
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            9
+          ],
+          "success_chars": 73
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            34
+          ],
+          "success_chars": 56
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            29
+          ],
+          "success_chars": 71
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            32
+          ],
+          "success_chars": 58
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            54
+          ],
+          "success_chars": 61
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            22
+          ],
+          "success_chars": 50
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            39
+          ],
+          "success_chars": 37
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            19
+          ],
+          "success_chars": 41
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            30
+          ],
+          "success_chars": 40
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            60
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "重返大学，花心一点怎么了",
+      "file": "重返大学，花心一点怎么了.txt",
+      "real_rating": 8.0,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "开篇钩子": 4,
+        "人设鲜活": 5,
+        "种田实感": 3,
+        "节奏张弛": 4,
+        "情感锚点": 5,
+        "世界融合": 6,
+        "对话功能": 5,
+        "悬念设计": 6,
+        "品类调性": 4,
+        "逻辑自洽": 7
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            34
+          ],
+          "success_chars": 26
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            36
+          ],
+          "success_chars": 27
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            22
+          ],
+          "success_chars": 31
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            25
+          ],
+          "success_chars": 27
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            23
+          ],
+          "success_chars": 36
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            40
+          ],
+          "success_chars": 32
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            29
+          ],
+          "success_chars": 25
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            6
+          ],
+          "success_chars": 33
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            15
+          ],
+          "success_chars": 27
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            18
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "40岁岳母发话，六女儿都听你的",
+      "file": "40岁岳母发话，六女儿都听你的.txt",
+      "real_rating": 7.9,
+      "rubric_score": 4.866666666666666,
+      "rubric_scores": [
+        5.1,
+        4.9,
+        4.6
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "人设鲜活": 5,
+        "种田实感": 3,
+        "节奏张弛": 7,
+        "情感锚点": 6,
+        "世界融合": 4,
+        "对话功能": 5,
+        "悬念设计": 6,
+        "品类调性": 3,
+        "逻辑自洽": 5
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            16
+          ],
+          "success_chars": 33
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            24
+          ],
+          "success_chars": 35
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            18
+          ],
+          "success_chars": 6
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            25
+          ],
+          "success_chars": 27
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            47
+          ],
+          "success_chars": 48
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            20
+          ],
+          "success_chars": 24
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            13
+          ],
+          "success_chars": 35
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            35
+          ],
+          "success_chars": 27
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            12
+          ],
+          "success_chars": 27
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            25
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "不愚孝后，我在京都买四合院上瘾",
+      "file": "不愚孝后，我在京都买四合院上瘾.txt",
+      "real_rating": 7.8,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "人设鲜活": 5,
+        "种田实感": 4,
+        "节奏张弛": 5,
+        "情感锚点": 7,
+        "世界融合": 5,
+        "对话功能": 5,
+        "悬念设计": 6,
+        "品类调性": 4,
+        "逻辑自洽": 5
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            9
+          ],
+          "success_chars": 40
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            39
+          ],
+          "success_chars": 41
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            20
+          ],
+          "success_chars": 42
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            66,
+            45
+          ],
+          "success_chars": 41
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            32
+          ],
+          "success_chars": 30
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            29
+          ],
+          "success_chars": 27
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            37
+          ],
+          "success_chars": 17
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            43
+          ],
+          "success_chars": 27
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            14
+          ],
+          "success_chars": 40
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            29
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "刚离婚，和前妻死对头在一起了",
+      "file": "刚离婚，和前妻死对头在一起了.txt",
+      "real_rating": 7.8,
+      "rubric_score": 2.8,
+      "rubric_scores": [
+        2.8
+      ],
+      "dimensions": {
+        "开篇钩子": 4,
+        "人设鲜活": 3,
+        "种田实感": 1,
+        "节奏张弛": 5,
+        "情感锚点": 2,
+        "世界融合": 3,
+        "对话功能": 4,
+        "悬念设计": 3,
+        "品类调性": 1,
+        "逻辑自洽": 2
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            13
+          ],
+          "success_chars": 21
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            33
+          ],
+          "success_chars": 21
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            16
+          ],
+          "success_chars": 1
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            5
+          ],
+          "success_chars": 30
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            22
+          ],
+          "success_chars": 19
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            25
+          ],
+          "success_chars": 14
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            21
+          ],
+          "success_chars": 15
+        },
+        "悬念设计": {
+          "n_failures": 3,
+          "failure_chars": [
+            11,
+            2,
+            5
+          ],
+          "success_chars": 19
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            13
+          ],
+          "success_chars": 1
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            36
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "空间藏娇，1977暴富日常！",
+      "file": "空间藏娇，1977暴富日常！.txt",
+      "real_rating": 7.7,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "开篇钩子": 8,
+        "人设鲜活": 6,
+        "种田实感": 4,
+        "节奏张弛": 5,
+        "情感锚点": 5,
+        "世界融合": 3,
+        "对话功能": 5,
+        "悬念设计": 7,
+        "品类调性": 3,
+        "逻辑自洽": 4
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            56
+          ],
+          "success_chars": 44
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            67,
+            41
+          ],
+          "success_chars": 28
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            32
+          ],
+          "success_chars": 39
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            37
+          ],
+          "success_chars": 49
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            20
+          ],
+          "success_chars": 32
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            29
+          ],
+          "success_chars": 29
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            30
+          ],
+          "success_chars": 28
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            25
+          ],
+          "success_chars": 41
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            12
+          ],
+          "success_chars": 23
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            34
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "左牵黄，右擎苍，俺在村里很风光",
+      "file": "左牵黄，右擎苍，俺在村里很风光.txt",
+      "real_rating": 7.8,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "人设鲜活": 5,
+        "种田实感": 7,
+        "节奏张弛": 6,
+        "情感锚点": 5,
+        "世界融合": 4,
+        "对话功能": 5,
+        "悬念设计": 5,
+        "品类调性": 4,
+        "逻辑自洽": 5
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            38
+          ],
+          "success_chars": 37
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            21
+          ],
+          "success_chars": 37
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            21
+          ],
+          "success_chars": 47
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            40
+          ],
+          "success_chars": 41
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            19
+          ],
+          "success_chars": 35
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            33
+          ],
+          "success_chars": 33
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            21
+          ],
+          "success_chars": 25
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            23
+          ],
+          "success_chars": 31
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            41
+          ],
+          "success_chars": 18
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            30
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "荒岛求生，我的跟班又强又萌",
+      "file": "荒岛求生，我的跟班又强又萌.txt",
+      "real_rating": 7.7,
+      "rubric_score": 3.8,
+      "rubric_scores": [
+        3.8
+      ],
+      "dimensions": {
+        "开篇钩子": 4,
+        "人设鲜活": 3,
+        "种田实感": 2,
+        "节奏张弛": 5,
+        "情感锚点": 3,
+        "世界融合": 6,
+        "对话功能": 4,
+        "悬念设计": 5,
+        "品类调性": 2,
+        "逻辑自洽": 4
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            15
+          ],
+          "success_chars": 27
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            16
+          ],
+          "success_chars": 38
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            12
+          ],
+          "success_chars": 22
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            14
+          ],
+          "success_chars": 29
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            18
+          ],
+          "success_chars": 42
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            14
+          ],
+          "success_chars": 14
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            26
+          ],
+          "success_chars": 29
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            8
+          ],
+          "success_chars": 40
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            10
+          ],
+          "success_chars": 30
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            21
+          ],
+          "success_chars": 13
+        }
+      }
+    },
+    {
+      "title": "美利坚：邻居太太实在太热情了",
+      "file": "美利坚：邻居太太实在太热情了.txt",
+      "real_rating": 7.7,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4,
+        6.4,
+        6.4
+      ],
+      "dimensions": {
+        "开篇钩子": 6,
+        "人设鲜活": 7,
+        "种田实感": 8,
+        "节奏张弛": 6,
+        "情感锚点": 5,
+        "世界融合": 8,
+        "对话功能": 7,
+        "悬念设计": 7,
+        "品类调性": 5,
+        "逻辑自洽": 7
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            58
+          ],
+          "success_chars": 61
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            38
+          ],
+          "success_chars": 43
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            31
+          ],
+          "success_chars": 67
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            31
+          ],
+          "success_chars": 40
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            15
+          ],
+          "success_chars": 55
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            24
+          ],
+          "success_chars": 51
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            45
+          ],
+          "success_chars": 42
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            28
+          ],
+          "success_chars": 47
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            33
+          ],
+          "success_chars": 46
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            36
+          ],
+          "success_chars": 48
+        }
+      }
+    },
+    {
+      "title": "年代：小姨子一模一样，分不清",
+      "file": "年代：小姨子一模一样，分不清.txt",
+      "real_rating": 7.6,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2
+      ],
+      "dimensions": {
+        "开篇钩子": 5,
+        "人设鲜活": 6,
+        "种田实感": 5,
+        "节奏张弛": 6,
+        "情感锚点": 6,
+        "世界融合": 4,
+        "对话功能": 5,
+        "悬念设计": 5,
+        "品类调性": 6,
+        "逻辑自洽": 4
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            35
+          ],
+          "success_chars": 31
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            27
+          ],
+          "success_chars": 37
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            25
+          ],
+          "success_chars": 28
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            24
+          ],
+          "success_chars": 25
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            24
+          ],
+          "success_chars": 40
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            45
+          ],
+          "success_chars": 15
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            24
+          ],
+          "success_chars": 65
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            30
+          ],
+          "success_chars": 31
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            25
+          ],
+          "success_chars": 18
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            35
+          ],
+          "success_chars": 48
+        }
+      }
+    },
+    {
+      "title": "掀桌分家！带妻女进山顿顿吃肉",
+      "file": "掀桌分家！带妻女进山顿顿吃肉.txt",
+      "real_rating": 7.5,
+      "rubric_score": 6.833333333333333,
+      "rubric_scores": [
+        7.1,
+        6.7,
+        6.7
+      ],
+      "dimensions": {
+        "开篇钩子": 9,
+        "人设鲜活": 8,
+        "种田实感": 6,
+        "节奏张弛": 7,
+        "情感锚点": 9,
+        "世界融合": 7,
+        "对话功能": 6,
+        "悬念设计": 8,
+        "品类调性": 5,
+        "逻辑自洽": 7
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            20
+          ],
+          "success_chars": 25
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            32
+          ],
+          "success_chars": 34
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            34
+          ],
+          "success_chars": 35
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            29
+          ],
+          "success_chars": 33
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            49
+          ],
+          "success_chars": 36
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            30
+          ],
+          "success_chars": 37
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            23
+          ],
+          "success_chars": 22
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            22
+          ],
+          "success_chars": 31
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            38
+          ],
+          "success_chars": 57
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            18
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "三个前妻：重生的我怎么选",
+      "file": "三个前妻：重生的我怎么选.txt",
+      "real_rating": 7.6,
+      "rubric_score": 4.6,
+      "rubric_scores": [
+        4.6
+      ],
+      "dimensions": {
+        "开篇钩子": 4,
+        "人设鲜活": 5,
+        "种田实感": 3,
+        "节奏张弛": 6,
+        "情感锚点": 5,
+        "世界融合": 4,
+        "对话功能": 5,
+        "悬念设计": 5,
+        "品类调性": 4,
+        "逻辑自洽": 3
+      },
+      "evidence_shape": {
+        "开篇钩子": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            57
+          ],
+          "success_chars": 30
+        },
+        "人设鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            51
+          ],
+          "success_chars": 32
+        },
+        "种田实感": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            64
+          ],
+          "success_chars": 24
+        },
+        "节奏张弛": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            36
+          ],
+          "success_chars": 35
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            48
+          ],
+          "success_chars": 36
+        },
+        "世界融合": {
+          "n_failures": 2,
+          "failure_chars": [
+            58,
+            38
+          ],
+          "success_chars": 31
+        },
+        "对话功能": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            48
+          ],
+          "success_chars": 37
+        },
+        "悬念设计": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            39
+          ],
+          "success_chars": 36
+        },
+        "品类调性": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            35
+          ],
+          "success_chars": 32
+        },
+        "逻辑自洽": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            38
+          ],
+          "success_chars": 33
+        }
+      }
+    }
+  ]
+}

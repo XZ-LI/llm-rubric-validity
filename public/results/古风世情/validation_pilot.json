@@ -1,0 +1,2403 @@
+{
+  "run_id": "20260911T023029Z-69db37",
+  "run_utc": "2026-09-11T02:30:29+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "古风世情",
+  "source_dir": "Nvpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "主公，你是女子？.txt",
+    "何不同舟渡.txt",
+    "侯府嫡幼的嫡幼子.txt",
+    "娘亲开门！我读三年，考上皇帝了.txt",
+    "惹金枝.txt",
+    "攀高枝.txt",
+    "表妹不追了，世子他又争又抢.txt"
+  ],
+  "results": [
+    {
+      "title": "青梅小山匪",
+      "file": "青梅小山匪.txt",
+      "real_rating": 9.5,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "人设锐度": 8,
+        "世情肌理": 7,
+        "权谋密度": 5,
+        "反转节奏": 7,
+        "对话锋芒": 8,
+        "情感锚点": 6,
+        "群像厚度": 8,
+        "机缘代价": 5,
+        "文韵质感": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            39
+          ],
+          "success_chars": 51
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            29
+          ],
+          "success_chars": 74
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            18
+          ],
+          "success_chars": 30
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            22
+          ],
+          "success_chars": 44
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            18
+          ],
+          "success_chars": 41
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            21
+          ],
+          "success_chars": 20
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            6
+          ],
+          "success_chars": 26
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            14
+          ],
+          "success_chars": 46
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            22
+          ],
+          "success_chars": 48
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            19
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "被贬后我靠玄学一路升官",
+      "file": "被贬后我靠玄学一路升官.txt",
+      "real_rating": 9.5,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "人设锐度": 8,
+        "世情肌理": 7,
+        "权谋密度": 6,
+        "反转节奏": 8,
+        "对话锋芒": 7,
+        "情感锚点": 7,
+        "群像厚度": 6,
+        "机缘代价": 5,
+        "文韵质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            31
+          ],
+          "success_chars": 54
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            22
+          ],
+          "success_chars": 51
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            33
+          ],
+          "success_chars": 34
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            44
+          ],
+          "success_chars": 39
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            11
+          ],
+          "success_chars": 30
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            8
+          ],
+          "success_chars": 35
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            40
+          ],
+          "success_chars": 29
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            25
+          ],
+          "success_chars": 42
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            10
+          ],
+          "success_chars": 22
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            16
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "娇骨",
+      "file": "娇骨.txt",
+      "real_rating": 9.5,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.2,
+        5.8,
+        5.2
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 7,
+        "世情肌理": 5,
+        "权谋密度": 4,
+        "反转节奏": 5,
+        "对话锋芒": 6,
+        "情感锚点": 5,
+        "群像厚度": 4,
+        "机缘代价": 3,
+        "文韵质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            38
+          ],
+          "success_chars": 33
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            21
+          ],
+          "success_chars": 37
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            11
+          ],
+          "success_chars": 47
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            23
+          ],
+          "success_chars": 45
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            30
+          ],
+          "success_chars": 38
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            26
+          ],
+          "success_chars": 50
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            24
+          ],
+          "success_chars": 45
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            24
+          ],
+          "success_chars": 24
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            32
+          ],
+          "success_chars": 33
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            26
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "末世女帝养成指南",
+      "file": "末世女帝养成指南.txt",
+      "real_rating": 9.5,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设锐度": 7,
+        "世情肌理": 6,
+        "权谋密度": 5,
+        "反转节奏": 7,
+        "对话锋芒": 6,
+        "情感锚点": 6,
+        "群像厚度": 5,
+        "机缘代价": 5,
+        "文韵质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            25
+          ],
+          "success_chars": 70
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            22
+          ],
+          "success_chars": 19
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            32
+          ],
+          "success_chars": 61
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            14
+          ],
+          "success_chars": 43
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            16
+          ],
+          "success_chars": 38
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            11
+          ],
+          "success_chars": 15
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            20
+          ],
+          "success_chars": 27
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            33
+          ],
+          "success_chars": 36
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            26
+          ],
+          "success_chars": 43
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            11
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "小道姑一身反骨",
+      "file": "小道姑一身反骨.txt",
+      "real_rating": 9.5,
+      "rubric_score": 8.1,
+      "rubric_scores": [
+        8.1
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "人设锐度": 9,
+        "世情肌理": 7,
+        "权谋密度": 8,
+        "反转节奏": 8,
+        "对话锋芒": 9,
+        "情感锚点": 9,
+        "群像厚度": 7,
+        "机缘代价": 6,
+        "文韵质感": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            39
+          ],
+          "success_chars": 28
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            23
+          ],
+          "success_chars": 43
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            33
+          ],
+          "success_chars": 58
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            23
+          ],
+          "success_chars": 49
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            19
+          ],
+          "success_chars": 38
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            17
+          ],
+          "success_chars": 34
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            27
+          ],
+          "success_chars": 56
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            28
+          ],
+          "success_chars": 27
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            33
+          ],
+          "success_chars": 32
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            16
+          ],
+          "success_chars": 48
+        }
+      }
+    },
+    {
+      "title": "病娇男主顶替双生弟弟夺我入洞房",
+      "file": "病娇男主顶替双生弟弟夺我入洞房.txt",
+      "real_rating": 9.4,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 7,
+        "世情肌理": 5,
+        "权谋密度": 4,
+        "反转节奏": 5,
+        "对话锋芒": 5,
+        "情感锚点": 6,
+        "群像厚度": 6,
+        "机缘代价": 4,
+        "文韵质感": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            45
+          ],
+          "success_chars": 61
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            32
+          ],
+          "success_chars": 63
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            62
+          ],
+          "success_chars": 61
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            28
+          ],
+          "success_chars": 36
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            69,
+            32
+          ],
+          "success_chars": 62
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            28
+          ],
+          "success_chars": 5
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            25
+          ],
+          "success_chars": 38
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            25
+          ],
+          "success_chars": 70
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            70,
+            49
+          ],
+          "success_chars": 18
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            20
+          ],
+          "success_chars": 76
+        }
+      }
+    },
+    {
+      "title": "逢灯纪",
+      "file": "逢灯纪.txt",
+      "real_rating": 9.3,
+      "rubric_score": 7.3,
+      "rubric_scores": [
+        7.3
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "人设锐度": 8,
+        "世情肌理": 7,
+        "权谋密度": 6,
+        "反转节奏": 8,
+        "对话锋芒": 7,
+        "情感锚点": 8,
+        "群像厚度": 6,
+        "机缘代价": 5,
+        "文韵质感": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            20
+          ],
+          "success_chars": 37
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            12
+          ],
+          "success_chars": 41
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            21
+          ],
+          "success_chars": 42
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            16
+          ],
+          "success_chars": 25
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            27
+          ],
+          "success_chars": 23
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            29
+          ],
+          "success_chars": 32
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            11
+          ],
+          "success_chars": 27
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            18
+          ],
+          "success_chars": 33
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            11
+          ],
+          "success_chars": 29
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            13
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "惊！重生回满门抄斩前夜，造反吧",
+      "file": "惊！重生回满门抄斩前夜，造反吧.txt",
+      "real_rating": 9.3,
+      "rubric_score": 6.2,
+      "rubric_scores": [
+        6.4,
+        6.1,
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设锐度": 7,
+        "世情肌理": 6,
+        "权谋密度": 5,
+        "反转节奏": 7,
+        "对话锋芒": 5,
+        "情感锚点": 8,
+        "群像厚度": 5,
+        "机缘代价": 6,
+        "文韵质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            9
+          ],
+          "success_chars": 58
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            8
+          ],
+          "success_chars": 34
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            27
+          ],
+          "success_chars": 38
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            20
+          ],
+          "success_chars": 30
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            13
+          ],
+          "success_chars": 30
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            34
+          ],
+          "success_chars": 33
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            28
+          ],
+          "success_chars": 30
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 33
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            14
+          ],
+          "success_chars": 33
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            20
+          ],
+          "success_chars": 41
+        }
+      }
+    },
+    {
+      "title": "钱串子，账本子，姑爷是个醋坛子",
+      "file": "钱串子，账本子，姑爷是个醋坛子.txt",
+      "real_rating": 9.3,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 5,
+        "世情肌理": 7,
+        "权谋密度": 4,
+        "反转节奏": 5,
+        "对话锋芒": 6,
+        "情感锚点": 5,
+        "群像厚度": 6,
+        "机缘代价": 3,
+        "文韵质感": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            7
+          ],
+          "success_chars": 41
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            38
+          ],
+          "success_chars": 15
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            21
+          ],
+          "success_chars": 19
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            16
+          ],
+          "success_chars": 28
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            25
+          ],
+          "success_chars": 34
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            18
+          ],
+          "success_chars": 27
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            16
+          ],
+          "success_chars": 19
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            19
+          ],
+          "success_chars": 27
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            26
+          ],
+          "success_chars": 25
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            10
+          ],
+          "success_chars": 14
+        }
+      }
+    },
+    {
+      "title": "乱世争霸：给三国亿点大女主震撼",
+      "file": "乱世争霸：给三国亿点大女主震撼.txt",
+      "real_rating": 9.3,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 7,
+        "世情肌理": 6,
+        "权谋密度": 4,
+        "反转节奏": 5,
+        "对话锋芒": 6,
+        "情感锚点": 7,
+        "群像厚度": 5,
+        "机缘代价": 4,
+        "文韵质感": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            43
+          ],
+          "success_chars": 28
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            39
+          ],
+          "success_chars": 66
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            26
+          ],
+          "success_chars": 46
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            25
+          ],
+          "success_chars": 47
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            25
+          ],
+          "success_chars": 39
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            33
+          ],
+          "success_chars": 48
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            43
+          ],
+          "success_chars": 64
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            19
+          ],
+          "success_chars": 28
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            20
+          ],
+          "success_chars": 15
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            4
+          ],
+          "success_chars": 44
+        }
+      }
+    },
+    {
+      "title": "纨绔哪家强，镇北郡主她最狂",
+      "file": "纨绔哪家强，镇北郡主她最狂.txt",
+      "real_rating": 9.4,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 5,
+        "世情肌理": 6,
+        "权谋密度": 4,
+        "反转节奏": 5,
+        "对话锋芒": 5,
+        "情感锚点": 4,
+        "群像厚度": 5,
+        "机缘代价": 3,
+        "文韵质感": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            49
+          ],
+          "success_chars": 58
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            80,
+            69
+          ],
+          "success_chars": 46
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            35
+          ],
+          "success_chars": 52
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            22
+          ],
+          "success_chars": 28
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            45
+          ],
+          "success_chars": 19
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            80,
+            45
+          ],
+          "success_chars": 22
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            48
+          ],
+          "success_chars": 20
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            28
+          ],
+          "success_chars": 48
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            48
+          ],
+          "success_chars": 35
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            31
+          ],
+          "success_chars": 16
+        }
+      }
+    },
+    {
+      "title": "寒夜尽处是卿心",
+      "file": "寒夜尽处是卿心.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 7,
+        "世情肌理": 6,
+        "权谋密度": 5,
+        "反转节奏": 5,
+        "对话锋芒": 6,
+        "情感锚点": 7,
+        "群像厚度": 5,
+        "机缘代价": 4,
+        "文韵质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            56,
+            11
+          ],
+          "success_chars": 26
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            35
+          ],
+          "success_chars": 65
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            11
+          ],
+          "success_chars": 29
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            24
+          ],
+          "success_chars": 36
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            5
+          ],
+          "success_chars": 27
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            26
+          ],
+          "success_chars": 27
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            17
+          ],
+          "success_chars": 34
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            33
+          ],
+          "success_chars": 43
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            10
+          ],
+          "success_chars": 43
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            18
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "皇帝暴露女儿身，禁欲摄政王鼻血",
+      "file": "皇帝暴露女儿身，禁欲摄政王鼻血.txt",
+      "real_rating": 9.2,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设锐度": 7,
+        "世情肌理": 6,
+        "权谋密度": 6,
+        "反转节奏": 7,
+        "对话锋芒": 6,
+        "情感锚点": 7,
+        "群像厚度": 5,
+        "机缘代价": 6,
+        "文韵质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            44
+          ],
+          "success_chars": 50
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            31
+          ],
+          "success_chars": 51
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            42
+          ],
+          "success_chars": 49
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            39
+          ],
+          "success_chars": 24
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            28
+          ],
+          "success_chars": 58
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            14
+          ],
+          "success_chars": 37
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            30
+          ],
+          "success_chars": 22
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            48
+          ],
+          "success_chars": 33
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            37
+          ],
+          "success_chars": 47
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            19
+          ],
+          "success_chars": 63
+        }
+      }
+    },
+    {
+      "title": "长安尸渡",
+      "file": "长安尸渡.txt",
+      "real_rating": 9.0,
+      "rubric_score": 6.866666666666667,
+      "rubric_scores": [
+        6.9,
+        6.8,
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "人设锐度": 8,
+        "世情肌理": 8,
+        "权谋密度": 6,
+        "反转节奏": 7,
+        "对话锋芒": 7,
+        "情感锚点": 7,
+        "群像厚度": 6,
+        "机缘代价": 5,
+        "文韵质感": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            65,
+            52
+          ],
+          "success_chars": 55
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            13
+          ],
+          "success_chars": 27
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            23
+          ],
+          "success_chars": 35
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            57,
+            60
+          ],
+          "success_chars": 25
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            55
+          ],
+          "success_chars": 35
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            43
+          ],
+          "success_chars": 23
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            30
+          ],
+          "success_chars": 39
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            49
+          ],
+          "success_chars": 23
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            17
+          ],
+          "success_chars": 27
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            54
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "山河不驯",
+      "file": "山河不驯.txt",
+      "real_rating": 8.9,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设锐度": 7,
+        "世情肌理": 6,
+        "权谋密度": 5,
+        "反转节奏": 7,
+        "对话锋芒": 6,
+        "情感锚点": 6,
+        "群像厚度": 5,
+        "机缘代价": 5,
+        "文韵质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            22
+          ],
+          "success_chars": 72
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            18
+          ],
+          "success_chars": 22
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            36
+          ],
+          "success_chars": 32
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            41
+          ],
+          "success_chars": 24
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            27
+          ],
+          "success_chars": 34
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            29
+          ],
+          "success_chars": 22
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            18
+          ],
+          "success_chars": 55
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            23
+          ],
+          "success_chars": 28
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            31
+          ],
+          "success_chars": 20
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            28
+          ],
+          "success_chars": 17
+        }
+      }
+    },
+    {
+      "title": "独占春：他山之石",
+      "file": "独占春：他山之石.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "世情肌理": 7,
+        "权谋密度": 4,
+        "反转节奏": 5,
+        "对话锋芒": 6,
+        "情感锚点": 5,
+        "群像厚度": 6,
+        "机缘代价": 3,
+        "文韵质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            27
+          ],
+          "success_chars": 41
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            12
+          ],
+          "success_chars": 31
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            22
+          ],
+          "success_chars": 32
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            38
+          ],
+          "success_chars": 29
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            25
+          ],
+          "success_chars": 31
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            37
+          ],
+          "success_chars": 16
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            13
+          ],
+          "success_chars": 28
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            35
+          ],
+          "success_chars": 33
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            42
+          ],
+          "success_chars": 28
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            15
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "11处特工皇妃【楚乔传】",
+      "file": "11处特工皇妃【楚乔传】.txt",
+      "real_rating": 8.7,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "世情肌理": 3,
+        "权谋密度": 4,
+        "反转节奏": 5,
+        "对话锋芒": 4,
+        "情感锚点": 3,
+        "群像厚度": 2,
+        "机缘代价": 3,
+        "文韵质感": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            39
+          ],
+          "success_chars": 42
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            17
+          ],
+          "success_chars": 35
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            26
+          ],
+          "success_chars": 44
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            31
+          ],
+          "success_chars": 39
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            21
+          ],
+          "success_chars": 37
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            19
+          ],
+          "success_chars": 27
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            16
+          ],
+          "success_chars": 20
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            29
+          ],
+          "success_chars": 34
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            35
+          ],
+          "success_chars": 28
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            24
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "赐婚后，锦衣卫沦陷了",
+      "file": "赐婚后，锦衣卫沦陷了.txt",
+      "real_rating": 8.8,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 9,
+        "人设锐度": 8,
+        "世情肌理": 6,
+        "权谋密度": 7,
+        "反转节奏": 8,
+        "对话锋芒": 7,
+        "情感锚点": 7,
+        "群像厚度": 6,
+        "机缘代价": 5,
+        "文韵质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            37
+          ],
+          "success_chars": 85
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            23
+          ],
+          "success_chars": 59
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            35
+          ],
+          "success_chars": 62
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            73,
+            12
+          ],
+          "success_chars": 25
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            23
+          ],
+          "success_chars": 31
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            35
+          ],
+          "success_chars": 59
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            19
+          ],
+          "success_chars": 46
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            26
+          ],
+          "success_chars": 38
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            15
+          ],
+          "success_chars": 35
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            26
+          ],
+          "success_chars": 60
+        }
+      }
+    },
+    {
+      "title": "惊上春",
+      "file": "惊上春.txt",
+      "real_rating": 8.6,
+      "rubric_score": 6.266666666666667,
+      "rubric_scores": [
+        6.3,
+        6.1,
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设锐度": 7,
+        "世情肌理": 6,
+        "权谋密度": 5,
+        "反转节奏": 7,
+        "对话锋芒": 6,
+        "情感锚点": 6,
+        "群像厚度": 6,
+        "机缘代价": 5,
+        "文韵质感": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            23
+          ],
+          "success_chars": 52
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            42
+          ],
+          "success_chars": 33
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            33
+          ],
+          "success_chars": 48
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            43
+          ],
+          "success_chars": 49
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            20
+          ],
+          "success_chars": 40
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            36
+          ],
+          "success_chars": 17
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            32
+          ],
+          "success_chars": 13
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            42
+          ],
+          "success_chars": 22
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            28
+          ],
+          "success_chars": 33
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            11
+          ],
+          "success_chars": 34
+        }
+      }
+    },
+    {
+      "title": "宗族想吃绝户？嫡女单开百年族谱",
+      "file": "宗族想吃绝户？嫡女单开百年族谱.txt",
+      "real_rating": 8.4,
+      "rubric_score": 6.4,
+      "rubric_scores": [
+        6.4
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "人设锐度": 7,
+        "世情肌理": 6,
+        "权谋密度": 5,
+        "反转节奏": 7,
+        "对话锋芒": 6,
+        "情感锚点": 8,
+        "群像厚度": 6,
+        "机缘代价": 5,
+        "文韵质感": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            20
+          ],
+          "success_chars": 47
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            36
+          ],
+          "success_chars": 40
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            15
+          ],
+          "success_chars": 39
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            33
+          ],
+          "success_chars": 24
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            19
+          ],
+          "success_chars": 33
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            15
+          ],
+          "success_chars": 46
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            17
+          ],
+          "success_chars": 45
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            25
+          ],
+          "success_chars": 29
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            16
+          ],
+          "success_chars": 28
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            26
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "公府儿媳",
+      "file": "公府儿媳.txt",
+      "real_rating": 8.6,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "世情肌理": 7,
+        "权谋密度": 4,
+        "反转节奏": 6,
+        "对话锋芒": 5,
+        "情感锚点": 5,
+        "群像厚度": 6,
+        "机缘代价": 3,
+        "文韵质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            50
+          ],
+          "success_chars": 31
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            30
+          ],
+          "success_chars": 32
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            33
+          ],
+          "success_chars": 38
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            33
+          ],
+          "success_chars": 31
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            27
+          ],
+          "success_chars": 32
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            12
+          ],
+          "success_chars": 30
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            17
+          ],
+          "success_chars": 27
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            54
+          ],
+          "success_chars": 34
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            23
+          ],
+          "success_chars": 26
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            19
+          ],
+          "success_chars": 31
+        }
+      }
+    },
+    {
+      "title": "大婚夜：庶子夫君是穿越的",
+      "file": "大婚夜：庶子夫君是穿越的.txt",
+      "real_rating": 8.3,
+      "rubric_score": 5.4,
+      "rubric_scores": [
+        5.4
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "人设锐度": 6,
+        "世情肌理": 7,
+        "权谋密度": 4,
+        "反转节奏": 5,
+        "对话锋芒": 6,
+        "情感锚点": 5,
+        "群像厚度": 6,
+        "机缘代价": 3,
+        "文韵质感": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            35
+          ],
+          "success_chars": 25
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            64,
+            54
+          ],
+          "success_chars": 37
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            36
+          ],
+          "success_chars": 28
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            32
+          ],
+          "success_chars": 51
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            38
+          ],
+          "success_chars": 19
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            55,
+            44
+          ],
+          "success_chars": 37
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            38
+          ],
+          "success_chars": 32
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            17
+          ],
+          "success_chars": 42
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 46
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            45
+          ],
+          "success_chars": 45
+        }
+      }
+    },
+    {
+      "title": "流放太子和他的怪力丫头",
+      "file": "流放太子和他的怪力丫头.txt",
+      "real_rating": 7.6,
+      "rubric_score": 6.333333333333333,
+      "rubric_scores": [
+        6.3,
+        6.4,
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "人设锐度": 7,
+        "世情肌理": 8,
+        "权谋密度": 5,
+        "反转节奏": 6,
+        "对话锋芒": 6,
+        "情感锚点": 8,
+        "群像厚度": 6,
+        "机缘代价": 5,
+        "文韵质感": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            9
+          ],
+          "success_chars": 17
+        },
+        "人设锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            11
+          ],
+          "success_chars": 41
+        },
+        "世情肌理": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            26
+          ],
+          "success_chars": 34
+        },
+        "权谋密度": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            19
+          ],
+          "success_chars": 22
+        },
+        "反转节奏": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            18
+          ],
+          "success_chars": 28
+        },
+        "对话锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            7
+          ],
+          "success_chars": 53
+        },
+        "情感锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            6
+          ],
+          "success_chars": 40
+        },
+        "群像厚度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            23
+          ],
+          "success_chars": 28
+        },
+        "机缘代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            19
+          ],
+          "success_chars": 30
+        },
+        "文韵质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            16
+          ],
+          "success_chars": 27
+        }
+      }
+    }
+  ]
+}

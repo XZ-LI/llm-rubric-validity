@@ -1,0 +1,2403 @@
+{
+  "run_id": "20260911T015743Z-b677d9",
+  "run_utc": "2026-09-11T01:57:43+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "战神赘婿",
+  "source_dir": "Nanpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "一夜缠绵，竟然是她.txt",
+    "刚退役，就被女总裁骗去领证.txt",
+    "回国以后：我跟国安纠缠不休.txt",
+    "夜北王.txt",
+    "天神归来为女儿血洗都市.txt",
+    "最强狂兵之横扫黑道.txt",
+    "让你去当兵，你成你爹上级了？.txt"
+  ],
+  "results": [
+    {
+      "title": "师娘赐我麒麟肾，举世无敌！",
+      "file": "师娘赐我麒麟肾，举世无敌！.txt",
+      "real_rating": 9.2,
+      "rubric_score": 4.933333333333334,
+      "rubric_scores": [
+        4.8,
+        5.1,
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "战神威压": 5,
+        "亲情锚点": 2,
+        "节奏爆点": 6,
+        "反派践踏": 5,
+        "身份反差": 5,
+        "系统赋能": 0,
+        "世界联动": 3,
+        "情感代价": 2,
+        "爽感兑现": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            28
+          ],
+          "success_chars": 29
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            29
+          ],
+          "success_chars": 41
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            24
+          ],
+          "success_chars": 0
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            23
+          ],
+          "success_chars": 39
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            35
+          ],
+          "success_chars": 20
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            31
+          ],
+          "success_chars": 24
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            0,
+            0
+          ],
+          "success_chars": 0
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            18
+          ],
+          "success_chars": 29
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            19
+          ],
+          "success_chars": 0
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            22
+          ],
+          "success_chars": 43
+        }
+      }
+    },
+    {
+      "title": "战场直播，开局单压M249",
+      "file": "战场直播，开局单压M249.txt",
+      "real_rating": 9.2,
+      "rubric_score": 3.8,
+      "rubric_scores": [
+        3.8
+      ],
+      "dimensions": {
+        "钩子强度": 3,
+        "战神威压": 2,
+        "亲情锚点": 1,
+        "节奏爆点": 4,
+        "反派践踏": 1,
+        "身份反差": 5,
+        "系统赋能": 6,
+        "世界联动": 3,
+        "情感代价": 2,
+        "爽感兑现": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            28
+          ],
+          "success_chars": 32
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            22
+          ],
+          "success_chars": 18
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            8
+          ],
+          "success_chars": 22
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            23
+          ],
+          "success_chars": 26
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            11
+          ],
+          "success_chars": 16
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            14
+          ],
+          "success_chars": 27
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            24
+          ],
+          "success_chars": 23
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            20
+          ],
+          "success_chars": 19
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            19
+          ],
+          "success_chars": 21
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            22
+          ],
+          "success_chars": 30
+        }
+      }
+    },
+    {
+      "title": "通知全国，那个男人出狱了",
+      "file": "通知全国，那个男人出狱了.txt",
+      "real_rating": 9.2,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "战神威压": 7,
+        "亲情锚点": 3,
+        "节奏爆点": 6,
+        "反派践踏": 5,
+        "身份反差": 8,
+        "系统赋能": 0,
+        "世界联动": 6,
+        "情感代价": 5,
+        "爽感兑现": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            38
+          ],
+          "success_chars": 43
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            26
+          ],
+          "success_chars": 41
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            28
+          ],
+          "success_chars": 30
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            14
+          ],
+          "success_chars": 43
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            31
+          ],
+          "success_chars": 15
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            27
+          ],
+          "success_chars": 36
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            0,
+            0
+          ],
+          "success_chars": 0
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            39
+          ],
+          "success_chars": 41
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            29
+          ],
+          "success_chars": 27
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            20
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "战神出狱",
+      "file": "战神出狱.txt",
+      "real_rating": 9.2,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "战神威压": 7,
+        "亲情锚点": 8,
+        "节奏爆点": 7,
+        "反派践踏": 8,
+        "身份反差": 8,
+        "系统赋能": 0,
+        "世界联动": 7,
+        "情感代价": 8,
+        "爽感兑现": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            16
+          ],
+          "success_chars": 47
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            26
+          ],
+          "success_chars": 62
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            17
+          ],
+          "success_chars": 53
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            34
+          ],
+          "success_chars": 50
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            28
+          ],
+          "success_chars": 78
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            28
+          ],
+          "success_chars": 29
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            0,
+            0
+          ],
+          "success_chars": 0
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            30
+          ],
+          "success_chars": 34
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            32
+          ],
+          "success_chars": 53
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            8
+          ],
+          "success_chars": 48
+        }
+      }
+    },
+    {
+      "title": "虎子犬父？可我爸是军区大佬啊",
+      "file": "虎子犬父？可我爸是军区大佬啊.txt",
+      "real_rating": 9.2,
+      "rubric_score": 3.8,
+      "rubric_scores": [
+        3.8
+      ],
+      "dimensions": {
+        "钩子强度": 3,
+        "战神威压": 2,
+        "亲情锚点": 1,
+        "节奏爆点": 4,
+        "反派践踏": 2,
+        "身份反差": 5,
+        "系统赋能": 6,
+        "世界联动": 1,
+        "情感代价": 2,
+        "爽感兑现": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            28
+          ],
+          "success_chars": 46
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            25
+          ],
+          "success_chars": 21
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            25
+          ],
+          "success_chars": 35
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            29
+          ],
+          "success_chars": 21
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            61,
+            32
+          ],
+          "success_chars": 28
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            33
+          ],
+          "success_chars": 33
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            25
+          ],
+          "success_chars": 45
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            37
+          ],
+          "success_chars": 17
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            34
+          ],
+          "success_chars": 30
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            25
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "SSSSS级战龙",
+      "file": "SSSSS级战龙.txt",
+      "real_rating": 9.1,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "战神威压": 6,
+        "亲情锚点": 3,
+        "节奏爆点": 5,
+        "反派践踏": 2,
+        "身份反差": 7,
+        "系统赋能": 0,
+        "世界联动": 4,
+        "情感代价": 3,
+        "爽感兑现": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            56
+          ],
+          "success_chars": 44
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            56
+          ],
+          "success_chars": 57
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            28
+          ],
+          "success_chars": 37
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            35
+          ],
+          "success_chars": 52
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            36
+          ],
+          "success_chars": 68
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            47
+          ],
+          "success_chars": 54
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            0,
+            0
+          ],
+          "success_chars": 0
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            53,
+            62
+          ],
+          "success_chars": 23
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            21
+          ],
+          "success_chars": 22
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            28
+          ],
+          "success_chars": 55
+        }
+      }
+    },
+    {
+      "title": "人在军校，还没毕业就被全军疯抢",
+      "file": "人在军校，还没毕业就被全军疯抢.txt",
+      "real_rating": 9.1,
+      "rubric_score": 4.233333333333333,
+      "rubric_scores": [
+        2.8,
+        3.1,
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 3,
+        "战神威压": 2,
+        "亲情锚点": 1,
+        "节奏爆点": 4,
+        "反派践踏": 1,
+        "身份反差": 3,
+        "系统赋能": 5,
+        "世界联动": 1,
+        "情感代价": 2,
+        "爽感兑现": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            25
+          ],
+          "success_chars": 1
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            15
+          ],
+          "success_chars": 1
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            13
+          ],
+          "success_chars": 1
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            23
+          ],
+          "success_chars": 20
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            15
+          ],
+          "success_chars": 1
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            22
+          ],
+          "success_chars": 1
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            29
+          ],
+          "success_chars": 35
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            12
+          ],
+          "success_chars": 1
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            15
+          ],
+          "success_chars": 1
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            26
+          ],
+          "success_chars": 1
+        }
+      }
+    },
+    {
+      "title": "军神出狱",
+      "file": "军神出狱.txt",
+      "real_rating": 9.1,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "战神威压": 6,
+        "亲情锚点": 7,
+        "节奏爆点": 6,
+        "反派践踏": 8,
+        "身份反差": 7,
+        "系统赋能": 0,
+        "世界联动": 4,
+        "情感代价": 7,
+        "爽感兑现": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            36
+          ],
+          "success_chars": 37
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            32
+          ],
+          "success_chars": 29
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            25
+          ],
+          "success_chars": 35
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            38
+          ],
+          "success_chars": 24
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            18
+          ],
+          "success_chars": 35
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            31
+          ],
+          "success_chars": 29
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            24
+          ],
+          "success_chars": 0
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            15
+          ],
+          "success_chars": 31
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            31
+          ],
+          "success_chars": 23
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            21
+          ],
+          "success_chars": 26
+        }
+      }
+    },
+    {
+      "title": "天才丐婿",
+      "file": "天才丐婿.txt",
+      "real_rating": 9.1,
+      "rubric_score": 3.8,
+      "rubric_scores": [
+        3.8
+      ],
+      "dimensions": {
+        "钩子强度": 3,
+        "战神威压": 2,
+        "亲情锚点": 1,
+        "节奏爆点": 4,
+        "反派践踏": 5,
+        "身份反差": 6,
+        "系统赋能": 0,
+        "世界联动": 3,
+        "情感代价": 5,
+        "爽感兑现": 2
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            39
+          ],
+          "success_chars": 39
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            20
+          ],
+          "success_chars": 41
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            44
+          ],
+          "success_chars": 40
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            33
+          ],
+          "success_chars": 36
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            39
+          ],
+          "success_chars": 32
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            28
+          ],
+          "success_chars": 31
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            18
+          ],
+          "success_chars": 0
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            25
+          ],
+          "success_chars": 28
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            20
+          ],
+          "success_chars": 29
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            28
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "都市风流纨绔",
+      "file": "都市风流纨绔.txt",
+      "real_rating": 9.1,
+      "rubric_score": 4.7,
+      "rubric_scores": [
+        4.7
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "战神威压": 5,
+        "亲情锚点": 3,
+        "节奏爆点": 5,
+        "反派践踏": 2,
+        "身份反差": 6,
+        "系统赋能": 0,
+        "世界联动": 4,
+        "情感代价": 5,
+        "爽感兑现": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            36
+          ],
+          "success_chars": 25
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            18
+          ],
+          "success_chars": 59
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            25
+          ],
+          "success_chars": 45
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            32
+          ],
+          "success_chars": 28
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            21
+          ],
+          "success_chars": 33
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            12
+          ],
+          "success_chars": 52
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            0,
+            0
+          ],
+          "success_chars": 0
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            10
+          ],
+          "success_chars": 18
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            20
+          ],
+          "success_chars": 32
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            14
+          ],
+          "success_chars": 33
+        }
+      }
+    },
+    {
+      "title": "丁二狗的赘婿生涯",
+      "file": "丁二狗的赘婿生涯.txt",
+      "real_rating": 9.0,
+      "rubric_score": 3.1,
+      "rubric_scores": [
+        3.1
+      ],
+      "dimensions": {
+        "钩子强度": 3,
+        "战神威压": 2,
+        "亲情锚点": 1,
+        "节奏爆点": 5,
+        "反派践踏": 4,
+        "身份反差": 3,
+        "系统赋能": 0,
+        "世界联动": 1,
+        "情感代价": 2,
+        "爽感兑现": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            53
+          ],
+          "success_chars": 52
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            29
+          ],
+          "success_chars": 54
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            20
+          ],
+          "success_chars": 1
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            40
+          ],
+          "success_chars": 29
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            35
+          ],
+          "success_chars": 29
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            31
+          ],
+          "success_chars": 30
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            21
+          ],
+          "success_chars": 1
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            19
+          ],
+          "success_chars": 1
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            26
+          ],
+          "success_chars": 24
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            21
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "师娘太黏人，我顶不住",
+      "file": "师娘太黏人，我顶不住.txt",
+      "real_rating": 9.0,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 3,
+        "战神威压": 4,
+        "亲情锚点": 2,
+        "节奏爆点": 5,
+        "反派践踏": 4,
+        "身份反差": 5,
+        "系统赋能": 0,
+        "世界联动": 3,
+        "情感代价": 3,
+        "爽感兑现": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            12,
+            32
+          ],
+          "success_chars": 1
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            22
+          ],
+          "success_chars": 19
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            25
+          ],
+          "success_chars": 1
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            34
+          ],
+          "success_chars": 21
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            25
+          ],
+          "success_chars": 16
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            14
+          ],
+          "success_chars": 37
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            7
+          ],
+          "success_chars": 1
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            25
+          ],
+          "success_chars": 1
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            16
+          ],
+          "success_chars": 26
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            14
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "女婿，求求你，饶了我吧",
+      "file": "女婿，求求你，饶了我吧.txt",
+      "real_rating": 8.9,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6,
+        5.6,
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "战神威压": 5,
+        "亲情锚点": 6,
+        "节奏爆点": 5,
+        "反派践踏": 7,
+        "身份反差": 6,
+        "系统赋能": 0,
+        "世界联动": 5,
+        "情感代价": 6,
+        "爽感兑现": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            17
+          ],
+          "success_chars": 25
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            13
+          ],
+          "success_chars": 33
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            25
+          ],
+          "success_chars": 38
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            27
+          ],
+          "success_chars": 47
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            27
+          ],
+          "success_chars": 38
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            25
+          ],
+          "success_chars": 46
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            13
+          ],
+          "success_chars": 0
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            27
+          ],
+          "success_chars": 26
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            17
+          ],
+          "success_chars": 24
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            17
+          ],
+          "success_chars": 24
+        }
+      }
+    },
+    {
+      "title": "别又缘",
+      "file": "别又缘.txt",
+      "real_rating": 8.8,
+      "rubric_score": 2.6,
+      "rubric_scores": [
+        2.6
+      ],
+      "dimensions": {
+        "钩子强度": 3,
+        "战神威压": 2,
+        "亲情锚点": 1,
+        "节奏爆点": 3,
+        "反派践踏": 2,
+        "身份反差": 4,
+        "系统赋能": 0,
+        "世界联动": 1,
+        "情感代价": 2,
+        "爽感兑现": 2
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            27
+          ],
+          "success_chars": 31
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            29
+          ],
+          "success_chars": 36
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            31
+          ],
+          "success_chars": 41
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            22
+          ],
+          "success_chars": 19
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            41
+          ],
+          "success_chars": 29
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            11
+          ],
+          "success_chars": 3
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            0,
+            0
+          ],
+          "success_chars": 0
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            36
+          ],
+          "success_chars": 25
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            23
+          ],
+          "success_chars": 8
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            31
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "狂龙出狱，江家赘婿是天渊殿主",
+      "file": "狂龙出狱，江家赘婿是天渊殿主.txt",
+      "real_rating": 9.1,
+      "rubric_score": 7.8,
+      "rubric_scores": [
+        7.8
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "战神威压": 9,
+        "亲情锚点": 7,
+        "节奏爆点": 8,
+        "反派践踏": 5,
+        "身份反差": 9,
+        "系统赋能": 6,
+        "世界联动": 9,
+        "情感代价": 8,
+        "爽感兑现": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            38
+          ],
+          "success_chars": 49
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            28
+          ],
+          "success_chars": 42
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            32
+          ],
+          "success_chars": 38
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            27
+          ],
+          "success_chars": 40
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            30
+          ],
+          "success_chars": 30
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            30
+          ],
+          "success_chars": 60
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            25
+          ],
+          "success_chars": 42
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            13
+          ],
+          "success_chars": 52
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            23
+          ],
+          "success_chars": 41
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            23
+          ],
+          "success_chars": 39
+        }
+      }
+    },
+    {
+      "title": "致命的权力诱惑",
+      "file": "致命的权力诱惑.txt",
+      "real_rating": 8.8,
+      "rubric_score": 4.6,
+      "rubric_scores": [
+        4.6
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "战神威压": 2,
+        "亲情锚点": 3,
+        "节奏爆点": 5,
+        "反派践踏": 6,
+        "身份反差": 5,
+        "系统赋能": 0,
+        "世界联动": 7,
+        "情感代价": 4,
+        "爽感兑现": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            30
+          ],
+          "success_chars": 63
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            57
+          ],
+          "success_chars": 37
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            29
+          ],
+          "success_chars": 61
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            35
+          ],
+          "success_chars": 45
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            12
+          ],
+          "success_chars": 39
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            26
+          ],
+          "success_chars": 41
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            15
+          ],
+          "success_chars": 15
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            36
+          ],
+          "success_chars": 41
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            34
+          ],
+          "success_chars": 37
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            31
+          ],
+          "success_chars": 21
+        }
+      }
+    },
+    {
+      "title": "都市之流氓修仙",
+      "file": "都市之流氓修仙.txt",
+      "real_rating": 8.8,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "战神威压": 5,
+        "亲情锚点": 2,
+        "节奏爆点": 6,
+        "反派践踏": 7,
+        "身份反差": 6,
+        "系统赋能": 8,
+        "世界联动": 3,
+        "情感代价": 4,
+        "爽感兑现": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            25
+          ],
+          "success_chars": 22
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            14
+          ],
+          "success_chars": 29
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            24
+          ],
+          "success_chars": 37
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            26
+          ],
+          "success_chars": 32
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            15
+          ],
+          "success_chars": 28
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            17
+          ],
+          "success_chars": 34
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            22
+          ],
+          "success_chars": 19
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            13
+          ],
+          "success_chars": 34
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            6
+          ],
+          "success_chars": 13
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            16
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "和十八岁校花同居是什么体验",
+      "file": "和十八岁校花同居是什么体验.txt",
+      "real_rating": 8.7,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.1,
+        5.4,
+        5.4
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "战神威压": 6,
+        "亲情锚点": 5,
+        "节奏爆点": 5,
+        "反派践踏": 3,
+        "身份反差": 7,
+        "系统赋能": 0,
+        "世界联动": 5,
+        "情感代价": 5,
+        "爽感兑现": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            50
+          ],
+          "success_chars": 18
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            19
+          ],
+          "success_chars": 69
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            25
+          ],
+          "success_chars": 19
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            29
+          ],
+          "success_chars": 55
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            34
+          ],
+          "success_chars": 18
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            22
+          ],
+          "success_chars": 31
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            11
+          ],
+          "success_chars": 0
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            22
+          ],
+          "success_chars": 31
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            48,
+            17
+          ],
+          "success_chars": 37
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            33
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "影子部队之龙魂兵王",
+      "file": "影子部队之龙魂兵王.txt",
+      "real_rating": 8.1,
+      "rubric_score": 4.1,
+      "rubric_scores": [
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 3,
+        "战神威压": 4,
+        "亲情锚点": 2,
+        "节奏爆点": 5,
+        "反派践踏": 3,
+        "身份反差": 6,
+        "系统赋能": 0,
+        "世界联动": 2,
+        "情感代价": 3,
+        "爽感兑现": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            30
+          ],
+          "success_chars": 21
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            33
+          ],
+          "success_chars": 39
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            34
+          ],
+          "success_chars": 27
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            24
+          ],
+          "success_chars": 18
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            16
+          ],
+          "success_chars": 12
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            28
+          ],
+          "success_chars": 28
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            16
+          ],
+          "success_chars": 0
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            24
+          ],
+          "success_chars": 21
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            23
+          ],
+          "success_chars": 20
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            22
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "刚退役！七个战友竟是千金美女！",
+      "file": "刚退役！七个战友竟是千金美女！.txt",
+      "real_rating": 8.5,
+      "rubric_score": 5.9,
+      "rubric_scores": [
+        5.9
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "战神威压": 6,
+        "亲情锚点": 3,
+        "节奏爆点": 7,
+        "反派践踏": 5,
+        "身份反差": 6,
+        "系统赋能": 0,
+        "世界联动": 5,
+        "情感代价": 3,
+        "爽感兑现": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            54
+          ],
+          "success_chars": 46
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            35
+          ],
+          "success_chars": 37
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            37
+          ],
+          "success_chars": 21
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            17
+          ],
+          "success_chars": 25
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            27
+          ],
+          "success_chars": 28
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            60,
+            29
+          ],
+          "success_chars": 47
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            21
+          ],
+          "success_chars": 0
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            27
+          ],
+          "success_chars": 28
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            23
+          ],
+          "success_chars": 23
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            21
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "杀手之王归隐后，血洗都市",
+      "file": "杀手之王归隐后，血洗都市.txt",
+      "real_rating": 8.7,
+      "rubric_score": 4.6,
+      "rubric_scores": [
+        4.6
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "战神威压": 5,
+        "亲情锚点": 3,
+        "节奏爆点": 4,
+        "反派践踏": 3,
+        "身份反差": 7,
+        "系统赋能": 0,
+        "世界联动": 5,
+        "情感代价": 6,
+        "爽感兑现": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            73,
+            61
+          ],
+          "success_chars": 49
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            41
+          ],
+          "success_chars": 38
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            34
+          ],
+          "success_chars": 43
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            31
+          ],
+          "success_chars": 34
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            8
+          ],
+          "success_chars": 39
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            34
+          ],
+          "success_chars": 40
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            31
+          ],
+          "success_chars": 24
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            28
+          ],
+          "success_chars": 41
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            13
+          ],
+          "success_chars": 45
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            23
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "女子监狱出真龙，出狱后全球轰动",
+      "file": "女子监狱出真龙，出狱后全球轰动.txt",
+      "real_rating": 8.0,
+      "rubric_score": 4.433333333333333,
+      "rubric_scores": [
+        4.1,
+        5.1,
+        4.1
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "战神威压": 2,
+        "亲情锚点": 6,
+        "节奏爆点": 3,
+        "反派践踏": 5,
+        "身份反差": 5,
+        "系统赋能": 1,
+        "世界联动": 2,
+        "情感代价": 7,
+        "爽感兑现": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            10
+          ],
+          "success_chars": 23
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            14
+          ],
+          "success_chars": 22
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            27
+          ],
+          "success_chars": 34
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            22
+          ],
+          "success_chars": 27
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            28
+          ],
+          "success_chars": 29
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            10
+          ],
+          "success_chars": 33
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            25
+          ],
+          "success_chars": 30
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            19
+          ],
+          "success_chars": 27
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            12
+          ],
+          "success_chars": 38
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            15
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "兵王归来：七个美女大佬赖上我",
+      "file": "兵王归来：七个美女大佬赖上我.txt",
+      "real_rating": 8.2,
+      "rubric_score": 4.9,
+      "rubric_scores": [
+        4.9
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "战神威压": 5,
+        "亲情锚点": 4,
+        "节奏爆点": 5,
+        "反派践踏": 3,
+        "身份反差": 6,
+        "系统赋能": 0,
+        "世界联动": 2,
+        "情感代价": 4,
+        "爽感兑现": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            9
+          ],
+          "success_chars": 7
+        },
+        "战神威压": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            9
+          ],
+          "success_chars": 8
+        },
+        "亲情锚点": {
+          "n_failures": 2,
+          "failure_chars": [
+            7,
+            7
+          ],
+          "success_chars": 8
+        },
+        "节奏爆点": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            8
+          ],
+          "success_chars": 7
+        },
+        "反派践踏": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            8
+          ],
+          "success_chars": 8
+        },
+        "身份反差": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            6
+          ],
+          "success_chars": 9
+        },
+        "系统赋能": {
+          "n_failures": 2,
+          "failure_chars": [
+            5,
+            6
+          ],
+          "success_chars": 7
+        },
+        "世界联动": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            7
+          ],
+          "success_chars": 8
+        },
+        "情感代价": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            7
+          ],
+          "success_chars": 7
+        },
+        "爽感兑现": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            8
+          ],
+          "success_chars": 7
+        }
+      }
+    }
+  ]
+}

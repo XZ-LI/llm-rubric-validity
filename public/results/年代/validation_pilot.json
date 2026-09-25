@@ -1,0 +1,2403 @@
+{
+  "run_id": "20260911T024035Z-e21376",
+  "run_utc": "2026-09-11T02:40:35+00:00",
+  "reviewer_model": "qwen3-max",
+  "chapters_scored": 3,
+  "workers": 8,
+  "repeat_policy": "抽样 3 次",
+  "script": "validate_pilot.py",
+  "category": "年代",
+  "source_dir": "Nvpin",
+  "output_spec": "lean",
+  "n": 23,
+  "excluded_contaminated": [
+    "1960偷渡香江从卖鱼开始逆袭.txt",
+    "军婚六年不见，她提离婚他醋炸了.txt",
+    "烈士孤女参军，冷面军官宠疯了！.txt",
+    "瞎苞米！烂土豆！极品儿女靠边跪.txt",
+    "离婚被害死后，首长前夫一夜白头.txt",
+    "逼我下乡？科研军嫂搬空你全家.txt",
+    "重生八零，先在京都买套四合院！.txt"
+  ],
+  "results": [
+    {
+      "title": "村女翠菊：华山村十里酒香",
+      "file": "村女翠菊：华山村十里酒香.txt",
+      "real_rating": 8.8,
+      "rubric_score": 3.8666666666666667,
+      "rubric_scores": [
+        3.9,
+        4.1,
+        3.6
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "时代质感": 6,
+        "人设立骨": 3,
+        "矛盾锐度": 5,
+        "节奏张力": 4,
+        "情感真实": 3,
+        "台词锋芒": 4,
+        "逆袭路径": 2,
+        "群像鲜活": 3,
+        "命运紧迫": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            55
+          ],
+          "success_chars": 39
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            51,
+            31
+          ],
+          "success_chars": 31
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            9,
+            38
+          ],
+          "success_chars": 30
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            24
+          ],
+          "success_chars": 32
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            59,
+            31
+          ],
+          "success_chars": 46
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            39
+          ],
+          "success_chars": 29
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            7
+          ],
+          "success_chars": 50
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            11,
+            29
+          ],
+          "success_chars": 50
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            9
+          ],
+          "success_chars": 31
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            23
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "重生八零军婚，你有白月光我改嫁",
+      "file": "重生八零军婚，你有白月光我改嫁.txt",
+      "real_rating": 9.0,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "时代质感": 8,
+        "人设立骨": 7,
+        "矛盾锐度": 7,
+        "节奏张力": 6,
+        "情感真实": 7,
+        "台词锋芒": 6,
+        "逆袭路径": 8,
+        "群像鲜活": 6,
+        "命运紧迫": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            34
+          ],
+          "success_chars": 31
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            30
+          ],
+          "success_chars": 61
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            45
+          ],
+          "success_chars": 51
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            43
+          ],
+          "success_chars": 66
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            48
+          ],
+          "success_chars": 36
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            25
+          ],
+          "success_chars": 50
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            31
+          ],
+          "success_chars": 27
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            31
+          ],
+          "success_chars": 24
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            28
+          ],
+          "success_chars": 31
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            8
+          ],
+          "success_chars": 45
+        }
+      }
+    },
+    {
+      "title": "重生在四岁半，她杀回来了",
+      "file": "重生在四岁半，她杀回来了.txt",
+      "real_rating": 8.9,
+      "rubric_score": 7.3,
+      "rubric_scores": [
+        7.3
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "时代质感": 6,
+        "人设立骨": 9,
+        "矛盾锐度": 7,
+        "节奏张力": 8,
+        "情感真实": 6,
+        "台词锋芒": 7,
+        "逆袭路径": 8,
+        "群像鲜活": 6,
+        "命运紧迫": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            45
+          ],
+          "success_chars": 32
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            50
+          ],
+          "success_chars": 9
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            24
+          ],
+          "success_chars": 18
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            42
+          ],
+          "success_chars": 14
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            40
+          ],
+          "success_chars": 32
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            37
+          ],
+          "success_chars": 19
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            17
+          ],
+          "success_chars": 25
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            54,
+            43
+          ],
+          "success_chars": 20
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            27
+          ],
+          "success_chars": 46
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            17
+          ],
+          "success_chars": 32
+        }
+      }
+    },
+    {
+      "title": "黑道大小姐觉醒，下乡打遍全军区",
+      "file": "黑道大小姐觉醒，下乡打遍全军区.txt",
+      "real_rating": 8.8,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "时代质感": 5,
+        "人设立骨": 7,
+        "矛盾锐度": 6,
+        "节奏张力": 5,
+        "情感真实": 4,
+        "台词锋芒": 5,
+        "逆袭路径": 8,
+        "群像鲜活": 6,
+        "命运紧迫": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            34
+          ],
+          "success_chars": 19
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            43
+          ],
+          "success_chars": 21
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            38
+          ],
+          "success_chars": 26
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            32
+          ],
+          "success_chars": 28
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            35
+          ],
+          "success_chars": 25
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            13
+          ],
+          "success_chars": 21
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            43
+          ],
+          "success_chars": 29
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            17
+          ],
+          "success_chars": 29
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            31
+          ],
+          "success_chars": 27
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            14
+          ],
+          "success_chars": 22
+        }
+      }
+    },
+    {
+      "title": "军婚十年不圆房，重生改嫁他首长",
+      "file": "军婚十年不圆房，重生改嫁他首长.txt",
+      "real_rating": 8.8,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "时代质感": 5,
+        "人设立骨": 7,
+        "矛盾锐度": 6,
+        "节奏张力": 6,
+        "情感真实": 5,
+        "台词锋芒": 6,
+        "逆袭路径": 5,
+        "群像鲜活": 5,
+        "命运紧迫": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            43
+          ],
+          "success_chars": 34
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            41
+          ],
+          "success_chars": 33
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            27
+          ],
+          "success_chars": 39
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            42
+          ],
+          "success_chars": 38
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            34
+          ],
+          "success_chars": 33
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            42
+          ],
+          "success_chars": 31
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            20
+          ],
+          "success_chars": 30
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            52
+          ],
+          "success_chars": 28
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            49
+          ],
+          "success_chars": 32
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            31
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "穿成早死首长的妻子！被全家团宠",
+      "file": "穿成早死首长的妻子！被全家团宠.txt",
+      "real_rating": 9.0,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "时代质感": 6,
+        "人设立骨": 7,
+        "矛盾锐度": 6,
+        "节奏张力": 6,
+        "情感真实": 5,
+        "台词锋芒": 7,
+        "逆袭路径": 5,
+        "群像鲜活": 6,
+        "命运紧迫": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            26
+          ],
+          "success_chars": 28
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            28
+          ],
+          "success_chars": 35
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            33
+          ],
+          "success_chars": 45
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            37
+          ],
+          "success_chars": 33
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            33
+          ],
+          "success_chars": 43
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            30
+          ],
+          "success_chars": 28
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            27
+          ],
+          "success_chars": 40
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            33
+          ],
+          "success_chars": 28
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            29
+          ],
+          "success_chars": 28
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            26
+          ],
+          "success_chars": 35
+        }
+      }
+    },
+    {
+      "title": "七零睁眼肚子揣了个崽崽",
+      "file": "七零睁眼肚子揣了个崽崽.txt",
+      "real_rating": 8.5,
+      "rubric_score": 4.8999999999999995,
+      "rubric_scores": [
+        5.1,
+        4.8,
+        4.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "时代质感": 5,
+        "人设立骨": 5,
+        "矛盾锐度": 6,
+        "节奏张力": 5,
+        "情感真实": 5,
+        "台词锋芒": 4,
+        "逆袭路径": 4,
+        "群像鲜活": 3,
+        "命运紧迫": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            21
+          ],
+          "success_chars": 6
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            12
+          ],
+          "success_chars": 21
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            22
+          ],
+          "success_chars": 17
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            21
+          ],
+          "success_chars": 20
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            26
+          ],
+          "success_chars": 16
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            24
+          ],
+          "success_chars": 34
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            8
+          ],
+          "success_chars": 35
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            15
+          ],
+          "success_chars": 18
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            19
+          ],
+          "success_chars": 44
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            23
+          ],
+          "success_chars": 23
+        }
+      }
+    },
+    {
+      "title": "七零炮灰小姑子，纺织厂里当秘书",
+      "file": "七零炮灰小姑子，纺织厂里当秘书.txt",
+      "real_rating": 8.6,
+      "rubric_score": 8.2,
+      "rubric_scores": [
+        8.2
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "时代质感": 9,
+        "人设立骨": 9,
+        "矛盾锐度": 8,
+        "节奏张力": 7,
+        "情感真实": 8,
+        "台词锋芒": 9,
+        "逆袭路径": 8,
+        "群像鲜活": 8,
+        "命运紧迫": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            42
+          ],
+          "success_chars": 37
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            36
+          ],
+          "success_chars": 56
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            37
+          ],
+          "success_chars": 46
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            30
+          ],
+          "success_chars": 49
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            43
+          ],
+          "success_chars": 43
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            29
+          ],
+          "success_chars": 32
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            22
+          ],
+          "success_chars": 31
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            29
+          ],
+          "success_chars": 37
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            16
+          ],
+          "success_chars": 44
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            22
+          ],
+          "success_chars": 48
+        }
+      }
+    },
+    {
+      "title": "穿越医毒双绝女",
+      "file": "穿越医毒双绝女.txt",
+      "real_rating": 8.5,
+      "rubric_score": 6.7,
+      "rubric_scores": [
+        6.7
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "时代质感": 7,
+        "人设立骨": 7,
+        "矛盾锐度": 8,
+        "节奏张力": 6,
+        "情感真实": 6,
+        "台词锋芒": 7,
+        "逆袭路径": 5,
+        "群像鲜活": 8,
+        "命运紧迫": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            34
+          ],
+          "success_chars": 31
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            24
+          ],
+          "success_chars": 28
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            25
+          ],
+          "success_chars": 31
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            21
+          ],
+          "success_chars": 23
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            32
+          ],
+          "success_chars": 28
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            8,
+            28
+          ],
+          "success_chars": 21
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            12
+          ],
+          "success_chars": 34
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            18
+          ],
+          "success_chars": 18
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            24
+          ],
+          "success_chars": 33
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            28
+          ],
+          "success_chars": 15
+        }
+      }
+    },
+    {
+      "title": "小媳妇软又娇，霸道糙汉宠不够",
+      "file": "小媳妇软又娇，霸道糙汉宠不够.txt",
+      "real_rating": 8.5,
+      "rubric_score": 6.1,
+      "rubric_scores": [
+        6.1
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "时代质感": 8,
+        "人设立骨": 6,
+        "矛盾锐度": 7,
+        "节奏张力": 6,
+        "情感真实": 6,
+        "台词锋芒": 5,
+        "逆袭路径": 4,
+        "群像鲜活": 6,
+        "命运紧迫": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            26
+          ],
+          "success_chars": 54
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            16
+          ],
+          "success_chars": 65
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            12
+          ],
+          "success_chars": 45
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            30,
+            11
+          ],
+          "success_chars": 26
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            29
+          ],
+          "success_chars": 29
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            15
+          ],
+          "success_chars": 43
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            22
+          ],
+          "success_chars": 28
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            27
+          ],
+          "success_chars": 17
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            26
+          ],
+          "success_chars": 43
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            11
+          ],
+          "success_chars": 36
+        }
+      }
+    },
+    {
+      "title": "重生六零，千金囤货随军兵王",
+      "file": "重生六零，千金囤货随军兵王.txt",
+      "real_rating": 8.4,
+      "rubric_score": 5.6,
+      "rubric_scores": [
+        5.6
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "时代质感": 5,
+        "人设立骨": 7,
+        "矛盾锐度": 6,
+        "节奏张力": 5,
+        "情感真实": 5,
+        "台词锋芒": 6,
+        "逆袭路径": 4,
+        "群像鲜活": 5,
+        "命运紧迫": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            41
+          ],
+          "success_chars": 30
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            16
+          ],
+          "success_chars": 35
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            25
+          ],
+          "success_chars": 51
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            20
+          ],
+          "success_chars": 29
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            28
+          ],
+          "success_chars": 43
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            8
+          ],
+          "success_chars": 10
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            47,
+            18
+          ],
+          "success_chars": 33
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            26
+          ],
+          "success_chars": 31
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            32,
+            25
+          ],
+          "success_chars": 35
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            27
+          ],
+          "success_chars": 18
+        }
+      }
+    },
+    {
+      "title": "揣双胎，带灵泉！资本小姐去随军",
+      "file": "揣双胎，带灵泉！资本小姐去随军.txt",
+      "real_rating": 8.3,
+      "rubric_score": 5.5,
+      "rubric_scores": [
+        5.4,
+        5.3,
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "时代质感": 5,
+        "人设立骨": 7,
+        "矛盾锐度": 6,
+        "节奏张力": 5,
+        "情感真实": 6,
+        "台词锋芒": 5,
+        "逆袭路径": 4,
+        "群像鲜活": 5,
+        "命运紧迫": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            49
+          ],
+          "success_chars": 26
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            52,
+            25
+          ],
+          "success_chars": 19
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            41
+          ],
+          "success_chars": 25
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            53
+          ],
+          "success_chars": 55
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            39
+          ],
+          "success_chars": 69
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            44
+          ],
+          "success_chars": 66
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            17
+          ],
+          "success_chars": 21
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            51
+          ],
+          "success_chars": 52
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            48
+          ],
+          "success_chars": 40
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            20
+          ],
+          "success_chars": 46
+        }
+      }
+    },
+    {
+      "title": "许南的故事：改嫁杀猪匠成万元户",
+      "file": "许南的故事：改嫁杀猪匠成万元户.txt",
+      "real_rating": 8.3,
+      "rubric_score": 7.4,
+      "rubric_scores": [
+        7.4
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "时代质感": 9,
+        "人设立骨": 7,
+        "矛盾锐度": 8,
+        "节奏张力": 8,
+        "情感真实": 7,
+        "台词锋芒": 8,
+        "逆袭路径": 6,
+        "群像鲜活": 7,
+        "命运紧迫": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            21
+          ],
+          "success_chars": 59
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            35
+          ],
+          "success_chars": 36
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            9
+          ],
+          "success_chars": 48
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            13,
+            27
+          ],
+          "success_chars": 42
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            31
+          ],
+          "success_chars": 39
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            15
+          ],
+          "success_chars": 19
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            21
+          ],
+          "success_chars": 24
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            30
+          ],
+          "success_chars": 39
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            19
+          ],
+          "success_chars": 35
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            5
+          ],
+          "success_chars": 28
+        }
+      }
+    },
+    {
+      "title": "军区大院来了个南方乖乖女",
+      "file": "军区大院来了个南方乖乖女.txt",
+      "real_rating": 8.2,
+      "rubric_score": 5.2,
+      "rubric_scores": [
+        5.2,
+        5.2,
+        5.2
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "时代质感": 6,
+        "人设立骨": 5,
+        "矛盾锐度": 5,
+        "节奏张力": 6,
+        "情感真实": 5,
+        "台词锋芒": 5,
+        "逆袭路径": 4,
+        "群像鲜活": 6,
+        "命运紧迫": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            33
+          ],
+          "success_chars": 25
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            39
+          ],
+          "success_chars": 59
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            21
+          ],
+          "success_chars": 41
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            25
+          ],
+          "success_chars": 27
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            46
+          ],
+          "success_chars": 31
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            33
+          ],
+          "success_chars": 21
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            23
+          ],
+          "success_chars": 50
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            57
+          ],
+          "success_chars": 27
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            21
+          ],
+          "success_chars": 46
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            15,
+            28
+          ],
+          "success_chars": 19
+        }
+      }
+    },
+    {
+      "title": "前往部队离婚，被禁欲军官亲哭了",
+      "file": "前往部队离婚，被禁欲军官亲哭了.txt",
+      "real_rating": 8.2,
+      "rubric_score": 5.1,
+      "rubric_scores": [
+        5.1
+      ],
+      "dimensions": {
+        "钩子强度": 5,
+        "时代质感": 4,
+        "人设立骨": 6,
+        "矛盾锐度": 5,
+        "节奏张力": 5,
+        "情感真实": 5,
+        "台词锋芒": 6,
+        "逆袭路径": 4,
+        "群像鲜活": 5,
+        "命运紧迫": 4
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            39
+          ],
+          "success_chars": 28
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            23
+          ],
+          "success_chars": 31
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            44,
+            39
+          ],
+          "success_chars": 27
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            26
+          ],
+          "success_chars": 26
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            24
+          ],
+          "success_chars": 25
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            38
+          ],
+          "success_chars": 19
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            49,
+            11
+          ],
+          "success_chars": 28
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            28
+          ],
+          "success_chars": 28
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            33
+          ],
+          "success_chars": 21
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            28
+          ],
+          "success_chars": 17
+        }
+      }
+    },
+    {
+      "title": "首长你的村姑原配带龙凤胎随军了",
+      "file": "首长你的村姑原配带龙凤胎随军了.txt",
+      "real_rating": 8.3,
+      "rubric_score": 6.9,
+      "rubric_scores": [
+        6.9
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "时代质感": 6,
+        "人设立骨": 7,
+        "矛盾锐度": 8,
+        "节奏张力": 7,
+        "情感真实": 5,
+        "台词锋芒": 6,
+        "逆袭路径": 5,
+        "群像鲜活": 6,
+        "命运紧迫": 8
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            45
+          ],
+          "success_chars": 36
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            16,
+            34
+          ],
+          "success_chars": 34
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            15
+          ],
+          "success_chars": 31
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            21
+          ],
+          "success_chars": 35
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            49
+          ],
+          "success_chars": 30
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            25
+          ],
+          "success_chars": 34
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            20
+          ],
+          "success_chars": 40
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            32
+          ],
+          "success_chars": 33
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            33
+          ],
+          "success_chars": 30
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            34
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "离婚后，她成了隔壁糙汉的心头宝",
+      "file": "离婚后，她成了隔壁糙汉的心头宝.txt",
+      "real_rating": 8.2,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "时代质感": 7,
+        "人设立骨": 6,
+        "矛盾锐度": 7,
+        "节奏张力": 6,
+        "情感真实": 6,
+        "台词锋芒": 5,
+        "逆袭路径": 4,
+        "群像鲜活": 6,
+        "命运紧迫": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            31,
+            11
+          ],
+          "success_chars": 42
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            20
+          ],
+          "success_chars": 51
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            21
+          ],
+          "success_chars": 40
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            19
+          ],
+          "success_chars": 46
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            26
+          ],
+          "success_chars": 40
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            22
+          ],
+          "success_chars": 42
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            6,
+            17
+          ],
+          "success_chars": 49
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            24
+          ],
+          "success_chars": 38
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            32
+          ],
+          "success_chars": 43
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            10
+          ],
+          "success_chars": 50
+        }
+      }
+    },
+    {
+      "title": "洞错房，黑脸军官死活不换回来",
+      "file": "洞错房，黑脸军官死活不换回来.txt",
+      "real_rating": 8.2,
+      "rubric_score": 5.8,
+      "rubric_scores": [
+        5.8
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "时代质感": 5,
+        "人设立骨": 7,
+        "矛盾锐度": 6,
+        "节奏张力": 6,
+        "情感真实": 5,
+        "台词锋芒": 6,
+        "逆袭路径": 5,
+        "群像鲜活": 6,
+        "命运紧迫": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            42
+          ],
+          "success_chars": 42
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            14
+          ],
+          "success_chars": 17
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            18,
+            16
+          ],
+          "success_chars": 57
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            38
+          ],
+          "success_chars": 35
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            46,
+            46
+          ],
+          "success_chars": 11
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            41
+          ],
+          "success_chars": 27
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            8
+          ],
+          "success_chars": 21
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            38
+          ],
+          "success_chars": 45
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            49
+          ],
+          "success_chars": 23
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            25
+          ],
+          "success_chars": 40
+        }
+      }
+    },
+    {
+      "title": "七零湘西姑娘靠医术在大院杀疯了",
+      "file": "七零湘西姑娘靠医术在大院杀疯了.txt",
+      "real_rating": 8.1,
+      "rubric_score": 7.1,
+      "rubric_scores": [
+        7.1
+      ],
+      "dimensions": {
+        "钩子强度": 7,
+        "时代质感": 8,
+        "人设立骨": 9,
+        "矛盾锐度": 8,
+        "节奏张力": 6,
+        "情感真实": 8,
+        "台词锋芒": 9,
+        "逆袭路径": 5,
+        "群像鲜活": 7,
+        "命运紧迫": 6
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            24,
+            25
+          ],
+          "success_chars": 56
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            20
+          ],
+          "success_chars": 52
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            13
+          ],
+          "success_chars": 63
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            27
+          ],
+          "success_chars": 35
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            20
+          ],
+          "success_chars": 73
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            10
+          ],
+          "success_chars": 58
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            21,
+            17
+          ],
+          "success_chars": 35
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            28,
+            35
+          ],
+          "success_chars": 52
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            25
+          ],
+          "success_chars": 32
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            8
+          ],
+          "success_chars": 54
+        }
+      }
+    },
+    {
+      "title": "绝色美人住隔壁",
+      "file": "绝色美人住隔壁.txt",
+      "real_rating": 8.2,
+      "rubric_score": 4.2,
+      "rubric_scores": [
+        4.2
+      ],
+      "dimensions": {
+        "钩子强度": 4,
+        "时代质感": 5,
+        "人设立骨": 6,
+        "矛盾锐度": 3,
+        "节奏张力": 5,
+        "情感真实": 4,
+        "台词锋芒": 4,
+        "逆袭路径": 3,
+        "群像鲜活": 5,
+        "命运紧迫": 3
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            38
+          ],
+          "success_chars": 22
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            34,
+            22
+          ],
+          "success_chars": 18
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            22
+          ],
+          "success_chars": 42
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            22
+          ],
+          "success_chars": 47
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            24
+          ],
+          "success_chars": 22
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            9
+          ],
+          "success_chars": 34
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            39,
+            30
+          ],
+          "success_chars": 24
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            17
+          ],
+          "success_chars": 32
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            42,
+            27
+          ],
+          "success_chars": 26
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            21
+          ],
+          "success_chars": 38
+        }
+      }
+    },
+    {
+      "title": "重回生产日护崽分家绝不后悔",
+      "file": "重回生产日护崽分家绝不后悔.txt",
+      "real_rating": 8.1,
+      "rubric_score": 6.8,
+      "rubric_scores": [
+        6.8
+      ],
+      "dimensions": {
+        "钩子强度": 8,
+        "时代质感": 6,
+        "人设立骨": 7,
+        "矛盾锐度": 8,
+        "节奏张力": 6,
+        "情感真实": 7,
+        "台词锋芒": 6,
+        "逆袭路径": 5,
+        "群像鲜活": 6,
+        "命运紧迫": 7
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            33,
+            54
+          ],
+          "success_chars": 44
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            46
+          ],
+          "success_chars": 17
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            22,
+            19
+          ],
+          "success_chars": 66
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            20
+          ],
+          "success_chars": 51
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            20
+          ],
+          "success_chars": 62
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            8
+          ],
+          "success_chars": 33
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            23,
+            33
+          ],
+          "success_chars": 44
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            31
+          ],
+          "success_chars": 9
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            26,
+            26
+          ],
+          "success_chars": 36
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            22
+          ],
+          "success_chars": 45
+        }
+      }
+    },
+    {
+      "title": "妹宝投亲认错哥，高岭之花沦陷了",
+      "file": "妹宝投亲认错哥，高岭之花沦陷了.txt",
+      "real_rating": 8.1,
+      "rubric_score": 5.3,
+      "rubric_scores": [
+        5.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "时代质感": 7,
+        "人设立骨": 5,
+        "矛盾锐度": 6,
+        "节奏张力": 5,
+        "情感真实": 4,
+        "台词锋芒": 5,
+        "逆袭路径": 4,
+        "群像鲜活": 5,
+        "命运紧迫": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            27,
+            45
+          ],
+          "success_chars": 35
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            55
+          ],
+          "success_chars": 32
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            26
+          ],
+          "success_chars": 16
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            37,
+            25
+          ],
+          "success_chars": 16
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            38,
+            22
+          ],
+          "success_chars": 33
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            10,
+            34
+          ],
+          "success_chars": 23
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            43,
+            9
+          ],
+          "success_chars": 14
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            17,
+            22
+          ],
+          "success_chars": 13
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            25,
+            32
+          ],
+          "success_chars": 23
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            20,
+            22
+          ],
+          "success_chars": 25
+        }
+      }
+    },
+    {
+      "title": "大队长闺女重生后，糙军官幸福了",
+      "file": "大队长闺女重生后，糙军官幸福了.txt",
+      "real_rating": 8.0,
+      "rubric_score": 6.3,
+      "rubric_scores": [
+        6.3,
+        6.3,
+        6.3
+      ],
+      "dimensions": {
+        "钩子强度": 6,
+        "时代质感": 8,
+        "人设立骨": 7,
+        "矛盾锐度": 7,
+        "节奏张力": 6,
+        "情感真实": 7,
+        "台词锋芒": 6,
+        "逆袭路径": 5,
+        "群像鲜活": 7,
+        "命运紧迫": 5
+      },
+      "evidence_shape": {
+        "钩子强度": {
+          "n_failures": 2,
+          "failure_chars": [
+            45,
+            34
+          ],
+          "success_chars": 24
+        },
+        "时代质感": {
+          "n_failures": 2,
+          "failure_chars": [
+            14,
+            26
+          ],
+          "success_chars": 59
+        },
+        "人设立骨": {
+          "n_failures": 2,
+          "failure_chars": [
+            36,
+            17
+          ],
+          "success_chars": 23
+        },
+        "矛盾锐度": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            48
+          ],
+          "success_chars": 68
+        },
+        "节奏张力": {
+          "n_failures": 2,
+          "failure_chars": [
+            40,
+            43
+          ],
+          "success_chars": 63
+        },
+        "情感真实": {
+          "n_failures": 2,
+          "failure_chars": [
+            29,
+            38
+          ],
+          "success_chars": 49
+        },
+        "台词锋芒": {
+          "n_failures": 2,
+          "failure_chars": [
+            35,
+            37
+          ],
+          "success_chars": 83
+        },
+        "逆袭路径": {
+          "n_failures": 2,
+          "failure_chars": [
+            19,
+            26
+          ],
+          "success_chars": 29
+        },
+        "群像鲜活": {
+          "n_failures": 2,
+          "failure_chars": [
+            41,
+            38
+          ],
+          "success_chars": 52
+        },
+        "命运紧迫": {
+          "n_failures": 2,
+          "failure_chars": [
+            50,
+            35
+          ],
+          "success_chars": 44
+        }
+      }
+    }
+  ]
+}

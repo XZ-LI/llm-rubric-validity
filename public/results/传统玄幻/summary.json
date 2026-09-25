@@ -1,0 +1,62 @@
+{
+  "category": "传统玄幻",
+  "target_score": 9.0,
+  "total_rounds": 10,
+  "scores": [
+    {
+      "iteration": 1,
+      "score": 7.2
+    },
+    {
+      "iteration": 2,
+      "score": 6.9
+    },
+    {
+      "iteration": 3,
+      "score": 7.38
+    },
+    {
+      "iteration": 4,
+      "score": 7.1
+    },
+    {
+      "iteration": 5,
+      "score": 7.3
+    },
+    {
+      "iteration": 6,
+      "score": 7.8
+    },
+    {
+      "iteration": 7,
+      "score": 7.5
+    },
+    {
+      "iteration": 8,
+      "score": 7.1
+    },
+    {
+      "iteration": 9,
+      "score": 7.2
+    },
+    {
+      "iteration": 10,
+      "score": 7.6
+    }
+  ],
+  "best_iteration": 6,
+  "best_score": 7.8,
+  "score_trend": [
+    7.2,
+    6.9,
+    7.38,
+    7.1,
+    7.3,
+    7.8,
+    7.5,
+    7.1,
+    7.2,
+    7.6
+  ],
+  "goal_reached": false
+}

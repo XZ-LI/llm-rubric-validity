@@ -1,0 +1,30 @@
+# ── 语料与任何含作品正文的产物：绝不提交 ─────────────────────
+Nanpin/
+Nvpin/
+novels/
+generated/
+generated_female/
+converted_txt/
+prompts/
+review_loop/
+pipeline*.json
+books*.json
+*.txt
+*.log
+
+# 标注工具的成品内嵌约 46 万字正文；生成器可公开，成品不可
+annotation/annotate.html
+
+# 只发布经 tools/make_public.py 清洗后的结果
+!public/**/*.json
+
+# ── 凭证 ──────────────────────────────────────────────────
+.env
+api-keys.env
+*.key
+
+# ── 常规 ──────────────────────────────────────────────────
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
