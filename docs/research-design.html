@@ -1,0 +1,716 @@
+<title>评分表的幻觉</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root{
+    --bg:#EDEFEA; --surface:#FFFFFF; --surface-2:#F5F7F2;
+    --ink:#16191A; --ink-2:#454E4F; --muted:#79837F;
+    --rule:#D3D8D0; --rule-soft:#E3E7DF;
+    --pine:#1D5F55; --pine-soft:#CFE1DB;
+    --rust:#7A2E39; --rust-soft:#EFD9DC;
+    --ochre:#7E620F; --ochre-soft:#EDE4C7;
+    --s1:#1268A8; --s2:#B05E00; --s3:#7A3580; --s4:#1D6B3F;
+    --shadow:0 1px 2px rgba(22,25,26,.05), 0 8px 24px -16px rgba(22,25,26,.28);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0F1413; --surface:#161C1B; --surface-2:#1B2221;
+      --ink:#E7EBE7; --ink-2:#AEB8B4; --muted:#7E8884;
+      --rule:#2A3230; --rule-soft:#222A28;
+      --pine:#79C6B4; --pine-soft:#1E3A35;
+      --rust:#DE9099; --rust-soft:#3A2126;
+      --ochre:#D9B551; --ochre-soft:#332B14;
+      --s1:#3E93C9; --s2:#CC7F22; --s3:#A66CB4; --s4:#4FA36F;
+      --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.8);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0F1413; --surface:#161C1B; --surface-2:#1B2221;
+    --ink:#E7EBE7; --ink-2:#AEB8B4; --muted:#7E8884;
+    --rule:#2A3230; --rule-soft:#222A28;
+    --pine:#79C6B4; --pine-soft:#1E3A35;
+    --rust:#DE9099; --rust-soft:#3A2126;
+    --ochre:#D9B551; --ochre-soft:#332B14;
+    --s1:#3E93C9; --s2:#CC7F22; --s3:#A66CB4; --s4:#4FA36F;
+    --shadow:0 1px 2px rgba(0,0,0,.4), 0 10px 28px -18px rgba(0,0,0,.8);
+  }
+
+  *{box-sizing:border-box}
+  body{background:var(--bg); color:var(--ink);
+    font-family:"IBM Plex Sans","PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    font-size:16px; line-height:1.75; -webkit-font-smoothing:antialiased; padding:0 20px 96px}
+  .wrap{max-width:790px; margin:0 auto}
+  ::selection{background:var(--pine-soft); color:var(--ink)}
+  a{color:var(--pine)}
+  :focus-visible{outline:2px solid var(--pine); outline-offset:3px; border-radius:2px}
+
+  h1,h2,h3{font-family:"Spectral","Songti SC","Noto Serif SC",Georgia,serif;
+           text-wrap:balance; font-weight:600; letter-spacing:-.01em}
+  h1{font-size:clamp(2.1rem,6vw,3rem); line-height:1.15; margin:0}
+  h2{font-size:1.55rem; line-height:1.3; margin:0}
+  h3{font-size:1.06rem; line-height:1.4; margin:0}
+  p{margin:0}
+  .lede{font-size:1.09rem; color:var(--ink-2)}
+
+  .eyebrow{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.72rem;
+           letter-spacing:.16em; text-transform:uppercase; color:var(--muted)}
+  .mono{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.86em}
+  code{font-family:"IBM Plex Mono",ui-monospace,monospace; font-size:.84em;
+       background:var(--surface-2); border:1px solid var(--rule-soft);
+       padding:.08em .38em; border-radius:3px; color:var(--ink-2)}
+
+  header.hero{padding:72px 0 40px; display:flex; flex-direction:column; gap:22px}
+  .hero-rule{height:3px; background:var(--pine); width:56px; border-radius:2px}
+  section{padding:44px 0; border-top:1px solid var(--rule); display:flex; flex-direction:column; gap:22px}
+  .sec-head{display:flex; flex-direction:column; gap:8px}
+  .stack{display:flex; flex-direction:column; gap:16px}
+
+  .stats{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--rule);
+         border:1px solid var(--rule); border-radius:6px; overflow:hidden}
+  .stat{background:var(--surface); padding:16px 18px; display:flex; flex-direction:column; gap:2px}
+  .stat b{font-family:"Spectral",serif; font-size:1.9rem; font-weight:600; line-height:1.1;
+          font-variant-numeric:tabular-nums; color:var(--pine)}
+  .stat span{font-size:.8rem; color:var(--muted); line-height:1.45}
+  @media (max-width:560px){ .stats{grid-template-columns:1fr} }
+
+  figure{margin:0; background:var(--surface); border:1px solid var(--rule);
+         border-radius:6px; padding:20px; box-shadow:var(--shadow)}
+  figcaption{font-size:.85rem; color:var(--muted); margin-top:14px; line-height:1.6}
+  .scrollx{overflow-x:auto}
+  svg{display:block; max-width:100%}
+  .grid-line{stroke:var(--rule-soft); stroke-width:1}
+  .axis-txt{fill:var(--muted); font-family:"IBM Plex Mono",monospace; font-size:10px}
+  .pt-lab{fill:var(--ink-2); font-family:"IBM Plex Mono",monospace; font-size:10px;
+          font-variant-numeric:tabular-nums}
+  .legend{display:flex; flex-wrap:wrap; gap:6px 18px; margin-bottom:14px}
+  .lg{display:flex; align-items:center; gap:7px; font-size:.82rem; color:var(--ink-2)}
+  .lg i{width:14px; height:3px; border-radius:2px; display:block}
+
+  .finding{border:1px solid var(--rule); border-radius:6px; background:var(--surface); overflow:hidden}
+  .finding-hd{display:flex; gap:12px; align-items:baseline; padding:15px 18px 0}
+  .finding-hd .idx{font-family:"IBM Plex Mono",monospace; font-size:.75rem; color:var(--pine);
+                   font-weight:500; padding-top:2px; white-space:nowrap}
+  .finding-bd{padding:8px 18px 16px; display:flex; flex-direction:column; gap:10px}
+  .finding-bd p{font-size:.95rem; color:var(--ink-2)}
+
+  table{border-collapse:collapse; width:100%; font-size:.87rem; min-width:430px}
+  caption{text-align:left; font-size:.85rem; color:var(--muted); padding-bottom:10px}
+  th,td{border:1px solid var(--rule); padding:8px 11px; text-align:left; vertical-align:top}
+  thead th{background:var(--surface-2); font-weight:600; font-size:.79rem;
+           font-family:"IBM Plex Mono",monospace; color:var(--ink-2)}
+  tbody th{background:var(--surface-2); font-weight:500; white-space:nowrap}
+  td{background:var(--surface); color:var(--ink-2)}
+  td.key{color:var(--ink); font-weight:600}
+  td.n{font-variant-numeric:tabular-nums; text-align:right}
+
+  .warn{background:var(--ochre-soft); border:1px solid var(--rule); border-left:3px solid var(--ochre);
+        border-radius:0 5px 5px 0; padding:14px 16px; display:flex; flex-direction:column; gap:5px}
+  .warn h3{font-size:.95rem; font-family:inherit; font-weight:600}
+  .warn p{font-size:.9rem; color:var(--ink-2)}
+  .retract{background:var(--rust-soft); border-left-color:var(--rust)}
+
+  .rq{display:flex; flex-direction:column; gap:12px}
+  .rq-item{display:grid; grid-template-columns:auto 1fr; gap:0 16px; align-items:baseline}
+  .rq-item .k{font-family:"IBM Plex Mono",monospace; font-size:.8rem; color:var(--pine); font-weight:500}
+  .rq-item .q{font-family:"Spectral",serif; font-size:1.06rem; font-weight:600; line-height:1.5}
+  .rq-item .m{grid-column:2; font-size:.9rem; color:var(--ink-2); margin-top:3px}
+  .rq-item .m .lab{font-family:"IBM Plex Mono",monospace; font-size:.7rem; letter-spacing:.1em;
+                   text-transform:uppercase; color:var(--muted); margin-right:8px}
+  @media (max-width:560px){ .rq-item{grid-template-columns:1fr; gap:2px} .rq-item .m{grid-column:1} }
+
+  .fixed{display:flex; flex-direction:column; gap:1px; background:var(--rule);
+         border:1px solid var(--rule); border-radius:6px; overflow:hidden}
+  .fx{background:var(--surface); padding:13px 18px; display:grid;
+      grid-template-columns:auto 1fr; gap:3px 14px; align-items:baseline}
+  .fx .tick{color:var(--pine); font-family:"IBM Plex Mono",monospace; font-size:.8rem}
+  .fx b{font-size:.93rem; font-weight:600}
+  .fx p{grid-column:2; font-size:.87rem; color:var(--ink-2)}
+
+  ul{margin:0; padding-left:1.15em}
+  li{margin:5px 0; font-size:.93rem; color:var(--ink-2)}
+  li::marker{color:var(--muted)}
+  footer{padding:40px 0 0; border-top:1px solid var(--rule); color:var(--muted);
+         font-size:.83rem; display:flex; flex-direction:column; gap:10px}
+
+  #tip{position:fixed; pointer-events:none; opacity:0; transition:opacity .1s;
+       background:var(--surface); border:1px solid var(--rule); border-radius:5px;
+       padding:7px 11px; font-family:"IBM Plex Mono",monospace; font-size:.76rem;
+       color:var(--ink); box-shadow:var(--shadow); z-index:9; white-space:nowrap;
+       font-variant-numeric:tabular-nums}
+  @media (prefers-reduced-motion:reduce){ *{transition:none!important} }
+</style>
+
+<div class="wrap">
+
+<header class="hero">
+  <div class="eyebrow">研究设计 · 2026-09-24 · 重建版</div>
+  <h1>评分表的幻觉</h1>
+  <div class="hero-rule"></div>
+  <p class="lede">
+    机器从高分网文归纳评分表，用它给自己写的小说打分，据此改写写作指令——循环十轮，
+    七个品类全部卡在 7.5。效度检验做完后，这个平台期有了新解释；
+    而检验本身炸出两件更麻烦的事：<strong>平台星级评分与读者实际行为脱节</strong>，
+    以及<strong>同一厂商的两个模型档位，会对「AI 有没有写赢真人」给出相反的答案。</strong>
+  </p>
+  <div class="stats">
+    <div class="stat"><b>840</b><span>干净留出书<br>37 个品类×频道格子</span></div>
+    <div class="stat"><b>&lt;2%</b><span>评分表能解释的<br>读者行为方差上限</span></div>
+    <div class="stat"><b>3.62</b><span>四个评审对同一批文本<br>给出的判断跨度（分）</span></div>
+  </div>
+</header>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">第一部分 · 装置</div>
+    <h2>这套实验在测什么</h2>
+  </div>
+  <p>
+    语料是 1,110 部番茄连载小说（男频 570 + 女频 540），每部正文头部自带真实读者评分。
+    每个品类取评分最高的 5 部归纳出一张十维加权评分表，再取高 3 / 低 2 部作评审校准锚点。
+    留出集共 840 部，覆盖 37 个格子（男频 19 / 女频 18，其中 3 个品类名两频各有一套，算独立格子）。
+  </p>
+  <div class="scrollx"><table>
+    <caption>主评审 qwen3-max，1,210 次调用（840 本 + 370 次信度重复），实耗 ¥25.68，80 分钟，零失败。</caption>
+    <thead><tr><th>层</th><th>做了什么</th><th>产出</th></tr></thead>
+    <tbody>
+      <tr><th>生成</th><td>o3 写三章 → 自评 → 据低分项改写写作指令，七品类各 10–15 轮</td><td class="key">分数 6.9–8.4 震荡，提示膨胀 17 倍</td></tr>
+      <tr><th>效度</th><td>同一评分表给 840 部真人出版小说打分</td><td class="key">与读者行为 r = +0.138</td></tr>
+      <tr><th>交叉</th><td>四个评审重打同一批文本</td><td class="key">判断跨度 3.62 分</td></tr>
+      <tr><th>效标</th><td>抓平台行为数据，构造六个效标</td><td class="key">评分与行为脱节</td></tr>
+      <tr><th>文本</th><td>不依赖评审的多样性与文体距离度量</td><td class="key">坍缩假设被否定</td></tr>
+    </tbody>
+  </table></div>
+  <div class="warn">
+    <h3>评分表是人机协作产物，不是纯机器归纳</h3>
+    <p>维度产生分三段：<strong>① 研究者写定十个种子维度 → ② 模型读该品类高分作品按品类扩充或替换 → ③ 研究者审核并修改</strong>。人在两端都介入了。</p>
+    <p>这一点<strong>加强而非削弱</strong>结论。若评分表是纯机器产物，最省事的反驳是「当然失效，没人把关」。但领域专家把了关，效度仍只有 0.138。发现 08 提供直接佐证：完全由人写定的固定十维（+0.120）与人机协作、按品类定制并经人审的版本（+0.138）<strong>几乎一样差</strong>。</p>
+    <p class="mono" style="font-size:.8rem">方法章须交代第 ③ 步的具体范围：仅措辞校订、增删维度、还是调整过权重。三者对「合成方式是失效关键」这一结论的含义不同。</p>
+  </div>
+  <div class="warn">
+    <h3>污染排除按管线实际接触面计算</h3>
+    <p>排除集不是硬编码常量，而是<strong>逐格取该格管线真正读过的并集</strong>——评分表归纳、评审校准、以及生成端的写作提示。自查这个接触面时发现一处此前遗漏的泄漏（某生成环节取 top 12，而排除集只有 top 5），影响一个格子；修正后主估计从 .136 升至 .138。</p>
+    <p>附带发现：把 top-12 <em>一律</em>排除的「更保险」做法，会让 r 掉到 .093、n 掉到 549。那个下降是<strong>范围限制</strong>而非去污染——过度校正会制造假衰减。</p>
+  </div>
+  <div class="warn">
+    <h3>关于「质量」这个词</h3>
+    <p>效标全部来自平台读者反馈，<strong>未采集人类审美判断</strong>。构念因此限定为「平台行为所呈现的读者反应」，而非「文学质量」——结论句里不出现 quality。这是范围限定而非退让：网文研究本就大量使用平台数据，这个定义可操作、可复现。</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">第二部分 · 发现</div>
+    <h2>九个发现</h2>
+  </div>
+
+  <div class="stack">
+    <div class="finding">
+      <div class="finding-hd"><span class="idx">发现 01</span><h3>效标越干净，信号越强——但上限不到 2%</h3></div>
+      <div class="finding-bd">
+        <figure style="box-shadow:none; border:none; padding:0">
+          <div class="scrollx"><svg id="chart-crit" viewBox="0 0 700 260" width="700" height="260" role="img"
+            aria-label="六个效标与评分表分数的相关：听书率0.076、评分0.082、留存比0.113、书架留存0.118、残差评分0.119、收藏率0.138，可检出下限约0.071。"></svg></div>
+        </figure>
+        <div class="scrollx"><table>
+          <caption>品类内 z 标准化后合并，n=768（污染口径修正后）。</caption>
+          <thead><tr><th>效标</th><th>污染来源</th><th>r</th></tr></thead>
+          <tbody>
+            <tr><th>听书率</th><td>离文本工艺最远</td><td class="n">+0.076</td></tr>
+            <tr><th>评分</th><td>热度 + 篇幅 + 自选样本</td><td class="n">+0.082</td></tr>
+            <tr><th>留存比</th><td>受连载时长影响</td><td class="n">+0.113</td></tr>
+            <tr><th>书架留存</th><td>字段语义未核实</td><td class="n">+0.118</td></tr>
+            <tr><th>残差评分</th><td>可能过度控制</td><td class="n">+0.119</td></tr>
+            <tr><th>收藏率</th><td class="key">分母即曝光，热度被结构性消除</td><td class="n key">+0.138</td></tr>
+          </tbody>
+        </table></div>
+        <p>六个全为正，五个越过可检出下限，而且<strong>排序有规律</strong>：越是结构性剥离了曝光的指标，相关越高。这个梯度难用巧合解释——信号是真的，此前被效标噪声压住。</p>
+        <p>但最高 r = 0.138 意味着 <strong>r² &lt; 2%</strong>。表述因此不是「测不到」，而是<strong>「测到了，小到不可用」</strong>——后者更难反驳。</p>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-hd"><span class="idx">发现 02</span><h3>平台星级评分，与读者实际行为脱节</h3></div>
+      <div class="finding-bd">
+        <figure style="box-shadow:none; border:none; padding:0">
+          <div class="scrollx"><svg id="chart-matrix" viewBox="0 0 700 300" width="700" height="300" role="img"
+            aria-label="五效标相关矩阵：四个行为指标彼此相关0.69到0.94，平台评分与它们的相关在-0.05到-0.16之间。"></svg></div>
+        </figure>
+        <p>四个行为指标彼此<strong>高度一致</strong>（0.687–0.940），构成紧密的簇。<strong>平台评分站在簇之外，还略微是负的</strong>——其中 −0.133 与 −0.163 在该样本量下是可检出的真实效应。</p>
+        <p>这重新定位了前面所有分析：<strong>「评分表 vs 评分」是在拿一把尺子比另一把本身就不准的尺子。</strong>主效标因此改用行为指标。</p>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-hd"><span class="idx">发现 03</span><h3>评审高度可靠，却几乎没有效度</h3></div>
+      <div class="finding-bd">
+        <div class="scrollx"><table>
+          <thead><tr><th>指标</th><th>值</th><th>含义</th></tr></thead>
+          <tbody>
+            <tr><th>ICC(1,1)</th><td class="n key">0.874</td><td>单次评分的信度（177 本 × 3 次重复）</td></tr>
+            <tr><th>ICC(1,3)</th><td class="n">0.955</td><td>三次平均后的信度</td></tr>
+            <tr><th>重复评分 SD</th><td class="n">0.125</td><td>中位数；小于它的差异不可解读</td></tr>
+            <tr><th>衰减校正后</th><td class="n">+0.069</td><td>实测 +0.067，几乎不动</td></tr>
+          </tbody>
+        </table></div>
+        <p>这堵死了最后一个退路：<strong>不能说「相关低是因为评审随机」</strong>。它可靠地、可复现地测量了一个真实构念，而那个构念不是读者所响应的东西。</p>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-hd"><span class="idx">发现 04</span><h3>「AI 写赢真人」取决于谁来评——同厂商两档就能反号</h3></div>
+      <div class="finding-bd">
+        <figure style="box-shadow:none; border:none; padding:0">
+          <div class="legend">
+            <span class="lg"><i style="background:var(--s2)"></i>qwen3-max</span>
+            <span class="lg"><i style="background:var(--s1)"></i>o3</span>
+            <span class="lg"><i style="background:var(--s3)"></i>deepseek-v4-pro</span>
+            <span class="lg"><i style="background:var(--s4)"></i>qwen-turbo</span>
+            <span class="lg"><i style="background:var(--muted)"></i>真人小说</span>
+          </div>
+          <div class="scrollx"><svg id="chart-gap" viewBox="0 0 700 250" width="700" height="250" role="img"
+            aria-label="四个评审对动漫衍生的判断：qwen3-max给AI7.95真人5.65差2.30；o3给7.22和5.72差1.50；deepseek给5.65和5.67差-0.02；qwen-turbo给6.68和8.00差-1.32。"></svg></div>
+        </figure>
+        <div class="scrollx"><table>
+          <caption>AI 与真人两侧均用同一份精简 prompt 评分，口径一致（早期 o3 两侧用了不同 prompt，已重测修正）。</caption>
+          <thead><tr><th>评审</th><th>AI 十轮</th><th>真人</th><th>差距</th><th>真人 ≥ AI 最低分</th></tr></thead>
+          <tbody>
+            <tr><th>qwen3-max</th><td class="n">7.95</td><td class="n">5.65</td><td class="n key">+2.30</td><td class="n">2/22</td></tr>
+            <tr><th>o3</th><td class="n">7.22</td><td class="n">5.72</td><td class="n key">+1.50</td><td class="n">0/22</td></tr>
+            <tr><th>deepseek-v4-pro</th><td class="n">5.65</td><td class="n">5.67</td><td class="n key">−0.02</td><td class="n">21/21</td></tr>
+            <tr><th>qwen-turbo</th><td class="n">6.68</td><td class="n key">8.00</td><td class="n key">−1.32</td><td class="n">9/21</td></tr>
+          </tbody>
+        </table></div>
+        <p>同一批 21–22 部真人小说，评分从 <strong>5.65 到 8.00</strong>，差 2.35 分；结论从「AI 全面压倒」到「真人明显更好」，跨度 3.62 分。</p>
+        <p><strong>qwen-turbo 与 qwen3-max 同厂同系列，只是能力档位不同。</strong>判断分歧不需要跨谱系——同一家的两个档位就足够反号。因此「多找几个不同厂商的模型投票」并不能缓解这个问题。</p>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-hd"><span class="idx">发现 05</span><h3>同一批文本，三条方向不同的迭代曲线</h3></div>
+      <div class="finding-bd">
+        <figure style="box-shadow:none; border:none; padding:0">
+          <div class="legend">
+            <span class="lg"><i style="background:var(--s1)"></i>o3 · 持平</span>
+            <span class="lg"><i style="background:var(--s2)"></i>qwen3-max · 上升</span>
+            <span class="lg"><i style="background:var(--s3)"></i>deepseek-v4-pro · 下降</span>
+          </div>
+          <div class="scrollx"><svg id="chart-iter" viewBox="0 0 700 300" width="700" height="300" role="img"
+            aria-label="动漫衍生十轮AI产出：o3看到持平7.2到7.1，qwen看到上升7.8到8.3，deepseek看到下降6.4到4.2。"></svg></div>
+        </figure>
+        <p>完全相同的十份文本。<strong>「迭代有没有让文本变好」这个问题，用单一评审无法回答</strong>——而原实验正是用单一评审判断改进的。</p>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-hd"><span class="idx">发现 06</span><h3>系统没有收窄；AI 的用词比真人丰富得多</h3></div>
+      <div class="finding-bd">
+        <p>多样性度量<strong>完全不依赖评审模型</strong>，直接从文本算——在四个评审互相矛盾的背景下，这是唯一不受「谁来打分」影响的因变量，且零 API 成本。</p>
+        <div class="scrollx"><table>
+          <caption>各份文本取前 2500 词（定长采样，消除长度效应）；ρ 为轮次与该度量的 Spearman 相关。</caption>
+          <thead><tr><th>度量</th><th>随轮次趋势（中位 ρ）</th><th>为负的品类</th></tr></thead>
+          <tbody>
+            <tr><th>distinct-1</th><td class="n">+0.103</td><td class="n">2/7</td></tr>
+            <tr><th>distinct-2</th><td class="n">+0.030</td><td class="n">3/7</td></tr>
+            <tr><th>MATTR</th><td class="n">+0.164</td><td class="n">2/7</td></tr>
+            <tr><th>轮间用词重合</th><td class="n">−0.033</td><td class="n key">5/7（越写越不像）</td></tr>
+          </tbody>
+        </table></div>
+        <p><strong>提示空间坍缩假设不成立。</strong>多样性不降反略升，轮间重合还在降。平台期另有原因。</p>
+        <div class="scrollx"><table>
+          <caption>七个品类无一例外，全部同向。</caption>
+          <thead><tr><th></th><th>AI 各轮均值</th><th>真人小说</th><th>差</th></tr></thead>
+          <tbody>
+            <tr><th>distinct-1</th><td class="n">0.608</td><td class="n">0.442</td><td class="n key">+0.165</td></tr>
+            <tr><th>MATTR</th><td class="n">0.776</td><td class="n">0.615</td><td class="n key">+0.161</td></tr>
+          </tbody>
+        </table></div>
+        <p>曾据此推测「连载网文靠重复，AI 的高多样性对留存是负担」。<strong>该推测已被发现 07 反向证伪。</strong></p>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-hd"><span class="idx">发现 07</span><h3>多样性是评分表与读者唯一对齐的维度</h3></div>
+      <div class="finding-bd">
+        <div class="scrollx"><table>
+          <caption>全部为留出集内的真人小说，n=794；不掺 AI 文本——这检验的是读者偏好，不是人机对比。</caption>
+          <thead><tr><th>环</th><th>关系</th><th>预期</th><th>实测 r</th><th>逐格为正</th></tr></thead>
+          <tbody>
+            <tr><th>①</th><td>评分表分数 ↔ distinct-1</td><td>正</td><td class="n key">+0.217</td><td class="n">32/37</td></tr>
+            <tr><th>①</th><td>评分表分数 ↔ MATTR</td><td>正</td><td class="n key">+0.237</td><td class="n">34/37</td></tr>
+            <tr><th>②</th><td>distinct-1 ↔ 收藏率</td><td class="key">负</td><td class="n key">+0.180</td><td class="n">30/37</td></tr>
+            <tr><th>②</th><td>MATTR ↔ 收藏率</td><td class="key">负</td><td class="n key">+0.199</td><td class="n">31/37</td></tr>
+          </tbody>
+        </table></div>
+        <p>第 ② 环预期为负，<strong>实测显著为正</strong>：用词越丰富的真人小说，收藏率与留存比都越高。读者并不偏好重复。两环同向，因此<strong>多样性不能解释近零效度——它恰恰是目前发现的唯一一个评分表与读者共同看重的维度。</strong></p>
+        <p>对照：多样性与平台评分的相关是 −0.040 / −0.030（13/37 格为正）。<strong>这用一个完全外生的文本属性，独立复现了发现 02</strong>——不依赖评分表，不依赖任何模型。</p>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-hd"><span class="idx">发现 08</span><h3>合成分比它最好的单项还差；十维其实是两维</h3></div>
+      <div class="finding-bd">
+        <p>用同一套固定十维（取自 <code>SEED_RUBRICS</code>，说明由人写定、权重一律为 1）重打全部 825 本，维度分数首次跨品类可比。跑前验证：15 本试打全部返回<strong>恰好那十个名字、零计划外命名</strong>。</p>
+        <div class="scrollx"><table>
+          <caption>品类内 z 标准化后合并。工艺／新颖的分组写定于跑批之前。表中为污染口径修正前的值；修正后画面感 +0.182、合成 +0.120，排序不变。</caption>
+          <thead><tr><th>维度</th><th>类别</th><th>r 收藏率</th><th>逐格为正</th></tr></thead>
+          <tbody>
+            <tr><th>画面感</th><td>工艺</td><td class="n key">+0.192</td><td class="n">29/37</td></tr>
+            <tr><th>人物鲜活度</th><td>工艺</td><td class="n">+0.131</td><td class="n">28/37</td></tr>
+            <tr><th>对话自然度</th><td>工艺</td><td class="n">+0.117</td><td class="n">25/37</td></tr>
+            <tr><th>节奏变化</th><td>工艺</td><td class="n">+0.107</td><td class="n">25/37</td></tr>
+            <tr><th>情感感染力</th><td>新颖</td><td class="n">+0.101</td><td class="n">21/37</td></tr>
+            <tr><th>世界观融合</th><td>工艺</td><td class="n">+0.091</td><td class="n">26/37</td></tr>
+            <tr><th>悬念设计</th><td>新颖</td><td class="n">+0.074</td><td class="n">25/37</td></tr>
+            <tr><th>钩子强度</th><td>新颖</td><td class="n">+0.070</td><td class="n">22/37</td></tr>
+            <tr><th>戏剧性反转</th><td>新颖</td><td class="n">+0.064</td><td class="n">24/37</td></tr>
+            <tr><th>核心矛盾</th><td>新颖</td><td class="n">+0.046</td><td class="n">21/37</td></tr>
+          </tbody>
+        </table></div>
+        <p><strong>前四名全是工艺类</strong>（工艺均值 +0.128，新颖 +0.071）。措辞必须精确：<strong>没有任何维度是负的</strong>。所以不是「某些维度把效度拖回零」，而是<strong>新颖性那半边几乎不携带信息，把工艺那半边的信号稀释了</strong>。</p>
+        <div class="scrollx"><table>
+          <thead><tr><th>指标</th><th>r 收藏率</th><th>说明</th></tr></thead>
+          <tbody>
+            <tr><th>画面感（最佳单维）</th><td class="n key">+0.182</td><td>单一维度</td></tr>
+            <tr><th>固定十维总分</th><td class="n">+0.120</td><td class="key">合成后反而更低</td></tr>
+            <tr><th>品类专属总分</th><td class="n">+0.138</td><td>定制只多 +0.018</td></tr>
+          </tbody>
+        </table></div>
+        <p><strong>把十维平均起来，效度低于其中最好的那一维。</strong>无效维度不是中性的，它们主动损害合成指标。两套总分彼此仅 <span class="mono">r = +0.659</span>——同一批文本、同一个评审，换一套评分表就产生大量不一致。</p>
+        <p>维度间相关中位 0.464，<strong>PC1 占 54.5%，特征值 &gt; 1 的成分仅 2 个</strong>。所谓「十个维度」实质是一个主因子加一个次因子；值得注意的是，被测的固定十维正是<em>研究者亲自写定</em>的那套，塌缩并非模型自行命名所致。</p>
+        <div class="warn">
+          <h3>这条结论的边界</h3>
+          <p>工艺／新颖的二分是作者事先写入脚本的（跑批前设定，非事后分组），但边界有主观成分——「情感感染力」归入新颖类即有争议。更稳的表述是<strong>「前四名全是工艺类」这个次序事实</strong>，而非两组均值之差。</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="finding">
+      <div class="finding-hd"><span class="idx">发现 09</span><h3>模仿保真度因品类而异，且与评审给分无关</h3></div>
+      <div class="finding-bd">
+        <p>用 Burrows's Delta 量 AI 各轮离该品类真人作品文体轮廓的距离，再拿真人作品彼此的距离（留一法）作基准。<strong>完全不依赖评审模型。</strong></p>
+        <div class="scrollx"><table>
+          <caption>百分位 = AI 的 Delta 中位数在真人 Delta 分布里的位置。65% 表示有三分之一的真人小说离本品类轮廓比 AI 还远。</caption>
+          <thead><tr><th>品类</th><th>AI 百分位</th><th>判读</th></tr></thead>
+          <tbody>
+            <tr><th>动漫衍生</th><td class="n key">65%</td><td>落在真人分布内</td></tr>
+            <tr><th>传统玄幻</th><td class="n key">70%</td><td>落在真人分布内</td></tr>
+            <tr><th>西方奇幻</th><td class="n">86%</td><td>落在真人分布内</td></tr>
+            <tr><th>古言脑洞</th><td class="n">92%</td><td>略超出</td></tr>
+            <tr><th>东方仙侠</th><td class="n">95%</td><td>略超出</td></tr>
+            <tr><th>历史古代</th><td class="n key">100%</td><td>明显在外</td></tr>
+            <tr><th>玄幻言情</th><td class="n key">100%</td><td>明显在外</td></tr>
+          </tbody>
+        </table></div>
+        <p>模仿最像的两个品类<strong>文体高度程式化</strong>——动漫衍生要套用既有 IP 的语汇腔调，传统玄幻有成熟的境界/功法词汇系统。约束越强的文体，模型越容易落进去。</p>
+        <p>最不像的两个的共同点是<strong>语域要求特殊</strong>：历史古代要有文白夹杂的分寸，玄幻言情要在古风底子上叠加现代吐槽。<strong>需要精确控制语体混合的地方，模型最容易露馅。</strong></p>
+        <p>值得注意：<strong>模仿保真度与评审给分之间没有对应关系。</strong>动漫衍生文体上最像真人，但四个评审给它的分从 5.65 到 7.95 不等。「像不像」和「好不好」是两个可分离的构念，而评分表测的既不是前者，也不是读者意义上的后者。</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">第三部分 · 理论</div>
+    <h2>与人工创造力的接口</h2>
+  </div>
+  <p>计算创造力的根本难题正是这里实测到的东西：创造力的定义含「有价值」，而价值需要一个评价者。新奇本身廉价，难的是新奇<em>且</em>有价值。</p>
+  <div class="scrollx"><table>
+    <thead><tr><th>框架</th><th>它主张</th><th>本研究测到</th></tr></thead>
+    <tbody>
+      <tr><th>Colton (2008)<br>创造性三脚架</th><td>系统须具备 skill、appreciation、imagination</td>
+        <td class="key">appreciation 首次量化：信度 .874，对读者行为效度 .138</td></tr>
+      <tr><th>Csikszentmihalyi<br>系统模型</th><td>创造力在 domain–individual–<strong>field</strong> 三方，field 不认可则不成立</td>
+        <td class="key">系统有 domain 有 individual，唯独没有 field</td></tr>
+      <tr><th>Boden<br>探索式 vs 变革式</th><td>探索式在既定空间内搜索；变革式改变空间本身</td>
+        <td class="key">评分表由既有高分作品导出，越界写法必被扣分——<strong>即便经人工审核亦然</strong></td></tr>
+      <tr><th>Ritchie (2007)<br>经验判准</th><td>典型性与质量须分开，且须外部评定</td>
+        <td class="key">内部评定与外部效标脱钩</td></tr>
+    </tbody>
+  </table></div>
+  <div class="warn">
+    <h3>平台期的理论位置</h3>
+    <p>7.5 分平台期不是「AI 创造力的上限」，也不只是「评估的产物」——它是<strong>以既有作品为标准的自评循环的必然终局</strong>：系统收敛到那套美学的最优点，然后停在那里。提示膨胀 17 倍而分数不动，正是在自定义空间里爬到局部顶点后，把优化压力全花在把同一套规则写得更细。</p>
+    <p>发现 06 排除了「系统逐轮收窄」这一支：多样性并未下降。发现 07 进一步排除了「多样性本身是错的方向」——读者同样偏好多样。发现 08 把机制定位到了评分表的<strong>合成方式</strong>：一半维度不携带信息，平均进去只是稀释。</p>
+  </div>
+  <p style="font-size:.94rem;color:var(--ink-2)">
+    一个尚属推测的解释：生成端与评价端<strong>继承自同一份语料</strong>——大量关于「什么是好写作」的文本，即写作教程与批评话语。机器学到的是文学价值的<em>话语</em>，而非文学被赋值的<em>实践</em>。读者不读写作教程，读者只是读或不读。
+    <strong>验证它需要人类工艺判断，本研究未采集，故只能写入讨论。</strong>
+  </p>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">第四部分 · 更正</div>
+    <h2>已撤回的结论</h2>
+  </div>
+  <p>研究过程中有数条早期结论被后续数据推翻，逐条列出，避免残留在引用链里。</p>
+  <div class="stack">
+    <div class="warn retract">
+      <h3>撤回：维度级分析（后经重测部分恢复）</h3>
+      <p>37 格的评分表各自独立归纳，产生 <strong>208 个不同维度名，其中 145 个只出现在一个格子</strong>。维度身份与格子身份几乎完全共线，「反差营造 +0.432」实际只反映「都市日常这个格子相关高」。</p>
+      <p><strong>更正的更正：</strong>当时据此一并撤回了「工艺维度相关、新颖维度不相关」这一说法。用固定十维重打全部 825 本之后，<strong>该模式确实成立</strong>（见发现 08，前四名全为工艺类）。即：早期的直觉正确，但当时的证据无效；现有的是有效证据。论文中须区分这两者。</p>
+    </div>
+    <div class="warn retract">
+      <h3>撤回：推理强度假设</h3>
+      <p>跨模型曾观察到单调关系（推理/可见 0 → 差距 +2.30；1.19 → +1.50；4.96 → −0.02）。但在 qwen-turbo 上做同模型内对照（思考开/关），差距只从 −1.32 变到 −1.16（<strong>+0.15，且方向与预测相反</strong>）。跨模型的差异更可能来自模型身份而非推理强度。<em>限制：本实验推理/可见只到 0.78，远低于 deepseek 的 4.96，窄幅操纵下的零结果不能完全排除强推理的影响。</em></p>
+    </div>
+    <div class="warn retract">
+      <h3>撤回：「读者偏好重复，AI 的多样性是负担」</h3>
+      <p>由发现 06 提出，做成两环链条后<strong>反向证伪</strong>：真人小说中用词越丰富，收藏率越高。多样性反而是评分表与读者唯一对齐的维度。</p>
+    </div>
+    <div class="warn retract">
+      <h3>撤回：「现实向品类相关更高」</h3>
+      <p>方向对（现实向 +0.109 vs 幻想向 +0.032），但 20,000 次置换检验 <strong>p = 0.114</strong>，不显著。保留为待检验假设。</p>
+    </div>
+    <div class="warn retract">
+      <h3>撤回：「三个评审全是负相关」与「840 本全是连载」</h3>
+      <p>前者是试水 n=40 的噪声（该样本量下可检出下限 0.31），全量 n=840 下为 +0.067；后者是字段判断条件写成 <code>"完本"</code>（平台实际值为 <code>"完结"</code>），真实构成为<strong>连载 477 / 完结 362</strong>，该错误未进入任何相关系数。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">第五部分 · 方法学</div>
+    <h2>已处理的威胁</h2>
+  </div>
+  <div class="fixed">
+    <div class="fx"><span class="tick">✓</span><b>四个竞争解释逐一排除</b>
+      <p>前三章采样窗口（短书 +0.083 vs 长书 +0.093）、篇幅混淆（控制后升至 +0.112）、热度混淆（控制后 +0.054）、连载临时评分（完结组 +0.079）——每一个都被数据挡回。</p></div>
+    <div class="fx"><span class="tick">✓</span><b>训练数据污染探针</b>
+      <p>只给书名作者、不给正文，问模型是否见过。<strong>关键是混入三个不存在的假书名</strong>——若模型对假书也「认得」，阳性结果即不可采信。DeepSeek 与通义均为真书 0/6、假书 0/3。</p></div>
+    <div class="fx"><span class="tick">✓</span><b>统计函数独立验证</b>
+      <p>相关系数实现与 scipy 在 300 组随机数据上零分歧；并列秩取平均秩正确。</p></div>
+    <div class="fx"><span class="tick">✓</span><b>留出集独立重算</b>
+      <p>不信任结果文件，直接从语料重建污染排除逻辑，37 格逐本吻合；每条真实评分与语料头部逐一核对无差异。</p></div>
+    <div class="fx"><span class="tick">✓</span><b>长度归一化</b>
+      <p>多样性度量各份取前 2500 词定长采样 + MATTR 移动窗口；不做这一步测的是长度不是多样性。</p></div>
+    <div class="fx"><span class="tick">✓</span><b>运行元数据与防覆盖</b>
+      <p>每份输出带 run id、UTC 时间、模型名。同名结果改名留档而非静默覆盖——西方奇幻曾因此丢失一次 5 轮跑记录。</p></div>
+    <div class="fx"><span class="tick">✓</span><b>范围限制校正</b>
+      <p>污染排除砍掉最高 5 / 最低 2 本，代价是 37–70% 的方差。已加 Thorndike Case II 校正并同时报告校正前后两值。</p></div>
+  </div>
+  <div class="warn">
+    <h3>仍存在的限制</h3>
+    <p><strong>缺失非随机且效应大。</strong>43 本（5.1%）在平台搜索中已不可见（下架或改名）。在册书读者评分均值 8.63，缺失书 8.03，<strong>Cohen's d = −0.98</strong>。低分书被系统性移除使样本在低端截断，这会<em>压低</em>所有相关估计——报告值很可能是低估。</p>
+    <p><strong>单一平台、单一时间切片、全为连载体裁。</strong>网文高度公式化，正因如此才是对模型最有利的实验床，但外推到诗歌或纯文学需另做。</p>
+    <p><strong>无人类审美判断。</strong>因此无法回答「评分表是否测对了工艺、只是工艺不等于留存」。盲标实验（111 对真人 vs 真人强制二选一）已设计并生成，待执行。</p>
+  </div>
+</section>
+
+<section>
+  <div class="sec-head">
+    <div class="eyebrow">第六部分 · 现状</div>
+    <h2>研究问题</h2>
+  </div>
+  <div class="rq">
+    <div class="rq-item">
+      <span class="k">RQ1</span><span class="q">评分表能否预测读者反应？</span>
+      <span class="m"><span class="lab">已回答</span>能，但 r ≤ 0.138、r² &lt; 2%。六个效标全为正且呈「越干净越强」的梯度，信号真实但不可用。</span>
+    </div>
+    <div class="rq-item">
+      <span class="k">RQ2</span><span class="q">迭代提升的是文本还是对评审的拟合？</span>
+      <span class="m"><span class="lab">问题本身失效</span>四个评审对同一批文本给出跨度 3.62 分的判断，该问题在当前设计下无法回答——这个否定结果比任何肯定答案都有分量。</span>
+    </div>
+    <div class="rq-item">
+      <span class="k">RQ3</span><span class="q">迭代过程中输出多样性如何变化？</span>
+      <span class="m"><span class="lab">已回答</span>不下降（中位 ρ = +0.103 ～ +0.164），坍缩假设否定。但 AI 用词比真人丰富 +0.165，七品类无一例外。</span>
+    </div>
+    <div class="rq-item">
+      <span class="k">RQ4</span><span class="q">哪些维度与读者反应最脱钩？</span>
+      <span class="m"><span class="lab">已回答</span>工艺类携带信号（画面感居首），新颖类接近零；无维度为负。合成总分低于最佳单项。十维实为两因子（PC1 54.5%）。</span>
+    </div>
+    <div class="rq-item">
+      <span class="k">RQ5</span><span class="q">推理强度与评审能力如何影响判断？</span>
+      <span class="m"><span class="lab">已回答</span>推理强度<strong>不是</strong>主因（同模型内开关思考，差距仅动 +0.15）。但评审<em>能力档位</em>影响极大：同厂商的 qwen-turbo 与 qwen3-max 给出相反结论。</span>
+    </div>
+    <div class="rq-item">
+      <span class="k">RQ6</span><span class="q">读者是否偏好重复而评分表奖励多样？</span>
+      <span class="m"><span class="lab">已回答 · 反向证伪</span>两环同向为正。多样性是评分表与读者唯一对齐的维度，不能解释近零效度。</span>
+    </div>
+    <div class="rq-item">
+      <span class="k">RQ7</span><span class="q">评分表能否预测人类的续读选择？</span>
+      <span class="m"><span class="lab">待执行</span>111 对真人 vs 真人强制二选一，按评分表高/低十分位分层配对，全盲、左右随机、含 6 道注意力检验。报告时称单一专家标注，非读者研究。</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>数据来自本项目仓库的实际跑批。评分取各 <span class="mono">validation_pilot.json</span> /
+  <span class="mono">crossjudge_*.json</span> / <span class="mono">reasoning_effect.json</span>；
+  行为数据取平台 <span class="mono">/api/search</span> 的 <span class="mono">all_bookshelf_count</span> 等字段；
+  多样性取 <span class="mono">diversity.json</span>，逐维度取 <span class="mono">fixed_rubric_analysis.json</span>，
+  文体距离取 <span class="mono">imitation_fidelity.json</span>。</p>
+  <p>所有相关系数均为品类内 z 标准化后合并，可检出下限按 α=.05 双尾计算。
+  「书架留存」依赖 <span class="mono">shelf_cnt_history</span> 的字段语义，未经平台文档核实，仅作探索性指标。</p>
+  <p>本页与分析代码一同纳入版本控制；每项缺陷与撤回记录见仓库 <span class="mono">ERRATA.md</span>。
+  文中所引文献为理论锚点，写作时请核对版本与页码。</p>
+</footer>
+
+</div>
+<div id="tip" role="status" aria-live="polite"></div>
+
+<script>
+(function(){
+  "use strict";
+  var NS="http://www.w3.org/2000/svg";
+  function el(n,a){var e=document.createElementNS(NS,n);for(var k in a)if(a[k]!=null)e.setAttribute(k,a[k]);return e;}
+  function path(p){return p.map(function(q,i){return (i?"L":"M")+q[0].toFixed(1)+" "+q[1].toFixed(1);}).join(" ");}
+  var tip=document.getElementById("tip");
+  function show(evt,t){tip.textContent=t;tip.style.opacity=1;var w=tip.offsetWidth;
+    tip.style.left=Math.min(window.innerWidth-w-12,Math.max(12,evt.clientX-w/2))+"px";
+    tip.style.top=(evt.clientY-tip.offsetHeight-14)+"px";}
+  function hide(){tip.style.opacity=0;}
+
+  /* 图1：六效标相关 */
+  (function(){
+    var svg=document.getElementById("chart-crit");
+    var D=[["听书率",0.076],["评分",0.082],["留存比",0.113],
+           ["书架留存",0.118],["残差评分",0.119],["收藏率",0.138]];
+    var W=700,H=260,L=76,R=40,T=26,B=40,xMax=0.16;
+    var xOf=function(v){return L+v/xMax*(W-L-R);};
+    var bh=(H-T-B)/D.length;
+    [0,0.05,0.10,0.15].forEach(function(t){
+      svg.appendChild(el("line",{x1:xOf(t),x2:xOf(t),y1:T,y2:H-B,"class":"grid-line"}));
+      var lb=el("text",{x:xOf(t),y:H-B+15,"class":"axis-txt","text-anchor":"middle"});
+      lb.textContent=t.toFixed(2);svg.appendChild(lb);
+    });
+    svg.appendChild(el("line",{x1:xOf(0.071),x2:xOf(0.071),y1:T-6,y2:H-B,
+      stroke:"var(--rust)","stroke-width":1.5,"stroke-dasharray":"4 4"}));
+    var fl=el("text",{x:xOf(0.071),y:T-11,"class":"axis-txt","text-anchor":"middle",fill:"var(--rust)"});
+    fl.textContent="可检出下限 0.071";svg.appendChild(fl);
+    D.forEach(function(d,i){
+      var y=T+i*bh+bh*0.18,h=bh*0.64;
+      var r=el("rect",{x:L,y:y,width:Math.max(2,xOf(d[1])-L),height:h,
+        fill:"var(--pine)",rx:4,ry:4,opacity:d[0]==="收藏率"?1:0.62});
+      r.addEventListener("mousemove",function(e){show(e,d[0]+" · r = "+d[1].toFixed(3));});
+      r.addEventListener("mouseleave",hide);svg.appendChild(r);
+      var nm=el("text",{x:L-10,y:y+h/2+3.5,"class":"axis-txt","text-anchor":"end",
+        fill:d[0]==="收藏率"?"var(--ink)":"var(--ink-2)"});
+      nm.textContent=d[0];svg.appendChild(nm);
+      var vl=el("text",{x:xOf(d[1])+7,y:y+h/2+3.5,"class":"pt-lab"});
+      vl.textContent="+"+d[1].toFixed(3);svg.appendChild(vl);
+    });
+    var cap=el("text",{x:L,y:H-6,"class":"axis-txt",fill:"var(--muted)"});
+    cap.textContent="↑ 由上至下：效标越干净（曝光剥离越彻底）";svg.appendChild(cap);
+  })();
+
+  /* 图2：效标相关矩阵（发散：两色相 + 中性中点） */
+  (function(){
+    var svg=document.getElementById("chart-matrix");
+    var N=["评分","收藏率","留存比","听书率","书架留存"];
+    var M=[[null,-0.061,-0.049,-0.133,-0.163],
+           [-0.061,null,0.850,0.687,0.940],
+           [-0.049,0.850,null,0.814,0.889],
+           [-0.133,0.687,0.814,null,0.754],
+           [-0.163,0.940,0.889,0.754,null]];
+    var W=700,H=300,L=92,T=58,cell=(W-L-24)/5,ch=(H-T-30)/5;
+    function col(v){
+      if(v==null)return "var(--surface-2)";
+      var t=Math.min(1,Math.abs(v)/0.95);
+      var hue=v>=0?"29,95,85":"122,46,57";
+      return "rgba("+hue+","+(0.10+t*0.85).toFixed(2)+")";
+    }
+    N.forEach(function(n,i){
+      var tx=el("text",{x:L+i*cell+cell/2,y:T-12,"class":"axis-txt","text-anchor":"middle"});
+      tx.textContent=n;svg.appendChild(tx);
+      var ty=el("text",{x:L-8,y:T+i*ch+ch/2+3.5,"class":"axis-txt","text-anchor":"end"});
+      ty.textContent=n;svg.appendChild(ty);
+    });
+    M.forEach(function(row,i){row.forEach(function(v,j){
+      var x=L+j*cell,y=T+i*ch;
+      var r=el("rect",{x:x+1,y:y+1,width:cell-2,height:ch-2,fill:col(v),rx:3,ry:3,
+        stroke:"var(--rule-soft)","stroke-width":1});
+      if(v!=null){
+        r.addEventListener("mousemove",function(e){show(e,N[i]+" ↔ "+N[j]+" : "+(v>=0?"+":"")+v.toFixed(3));});
+        r.addEventListener("mouseleave",hide);
+      }
+      svg.appendChild(r);
+      if(v!=null){
+        var t=el("text",{x:x+cell/2,y:y+ch/2+3.5,"class":"pt-lab","text-anchor":"middle",
+          fill:Math.abs(v)>0.55?"#FFFFFF":"var(--ink-2)"});
+        t.textContent=(v>=0?"+":"")+v.toFixed(2);svg.appendChild(t);
+      }
+    });});
+    var cap=el("text",{x:L,y:H-8,"class":"axis-txt",fill:"var(--muted)"});
+    cap.textContent="行为指标彼此 0.69–0.94；评分与它们 −0.05 ～ −0.16";svg.appendChild(cap);
+  })();
+
+  /* 图3：四评审 AI vs 真人 */
+  (function(){
+    var svg=document.getElementById("chart-gap");
+    var J=[{n:"qwen3-max",ai:7.95,hu:5.65,c:"var(--s2)"},
+           {n:"o3",ai:7.22,hu:5.72,c:"var(--s1)"},
+           {n:"deepseek-v4-pro",ai:5.65,hu:5.67,c:"var(--s3)"},
+           {n:"qwen-turbo",ai:6.68,hu:8.00,c:"var(--s4)"}];
+    var W=700,H=250,L=58,R=18,T=22,B=50,yMin=4,yMax=8.8;
+    var yOf=function(v){return T+(H-T-B)-(v-yMin)/(yMax-yMin)*(H-T-B);};
+    [4,5,6,7,8].forEach(function(t){
+      svg.appendChild(el("line",{x1:L,x2:W-R,y1:yOf(t),y2:yOf(t),"class":"grid-line"}));
+      var lb=el("text",{x:L-9,y:yOf(t)+3.5,"class":"axis-txt","text-anchor":"end"});
+      lb.textContent=t;svg.appendChild(lb);
+    });
+    var gw=(W-L-R)/J.length,bw=30;
+    J.forEach(function(j,gi){
+      var cx=L+gw*gi+gw/2;
+      [["AI 十轮",j.ai,j.c,-1],["真人",j.hu,"var(--muted)",1]].forEach(function(d){
+        var x=cx+d[3]*1+(d[3]<0?-bw:0),y=yOf(d[1]),h=yOf(yMin)-y;
+        var r=el("rect",{x:x,y:y,width:bw,height:h,fill:d[2],rx:4,ry:4});
+        r.addEventListener("mousemove",function(e){show(e,j.n+" · "+d[0]+" · "+d[1].toFixed(2));});
+        r.addEventListener("mouseleave",hide);svg.appendChild(r);
+        var vl=el("text",{x:x+bw/2,y:y-6,"class":"pt-lab","text-anchor":"middle"});
+        vl.textContent=d[1].toFixed(2);svg.appendChild(vl);
+      });
+      var nm=el("text",{x:cx,y:H-28,"class":"axis-txt","text-anchor":"middle",fill:"var(--ink-2)"});
+      nm.textContent=j.n;svg.appendChild(nm);
+      var g=j.ai-j.hu;
+      var gl=el("text",{x:cx,y:H-13,"class":"axis-txt","text-anchor":"middle",
+        fill:Math.abs(g)>0.5?"var(--rust)":"var(--muted)"});
+      gl.textContent=(g>=0?"+":"")+g.toFixed(2);svg.appendChild(gl);
+    });
+  })();
+
+  /* 图4：三评审迭代曲线 */
+  (function(){
+    var svg=document.getElementById("chart-iter");
+    var D=[{n:"o3",v:[7.2,6.9,7.2,7.1,7.8,7.5,7.25,7.0,7.2,7.1],c:"var(--s1)"},
+           {n:"qwen3-max",v:[7.8,7.8,6.9,8.1,8.1,7.6,8.1,8.4,8.4,8.3],c:"var(--s2)"},
+           {n:"deepseek-v4-pro",v:[6.4,4.5,5.4,6.7,6.15,5.25,6.1,5.5,6.25,4.2],c:"var(--s3)"}];
+    var W=700,H=300,L=56,R=96,T=18,B=42,n=10,yMin=4,yMax=8.8;
+    var xOf=function(i){return L+i*(W-L-R)/(n-1);};
+    var yOf=function(v){return T+(H-T-B)-(v-yMin)/(yMax-yMin)*(H-T-B);};
+    [4,5,6,7,8].forEach(function(t){
+      svg.appendChild(el("line",{x1:L,x2:W-R,y1:yOf(t),y2:yOf(t),"class":"grid-line"}));
+      var lb=el("text",{x:L-9,y:yOf(t)+3.5,"class":"axis-txt","text-anchor":"end"});
+      lb.textContent=t;svg.appendChild(lb);
+    });
+    D.forEach(function(s){
+      var pts=s.v.map(function(v,i){return [xOf(i),yOf(v)];});
+      svg.appendChild(el("path",{d:path(pts),fill:"none",stroke:s.c,"stroke-width":2,
+        "stroke-linejoin":"round","stroke-linecap":"round"}));
+      pts.forEach(function(p){svg.appendChild(el("circle",{cx:p[0],cy:p[1],r:3.2,fill:s.c,
+        stroke:"var(--surface)","stroke-width":1.6}));});
+      var lab=el("text",{x:W-R+8,y:pts[n-1][1]+3.5,"class":"pt-lab",fill:s.c});
+      lab.textContent=s.n;svg.appendChild(lab);
+    });
+    for(var i=0;i<n;i++){
+      var xl=el("text",{x:xOf(i),y:H-22,"class":"axis-txt","text-anchor":"middle"});
+      xl.textContent=i+1;svg.appendChild(xl);
+    }
+    var xc=el("text",{x:(L+W-R)/2,y:H-6,"class":"axis-txt","text-anchor":"middle"});
+    xc.textContent="迭代轮次（动漫衍生，同一批十份文本）";svg.appendChild(xc);
+    var hv=el("line",{x1:0,x2:0,y1:T,y2:H-B,stroke:"var(--muted)","stroke-width":1,opacity:0});
+    svg.appendChild(hv);
+    var hit=el("rect",{x:L-14,y:T,width:(W-R)-(L-14),height:H-B-T,fill:"transparent"});
+    svg.appendChild(hit);
+    hit.addEventListener("mousemove",function(evt){
+      var rc=svg.getBoundingClientRect();
+      var sx=(evt.clientX-rc.left)*(W/rc.width);
+      var i=Math.max(0,Math.min(n-1,Math.round((sx-L)/((W-L-R)/(n-1)))));
+      hv.setAttribute("x1",xOf(i));hv.setAttribute("x2",xOf(i));hv.setAttribute("opacity",.45);
+      show(evt,"第 "+(i+1)+" 轮 · "+D.map(function(s){return s.n.split("-")[0]+" "+s.v[i].toFixed(2);}).join(" · "));
+    });
+    hit.addEventListener("mouseleave",function(){hv.setAttribute("opacity",0);hide();});
+  })();
+})();
+</script>
