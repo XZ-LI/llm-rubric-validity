@@ -25,6 +25,17 @@ structurally incapable of detecting this failure mode.**
 
 ---
 
+## Documents
+
+Both render standalone in a browser — clone and open, or serve `docs/` statically.
+
+| | |
+|---|---|
+| [`docs/case-study.html`](docs/case-study.html) | **Case study** — the finding, why it matters if you run evals, and the skills it evidences. Start here. |
+| [`docs/research-design.html`](docs/research-design.html) | **Full research design** (Chinese) — nine findings with figures, the retraction log, methodology threats, and seven research questions. |
+
+---
+
 ## What's here
 
 ```
