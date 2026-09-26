@@ -3,43 +3,53 @@
   "rubric": [
     {
       "name": "钩子强度",
-      "weight": 1
+      "weight": 1,
+      "description": "开篇能否在前几句内抛出使人想继续读下去的问题、危机或反常。"
     },
     {
       "name": "核心矛盾",
-      "weight": 1
+      "weight": 1,
+      "description": "是否存在清晰、具体、会升级的对立；冲突是否有真实的利害关系。"
     },
     {
       "name": "节奏变化",
-      "weight": 1
+      "weight": 1,
+      "description": "推进快慢是否有张弛；句长与场景密度是否有变化而非匀速。"
     },
     {
       "name": "人物鲜活度",
-      "weight": 1
+      "weight": 1,
+      "description": "角色是否有可辨识的声音与反应方式；行为是否由性格而非情节需要驱动。"
     },
     {
       "name": "画面感",
-      "weight": 1
+      "weight": 1,
+      "description": "描写能否让读者形成具体的感官画面；细节是否可感而非抽象概括。"
     },
     {
       "name": "对话自然度",
-      "weight": 1
+      "weight": 1,
+      "description": "对白是否像真人在这个处境下会说的话；是否承担推进与塑形的功能。"
     },
     {
       "name": "悬念设计",
-      "weight": 1
+      "weight": 1,
+      "description": "是否留下有效的未解问题；章节收束是否促使读者继续。"
     },
     {
       "name": "情感感染力",
-      "weight": 1
+      "weight": 1,
+      "description": "是否让读者产生具体的情绪反应，而非仅被告知角色有情绪。"
     },
     {
       "name": "世界观融合",
-      "weight": 1
+      "weight": 1,
+      "description": "设定是否随情节自然交代；有无信息倾倒或设定与情节脱节。"
     },
     {
       "name": "戏剧性反转",
-      "weight": 1
+      "weight": 1,
+      "description": "是否出现改变读者理解的意外；反转是否有铺垫而非凭空。"
     }
   ],
   "run_utc": "2026-09-19T01:33:57Z",

@@ -30,10 +30,20 @@ from pathlib import Path
 BASE = Path("review_loop")
 OUT = Path("public")
 
-# 逐字正文可能藏身的字段
+# 逐字正文可能藏身的字段。
+# ⚠ 这份名单是黑名单，必然不完整——首次运行时就漏掉了 rubrics.json 里的
+#   high_score_example / low_score_example（引用小说正文并带书名），
+#   820 处、险些随仓库公开。名单之外还有 verify() 做内容层兜底。
 TEXT_FIELDS = {"evidence", "failures", "success", "text", "left", "right",
-               "chapters", "ch1_text", "opening", "abstract", "description",
-               "premise", "real_desc"}
+               "chapters", "ch1_text", "opening", "abstract", "premise",
+               "real_desc", "high_score_example", "low_score_example",
+               "rewrite_example", "strengths", "top_issues", "suggestion",
+               "raw", "problem", "prompt_fix"}
+
+# 允许保留长中文的字段：它们是研究产物本身（评分标准的定义、说明），
+# 不是作品原文。除此之外，任何 ≥ PROSE_CHARS 汉字的串一律视为疑似正文。
+ALLOW_LONG = {"description", "note", "verified", "rebuilt_reason", "measured"}
+PROSE_CHARS = 40
 
 # 整份都含正文、一律不发布
 NEVER = ("annotation/", "Nanpin/", "Nvpin/", "novels/", "generated/",
@@ -84,6 +94,35 @@ def scan_for_prose(path: Path) -> tuple[int, int]:
                 walk(x)
     walk(d)
     return n, chars
+
+
+def verify(root: Path) -> list[tuple]:
+    """内容层兜底：扫出任何仍含长中文自由文本的字段。
+
+    不依赖字段名——名单漏一个就会把作品原文发出去。这里按内容判断，
+    发现即中止，宁可不发布也不误发。"""
+    hits = []
+
+    def walk(o, path, f):
+        if isinstance(o, dict):
+            for k, v in o.items():
+                if k in ALLOW_LONG:
+                    continue
+                walk(v, f"{path}.{k}", f)
+        elif isinstance(o, list):
+            for i, x in enumerate(o):
+                walk(x, f"{path}[{i}]", f)
+        elif isinstance(o, str):
+            cn = sum(1 for c in o if "\u4e00" <= c <= "\u9fff")
+            if cn >= PROSE_CHARS:
+                hits.append((f.name, path, cn))
+
+    for p in root.rglob("*.json"):
+        try:
+            walk(json.loads(p.read_text(encoding="utf-8")), p.stem, p)
+        except Exception:
+            pass
+    return hits
 
 
 def main() -> None:
@@ -150,7 +189,15 @@ def main() -> None:
     print(f"\n{'=' * 66}\n  已生成 public/\n{'=' * 66}")
     print(f"  结果文件 {kept} 份，剥离正文约 {stripped/1048576:.1f} MB")
     print(f"  语料清单 {len(manifest)} 条（book_id + 事实性元数据）")
-    print(f"\n  发布前请再跑一次核验：python3 make_public.py --check")
+    hits = verify(OUT)
+    if hits:
+        print(f"\n  ✗ 中止：public/ 仍有 {len(hits)} 处疑似正文")
+        for f, path, cn in hits[:6]:
+            print(f"      {f} · {path} · {cn} 字")
+        shutil.rmtree(OUT)
+        raise SystemExit("  已删除 public/。把上列字段加入 TEXT_FIELDS 后重跑。")
+    print(f"\n  ✓ 内容层核验通过：无 ≥{PROSE_CHARS} 汉字的自由文本")
+    print(f"  发布前请再跑一次核验：python3 make_public.py --check")
     print(f"  并确认 .gitignore 覆盖：" + "、".join(NEVER))
 
 

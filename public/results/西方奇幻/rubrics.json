@@ -1,62 +1,52 @@
 [
   {
     "name": "钩子强度",
-    "weight": 3,
-    "high_score_example": "开篇即引入紧张刺激的情节或神秘的设定，引发读者好奇心。",
-    "low_score_example": "开篇平淡无奇，缺乏吸引力，无法激发读者的阅读兴趣。"
+    "description": "章节开头是否能迅速抓住读者的注意力并引发兴趣。",
+    "weight": 3
   },
   {
     "name": "节奏变化",
-    "weight": 2,
-    "high_score_example": "情节推进有张有弛，紧张与缓和交替出现，保持读者的注意力。",
-    "low_score_example": "节奏单一，过于平缓或过于紧张，导致读者疲惫或厌倦。"
+    "description": "章节内情节推进的快慢是否合理，能否保持读者的持续兴趣。",
+    "weight": 2
   },
   {
     "name": "人物鲜活度",
-    "weight": 3,
-    "high_score_example": "角色个性鲜明，行为动机合理，能引发读者的情感共鸣。",
-    "low_score_example": "角色刻板无趣，缺乏个性，难以让读者记住或产生兴趣。"
+    "description": "角色是否具有鲜明的个性和独特的魅力，能否让读者产生共鸣。",
+    "weight": 3
   },
   {
     "name": "画面感",
-    "weight": 2,
-    "high_score_example": "描写细腻生动，能让读者仿佛置身其中，感受到场景的氛围。",
-    "low_score_example": "描写模糊不清，难以让读者形成明确的视觉印象。"
+    "description": "描写是否生动，能否让读者在脑海中形成清晰的画面。",
+    "weight": 2
   },
   {
     "name": "对话自然度",
-    "weight": 2,
-    "high_score_example": "对话符合角色身份，语言风格自然，推动情节发展。",
-    "low_score_example": "对话生硬或不符合角色身份，影响阅读体验。"
+    "description": "人物对话是否符合角色身份，是否自然流畅。",
+    "weight": 2
   },
   {
     "name": "悬念设计",
-    "weight": 3,
-    "high_score_example": "悬念设置巧妙，引发读者强烈的好奇心和期待感。",
-    "low_score_example": "悬念设置不当，过于明显或缺乏吸引力，无法激发读者兴趣。"
+    "description": "章节内悬念的设置是否巧妙，能否激发读者的好奇心。",
+    "weight": 3
   },
   {
     "name": "情感张力",
-    "weight": 2,
-    "high_score_example": "情感描写细腻，能引发读者的情绪共鸣和投入感。",
-    "low_score_example": "情感描写平淡，无法引发读者的情绪波动。"
+    "description": "情感描写是否能引发读者的情绪波动，增加阅读的投入感。",
+    "weight": 2
   },
   {
     "name": "世界观融合",
-    "weight": 3,
-    "high_score_example": "世界观设定与情节紧密结合，逻辑自洽，令人信服。",
-    "low_score_example": "世界观设定与情节脱节，缺乏逻辑性，难以让读者信服。"
+    "description": "世界观的设定与情节是否紧密结合，是否能让读者信服。",
+    "weight": 3
   },
   {
     "name": "章节差异度",
-    "weight": 2,
-    "high_score_example": "每章都有新意和变化，保持读者的新鲜感和兴趣。",
-    "low_score_example": "章节内容重复或单调，缺乏变化，导致读者厌倦。"
+    "description": "各章节之间是否有足够的变化和新意，避免重复和单调。",
+    "weight": 2
   },
   {
     "name": "外形描写",
-    "weight": 1,
-    "high_score_example": "外形描写具体生动，增强了场景的画面感和角色的立体感。",
-    "low_score_example": "外形描写模糊或缺乏细节，难以增强画面感。"
+    "description": "对角色和场景的外形描写是否生动具体，能否增强画面感。",
+    "weight": 1
   }
 ]
