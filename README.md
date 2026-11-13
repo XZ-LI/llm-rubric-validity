@@ -1,13 +1,43 @@
 # Reliable but Invalid
 
-**An LLM-built rubric for Chinese web fiction scored highly on every standard quality
-check and still failed to predict what readers actually did.**
+**A criterion-validity test of LLM-as-judge evaluation: does a rubric score that passes
+the standard checks (test–retest reliability, agreement between judges) actually track
+an external criterion — here, what readers did with Chinese web fiction?**
 
-A self-improvement loop had OpenAI's `o3` write opening chapters, score them against a
-genre rubric, and rewrite its own instructions from the lowest-scoring dimensions.
-Scores plateaued while the prompt grew by more than an order of magnitude. This
-repository contains the work of finding out why — and the answer turned out to be about
-the measuring instrument, not the writer.
+This is not a benchmark. There is no leaderboard and no model ranking. The object
+under test is the *measuring instrument*: an LLM-built, genre-specific rubric applied by
+LLM judges. The study began when a self-improvement loop, in which a model wrote opening
+chapters, scored them against the rubric and rewrote its own instructions from the
+lowest-scoring dimensions, plateaued while its prompt grew more than tenfold. The question
+became whether the score was measuring anything readers respond to.
+
+### Contributions
+
+1. **A validity-testing design for LLM judges against behavioural criteria.** 840
+   held-out novels across 37 genre × channel cells, six reader-response criteria with
+   differing contamination profiles, and within-cell standardization so that genre and
+   channel differences can't stand in for validity.
+2. **Per-cell contamination control.** Each cell's exclusions are the union of every text
+   the pipeline touched: rubric induction, judge calibration, and the generator's own
+   prompt.
+3. **Separating reliability, agreement and validity.** One judge at large n answers the
+   validity question; four judges at small n answer the judge-dependence question. The
+   two analyses are kept apart so neither can be mistaken for the other.
+4. **A reproducible, auditable pipeline.** Resumable corpus harvesting, run IDs on every
+   output, per-call cost metering that refuses to estimate unverified rates, and a
+   publication sanitizer that strips copyrighted prose while keeping how the judges cited
+   the text analysable.
+5. **A public errata log.** Every defect found, including four retracted conclusions, is
+   recorded in [`ERRATA.md`](ERRATA.md).
+
+### Models
+
+| Model | Vendor | Role |
+|---|---|---|
+| `o3` | OpenAI | Generator in the self-improvement loop; one of the four cross-judges |
+| `qwen3-max` | Alibaba (Qwen) | Primary judge: large-n validity, test–retest reliability, fixed-rubric comparison |
+| `deepseek-v4-pro` | DeepSeek | Cross-judge |
+| `qwen-turbo` | Alibaba (Qwen) | Cross-judge (a lower capability tier from the same vendor as `qwen3-max`) |
 
 ---
 
