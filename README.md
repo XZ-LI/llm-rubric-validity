@@ -4,8 +4,7 @@
 the standard checks (test–retest reliability, agreement between judges) actually track
 an external criterion — here, what readers did with Chinese web fiction?**
 
-This is not a benchmark. There is no leaderboard and no model ranking. The object
-under test is the *measuring instrument*: an LLM-built, genre-specific rubric applied by
+The object under test is the *measuring instrument*: an LLM-built, genre-specific rubric applied by
 LLM judges. The study began when a self-improvement loop, in which a model wrote opening
 chapters, scored them against the rubric and rewrote its own instructions from the
 lowest-scoring dimensions, plateaued while its prompt grew more than tenfold. The question
