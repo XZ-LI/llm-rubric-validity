@@ -45,7 +45,7 @@ build_annotation_round2.py — 生成第二轮盲标工具（双条件：阳性�
 不影响第一轮进度）。**不发布到网络**：正文为已出版作品，仅作本地研究使用。
 
 用法：
-  python3 build_annotation_round2.py                    # 默认 50 + 50 + 6
+  python3 build_annotation_round2.py                    # 默认 R 70 + S 50 + 检验题 6
   python3 build_annotation_round2.py --rating-pairs 30 --rubric-pairs 30
   python3 build_annotation_round2.py --supply           # 只看供给量和功效，不出文件
 """
@@ -256,10 +256,12 @@ border-radius:4px;padding:1px 6px;font-size:.85em}
 <div id="app"></div></div>
 <script>
 const PAIRS = __PAIRS__;
-const KEY = "annot_r2_v1";
+const KEY = "annot_r2_v2";
 let S = JSON.parse(localStorage.getItem(KEY) || '{"i":0,"ans":[],"prereg":null,"t0":null}');
 const $ = id => document.getElementById(id);
 const save = () => localStorage.setItem(KEY, JSON.stringify(S));
+// 计时从本次打开页面算起：续标的第一对不会把休息时长算进去
+S.tLast = Date.now();
 let hard = false;
 
 function prereg(){
@@ -278,7 +280,8 @@ function prereg(){
     <div style="margin-top:14px"><button onclick="startNow()">封存并开始</button></div>
     <p style="color:var(--muted);font-size:.85rem;margin-top:16px">
       共 ${PAIRS.length} 对，其中混有注意力检验题。
-      <kbd>F</kbd> 选左、<kbd>J</kbd> 选右、<kbd>空格</kbd> 标记"基本是猜的"。</p>
+      <kbd>F</kbd> 选左、<kbd>J</kbd> 选右、<kbd>空格</kbd> 标记"基本是猜的"；
+      认出其中任何一本（书名、情节或人物）就按 <kbd>K</kbd> 跳过。</p>
   </div>`;
 }
 window.startNow = () => { S.prereg = $("pr").value.trim();
@@ -304,6 +307,7 @@ function render(){
     <div class="hard" id="hardbox" onclick="toggleHard()">
       <input type="checkbox" id="hardck" tabindex="-1">
       <span>这一对我基本是猜的　<kbd>空格</kbd></span></div>
+    <button onclick="pick(null)" style="display:block;margin:12px auto 0;font-weight:500;font-size:.9rem;padding:8px 14px;border-color:var(--line);color:var(--ink2)">我认出了其中一本，跳过　<kbd>K</kbd></button>
     <div class="note">只凭这两段判断。不必找"更好"的那个，找<strong>你更想继续读</strong>的那个。
     拿不准就勾上然后照直觉选——勾了不扣分，这一栏是用来做分层分析的，
     犹豫时不勾反而会把结果稀释掉。</div>`;
@@ -316,8 +320,9 @@ window.toggleHard = () => { hard = !hard;
 
 window.pick = side => {
   // 页面里没有答案，只记录"选了哪边"。判分由 analyze_annotation.py 对答案文件完成。
-  S.ans.push({idx: PAIRS[S.i].idx, choice: side, hard: hard,
-              ms: Date.now() - (S.tLast || Date.now())});
+  // side 为 null 表示认出了其中一本：不记选择，分析时剔除
+  S.ans.push({idx: PAIRS[S.i].idx, choice: side, hard: hard, recognized: side === null,
+              ms: Date.now() - S.tLast});
   S.i++; S.tLast = Date.now(); save(); render();
 };
 document.addEventListener("keydown", e => {
@@ -325,14 +330,15 @@ document.addEventListener("keydown", e => {
   if (e.key===" ") { e.preventDefault(); toggleHard(); }
   if (e.key==="f"||e.key==="F") pick("left");
   if (e.key==="j"||e.key==="J") pick("right");
+  if (e.key==="k"||e.key==="K") pick(null);
 });
 
 function finish(){
-  const n = S.ans.length, h = S.ans.filter(a=>a.hard).length;
+  const n = S.ans.length, h = S.ans.filter(a=>a.hard).length, rc = S.ans.filter(a=>a.recognized).length;
   $("pos").textContent = "已完成"; $("fill").style.width="100%";
   $("app").innerHTML = `<div class="done">
     <h2 style="margin-top:0">第二轮标注完成</h2>
-    <p style="font-size:1.05rem">共 ${n} 对，其中 ${h} 对标为"基本是猜的"。</p>
+    <p style="font-size:1.05rem">共 ${n} 对，其中 ${h} 对标为"基本是猜的"，${rc} 对因认出而跳过。</p>
     <p style="color:var(--ink2)">本页<strong>不显示成绩</strong>——答案不在这个文件里，
     页面也无从判分。这是刻意的：标注中途若能看到自己命中多少，
     后面的判断就会被它带着走，盲标也就白做了。</p>
@@ -450,7 +456,7 @@ def main() -> None:
     print(f"  答案另存 {KEYOUT}（HTML 内不含答案，无法在页面里判分或偷看）")
     print(f"  共 {len(items)} 对 = R {len(pr)} + S {len(pv)} + 检验题 {n_chk}，已打乱交错")
     print(f"  每段 {EXCERPT_CHARS} 字，与第一轮及评审看到的窗口一致")
-    print(f"  localStorage key = annot_r2_v1（与第一轮 annot_v1 隔离，不影响已有进度）")
+    print(f"  localStorage key = annot_r2_v2（与第一轮 annot_v1 隔离，不影响已有进度）")
     print(f"\n  打开：open {OUT}")
     print(f"  预计 {len(items)} 对 × 约 3 分钟 ≈ {len(items) * 3 / 60:.1f} 小时，可分次完成")
     print(f"\n  ⚠ 本文件含已出版作品正文，仅供本地研究使用，勿上传或发布。")
