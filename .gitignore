@@ -30,3 +30,6 @@ __pycache__/
 *.pyc
 .venv/
 .DS_Store
+# 第二轮：页面含正文；答案表写明高分侧，标注完成后与结果一起发布
+annotation/annotate_round2.html
+annotation/round2_key.json
