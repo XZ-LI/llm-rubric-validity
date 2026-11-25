@@ -73,7 +73,7 @@ src/data/        corpus acquisition + platform metadata harvest
 src/eval/        scoring pipeline, per-cell contamination control, multi-judge harness
 src/analysis/    validity, reliability, per-dimension, stylometric distance, covariates
 public/          published results, prose stripped (see "Data" below)
-annotation/      blind paired-comparison tool generator + human judgments
+annotation/      blind paired-comparison tool generator (human judgments pending, RQ7)
 docs/            method notes and figures
 ERRATA.md        every defect found in this analysis, and what it changed
 ```

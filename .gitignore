@@ -14,6 +14,8 @@ books*.json
 
 # 标注工具的成品内嵌约 46 万字正文；生成器可公开，成品不可
 annotation/annotate.html
+# 配对清单不含正文，但写明了高分侧；标注完成后再和结果一起发布
+annotation/pairs_manifest.json
 
 # 只发布经 tools/make_public.py 清洗后的结果
 !public/**/*.json

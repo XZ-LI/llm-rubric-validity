@@ -3,11 +3,11 @@
 build_annotation.py — 生成本地盲标工具（A1：真人 vs 真人强制二选一）
 
 检验什么：评分表在它**最有把握**的地方，能不能预测人的阅读选择。
-若连高十分位 vs 低十分位都赢不了 50%，评分表的效度问题就彻底定案。
+若连高四分位 vs 低四分位都赢不了 50%，评分表的效度问题就彻底定案。
 
 抽样为什么不能随机：840 本里随便抽两本配对，多数对子评分表分差很小，
 标注者选谁都近乎抛硬币，最后得到一个漂亮的 50/50 而什么都没学到。
-本脚本只在**同品类内**取评分表分数的高/低十分位配对。
+本脚本只在**同品类内**取评分表分数的高/低四分位（各 25%）配对。
 
 盲化措施（全部内建，标注者无法绕过）：
   · 不显示书名、作者、评分、在读人数、评分表分数
@@ -15,9 +15,15 @@ build_annotation.py — 生成本地盲标工具（A1：真人 vs 真人强制�
   · 品类打乱交错，避免品类内锚定
   · 混入注意力检验题（一侧句序打乱），用于事后剔除低质量批次
   · 所有判断录完前不揭晓任何一侧的身份
+  · 认出其中一本时可跳过（K 键），该对记为 recognized，按预注册剔除
 
 输出为单个自包含 HTML，双击即可用；进度存 localStorage，可分次完成。
 **不发布到网络**：正文为已出版作品，仅作本地研究使用。
+
+同时输出 annotation/pairs_manifest.json：不含正文的配对清单（题号、品类、
+高/低分书名、分差、高分侧），用于标完后把选择对上收藏率。
+**标注完成前不要打开它**：它写明了每一对哪边是评分表的高分侧。
+同理，标注时不要查看 annotate.html 的网页源代码。
 
 用法：
   python3 build_annotation.py                 # 默认 120 对 + 6 道检验题
@@ -26,6 +32,7 @@ build_annotation.py — 生成本地盲标工具（A1：真人 vs 真人强制�
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import json
 import random
@@ -38,6 +45,7 @@ from contamination import excluded_files  # noqa: E402
 
 BASE = Path("review_loop")
 OUT = Path("annotation/annotate.html")
+MANIFEST = Path("annotation/pairs_manifest.json")
 EXCERPT_CHARS = 2000        # 与评审看到的窗口一致
 CHAPTER_RE = re.compile(r"^第\s*[〇零一二三四五六七八九十百千\d]+\s*[章节]\s*(.*)$", re.M)
 
@@ -94,7 +102,7 @@ def make_pairs(cells: dict, n_pairs: int, n_checks: int, seed: int) -> list[dict
     pairs = []
     for cell, items in cells.items():
         items = sorted(items, key=lambda x: x["score"])
-        k = max(2, len(items) // 4)          # 各取四分之一作为高/低十分位近似
+        k = max(2, len(items) // 4)          # 高/低四分位：各取四分之一
         low, high = items[:k], items[-k:]
         rng.shuffle(low)
         rng.shuffle(high)
@@ -161,6 +169,8 @@ font-variant-numeric:tabular-nums}
 padding:20px 22px;white-space:pre-wrap;font-size:15.5px;max-height:62vh;overflow-y:auto}
 .btns{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:14px}
 @media(max-width:820px){.btns{grid-template-columns:1fr}}
+.skip{display:block;margin:12px auto 0;font-weight:500;font-size:.9rem;padding:8px 14px;
+border-color:var(--line);color:var(--ink2)}
 button{font:inherit;font-weight:600;padding:13px;border-radius:8px;cursor:pointer;
 border:1px solid var(--pick);background:var(--card);color:var(--pick)}
 button:hover{background:var(--pick2)}
@@ -180,6 +190,8 @@ border-radius:4px;padding:1px 6px;font-size:.85em}
 const PAIRS = __PAIRS__;
 const KEY = "annot_v1";
 let S = JSON.parse(localStorage.getItem(KEY) || '{"i":0,"ans":[],"prereg":null,"t0":null}');
+// 计时从本次打开页面算起：每次续标的第一对不会记成 0 或休息时长
+S.tLast = Date.now();
 const $ = id => document.getElementById(id);
 const save = () => localStorage.setItem(KEY, JSON.stringify(S));
 
@@ -191,10 +203,11 @@ function prereg(){
     <textarea id="pr" placeholder="例：我预计 55% 左右，因为……"></textarea>
     <div style="margin-top:14px"><button onclick="startNow()">封存并开始</button></div>
     <p style="color:var(--muted);font-size:.85rem;margin-top:16px">
-      共 ${PAIRS.length} 对，其中混有注意力检验题。快捷键 <kbd>F</kbd> 选左、<kbd>J</kbd> 选右。</p>
+      共 ${PAIRS.length} 对，其中混有注意力检验题。快捷键 <kbd>F</kbd> 选左、<kbd>J</kbd> 选右；
+      认出其中任何一本（书名、情节或人物）就按 <kbd>K</kbd> 跳过。</p>
   </div>`;
 }
-window.startNow = () => { S.prereg = $("pr").value.trim(); S.t0 = Date.now(); save(); render(); };
+window.startNow = () => { S.prereg = $("pr").value.trim(); S.t0 = S.tLast = Date.now(); save(); render(); };
 
 function render(){
   if (S.prereg === null) return prereg();
@@ -211,6 +224,7 @@ function render(){
       <button onclick="pick('left')">选左边　<kbd>F</kbd></button>
       <button onclick="pick('right')">选右边　<kbd>J</kbd></button>
     </div>
+    <button class="skip" onclick="pick(null)">我认出了其中一本，跳过　<kbd>K</kbd></button>
     <div class="note">只凭这两段判断。不必找“更好”的那个，找<strong>你更想继续读</strong>的那个。</div>`;
   window.scrollTo(0,0);
 }
@@ -218,21 +232,25 @@ const esc = s => s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c
 
 window.pick = side => {
   const p = PAIRS[S.i];
-  S.ans.push({idx:p.idx, kind:p.kind, cell:p.cell, choice:side,
-    correct: p.kind==="check" ? (side===p.good_side) : null,
-    hit: p.kind==="real" ? (side===p.hi_side) : null,
-    gap: p.gap ?? null, ms: Date.now() - (S.tLast || Date.now())});
+  const rec = side === null;              // 认出了其中一本：不记选择，按预注册剔除
+  S.ans.push({idx:p.idx, kind:p.kind, cell:p.cell, choice:side, recognized:rec,
+    correct: p.kind==="check" && !rec ? (side===p.good_side) : null,
+    hit: p.kind==="real" && !rec ? (side===p.hi_side) : null,
+    gap: p.gap ?? null, ms: Date.now() - S.tLast});
   S.i++; S.tLast = Date.now(); save(); render();
 };
 document.addEventListener("keydown", e => {
   if (S.prereg===null || S.i>=PAIRS.length) return;
   if (e.key==="f"||e.key==="F") pick("left");
   if (e.key==="j"||e.key==="J") pick("right");
+  if (e.key==="k"||e.key==="K") pick(null);
 });
 
 function finish(){
-  const real = S.ans.filter(a=>a.kind==="real");
-  const chk  = S.ans.filter(a=>a.kind==="check");
+  // 屏幕摘要仅供参考；正式检验按预注册（单侧精确二项）另行计算
+  const recN = S.ans.filter(a=>a.recognized).length;
+  const real = S.ans.filter(a=>a.kind==="real" && !a.recognized);
+  const chk  = S.ans.filter(a=>a.kind==="check" && !a.recognized);
   const hits = real.filter(a=>a.hit).length;
   const rate = real.length ? hits/real.length : 0;
   // 二项检验（双尾，正态近似）
@@ -249,6 +267,7 @@ function finish(){
       ${pv<0.05 ? (rate>0.5?"显著高于 50%":"显著低于 50%") : "与 50% 无显著差异"}</p>
     <p style="color:var(--ink2)">注意力检验题：通过 ${passed} / ${chk.length}
       ${chk.length&&passed/chk.length<0.8 ? "　⚠ 通过率偏低，该批次质量存疑" : ""}</p>
+    <p style="color:var(--ink2)">认出而跳过：${recN} 对（已从上面的统计中剔除）</p>
     <hr style="border:none;border-top:1px solid var(--line);margin:18px 0">
     <p style="color:var(--muted);font-size:.9rem">你标注前的预期：</p>
     <p style="color:var(--ink2);white-space:pre-wrap">${esc(S.prereg||"（未填写）")}</p>
@@ -288,6 +307,14 @@ def main() -> None:
     OUT.write_text(TEMPLATE.replace("__PAIRS__", json.dumps(items, ensure_ascii=False)),
                    encoding="utf-8")
 
+    # 不含正文的配对清单：标完后用于对上收藏率；哈希写进结果，证明清单未被改动
+    manifest = [{k: p.get(k) for k in ("idx", "kind", "cell", "hi_file", "lo_file",
+                                         "gap", "hi_side", "good_side")} for p in items]
+    blob = json.dumps({"seed": args.seed, "pairs": manifest}, ensure_ascii=False,
+                      indent=1, sort_keys=True)
+    MANIFEST.write_text(blob, encoding="utf-8")
+    digest = hashlib.sha256(blob.encode("utf-8")).hexdigest()
+
     gaps = sorted(p["gap"] for p in real)
     print(f"\n{'=' * 62}\n  盲标工具已生成\n{'=' * 62}")
     print(f"  正式对子 {len(real)} 对，覆盖 {len({p['cell'] for p in real})} 个品类")
@@ -295,6 +322,8 @@ def main() -> None:
     print(f"  评分表分差：中位 {gaps[len(gaps)//2]:.2f}　区间 {gaps[0]:.2f}–{gaps[-1]:.2f}")
     print(f"  每段 {EXCERPT_CHARS} 字，与评审看到的窗口一致")
     print(f"  文件大小 {OUT.stat().st_size/1024/1024:.1f} MB")
+    print(f"\n  配对清单 {MANIFEST}（标注完成前不要打开）")
+    print(f"  清单 SHA-256：{digest}")
     print(f"\n  打开：open {OUT}")
     print(f"  预计 {len(items)} 对 × 约 3 分钟 ≈ {len(items)*3/60:.1f} 小时，可分次完成")
     print(f"\n  ⚠ 本文件含已出版作品正文，仅供本地研究使用，勿上传或发布。")
